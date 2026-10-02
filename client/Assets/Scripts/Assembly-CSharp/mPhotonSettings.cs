@@ -241,6 +241,13 @@ public class mPhotonSettings : MonoBehaviour
 
 	public void CreateServerOffline(string map)
 	{
+	        if (PhotonNetwork.connected)
+	        {
+	            PhotonNetwork.Disconnect();
+	        }
+	        PhotonNetwork.offlineMode = true;
+	        PhotonNetwork.CreateRoom(map);
+
 	}
 
 	private void IIJJJIJIIIJIIIJJJJIIIIJIJJIJIIIIJJJIIIJIIIIIJII()

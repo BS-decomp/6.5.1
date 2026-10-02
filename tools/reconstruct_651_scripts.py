@@ -351,6 +351,23 @@ def patch_uiwidget(text: str) -> str:
     return text
 
 
+def patch_photon_settings(text: str) -> str:
+    # 0x0059df28 constructs the offline room from the supplied map string; the
+    # connected/disconnect and offline-mode branches match Photon 1.x behavior.
+    return replace_method(
+        text,
+        "public void CreateServerOffline(string map)",
+        """
+        if (PhotonNetwork.connected)
+        {
+            PhotonNetwork.Disconnect();
+        }
+        PhotonNetwork.offlineMode = true;
+        PhotonNetwork.CreateRoom(map);
+        """,
+    )
+
+
 def patch_panel_manager(text: str) -> str:
     text = replace_method(text, "private void Awake()", """JIIIIJJJJIIJJJIIJIJIIJIIJJIIIIIIIIJJIJIJJJJJJJJ = this;\n        if (JIJIJIIJIIIIJIJIIIJIJIIIJIJJIJIIIJJIJIIJJIIIIIJ == null) JIJIJIIJIIIIJIJIIIJIJIIIJIJJIJIIIJJIJIIJJIIIIIJ = new List<UIPanel>();""")
     text = replace_method(text, "public void Show(GameObject panel)", """if (panel == null) return;\n        foreach (UIPanel item in JIJIJIIJIIIIJIJIIIJIJIIIJIJJIJIIIJJIJIIJJIIIIIJ) if (item != null) item.gameObject.SetActive(item.gameObject == panel);\n        panel.SetActive(true);""")
@@ -373,6 +390,7 @@ def main() -> None:
     patch_file("UISprite.cs", patch_uisprite)
     patch_file("UITexture.cs", patch_uitexture)
     patch_file("UIWidget.cs", patch_uiwidget)
+    patch_file("mPhotonSettings.cs", patch_photon_settings)
     patch_file("mPanelManager.cs", patch_panel_manager)
 
 
