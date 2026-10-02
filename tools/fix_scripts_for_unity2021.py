@@ -208,7 +208,7 @@ def patch_ingui_atlas(scripts_dir: str) -> None:
 		}
 	}
 
-	public List<IJJJJJIIJIIIIJJIJJIJIJJJJJJJIJIJIJIIJIIJJIIIJJJ> JIIJJJJIJJIIIJIJJIJIJJIJJIJIJIIIIJIIJIIIIJIJIJI
+	public List<IJJJJJIIJIIIIJJIJJIJIJJJJJJJIJIJIJIIJIIJJIIIJJJ> JJJIIIIJIIJJJJJIIIJIIIJJIIJJIIJIJJIJIJIIIIJJJJJ
 	{
 		get
 		{
@@ -222,7 +222,7 @@ def patch_ingui_atlas(scripts_dir: str) -> None:
 
 	public Texture IIJIJIIIJJJIIIJJIIJJIJIIIIIIJJJIIJIJIJJIIIJIIIJ => texture;
 
-	public float IIJIJIIIIIIJJIIIJJIJIIJJIJJIJJJJIJIJIJIIJIIJJIJ
+	public float JJIIIIIIIIIJJIIJIIJIJIIIIJJIJJIIIIIIIJJIJIIIIII
 	{
 		get
 		{
@@ -483,11 +483,26 @@ def patch_collection_classes(scripts_dir: str) -> None:
 """
     if "\tpublic ICollection<TKey> Keys => null;" not in t3:
         t3 = t3.replace(
-            "\tpublic ICollection<TKey> JIIJJJIIJIIJIIJIIJIJIIJJIJIJJJJJJJJJIIIJIIJIIIJ => Keys;",
-            idict_props.lstrip("\n") + "\n\tpublic ICollection<TKey> JIIJJJIIJIIJIIJIIJIJIIJJIJIJJJJJJJJJIIIJIIJIIIJ => Keys;",
+            "\tpublic ICollection<TKey> IIJIIIIJJIJIIJIIJJIJJJJJJIJIJIJJJIIIJIIJIIIJJJI => Keys;",
+            idict_props.lstrip("\n") + "\n\tpublic ICollection<TKey> IIJIIIIJJIJIIJIIJJIJJJJJJIJIJIJJJIIIJIIJIIIJJJI => Keys;",
         )
     with open(p3, "w", encoding="utf-8", newline="\n") as f:
         f.write(t3)
+
+    for www_file in (
+        "Logo.cs",
+        "IJIIJJIIIJIIJJJJJJIJIIJIJJIJIIJJIIJJJJJIIJJIIJJ.cs",
+        "UIFontControl.cs",
+        "NTPManager.cs",
+    ):
+        wp = os.path.join(scripts_dir, "Assembly-CSharp", www_file)
+        if os.path.exists(wp):
+            with open(wp, "r", encoding="utf-8") as f:
+                wtxt = f.read()
+            if "#pragma warning disable 0618" not in wtxt:
+                wtxt = "#pragma warning disable 0618\n" + wtxt
+                with open(wp, "w", encoding="utf-8", newline="\n") as f:
+                    f.write(wtxt)
 
 
 def patch_uiwidget(scripts_dir: str) -> None:
