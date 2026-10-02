@@ -355,6 +355,24 @@ def patch_uiwidget(text: str) -> str:
     return text
 
 
+def patch_create_server(text: str) -> str:
+    text = replace_method(text, "private void Start()", "JIIIIJJJJIIJJJIIJIJIIJIIJJIIIIIIIIJJIJIJJJJJJJJ = this;")
+    text = replace_method(text, "public void Open()", "JIIIIJJJJIIJJJIIJIJIIJIIJJIIIIIIIIJJIJIJJJJJJJJ = this;")
+    text = replace_method(
+        text,
+        "public void SetMaxPlayer(GameObject go)",
+        """
+        if (go == null) return;
+        IIIJIIIJJJJJJIIJJJIIJJIJIIJIIIJIIIIIIIJJJIJJIJJ = int.Parse(go.name);
+        if (IIJIIJJIJIJIJJIJJIIIIIJJIJIJJIJJIIIIIIIJIJIJJJJ != null)
+        {
+            IIJIIJJIJIJIJJIJJIIIIIJJIJIJJIJJIIIIIIIJIJIJJJJ.transform.localPosition = go.transform.localPosition;
+        }
+        """,
+    )
+    return text
+
+
 def patch_photon_settings(text: str) -> str:
     # 0x0059df28 constructs the offline room from the supplied map string; the
     # connected/disconnect and offline-mode branches match Photon 1.x behavior.
@@ -395,6 +413,7 @@ def main() -> None:
     patch_file("UITexture.cs", patch_uitexture)
     patch_file("UIWidget.cs", patch_uiwidget)
     patch_file("mPhotonSettings.cs", patch_photon_settings)
+    patch_file("mCreateServer.cs", patch_create_server)
     patch_file("mPanelManager.cs", patch_panel_manager)
 
 
