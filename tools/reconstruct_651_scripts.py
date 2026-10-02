@@ -39,7 +39,9 @@ def replace_method(text: str, signature: str, body: str) -> str:
         raise RuntimeError(f"unbalanced method body: {signature}")
     indent = "\t"
     body_lines = body.strip("\n").splitlines()
-    replacement = "{\n" + "\n".join(indent + line if line else "" for line in body_lines) + "\n\t}"
+    while body_lines and not body_lines[-1].strip():
+        body_lines.pop()
+    replacement = "{\n" + "\n".join(indent + line.rstrip() if line else "" for line in body_lines) + "\n\t}"
     return text[:brace] + replacement + text[close + 1 :]
 
 
@@ -47,13 +49,15 @@ def replace_property(text: str, signature: str, replacement: str) -> str:
     start = text.find(signature)
     if start < 0:
         raise RuntimeError(f"property signature not found: {signature}")
+    line_start = text.rfind("\n", 0, start) + 1
     brace = text.find("{", start)
     semi = text.find(";", start)
+    replacement = "\t" + replacement.lstrip()
     if semi >= 0 and (brace < 0 or semi < brace):
         line_end = text.find("\n", semi)
         if line_end < 0:
             line_end = len(text)
-        return text[:start] + replacement + text[line_end:]
+        return text[:line_start] + replacement + text[line_end:]
     depth = 0
     close = -1
     for i in range(brace, len(text)):
@@ -66,7 +70,7 @@ def replace_property(text: str, signature: str, replacement: str) -> str:
                 break
     if close < 0:
         raise RuntimeError(f"unbalanced property: {signature}")
-    return text[:start] + replacement + text[close + 1 :]
+    return text[:line_start] + replacement + text[close + 1 :]
 
 
 def add_before_class_close(text: str, addition: str) -> str:

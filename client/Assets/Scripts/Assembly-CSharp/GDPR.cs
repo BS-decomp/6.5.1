@@ -36,7 +36,6 @@ public class GDPR : MonoBehaviour
 	        }
 	        PlayerPrefs.SetInt("GDPR", 1);
 	        PlayerPrefs.Save();
-
 	}
 
 	private void JIJIJJIJJJIJJJIJJIJIIIJJJJJIJIJIJJIIJIJIJJIIJJJ()
@@ -78,7 +77,6 @@ public class GDPR : MonoBehaviour
 	            JJIIIJIJJIJJJIJJJJJJIIJIIJIJJJIJIJJJJIJIJIIIIIJ.SetActive(false);
 	        }
 	        SceneManager.LoadScene(isTraining ? "MainTutorial" : "Menu");
-
 	}
 
 	public void OnPrivacyPolicy()
@@ -108,7 +106,6 @@ public class GDPR : MonoBehaviour
 	        {
 	            JJIJIIJJIJJIIIJJJIIJIJJIIIJIJIJIIIJIJJIJJIJIIIJ.SetActive(true);
 	        }
-
 	}
 
 	public void JIIIJIJJJJJIJIJJIIJIIJJJIJJIIJJJJJIIIIIJJJJIJJI()

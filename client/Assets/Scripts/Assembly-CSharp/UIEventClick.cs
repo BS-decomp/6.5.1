@@ -65,7 +65,6 @@ public class UIEventClick : MonoBehaviour
 	            IJIIIJIJJJIIJJJIIIIJJJJJIIIIJJIIIIJJIJIIIJIIIJI = new UnityEvent();
 	        }
 	        UICamera.IJIIIJIJJJIIJJJIIIIJJJJJIIIIJJIIIIJJIJIIIJIIIJI += OnClick;
-
 	}
 
 	private void JJIIIJJIIJIJJIIJIIIJJJJJIJJIJJIJIIJIIIIIJIJIJJI()
@@ -106,6 +105,5 @@ public class UIEventClick : MonoBehaviour
 	        {
 	            IJIIIJIJJJIIJJJIIIIJJJJJIIIIJJIIIIJJIJIIIJIIIJI.Invoke();
 	        }
-
 	}
 }
