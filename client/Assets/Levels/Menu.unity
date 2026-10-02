@@ -86,7 +86,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
-  m_LightingDataAsset: {fileID: 112000000, guid: 09eb02e0e0971e14fb0513224a1173d3, type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 0
 --- !u!1 &150
 GameObject:
@@ -7538,7 +7538,6 @@ GameObject:
   - component: {fileID: 4855}
   - component: {fileID: 8714}
   - component: {fileID: 10384}
-  - component: {fileID: 10387}
   m_Layer: 0
   m_Name: Map Camera
   m_TagString: MainCamera
@@ -54036,7 +54035,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7499}
   - component: {fileID: 8715}
-  - component: {fileID: 10388}
   - component: {fileID: 10457}
   m_Layer: 21
   m_Name: Camera 2
@@ -60303,7 +60301,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7856}
   - component: {fileID: 8716}
-  - component: {fileID: 10389}
   - component: {fileID: 10458}
   - component: {fileID: 14402}
   m_Layer: 0
@@ -61723,7 +61720,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7937}
   - component: {fileID: 8717}
-  - component: {fileID: 10390}
   - component: {fileID: 10459}
   - component: {fileID: 14488}
   m_Layer: 0
@@ -72133,7 +72129,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8532}
   - component: {fileID: 8718}
-  - component: {fileID: 10391}
   - component: {fileID: 10460}
   m_Layer: 21
   m_Name: Background
@@ -73765,7 +73760,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8625}
   - component: {fileID: 8719}
-  - component: {fileID: 10392}
   - component: {fileID: 10461}
   m_Layer: 21
   m_Name: Camera
@@ -172886,54 +172880,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!92 &10387
-GUILayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573}
-  m_Enabled: 1
---- !u!92 &10388
-GUILayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3217}
-  m_Enabled: 1
---- !u!92 &10389
-GUILayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3574}
-  m_Enabled: 1
---- !u!92 &10390
-GUILayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3655}
-  m_Enabled: 1
---- !u!92 &10391
-GUILayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4250}
-  m_Enabled: 1
---- !u!92 &10392
-GUILayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4343}
-  m_Enabled: 1
 --- !u!95 &10393
 Animator:
   serializedVersion: 3
@@ -436578,3 +436524,68 @@ MonoBehaviour:
   mSortingLayerName:
   mClipOffset: {x: 0, y: 0}
   JJIIJIIJJJIIJJIJIJJJIJIJIJIJIJIIJIJIJIJJJJJJIJI: 0
+--- !u!1 &15563
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 15564}
+  - component: {fileID: 15565}
+  m_Layer: 0
+  m_Name: BS651_LegacyLightmaps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &15564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15563}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &15565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f37952b2d1fcb8e634a8d944026e2043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightmapColor: {fileID: 2800000, guid: 80332dbd15646b3489100622551dc31b, type: 3}
+  lightmapColors:
+  - {fileID: 2800000, guid: 80332dbd15646b3489100622551dc31b, type: 3}
+  renderers:
+  - {fileID: 8834}
+  - {fileID: 8963}
+  - {fileID: 9062}
+  - {fileID: 9188}
+  - {fileID: 9225}
+  - {fileID: 9226}
+  - {fileID: 9239}
+  - {fileID: 9259}
+  lightmapIndexes: 0000000000000000000000000000000000000000000000000000000000000000
+  lightmapScaleOffsets:
+  - {x: 0.10449112, y: 0.10449112, z: 0.8433418, w: -0.00040816845}
+  - {x: 0.104258835, y: 0.104258835, z: 0.8433427, w: 0.20956767}
+  - {x: 0.07071273, y: 0.07071273, z: 0.84233576, w: 0.4023319}
+  - {x: 0.057795763, y: 0.057795763, z: 0.9373449, w: 0.20974916}
+  - {x: 0.8820821, y: 0.8820821, z: -0.017228166, w: -0.017228166}
+  - {x: 0.102131784, y: 0.102131784, z: 0.8417552, w: 0.31540206}
+  - {x: 0.1770048, y: 0.1770048, z: -0.0110628, w: 0.81801176}
+  - {x: 0.1029222, y: 0.1029222, z: 0.84169155, w: 0.10536343}

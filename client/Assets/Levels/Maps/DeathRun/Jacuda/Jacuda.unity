@@ -96,7 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
-  m_LightingDataAsset: {fileID: 112000000, guid: 9d68763b7a0ac8647986b0cac4251663, type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 0
 --- !u!1 &22
 GameObject:
@@ -14369,7 +14369,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2005}
   - component: {fileID: 3844}
-  - component: {fileID: 4196}
   - component: {fileID: 4241}
   m_Layer: 21
   m_Name: Camera
@@ -67564,14 +67563,6 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915}
-  m_Enabled: 1
---- !u!92 &4196
-GUILayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 828}
   m_Enabled: 1
 --- !u!108 &4198
 Light:
@@ -207404,3 +207395,108 @@ MonoBehaviour:
   JJJJIJIJJIIIJJIIJIIJJIIJIIIJIIIIJJJJJJJIJJIIIII: {fileID: 5392}
   JJJIJIIIJIJIIJIJIJIIIJJJIIIJIIJJJIIIIIIIJIIJJII: {fileID: 5420}
   IIIJJIJIIJJJJJIIJJIJIJJJJJIJJJIJJIIIJJJIJIIIIIJ: {fileID: 5427}
+--- !u!1 &6690
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 6691}
+  - component: {fileID: 6692}
+  m_Layer: 0
+  m_Name: BS651_LegacyLightmaps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6691
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6690}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f37952b2d1fcb8e634a8d944026e2043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightmapColor: {fileID: 2800000, guid: 4fa099443f619504b9bd58779c222a7d, type: 3}
+  lightmapColors:
+  - {fileID: 2800000, guid: 4fa099443f619504b9bd58779c222a7d, type: 3}
+  renderers:
+  - {fileID: 3847}
+  - {fileID: 3848}
+  - {fileID: 3849}
+  - {fileID: 3850}
+  - {fileID: 3851}
+  - {fileID: 3853}
+  - {fileID: 3854}
+  - {fileID: 3855}
+  - {fileID: 3856}
+  - {fileID: 3857}
+  - {fileID: 3858}
+  - {fileID: 3860}
+  - {fileID: 3861}
+  - {fileID: 3862}
+  - {fileID: 3863}
+  - {fileID: 3864}
+  - {fileID: 3865}
+  - {fileID: 3866}
+  - {fileID: 3867}
+  - {fileID: 3868}
+  - {fileID: 3869}
+  - {fileID: 3873}
+  - {fileID: 3880}
+  - {fileID: 3882}
+  - {fileID: 3883}
+  - {fileID: 3884}
+  - {fileID: 3885}
+  - {fileID: 3886}
+  lightmapIndexes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  lightmapScaleOffsets:
+  - {x: 0.06111047, y: 0.06111047, z: 0.77612275, w: 0.33772013}
+  - {x: 0.26796794, y: 0.26796794, z: 0.54775625, w: -0.0010718718}
+  - {x: 0.014324357, y: 0.014324357, z: 0.9737106, w: 0.026444966}
+  - {x: 0.0033056207, y: 0.0033056207, z: 0.9890504, w: 0.027136339}
+  - {x: 0.05116423, y: 0.05116423, z: 0.7761625, w: 0.3940485}
+  - {x: 0.22725962, y: 0.22725962, z: 0.5479191, w: 0.2625047}
+  - {x: 0.07043041, y: 0.07043041, z: 0.85616356, w: 0.263132}
+  - {x: 0.014324357, y: 0.014324357, z: 0.9737106, w: 0.07672497}
+  - {x: 0.0033056207, y: 0.0033056207, z: 0.9890504, w: 0.03970634}
+  - {x: 0.55125004, y: 0.55125004, z: -0.0022050003, w: -0.0022050003}
+  - {x: 0.06502748, y: 0.06502748, z: 0.9187686, w: 0.2631536}
+  - {x: 0.014324357, y: 0.014324357, z: 0.9737106, w: 0.10186497}
+  - {x: 0.0033056207, y: 0.0033056207, z: 0.9890504, w: 0.03550194}
+  - {x: 0.0033056207, y: 0.0033056207, z: 0.9939332, w: 0.031319138}
+  - {x: 0.014324357, y: 0.014324357, z: 0.9737106, w: 0.05158497}
+  - {x: 0.025929257, y: 0.025929257, z: 0.97450566, w: -0.00010371704}
+  - {x: 0.04688365, y: 0.04688365, z: 0.5486406, w: 0.4907337}
+  - {x: 0.014324357, y: 0.014324357, z: 0.9737106, w: 0.03901497}
+  - {x: 0.0033056207, y: 0.0033056207, z: 0.9890504, w: 0.031319138}
+  - {x: 0.0033056207, y: 0.0033056207, z: 0.9939332, w: 0.03550194}
+  - {x: 0.014324357, y: 0.014324357, z: 0.9737106, w: 0.06415497}
+  - {x: 0.07875, y: 0.07875, z: 0.7760522, w: 0.26309872}
+  - {x: 0.1615854, y: 0.1615854, z: 0.81317455, w: -0.0032317084}
+  - {x: 0.094965726, y: 0.094965726, z: 0.8160264, w: 0.15782325}
+  - {x: 0.08635377, y: 0.08635377, z: 0.9107874, w: 0.1578577}
+  - {x: 0.04688365, y: 0.04688365, z: 0.5964922, w: 0.4907337}
+  - {x: 0.0033056207, y: 0.0033056207, z: 0.9939332, w: 0.027136339}
+  - {x: 0.014324357, y: 0.014324357, z: 0.9737106, w: 0.08929497}
