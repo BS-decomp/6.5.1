@@ -1,0 +1,4098 @@
+{
+  "sceneName": "Rise",
+  "sceneSlug": "rise",
+  "scenePath": "Assets/Levels/Maps/Hunter/Rise/Rise.unity",
+  "staticRendererCount": 53,
+  "referencedSubMeshCount": 55,
+  "lightmappedRendererCount": 51,
+  "renderers": [
+    {
+      "rendererId": 3850,
+      "gameObjectId": 13,
+      "gameObjectName": "Block",
+      "transformId": 1930,
+      "meshFilterId": 3912,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 22,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        22
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.06225167,
+          0.57687265
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3850.asset",
+      "outputAssetGuid": "903c85f719c789df3076c1ea3b982f7d",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1930,
+          "gameObjectId": 13,
+          "gameObjectName": "Block",
+          "localPosition": [
+            68.0,
+            45.0,
+            63.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3851,
+      "gameObjectId": 14,
+      "gameObjectName": "Block",
+      "transformId": 1931,
+      "meshFilterId": 3913,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 51,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        51
+      ],
+      "materialGuids": [
+        "38781fd3518c1a648b51a175dc94d5d6"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.044543713,
+          0.044543713,
+          0.12482183,
+          0.6168444
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3851.asset",
+      "outputAssetGuid": "8c79276acbb8540a2f3d572f6ba8ea52",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1931,
+          "gameObjectId": 14,
+          "gameObjectName": "Block",
+          "localPosition": [
+            47.0,
+            45.0,
+            84.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3852,
+      "gameObjectId": 15,
+      "gameObjectName": "Tower",
+      "transformId": 1932,
+      "meshFilterId": 3914,
+      "meshColliderId": 3975,
+      "meshColliderMeshGuid": "82d3221f6fa99794b8fbb99f9ad0f02f",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Tower",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 36,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        36
+      ],
+      "materialGuids": [
+        "bb5e43ff814ff7043be182ec3995ab91"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.030515626,
+          0.030515626,
+          0.9637451,
+          0.07019044
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3852.asset",
+      "outputAssetGuid": "ac137c6d4664199c313e7624b8781d90",
+      "transformChain": [
+        {
+          "transformId": 2797,
+          "gameObjectId": 880,
+          "gameObjectName": "Building",
+          "localPosition": [
+            -16.0,
+            56.0,
+            66.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1932,
+          "gameObjectId": 15,
+          "gameObjectName": "Tower",
+          "localPosition": [
+            0.5,
+            -5.0,
+            -2.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3853,
+      "gameObjectId": 16,
+      "gameObjectName": "Block",
+      "transformId": 1933,
+      "meshFilterId": 3915,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 17,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        17
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.053315222,
+          0.053315222,
+          0.12478674,
+          0.4278487
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3853.asset",
+      "outputAssetGuid": "f5f52e6d6ff7ad21ec36044ea311994c",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1933,
+          "gameObjectId": 16,
+          "gameObjectName": "Block",
+          "localPosition": [
+            54.0,
+            45.0,
+            86.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3854,
+      "gameObjectId": 17,
+      "gameObjectName": "Block",
+      "transformId": 1934,
+      "meshFilterId": 3916,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 11,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        11
+      ],
+      "materialGuids": [
+        "24e1fba3ebb151d4083c4f7ceeb35c6f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.044543713,
+          0.044543713,
+          0.062321827,
+          0.7637708
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3854.asset",
+      "outputAssetGuid": "6ff0919b05a3bab7f9a547f28f4c1008",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1934,
+          "gameObjectId": 17,
+          "gameObjectName": "Block",
+          "localPosition": [
+            62.0,
+            45.0,
+            76.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3855,
+      "gameObjectId": 19,
+      "gameObjectName": "Block",
+      "transformId": 1936,
+      "meshFilterId": 3917,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 8,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        8
+      ],
+      "materialGuids": [
+        "24e1fba3ebb151d4083c4f7ceeb35c6f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          -0.00024833158,
+          0.527524
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3855.asset",
+      "outputAssetGuid": "eb095c4eee2ac85f6e6daf84ebde651a",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1936,
+          "gameObjectId": 19,
+          "gameObjectName": "Block",
+          "localPosition": [
+            13.0,
+            45.0,
+            80.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3856,
+      "gameObjectId": 20,
+      "gameObjectName": "Block",
+      "transformId": 1937,
+      "meshFilterId": 3918,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 47,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        47
+      ],
+      "materialGuids": [
+        "38781fd3518c1a648b51a175dc94d5d6"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.06225167,
+          0.4781753
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3856.asset",
+      "outputAssetGuid": "54d4230c4dcba5cb4db1643f7283d22d",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1937,
+          "gameObjectId": 20,
+          "gameObjectName": "Block",
+          "localPosition": [
+            59.0,
+            45.0,
+            64.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3857,
+      "gameObjectId": 21,
+      "gameObjectName": "Block",
+      "transformId": 1938,
+      "meshFilterId": 3919,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 27,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        27
+      ],
+      "materialGuids": [
+        "c6976a4b4f8184a4abc9e32f78273445"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.061236043,
+          0.061236043,
+          0.8386223,
+          0.08717944
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3857.asset",
+      "outputAssetGuid": "52c6fad89a65442cbb01b0ea5494bb49",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1938,
+          "gameObjectId": 21,
+          "gameObjectName": "Block",
+          "localPosition": [
+            -4.0,
+            46.0,
+            87.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3858,
+      "gameObjectId": 24,
+      "gameObjectName": "Block",
+      "transformId": 1941,
+      "meshFilterId": 3920,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 14,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        14
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          -0.00024833158,
+          0.33012936
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3858.asset",
+      "outputAssetGuid": "047246909136e1b3b7ca2ba3165c70da",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1941,
+          "gameObjectId": 24,
+          "gameObjectName": "Block",
+          "localPosition": [
+            12.0,
+            45.0,
+            56.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3859,
+      "gameObjectId": 839,
+      "gameObjectName": "Block",
+      "transformId": 2756,
+      "meshFilterId": 3921,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 13,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        13
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.06225167,
+          0.90118
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3859.asset",
+      "outputAssetGuid": "26e0f8f26037b8c4d569c51346653dbd",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2756,
+          "gameObjectId": 839,
+          "gameObjectName": "Block",
+          "localPosition": [
+            51.0,
+            45.0,
+            67.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3860,
+      "gameObjectId": 841,
+      "gameObjectName": "Block",
+      "transformId": 2758,
+      "meshFilterId": 3922,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 6,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        6
+      ],
+      "materialGuids": [
+        "a833d83545a795b469c4a029b25efcae"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          -0.00024833158,
+          0.57687265
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3860.asset",
+      "outputAssetGuid": "ca232fa92cb867ca7a7999d155a4369e",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2758,
+          "gameObjectId": 841,
+          "gameObjectName": "Block",
+          "localPosition": [
+            20.0,
+            45.0,
+            68.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3861,
+      "gameObjectId": 844,
+      "gameObjectName": "Block",
+      "transformId": 2761,
+      "meshFilterId": 3923,
+      "meshColliderId": 3976,
+      "meshColliderMeshGuid": "5e19375d270269b478931a071451f75d",
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 12,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        12
+      ],
+      "materialGuids": [
+        "24e1fba3ebb151d4083c4f7ceeb35c6f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.07008367,
+          0.07008367,
+          0.9313603,
+          -0.0002803347
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3861.asset",
+      "outputAssetGuid": "51aae63fbc865899241dc56a395c19ff",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2761,
+          "gameObjectId": 844,
+          "gameObjectName": "Block",
+          "localPosition": [
+            -5.0,
+            50.0,
+            70.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3862,
+      "gameObjectId": 846,
+      "gameObjectName": "Block",
+      "transformId": 2763,
+      "meshFilterId": 3924,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 45,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        45
+      ],
+      "materialGuids": [
+        "38781fd3518c1a648b51a175dc94d5d6"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.06225167,
+          0.527524
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3862.asset",
+      "outputAssetGuid": "d0f6d68ab6e1dedbe1dca184605e08ab",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2763,
+          "gameObjectId": 846,
+          "gameObjectName": "Block",
+          "localPosition": [
+            66.0,
+            45.0,
+            72.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3863,
+      "gameObjectId": 848,
+      "gameObjectName": "Block",
+      "transformId": 2765,
+      "meshFilterId": 3925,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 5,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        5
+      ],
+      "materialGuids": [
+        "a833d83545a795b469c4a029b25efcae"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.9011189,
+          0.1438908
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3863.asset",
+      "outputAssetGuid": "3712c5ebbc1a98f539b29921fd42029e",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2765,
+          "gameObjectId": 848,
+          "gameObjectName": "Block",
+          "localPosition": [
+            7.0,
+            45.0,
+            62.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3864,
+      "gameObjectId": 849,
+      "gameObjectName": "Wall",
+      "transformId": 2766,
+      "meshFilterId": 3926,
+      "meshColliderId": 3977,
+      "meshColliderMeshGuid": "f4e726fb1de7d40479738dad821739b3",
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Wall",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 0,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        0
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.5108792,
+          0.5108792,
+          0.18545648,
+          0.32833418
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3864.asset",
+      "outputAssetGuid": "818acb99f9cfbc90737dec84375372d0",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2766,
+          "gameObjectId": 849,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            60.0,
+            43.0,
+            70.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3865,
+      "gameObjectId": 850,
+      "gameObjectName": "Block",
+      "transformId": 2767,
+      "meshFilterId": 3927,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 23,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        23
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          -0.00024833158,
+          0.4781753
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3865.asset",
+      "outputAssetGuid": "b694d186db098ba00abb20673dff2d95",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2767,
+          "gameObjectId": 850,
+          "gameObjectName": "Block",
+          "localPosition": [
+            19.0,
+            45.0,
+            84.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3866,
+      "gameObjectId": 851,
+      "gameObjectName": "Block",
+      "transformId": 2768,
+      "meshFilterId": 3928,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 9,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        9
+      ],
+      "materialGuids": [
+        "24e1fba3ebb151d4083c4f7ceeb35c6f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.044543713,
+          0.044543713,
+          -0.00017817486,
+          0.86898255
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3866.asset",
+      "outputAssetGuid": "68fbf3bdbb295bf149de7b27bfa17eb1",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2768,
+          "gameObjectId": 851,
+          "gameObjectName": "Block",
+          "localPosition": [
+            31.0,
+            45.0,
+            75.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3868,
+      "gameObjectId": 853,
+      "gameObjectName": "Block",
+      "transformId": 2770,
+      "meshFilterId": 3930,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 29,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        29
+      ],
+      "materialGuids": [
+        "c6976a4b4f8184a4abc9e32f78273445"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.04583602,
+          0.04583602,
+          0.124816656,
+          0.56996423
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3868.asset",
+      "outputAssetGuid": "9f1648f1304965e977854b249ecfc3cf",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2770,
+          "gameObjectId": 853,
+          "gameObjectName": "Block",
+          "localPosition": [
+            44.0,
+            45.0,
+            66.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3869,
+      "gameObjectId": 855,
+      "gameObjectName": "Block",
+      "transformId": 2772,
+      "meshFilterId": 3931,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 50,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        50
+      ],
+      "materialGuids": [
+        "38781fd3518c1a648b51a175dc94d5d6"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.053315222,
+          0.053315222,
+          -0.0002132609,
+          0.675605
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3869.asset",
+      "outputAssetGuid": "e4a6eadd2f4adb56ac64b39ae9918feb",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2772,
+          "gameObjectId": 855,
+          "gameObjectName": "Block",
+          "localPosition": [
+            26.0,
+            45.0,
+            87.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3870,
+      "gameObjectId": 856,
+      "gameObjectName": "Block",
+      "transformId": 2773,
+      "meshFilterId": 3932,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 53,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        53
+      ],
+      "materialGuids": [
+        "38781fd3518c1a648b51a175dc94d5d6"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.8386189,
+          0.19323945
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3870.asset",
+      "outputAssetGuid": "b2f46977554d74eb327eb2c46e62a353",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2773,
+          "gameObjectId": 856,
+          "gameObjectName": "Block",
+          "localPosition": [
+            3.0,
+            46.0,
+            85.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3871,
+      "gameObjectId": 857,
+      "gameObjectName": "Block",
+      "transformId": 2774,
+      "meshFilterId": 3933,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 3,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        3
+      ],
+      "materialGuids": [
+        "a833d83545a795b469c4a029b25efcae"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.12475167,
+          0.33012936
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3871.asset",
+      "outputAssetGuid": "d8c2e96dc1f41188462104b0fa4ea6a2",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2774,
+          "gameObjectId": 857,
+          "gameObjectName": "Block",
+          "localPosition": [
+            42.0,
+            45.0,
+            58.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3872,
+      "gameObjectId": 859,
+      "gameObjectName": "Block",
+      "transformId": 2776,
+      "meshFilterId": 3934,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 32,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        32
+      ],
+      "materialGuids": [
+        "c6976a4b4f8184a4abc9e32f78273445"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          -0.00024833158,
+          0.379478
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3872.asset",
+      "outputAssetGuid": "a2005439cf5234e3ad7761fb0c8d7e8e",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2776,
+          "gameObjectId": 859,
+          "gameObjectName": "Block",
+          "localPosition": [
+            12.0,
+            45.0,
+            66.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3874,
+      "gameObjectId": 861,
+      "gameObjectName": "Block",
+      "transformId": 2778,
+      "meshFilterId": 3936,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 19,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        19
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.9011189,
+          0.19323945
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3874.asset",
+      "outputAssetGuid": "fd47e50393a861811c78fafc1362ab3f",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2778,
+          "gameObjectId": 861,
+          "gameObjectName": "Block",
+          "localPosition": [
+            2.0,
+            46.0,
+            69.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3875,
+      "gameObjectId": 862,
+      "gameObjectName": "Ground",
+      "transformId": 2779,
+      "meshFilterId": 3937,
+      "meshColliderId": 3979,
+      "meshColliderMeshGuid": "82f2cb71d21fdc641a4ccaf3182a3563",
+      "meshAtlasId": null,
+      "hierarchyPath": "Ground",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 1,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        1
+      ],
+      "materialGuids": [
+        "c15e215be38445e4e9aeb10c5b382977"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.84351814,
+          0.84351814,
+          -0.0033740727,
+          -0.0033740727
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3875.asset",
+      "outputAssetGuid": "d510b42ad09ce10cbb9f0c6d28f77bad",
+      "transformChain": [
+        {
+          "transformId": 2779,
+          "gameObjectId": 862,
+          "gameObjectName": "Ground",
+          "localPosition": [
+            49.0,
+            45.0,
+            28.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3876,
+      "gameObjectId": 863,
+      "gameObjectName": "Tower",
+      "transformId": 2780,
+      "meshFilterId": 3938,
+      "meshColliderId": 3980,
+      "meshColliderMeshGuid": "3e29a699850cfab468e5e45fac2cfe1d",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Tower",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 37,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        37
+      ],
+      "materialGuids": [
+        "bb5e43ff814ff7043be182ec3995ab91"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.030515626,
+          0.030515626,
+          0.93151855,
+          0.07019044
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3876.asset",
+      "outputAssetGuid": "351230220d2da2103c6385b883983792",
+      "transformChain": [
+        {
+          "transformId": 2797,
+          "gameObjectId": 880,
+          "gameObjectName": "Building",
+          "localPosition": [
+            -16.0,
+            56.0,
+            66.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2780,
+          "gameObjectId": 863,
+          "gameObjectName": "Tower",
+          "localPosition": [
+            0.5,
+            -5.0,
+            6.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3877,
+      "gameObjectId": 864,
+      "gameObjectName": "Block",
+      "transformId": 2781,
+      "meshFilterId": 3939,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 20,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        20
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.8386189,
+          0.2425881
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3877.asset",
+      "outputAssetGuid": "13c18c180e4b1387298d8e7ff643f860",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2781,
+          "gameObjectId": 864,
+          "gameObjectName": "Block",
+          "localPosition": [
+            2.0,
+            46.0,
+            56.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3878,
+      "gameObjectId": 865,
+      "gameObjectName": "Block",
+      "transformId": 2782,
+      "meshFilterId": 3940,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 18,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        18
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.9011189,
+          0.2425881
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3878.asset",
+      "outputAssetGuid": "0733b30f307fc18242ea7cb0cbaf9155",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2782,
+          "gameObjectId": 865,
+          "gameObjectName": "Block",
+          "localPosition": [
+            7.0,
+            45.0,
+            75.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3879,
+      "gameObjectId": 866,
+      "gameObjectName": "Block",
+      "transformId": 2783,
+      "meshFilterId": 3941,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 28,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        28
+      ],
+      "materialGuids": [
+        "c6976a4b4f8184a4abc9e32f78273445"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.06225167,
+          0.33012936
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3879.asset",
+      "outputAssetGuid": "c629afd06bb795b4cbd8543cd6831715",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2783,
+          "gameObjectId": 866,
+          "gameObjectName": "Block",
+          "localPosition": [
+            63.0,
+            45.0,
+            85.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3880,
+      "gameObjectId": 867,
+      "gameObjectName": "Block",
+      "transformId": 2784,
+      "meshFilterId": 3942,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 26,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        26
+      ],
+      "materialGuids": [
+        "c6976a4b4f8184a4abc9e32f78273445"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.04583602,
+          0.04583602,
+          0.124816656,
+          0.47621423
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3880.asset",
+      "outputAssetGuid": "9a285d4af16a1452644c0c2ecbbb1e7b",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2784,
+          "gameObjectId": 867,
+          "gameObjectName": "Block",
+          "localPosition": [
+            50.0,
+            45.0,
+            77.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3881,
+      "gameObjectId": 869,
+      "gameObjectName": "Block",
+      "transformId": 2786,
+      "meshFilterId": 3943,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 7,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        7
+      ],
+      "materialGuids": [
+        "a833d83545a795b469c4a029b25efcae"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.06225167,
+          0.9505287
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3881.asset",
+      "outputAssetGuid": "8c852cc8c2682ac7c06cd885cfac4d6d",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2786,
+          "gameObjectId": 869,
+          "gameObjectName": "Block",
+          "localPosition": [
+            37.0,
+            45.0,
+            77.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3882,
+      "gameObjectId": 872,
+      "gameObjectName": "Block",
+      "transformId": 2789,
+      "meshFilterId": 3944,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 2,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        2
+      ],
+      "materialGuids": [
+        "a833d83545a795b469c4a029b25efcae"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.06225167,
+          0.67556995
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3882.asset",
+      "outputAssetGuid": "2e12dc372e848d8a29f484912165d38c",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2789,
+          "gameObjectId": 872,
+          "gameObjectName": "Block",
+          "localPosition": [
+            63.0,
+            45.0,
+            57.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3883,
+      "gameObjectId": 873,
+      "gameObjectName": "Block",
+      "transformId": 2790,
+      "meshFilterId": 3945,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 10,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        10
+      ],
+      "materialGuids": [
+        "24e1fba3ebb151d4083c4f7ceeb35c6f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.06225167,
+          0.8518314
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3883.asset",
+      "outputAssetGuid": "eaae5338043d8664af9c45301ccf065e",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2790,
+          "gameObjectId": 873,
+          "gameObjectName": "Block",
+          "localPosition": [
+            55.0,
+            45.0,
+            59.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3884,
+      "gameObjectId": 874,
+      "gameObjectName": "Block",
+      "transformId": 2791,
+      "meshFilterId": 3946,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 16,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        16
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.04583602,
+          0.04583602,
+          0.124816656,
+          0.52308923
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3884.asset",
+      "outputAssetGuid": "503682783003c22de111741496ed6027",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2791,
+          "gameObjectId": 874,
+          "gameObjectName": "Block",
+          "localPosition": [
+            42.0,
+            45.0,
+            76.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3885,
+      "gameObjectId": 876,
+      "gameObjectName": "Block",
+      "transformId": 2793,
+      "meshFilterId": 3947,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 25,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        25
+      ],
+      "materialGuids": [
+        "c6976a4b4f8184a4abc9e32f78273445"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.053315222,
+          0.053315222,
+          0.12478674,
+          0.37951308
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3885.asset",
+      "outputAssetGuid": "f2e79d83b6bc43c80b91db9d9b09ec95",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2793,
+          "gameObjectId": 876,
+          "gameObjectName": "Block",
+          "localPosition": [
+            42.0,
+            45.0,
+            87.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3886,
+      "gameObjectId": 880,
+      "gameObjectName": "Building",
+      "transformId": 2797,
+      "meshFilterId": 3948,
+      "meshColliderId": 3981,
+      "meshColliderMeshGuid": "b069654ac3072c74884b87019d7578c8",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 40,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        40,
+        41,
+        42
+      ],
+      "materialGuids": [
+        "7459b0c6a52b1de44bbc7891acd4f173",
+        "38781fd3518c1a648b51a175dc94d5d6",
+        "bb5e43ff814ff7043be182ec3995ab91"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.09264211,
+          0.09264211,
+          0.8384966,
+          -0.00037056848
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3886.asset",
+      "outputAssetGuid": "a140cdb1b474d6b85318e5934e51ea45",
+      "transformChain": [
+        {
+          "transformId": 2797,
+          "gameObjectId": 880,
+          "gameObjectName": "Building",
+          "localPosition": [
+            -16.0,
+            56.0,
+            66.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3887,
+      "gameObjectId": 884,
+      "gameObjectName": "Block",
+      "transformId": 2801,
+      "meshFilterId": 3949,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 34,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        34
+      ],
+      "materialGuids": [
+        "c6976a4b4f8184a4abc9e32f78273445"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.053315222,
+          0.053315222,
+          -0.0002132609,
+          0.7239406
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3887.asset",
+      "outputAssetGuid": "d9525e62df09c102552b542a335fe27c",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2801,
+          "gameObjectId": 884,
+          "gameObjectName": "Block",
+          "localPosition": [
+            26.0,
+            45.0,
+            54.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3889,
+      "gameObjectId": 889,
+      "gameObjectName": "Block",
+      "transformId": 2806,
+      "meshFilterId": 3951,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 49,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        49
+      ],
+      "materialGuids": [
+        "38781fd3518c1a648b51a175dc94d5d6"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.061236043,
+          0.061236043,
+          0.9011223,
+          0.08717944
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3889.asset",
+      "outputAssetGuid": "5576949d82bae080316fd6525a2fbd79",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2806,
+          "gameObjectId": 889,
+          "gameObjectName": "Block",
+          "localPosition": [
+            -4.0,
+            46.0,
+            56.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3890,
+      "gameObjectId": 890,
+      "gameObjectName": "Block",
+      "transformId": 2807,
+      "meshFilterId": 3952,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 15,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        15
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.053315222,
+          0.053315222,
+          -0.0002132609,
+          0.7722762
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3890.asset",
+      "outputAssetGuid": "e6df8ca26c2f441f28088d7fb75b5d28",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2807,
+          "gameObjectId": 890,
+          "gameObjectName": "Block",
+          "localPosition": [
+            32.0,
+            45.0,
+            82.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3892,
+      "gameObjectId": 896,
+      "gameObjectName": "Sun 1",
+      "transformId": 2838,
+      "meshFilterId": 3956,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome/Sun/Sun 1",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 38,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        38
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3892.asset",
+      "outputAssetGuid": "05612d0790f1b27d4b9576e521a2fc3c",
+      "transformChain": [
+        {
+          "transformId": 2812,
+          "gameObjectId": 903,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2841,
+          "gameObjectId": 892,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2813,
+          "gameObjectId": 904,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2836,
+          "gameObjectId": 894,
+          "gameObjectName": "Sun",
+          "localPosition": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "localRotation": [
+            -0.20582907,
+            -0.7753525,
+            -0.31444415,
+            0.5075311
+          ],
+          "localScale": [
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "transformId": 2838,
+          "gameObjectId": 896,
+          "gameObjectName": "Sun 1",
+          "localPosition": [
+            -0.0,
+            0.0,
+            25.194338
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3895,
+      "gameObjectId": 904,
+      "gameObjectName": "SkyDome",
+      "transformId": 2813,
+      "meshFilterId": 3954,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 39,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        39
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3895.asset",
+      "outputAssetGuid": "3de3645667607a1c8b49539e90266b82",
+      "transformChain": [
+        {
+          "transformId": 2812,
+          "gameObjectId": 903,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2841,
+          "gameObjectId": 892,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2813,
+          "gameObjectId": 904,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3897,
+      "gameObjectId": 926,
+      "gameObjectName": "Block",
+      "transformId": 2843,
+      "meshFilterId": 3959,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 4,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        4
+      ],
+      "materialGuids": [
+        "a833d83545a795b469c4a029b25efcae"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.06225167,
+          0.42882666
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3897.asset",
+      "outputAssetGuid": "833ff3f9055b6e12d6afa2d6f58c0170",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2843,
+          "gameObjectId": 926,
+          "gameObjectName": "Block",
+          "localPosition": [
+            57.0,
+            45.0,
+            78.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3898,
+      "gameObjectId": 927,
+      "gameObjectName": "Block",
+      "transformId": 2844,
+      "meshFilterId": 3960,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 43,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        43
+      ],
+      "materialGuids": [
+        "38781fd3518c1a648b51a175dc94d5d6"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          -0.00024833158,
+          0.9464765
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3898.asset",
+      "outputAssetGuid": "eeebb66159705a4e0300c564c0d6db5b",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2844,
+          "gameObjectId": 927,
+          "gameObjectName": "Block",
+          "localPosition": [
+            35.0,
+            45.0,
+            57.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3899,
+      "gameObjectId": 929,
+      "gameObjectName": "Block",
+      "transformId": 2846,
+      "meshFilterId": 3961,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 48,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        48
+      ],
+      "materialGuids": [
+        "38781fd3518c1a648b51a175dc94d5d6"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.053315222,
+          0.053315222,
+          0.12478674,
+          0.65559137
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3899.asset",
+      "outputAssetGuid": "d405dfb2c6faaf32b09042c3d870d827",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2846,
+          "gameObjectId": 929,
+          "gameObjectName": "Block",
+          "localPosition": [
+            34.0,
+            45.0,
+            67.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3900,
+      "gameObjectId": 933,
+      "gameObjectName": "Block",
+      "transformId": 2850,
+      "meshFilterId": 3962,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 52,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        52
+      ],
+      "materialGuids": [
+        "38781fd3518c1a648b51a175dc94d5d6"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.06225167,
+          0.8024827
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3900.asset",
+      "outputAssetGuid": "cc3ba7ae496b16d9ec1042876f869f43",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2850,
+          "gameObjectId": 933,
+          "gameObjectName": "Block",
+          "localPosition": [
+            50.0,
+            45.0,
+            55.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3901,
+      "gameObjectId": 934,
+      "gameObjectName": "Block",
+      "transformId": 2851,
+      "meshFilterId": 3963,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 24,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        24
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          -0.00024833158,
+          0.6262213
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3901.asset",
+      "outputAssetGuid": "85fb681e36604b15c475451d4860e861",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2851,
+          "gameObjectId": 934,
+          "gameObjectName": "Block",
+          "localPosition": [
+            29.0,
+            45.0,
+            65.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3902,
+      "gameObjectId": 935,
+      "gameObjectName": "Block",
+      "transformId": 2852,
+      "meshFilterId": 3964,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 46,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        46
+      ],
+      "materialGuids": [
+        "38781fd3518c1a648b51a175dc94d5d6"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.053315222,
+          0.053315222,
+          -0.0002132609,
+          0.82061183
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3902.asset",
+      "outputAssetGuid": "2d0728445598750841665f4d79765aaf",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2852,
+          "gameObjectId": 935,
+          "gameObjectName": "Block",
+          "localPosition": [
+            19.0,
+            45.0,
+            57.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3903,
+      "gameObjectId": 938,
+      "gameObjectName": "Block",
+      "transformId": 2855,
+      "meshFilterId": 3965,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 33,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        33
+      ],
+      "materialGuids": [
+        "c6976a4b4f8184a4abc9e32f78273445"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.06225167,
+          0.6262213
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3903.asset",
+      "outputAssetGuid": "66f536c272e4fe137de64a1841cbdf96",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2855,
+          "gameObjectId": 938,
+          "gameObjectName": "Block",
+          "localPosition": [
+            74.0,
+            45.0,
+            57.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3904,
+      "gameObjectId": 940,
+      "gameObjectName": "Block",
+      "transformId": 2857,
+      "meshFilterId": 3966,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 44,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        44
+      ],
+      "materialGuids": [
+        "38781fd3518c1a648b51a175dc94d5d6"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.06225167,
+          0.379478
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3904.asset",
+      "outputAssetGuid": "bb2dbe13705e33fb16344facb11fc791",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2857,
+          "gameObjectId": 940,
+          "gameObjectName": "Block",
+          "localPosition": [
+            72.0,
+            45.0,
+            82.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3905,
+      "gameObjectId": 941,
+      "gameObjectName": "Block",
+      "transformId": 2858,
+      "meshFilterId": 3967,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 54,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        54
+      ],
+      "materialGuids": [
+        "38781fd3518c1a648b51a175dc94d5d6"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.044543713,
+          0.044543713,
+          -0.00017817486,
+          0.9077646
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3905.asset",
+      "outputAssetGuid": "d706b080cdef055ad05ad775715e6da8",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2858,
+          "gameObjectId": 941,
+          "gameObjectName": "Block",
+          "localPosition": [
+            17.0,
+            45.0,
+            76.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3906,
+      "gameObjectId": 943,
+      "gameObjectName": "Block",
+      "transformId": 2860,
+      "meshFilterId": 3968,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 21,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        21
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.044543713,
+          0.044543713,
+          0.062321827,
+          0.72498876
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3906.asset",
+      "outputAssetGuid": "3d2d1ce6bbc5b86b4376c739d1c22551",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2860,
+          "gameObjectId": 943,
+          "gameObjectName": "Block",
+          "localPosition": [
+            74.0,
+            45.0,
+            68.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3908,
+      "gameObjectId": 946,
+      "gameObjectName": "Block",
+      "transformId": 2863,
+      "meshFilterId": 3970,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 30,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        30
+      ],
+      "materialGuids": [
+        "c6976a4b4f8184a4abc9e32f78273445"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          -0.00024833158,
+          0.42882666
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3908.asset",
+      "outputAssetGuid": "238e03128cfb293333943a5230a60b66",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2863,
+          "gameObjectId": 946,
+          "gameObjectName": "Block",
+          "localPosition": [
+            26.0,
+            45.0,
+            75.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3909,
+      "gameObjectId": 947,
+      "gameObjectName": "Block",
+      "transformId": 2864,
+      "meshFilterId": 3971,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 31,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        31
+      ],
+      "materialGuids": [
+        "c6976a4b4f8184a4abc9e32f78273445"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06208289,
+          0.06208289,
+          0.8386189,
+          0.1438908
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3909.asset",
+      "outputAssetGuid": "8995a3b61c37430cf7f421475acb389c",
+      "transformChain": [
+        {
+          "transformId": 2848,
+          "gameObjectId": 931,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2864,
+          "gameObjectId": 947,
+          "gameObjectName": "Block",
+          "localPosition": [
+            9.0,
+            45.0,
+            86.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3910,
+      "gameObjectId": 948,
+      "gameObjectName": "Box",
+      "transformId": 2865,
+      "meshFilterId": 3972,
+      "meshColliderId": 3982,
+      "meshColliderMeshGuid": "d3c37007798fe4d459daaa39eba42acc",
+      "meshAtlasId": null,
+      "hierarchyPath": "Box",
+      "combinedMeshGuid": "5c3b4b24bf534ac429df827507e5ce59",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_18.asset",
+      "firstSubMesh": 35,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        35
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.031602953,
+          0.031602953,
+          0.96374077,
+          0.08729797
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Rise/Renderer-3910.asset",
+      "outputAssetGuid": "600a5a206ecbaf2cd3fcc4db026aab41",
+      "transformChain": [
+        {
+          "transformId": 2865,
+          "gameObjectId": 948,
+          "gameObjectName": "Box",
+          "localPosition": [
+            -18.019999,
+            51.0,
+            68.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+using UnityEngine.SceneManagement;
+using UnityEngine;
+
+[IIIJJIJIIIIJIJJJJIJIIIJIIJJIJJJIIIJJJIIIJJJJJJI]
+public class GDPR : MonoBehaviour
+{
+	public GameObject JJIJIIJJIJJIIIJJJIIJIJJIIIJIJIJIIIJIJJIJJIJIIIJ;
+
+	public GameObject JJIIIJIJJIJJJIJJJJJJIIJIIJIJJJIJIJJJJIJIJIIIIIJ;
+
+	private void IJJJJIIIIJJIIIJJIJJJJJJIJIIJJJJJJJJIJJIIJIIIJIJ()
+	{
+	}
+
+	private void JJJIIIIJIIJJIJJJJIIJJJJJIIIJJIIJIJIJIIIIJJIIIJI()
+	{
+	}
+
+	public void JIIJJJIIIJIIIJJIJIJJJIIIJJJIJIIJIJIIJIIIIJIJJJJ()
+	{
+	}
+
+	public void JIJJIIJJJJIJJJIJIJJIJIIJIJJIIIIJIJJJJJIJJIIJJII(bool isTraining)
+	{
+	}
+
+	public void OnAccept()
+	{
+	        if (JJIJIIJJIJJIIIJJJIIJIJJIIIJIJIJIIIJIJJIJJIJIIIJ != null)
+	        {
+	            JJIJIIJJIJJIIIJJJIIJIJJIIIJIJIJIIIJIJJIJJIJIIIJ.SetActive(false);
+	        }
+	        if (JJIIIJIJJIJJJIJJJJJJIIJIIJIJJJIJIJJJJIJIJIIIIIJ != null)
+	        {
+	            JJIIIJIJJIJJJIJJJJJJIIJIIJIJJJIJIJJJJIJIJIIIIIJ.SetActive(true);
+	        }
+	        PlayerPrefs.SetInt("GDPR", 1);
+	        PlayerPrefs.Save();
+	}
+
+	private void JIJIJJIJJJIJJJIJJIJIIIJJJJJIJIJIJJIIJIJIJJIIJJJ()
+	{
+	}
+
+	private void OnJoinedRoom()
+	{
+	}
+
+	public void JJJIJIJJJIJJIJIJIJIJIIIJIJJIIIIJJIJIIJJJIJIIIJI()
+	{
+	}
+
+	private void JJIJIIJJJJIIIJIJJIJJIJIJJIJIIIIJIIJJJIIJIIIIJII()
+	{
+	}
+
+	private void OnDisable()
+	{
+	}
+
+	public void IJIIIJIIJJJIIJJIJIIJIJIJIJJIIJJJIIIIIJIJJIIIJJI()
+	{
+	}
+
+	private void JJJJIIIJIIJJJIJIIJIJIJJJIIJJJIJJIIIJJIIIIJIIJIJ()
+	{
+	}
+
+	private void IIIJJJJIIIIJIJIJIIIIIIJIJIIJIJIIJIIJJJIJIIIIJJJ()
+	{
+	}
+
+	public void OnClickTraining(bool isTraining)
+	{
+	        if (JJIIIJIJJIJJJIJJJJJJIIJIIJIJJJIJIJJJJIJIJIIIIIJ != null)
+	        {
+	            JJIIIJIJJIJJJIJJJJJJIIJIIJIJJJIJIJJJJIJIJIIIIIJ.SetActive(false);
+	        }
+	        SceneManager.LoadScene(isTraining ? "MainTutorial" : "Menu");
+	}
+
+	public void OnPrivacyPolicy()
+	{
+	}
+
+	private void OnEnable()
+	{
+	}
+
+	public void IIIIJIIJJIIIIIJJJIIJJJIJIJIIJIIIIJIIIJIJIJJIIII()
+	{
+	}
+
+	public void JIIIIIIJJJJIJIIIIIIJJIJIIJJJJJIJIIJJIJJJJJIJJJI()
+	{
+	}
+
+	private void Start()
+	{
+	        if (PlayerPrefs.GetInt("GDPR", 0) != 0)
+	        {
+	            SceneManager.LoadScene("Menu");
+	            return;
+	        }
+	        if (JJIJIIJJIJJIIIJJJIIJIJJIIIJIJIJIIIJIJJIJJIJIIIJ != null)
+	        {
+	            JJIJIIJJIJJIIIJJJIIJIJJIIIJIJIJIIIJIJJIJJIJIIIJ.SetActive(true);
+	        }
+	}
+
+	public void JIIIJIJJJJJIJIJJIIJIIJJJIJJIIJJJJJIIIIIJJJJIJJI()
+	{
+	}
+
+	private void JIIIJJJIIIIIIJJIJIJIIJIJIIJIJIJIIJJJIJIIJIJJJIJ()
+	{
+	}
+}

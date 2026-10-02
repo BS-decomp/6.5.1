@@ -1,0 +1,85 @@
+using System.Runtime.CompilerServices;
+using UnityEngine;
+
+namespace Photon
+{
+	public class MonoBehaviour : UnityEngine.MonoBehaviour
+	{
+		private PhotonView IIJIIIIIJIIJJJIIJIIIIJJIIJJIJIJJJJIJIJJJIIJIIJJ;
+
+		public PhotonView JIIJJJJIJJJIJIJJJJJJJIIJJIJIIJIJJIIJJIIJIJIJJIJ => JIJJJJIIJJIJJIIIJIIIIJJJJIIJIIIIIIIIJIJJIJJJJJI();
+		public PhotonView JJJIIIJIJIJIIIJJJIJJJIJIJJJJIIIJJJIIIJJJJIJJJIJ()
+		{
+			return null;
+		}
+		public PhotonView JJIJJIIIJIJJIIJIJJIIJIJJIJIJIJIIIIJJIJIJIIIJIJI()
+		{
+			return null;
+		}
+		public PhotonView JIIJJIJJIIIJJIJIIIJJIJJIIJIIJIIIJIIIIIJJIIIJIJJ()
+		{
+			return null;
+		}
+		public PhotonView IIIIIIJJJIJJIJIJJJJJIJJIJIJIJIJJIJIJJIJIIJIIIJI()
+		{
+			return null;
+		}
+
+		public PhotonView JIJJJJIIJJIJJIIIJIIIIJJJJIIJIIIIIIIIJIJJIJJJJJI()
+		{
+			return null;
+		}
+		public PhotonView IIJJIJJJIIJJIJJJIJIIJIJIIJJJIJIIJJJIJJJJIJJIIJI()
+		{
+			return null;
+		}
+		public PhotonView JIJJJJIIIIJIJJJJJIJIJIIJJJJJJJIJIIIIIIIJJIJJJJI()
+		{
+			return null;
+		}
+		public PhotonView JJIJIJJJIJJIIIIIIIJIJJJIJIIJJJIIJIJIJJJJIIIIJJI()
+		{
+			return null;
+		}
+		public PhotonView IIIJJJJIIJJJJJJIJJJJIIIIIJIJJJIIIJIIIIJJJJJJJJJ()
+		{
+			return null;
+		}
+		public PhotonView JJIIJJJJJJJJIJIIIJIJJIIIIJJJIIJIJJIJJJJIJIJIJII()
+		{
+			return null;
+		}
+		public PhotonView JJJJJIIIJJIJJIIIJJJIIIIJJIIIIJJJIJIIIIJJIJIIIJI()
+		{
+			return null;
+		}
+		public PhotonView JJIIJIIIJIJIJIJIJIJIJJJIIIIJIIJIIJJJIIIJIJIJJIJ()
+		{
+			return null;
+		}
+		public PhotonView IIJJIJJJJJJJJIIIIJJIIJIIJJIJJJIJJIIJIIJJIIIJJII()
+		{
+			return null;
+		}
+		public PhotonView IIJJIJJJJIIIJIIJJJIIIJJIIJIJJJIJJJJIJJIIJJIIIJJ()
+		{
+			return null;
+		}
+		public PhotonView IJIJJIJJIIIJIIIIJJIJJJIIJJIJJIJJIJJJIJIJIIIIJJJ()
+		{
+			return null;
+		}
+		public PhotonView IJIJIIJJIIJJJIJIIIJJJIJJJJJIIJIJJIJIJJIIJJIIIJI()
+		{
+			return null;
+		}
+		public PhotonView IJJJJIIIJIJIJIJIJIIIJJJIJJIIJJJIIJIJJIJIIIJIJJJ()
+		{
+			return null;
+		}
+		public PhotonView JJJIJJJIJJIJJIJJJIIJJIIJIJIIIJIJIJIIIIJIIIIJJJJ()
+		{
+			return null;
+		}
+	}
+}

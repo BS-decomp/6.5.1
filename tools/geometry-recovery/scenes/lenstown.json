@@ -1,0 +1,1035 @@
+{
+  "sceneName": "Lenstown",
+  "sceneSlug": "lenstown",
+  "scenePath": "Assets/Levels/Maps/Others/Lenstown/Lenstown.unity",
+  "staticRendererCount": 13,
+  "referencedSubMeshCount": 19,
+  "lightmappedRendererCount": 12,
+  "renderers": [
+    {
+      "rendererId": 4003,
+      "gameObjectId": 70,
+      "gameObjectName": "Map - Tile_White",
+      "transformId": 2041,
+      "meshFilterId": 4070,
+      "meshColliderId": 4137,
+      "meshColliderMeshGuid": "9dbaf0d59a2fed945b78678b239a5dd0",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - Tile_White",
+      "combinedMeshGuid": "66f71f0de13c98f4bb8716b9c7b0a40b",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_58.asset",
+      "firstSubMesh": 15,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        15
+      ],
+      "materialGuids": [
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.3534375,
+          0.3534375,
+          0.61100936,
+          -0.005115626
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Lenstown/Renderer-4003.asset",
+      "outputAssetGuid": "ddf706aa64e99585ed02554b088f07a4",
+      "transformChain": [
+        {
+          "transformId": 2910,
+          "gameObjectId": 939,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2041,
+          "gameObjectId": 70,
+          "gameObjectName": "Map - Tile_White",
+          "localPosition": [
+            -34.5,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4010,
+      "gameObjectId": 904,
+      "gameObjectName": "SkyDome",
+      "transformId": 2886,
+      "meshFilterId": 4078,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome",
+      "combinedMeshGuid": "66f71f0de13c98f4bb8716b9c7b0a40b",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_58.asset",
+      "firstSubMesh": 16,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        16
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Lenstown/Renderer-4010.asset",
+      "outputAssetGuid": "af5e816e6f800d5d6fc43c9012473bc2",
+      "transformChain": [
+        {
+          "transformId": 2889,
+          "gameObjectId": 903,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2878,
+          "gameObjectId": 891,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2886,
+          "gameObjectId": 904,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4012,
+      "gameObjectId": 925,
+      "gameObjectName": "Map - Brick_Grey",
+      "transformId": 2896,
+      "meshFilterId": 4079,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - Brick_Grey",
+      "combinedMeshGuid": "66f71f0de13c98f4bb8716b9c7b0a40b",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_58.asset",
+      "firstSubMesh": 0,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        0,
+        1
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.17790103,
+          0.17790103,
+          0.11362948,
+          0.7190982
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Lenstown/Renderer-4012.asset",
+      "outputAssetGuid": "491e15629477e4e8d0aa7cfc8f91dca6",
+      "transformChain": [
+        {
+          "transformId": 2910,
+          "gameObjectId": 939,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2896,
+          "gameObjectId": 925,
+          "gameObjectName": "Map - Brick_Grey",
+          "localPosition": [
+            -34.5,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4014,
+      "gameObjectId": 937,
+      "gameObjectName": "Map - Tile_Blue",
+      "transformId": 2908,
+      "meshFilterId": 4081,
+      "meshColliderId": 4141,
+      "meshColliderMeshGuid": "318bc6b37787f544cb3a5f1619c42fd5",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - Tile_Blue",
+      "combinedMeshGuid": "66f71f0de13c98f4bb8716b9c7b0a40b",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_58.asset",
+      "firstSubMesh": 17,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        17,
+        18
+      ],
+      "materialGuids": [
+        "33545ce3369eea741a3eb3735e0a081d",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.30944514,
+          0.30944514,
+          0.33081147,
+          0.00071534433
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Lenstown/Renderer-4014.asset",
+      "outputAssetGuid": "2f14770958ffb11a72c12c920151faac",
+      "transformChain": [
+        {
+          "transformId": 2910,
+          "gameObjectId": 939,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2908,
+          "gameObjectId": 937,
+          "gameObjectName": "Map - Tile_Blue",
+          "localPosition": [
+            -34.5,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4015,
+      "gameObjectId": 945,
+      "gameObjectName": "Map - Tile_Red",
+      "transformId": 2916,
+      "meshFilterId": 4082,
+      "meshColliderId": 4142,
+      "meshColliderMeshGuid": "09ce421b5d24775458359fcd88be4ec4",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - Tile_Red",
+      "combinedMeshGuid": "66f71f0de13c98f4bb8716b9c7b0a40b",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_58.asset",
+      "firstSubMesh": 7,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        7,
+        8
+      ],
+      "materialGuids": [
+        "b30b804d467bcff4f8981e29f04b466e",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.3269662,
+          0.3269662,
+          -0.0065393243,
+          0.40361694
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Lenstown/Renderer-4015.asset",
+      "outputAssetGuid": "ce419479125d570ca86492acef350c1d",
+      "transformChain": [
+        {
+          "transformId": 2910,
+          "gameObjectId": 939,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2916,
+          "gameObjectId": 945,
+          "gameObjectName": "Map - Tile_Red",
+          "localPosition": [
+            -34.5,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4016,
+      "gameObjectId": 952,
+      "gameObjectName": "Map - Brick_Blue",
+      "transformId": 2923,
+      "meshFilterId": 4083,
+      "meshColliderId": 4143,
+      "meshColliderMeshGuid": "58d0be8785067094e81301f75ea0a77e",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - Brick_Blue",
+      "combinedMeshGuid": "66f71f0de13c98f4bb8716b9c7b0a40b",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_58.asset",
+      "firstSubMesh": 5,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        5,
+        6
+      ],
+      "materialGuids": [
+        "613f763a77cadaf45bf0e7147f9adde2",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.11888758,
+          0.11888758,
+          -0.0023777517,
+          0.83568835
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Lenstown/Renderer-4016.asset",
+      "outputAssetGuid": "60764a18e3179cde94bf08cb49a8699c",
+      "transformChain": [
+        {
+          "transformId": 2910,
+          "gameObjectId": 939,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2923,
+          "gameObjectId": 952,
+          "gameObjectName": "Map - Brick_Blue",
+          "localPosition": [
+            -34.5,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4019,
+      "gameObjectId": 959,
+      "gameObjectName": "Present 1",
+      "transformId": 2930,
+      "meshFilterId": 4086,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Present 1",
+      "combinedMeshGuid": "66f71f0de13c98f4bb8716b9c7b0a40b",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_58.asset",
+      "firstSubMesh": 10,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        10
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0353711,
+          0.0353711,
+          0.2828363,
+          0.5142427
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Lenstown/Renderer-4019.asset",
+      "outputAssetGuid": "cb4326121a2e1aa14d9428d177d31000",
+      "transformChain": [
+        {
+          "transformId": 2910,
+          "gameObjectId": 939,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2930,
+          "gameObjectId": 959,
+          "gameObjectName": "Present 1",
+          "localPosition": [
+            -33.925858,
+            3.4999998,
+            34.45628
+          ],
+          "localRotation": [
+            -0.0,
+            0.5164903,
+            -0.0,
+            0.8562931
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4021,
+      "gameObjectId": 964,
+      "gameObjectName": "Present 2",
+      "transformId": 2935,
+      "meshFilterId": 4088,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Present 2",
+      "combinedMeshGuid": "66f71f0de13c98f4bb8716b9c7b0a40b",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_58.asset",
+      "firstSubMesh": 9,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        9
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0353711,
+          0.0353711,
+          0.2828363,
+          0.40877455
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Lenstown/Renderer-4021.asset",
+      "outputAssetGuid": "322bcafb8086aa6d35a4c497f9f681bc",
+      "transformChain": [
+        {
+          "transformId": 2910,
+          "gameObjectId": 939,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2935,
+          "gameObjectId": 964,
+          "gameObjectName": "Present 2",
+          "localPosition": [
+            -0.46688423,
+            3.5,
+            34.43832
+          ],
+          "localRotation": [
+            -0.0,
+            -0.5414607,
+            -0.0,
+            0.84072614
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4023,
+      "gameObjectId": 973,
+      "gameObjectName": "Present 2 (1)",
+      "transformId": 2944,
+      "meshFilterId": 4090,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Present 2 (1)",
+      "combinedMeshGuid": "66f71f0de13c98f4bb8716b9c7b0a40b",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_58.asset",
+      "firstSubMesh": 11,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        11
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0353711,
+          0.0353711,
+          0.2828363,
+          0.47908664
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Lenstown/Renderer-4023.asset",
+      "outputAssetGuid": "d37a5e1dec88b14038cd381c7015f82f",
+      "transformChain": [
+        {
+          "transformId": 2910,
+          "gameObjectId": 939,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2944,
+          "gameObjectId": 973,
+          "gameObjectName": "Present 2 (1)",
+          "localPosition": [
+            -33.88,
+            3.5000002,
+            0.54534227
+          ],
+          "localRotation": [
+            -0.0,
+            -0.3169035,
+            -0.0,
+            0.94845784
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4024,
+      "gameObjectId": 979,
+      "gameObjectName": "Present",
+      "transformId": 2950,
+      "meshFilterId": 4091,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Present",
+      "combinedMeshGuid": "66f71f0de13c98f4bb8716b9c7b0a40b",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_58.asset",
+      "firstSubMesh": 12,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        12
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0353711,
+          0.0353711,
+          0.2828363,
+          0.4439306
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Lenstown/Renderer-4024.asset",
+      "outputAssetGuid": "2351a8b084cdbeeb3491185c08d367e6",
+      "transformChain": [
+        {
+          "transformId": 2910,
+          "gameObjectId": 939,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2950,
+          "gameObjectId": 979,
+          "gameObjectName": "Present",
+          "localPosition": [
+            -0.46792328,
+            3.5,
+            0.5295217
+          ],
+          "localRotation": [
+            -0.0,
+            -0.5990071,
+            -0.0,
+            0.80074376
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4025,
+      "gameObjectId": 982,
+      "gameObjectName": "Map - Brick_White",
+      "transformId": 2953,
+      "meshFilterId": 4092,
+      "meshColliderId": 4147,
+      "meshColliderMeshGuid": "8cacc2c1ecb05cf45a560558cc8554db",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - Brick_White",
+      "combinedMeshGuid": "66f71f0de13c98f4bb8716b9c7b0a40b",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_58.asset",
+      "firstSubMesh": 3,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        3,
+        4
+      ],
+      "materialGuids": [
+        "2f44b2c179ba4104eadef7633cc114ca",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.36896855,
+          0.36896855,
+          0.33204925,
+          0.31152344
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Lenstown/Renderer-4025.asset",
+      "outputAssetGuid": "dab492095f0265f5239f6ce08ae5febb",
+      "transformChain": [
+        {
+          "transformId": 2910,
+          "gameObjectId": 939,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2953,
+          "gameObjectId": 982,
+          "gameObjectName": "Map - Brick_White",
+          "localPosition": [
+            -34.5,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4028,
+      "gameObjectId": 1002,
+      "gameObjectName": "Map - Brick_Block_White",
+      "transformId": 2973,
+      "meshFilterId": 4095,
+      "meshColliderId": 4149,
+      "meshColliderMeshGuid": "f54a3b3ec9448cb47bbeebc40654bf9d",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - Brick_Block_White",
+      "combinedMeshGuid": "66f71f0de13c98f4bb8716b9c7b0a40b",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_58.asset",
+      "firstSubMesh": 2,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        2
+      ],
+      "materialGuids": [
+        "bedccc55cd7b23141951b8ab82acc3d4"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.41953048,
+          0.41953048,
+          -0.00839061,
+          -0.006437485
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Lenstown/Renderer-4028.asset",
+      "outputAssetGuid": "3ca95e461ebd69d3e4847d61518ffcdf",
+      "transformChain": [
+        {
+          "transformId": 2910,
+          "gameObjectId": 939,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2973,
+          "gameObjectId": 1002,
+          "gameObjectName": "Map - Brick_Block_White",
+          "localPosition": [
+            -34.5,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4029,
+      "gameObjectId": 1005,
+      "gameObjectName": "Map - Brick_Red",
+      "transformId": 2976,
+      "meshFilterId": 4096,
+      "meshColliderId": 4150,
+      "meshColliderMeshGuid": "96c1e6071f0d21549a458fd8fcd80142",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - Brick_Red",
+      "combinedMeshGuid": "66f71f0de13c98f4bb8716b9c7b0a40b",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_58.asset",
+      "firstSubMesh": 13,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        13,
+        14
+      ],
+      "materialGuids": [
+        "bb5e43ff814ff7043be182ec3995ab91",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.11888758,
+          0.11888758,
+          -0.0023777517,
+          0.7202785
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Lenstown/Renderer-4029.asset",
+      "outputAssetGuid": "08e6d53db744ea47426f25b509d5f054",
+      "transformChain": [
+        {
+          "transformId": 2910,
+          "gameObjectId": 939,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2976,
+          "gameObjectId": 1005,
+          "gameObjectName": "Map - Brick_Red",
+          "localPosition": [
+            -34.5,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}

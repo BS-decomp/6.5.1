@@ -1,0 +1,1626 @@
+{
+  "sceneName": "Jacuda",
+  "sceneSlug": "jacuda",
+  "scenePath": "Assets/Levels/Maps/DeathRun/Jacuda/Jacuda.unity",
+  "staticRendererCount": 16,
+  "referencedSubMeshCount": 22,
+  "lightmappedRendererCount": 13,
+  "renderers": [
+    {
+      "rendererId": 3848,
+      "gameObjectId": 25,
+      "gameObjectName": "Red Platform",
+      "transformId": 1936,
+      "meshFilterId": 3889,
+      "meshColliderId": 3937,
+      "meshColliderMeshGuid": "15f6a7c69d12e4d49882ce2359a2cb7f",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map/Red Platform",
+      "combinedMeshGuid": "aab39f3751c16c349bae697ed2610511",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_29.asset",
+      "firstSubMesh": 7,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        7,
+        8
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721",
+        "0fe22edb0550c3b41b66dc3015a5c81f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.26796794,
+          0.26796794,
+          0.54775625,
+          -0.0010718718
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Jacuda/Renderer-3848.asset",
+      "outputAssetGuid": "9b00d04af81c7121a7ff8bf54f861daf",
+      "transformChain": [
+        {
+          "transformId": 1982,
+          "gameObjectId": 71,
+          "gameObjectName": "Map",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1936,
+          "gameObjectId": 25,
+          "gameObjectName": "Red Platform",
+          "localPosition": [
+            15.0,
+            1.0,
+            3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3849,
+      "gameObjectId": 30,
+      "gameObjectName": "GrayBlock",
+      "transformId": 1941,
+      "meshFilterId": 3890,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map/Red Platform/Button/GrayBlock",
+      "combinedMeshGuid": "aab39f3751c16c349bae697ed2610511",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_29.asset",
+      "firstSubMesh": 21,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        21
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.014324357,
+          0.014324357,
+          0.9737106,
+          0.026444966
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Jacuda/Renderer-3849.asset",
+      "outputAssetGuid": "58cb9d862840b43c36df09d71f10ae28",
+      "transformChain": [
+        {
+          "transformId": 1982,
+          "gameObjectId": 71,
+          "gameObjectName": "Map",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1936,
+          "gameObjectId": 25,
+          "gameObjectName": "Red Platform",
+          "localPosition": [
+            15.0,
+            1.0,
+            3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1940,
+          "gameObjectId": 29,
+          "gameObjectName": "Button",
+          "localPosition": [
+            15.5,
+            1.5,
+            69.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1941,
+          "gameObjectId": 30,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3851,
+      "gameObjectId": 34,
+      "gameObjectName": "Static",
+      "transformId": 1945,
+      "meshFilterId": 3892,
+      "meshColliderId": 3938,
+      "meshColliderMeshGuid": "b40648eec961f7d48affc85b805cbd4f",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map/Statics/Static",
+      "combinedMeshGuid": "aab39f3751c16c349bae697ed2610511",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_29.asset",
+      "firstSubMesh": 6,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        6
+      ],
+      "materialGuids": [
+        "ea079644060718940ada4f4460e3e133"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.05116423,
+          0.05116423,
+          0.7761625,
+          0.3940485
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Jacuda/Renderer-3851.asset",
+      "outputAssetGuid": "e3c17f7943b3da5c56d2449727ed90e4",
+      "transformChain": [
+        {
+          "transformId": 1982,
+          "gameObjectId": 71,
+          "gameObjectName": "Map",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1983,
+          "gameObjectId": 72,
+          "gameObjectName": "Statics",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1945,
+          "gameObjectId": 34,
+          "gameObjectName": "Static",
+          "localPosition": [
+            13.0,
+            7.0,
+            65.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3853,
+      "gameObjectId": 41,
+      "gameObjectName": "Static",
+      "transformId": 1952,
+      "meshFilterId": 3894,
+      "meshColliderId": 3939,
+      "meshColliderMeshGuid": "3cdd496ae7cd19e4f9ad78aeff7f4a32",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map/Statics/Static",
+      "combinedMeshGuid": "aab39f3751c16c349bae697ed2610511",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_29.asset",
+      "firstSubMesh": 10,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        10,
+        11,
+        12
+      ],
+      "materialGuids": [
+        "1f29a64989172364b8c19c22540222c0",
+        "95ac4d400ff8653448eff7ca51663721",
+        "0fe22edb0550c3b41b66dc3015a5c81f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.22725962,
+          0.22725962,
+          0.5479191,
+          0.2625047
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Jacuda/Renderer-3853.asset",
+      "outputAssetGuid": "e7d3ee02f969bb138d66c8891097b0fa",
+      "transformChain": [
+        {
+          "transformId": 1982,
+          "gameObjectId": 71,
+          "gameObjectName": "Map",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1983,
+          "gameObjectId": 72,
+          "gameObjectName": "Statics",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1952,
+          "gameObjectId": 41,
+          "gameObjectName": "Static",
+          "localPosition": [
+            4.0,
+            -1.0,
+            47.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3855,
+      "gameObjectId": 45,
+      "gameObjectName": "GrayBlock",
+      "transformId": 1956,
+      "meshFilterId": 3896,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map/Red Platform/Button/GrayBlock",
+      "combinedMeshGuid": "aab39f3751c16c349bae697ed2610511",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_29.asset",
+      "firstSubMesh": 15,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        15
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.014324357,
+          0.014324357,
+          0.9737106,
+          0.07672497
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Jacuda/Renderer-3855.asset",
+      "outputAssetGuid": "53930135d6062b255c799df64acdbccd",
+      "transformChain": [
+        {
+          "transformId": 1982,
+          "gameObjectId": 71,
+          "gameObjectName": "Map",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1936,
+          "gameObjectId": 25,
+          "gameObjectName": "Red Platform",
+          "localPosition": [
+            15.0,
+            1.0,
+            3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1955,
+          "gameObjectId": 44,
+          "gameObjectName": "Button",
+          "localPosition": [
+            -2.5,
+            1.5,
+            30.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1956,
+          "gameObjectId": 45,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3857,
+      "gameObjectId": 48,
+      "gameObjectName": "Static",
+      "transformId": 1959,
+      "meshFilterId": 3898,
+      "meshColliderId": 3941,
+      "meshColliderMeshGuid": "78e88259a7622b046ab6bf1a71bc2935",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map/Statics/Static",
+      "combinedMeshGuid": "aab39f3751c16c349bae697ed2610511",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_29.asset",
+      "firstSubMesh": 0,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        0
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.55125004,
+          0.55125004,
+          -0.0022050003,
+          -0.0022050003
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Jacuda/Renderer-3857.asset",
+      "outputAssetGuid": "2222df5f836e766b7067a77ced94eb29",
+      "transformChain": [
+        {
+          "transformId": 1982,
+          "gameObjectId": 71,
+          "gameObjectName": "Map",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1983,
+          "gameObjectId": 72,
+          "gameObjectName": "Statics",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1959,
+          "gameObjectId": 48,
+          "gameObjectName": "Static",
+          "localPosition": [
+            -1.0,
+            -3.0,
+            -3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3859,
+      "gameObjectId": 52,
+      "gameObjectName": "Lava",
+      "transformId": 1963,
+      "meshFilterId": 3900,
+      "meshColliderId": 3942,
+      "meshColliderMeshGuid": "ba6eb8b85b613524ab3d16726fa7ef85",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map/Lava",
+      "combinedMeshGuid": "aab39f3751c16c349bae697ed2610511",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_29.asset",
+      "firstSubMesh": 5,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        5
+      ],
+      "materialGuids": [
+        "98d9e6dbacc1de145b97175f3ff14911"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Jacuda/Renderer-3859.asset",
+      "outputAssetGuid": "06b0cdd31ba42f913622cfe2711d1f57",
+      "transformChain": [
+        {
+          "transformId": 1982,
+          "gameObjectId": 71,
+          "gameObjectName": "Map",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1963,
+          "gameObjectId": 52,
+          "gameObjectName": "Lava",
+          "localPosition": [
+            -1.0,
+            -3.0,
+            -3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3860,
+      "gameObjectId": 56,
+      "gameObjectName": "GrayBlock",
+      "transformId": 1967,
+      "meshFilterId": 3901,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Button/GrayBlock",
+      "combinedMeshGuid": "aab39f3751c16c349bae697ed2610511",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_29.asset",
+      "firstSubMesh": 18,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        18
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.014324357,
+          0.014324357,
+          0.9737106,
+          0.10186497
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Jacuda/Renderer-3860.asset",
+      "outputAssetGuid": "e651cd516a17d25c3bded0cbc4b4fbe4",
+      "transformChain": [
+        {
+          "transformId": 1969,
+          "gameObjectId": 58,
+          "gameObjectName": "Button",
+          "localPosition": [
+            20.5,
+            0.5,
+            83.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1967,
+          "gameObjectId": 56,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3863,
+      "gameObjectId": 60,
+      "gameObjectName": "GrayBlock",
+      "transformId": 1971,
+      "meshFilterId": 3904,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map/Red Platform/Button/GrayBlock",
+      "combinedMeshGuid": "aab39f3751c16c349bae697ed2610511",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_29.asset",
+      "firstSubMesh": 20,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        20
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.014324357,
+          0.014324357,
+          0.9737106,
+          0.05158497
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Jacuda/Renderer-3863.asset",
+      "outputAssetGuid": "8385bccd8e3fcd27b0c9126f162bec27",
+      "transformChain": [
+        {
+          "transformId": 1982,
+          "gameObjectId": 71,
+          "gameObjectName": "Map",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1936,
+          "gameObjectId": 25,
+          "gameObjectName": "Red Platform",
+          "localPosition": [
+            15.0,
+            1.0,
+            3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1972,
+          "gameObjectId": 61,
+          "gameObjectName": "Button",
+          "localPosition": [
+            -1.5,
+            1.5,
+            55.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1971,
+          "gameObjectId": 60,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3866,
+      "gameObjectId": 69,
+      "gameObjectName": "GrayBlock",
+      "transformId": 1980,
+      "meshFilterId": 3907,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map/Red Platform/Button/GrayBlock",
+      "combinedMeshGuid": "aab39f3751c16c349bae697ed2610511",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_29.asset",
+      "firstSubMesh": 16,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        16
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.014324357,
+          0.014324357,
+          0.9737106,
+          0.03901497
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Jacuda/Renderer-3866.asset",
+      "outputAssetGuid": "79a1542690da03762d0f3526c7dd7fcd",
+      "transformChain": [
+        {
+          "transformId": 1982,
+          "gameObjectId": 71,
+          "gameObjectName": "Map",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1936,
+          "gameObjectId": 25,
+          "gameObjectName": "Red Platform",
+          "localPosition": [
+            15.0,
+            1.0,
+            3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1979,
+          "gameObjectId": 68,
+          "gameObjectName": "Button",
+          "localPosition": [
+            -2.5,
+            1.5,
+            13.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1980,
+          "gameObjectId": 69,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3869,
+      "gameObjectId": 75,
+      "gameObjectName": "GrayBlock",
+      "transformId": 1986,
+      "meshFilterId": 3910,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Button/GrayBlock",
+      "combinedMeshGuid": "aab39f3751c16c349bae697ed2610511",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_29.asset",
+      "firstSubMesh": 19,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        19
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.014324357,
+          0.014324357,
+          0.9737106,
+          0.06415497
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Jacuda/Renderer-3869.asset",
+      "outputAssetGuid": "42d2114bb2693aa7fb8fc9d38dd8a42f",
+      "transformChain": [
+        {
+          "transformId": 1984,
+          "gameObjectId": 73,
+          "gameObjectName": "Button",
+          "localPosition": [
+            22.5,
+            0.5,
+            83.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1986,
+          "gameObjectId": 75,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3873,
+      "gameObjectId": 901,
+      "gameObjectName": "Static",
+      "transformId": 2812,
+      "meshFilterId": 3914,
+      "meshColliderId": 3945,
+      "meshColliderMeshGuid": "2032d9eeb1d8cca44b6cecfd9d97ed94",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map/Statics/Static",
+      "combinedMeshGuid": "aab39f3751c16c349bae697ed2610511",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_29.asset",
+      "firstSubMesh": 9,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        9
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.07875,
+          0.07875,
+          0.7760522,
+          0.26309872
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Jacuda/Renderer-3873.asset",
+      "outputAssetGuid": "f93d20db40cea701c0a0f75b729c997d",
+      "transformChain": [
+        {
+          "transformId": 1982,
+          "gameObjectId": 71,
+          "gameObjectName": "Map",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1983,
+          "gameObjectId": 72,
+          "gameObjectName": "Statics",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2812,
+          "gameObjectId": 901,
+          "gameObjectName": "Static",
+          "localPosition": [
+            4.0,
+            -1.0,
+            23.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3875,
+      "gameObjectId": 910,
+      "gameObjectName": "Sun 1",
+      "transformId": 2847,
+      "meshFilterId": 3918,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome/Sun/Sun 1",
+      "combinedMeshGuid": "aab39f3751c16c349bae697ed2610511",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_29.asset",
+      "firstSubMesh": 13,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        13
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Jacuda/Renderer-3875.asset",
+      "outputAssetGuid": "ddcadcb003b065ef4f6cf5e06d5361ec",
+      "transformChain": [
+        {
+          "transformId": 2817,
+          "gameObjectId": 915,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2843,
+          "gameObjectId": 906,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2821,
+          "gameObjectId": 917,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2849,
+          "gameObjectId": 912,
+          "gameObjectName": "Sun",
+          "localPosition": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "localRotation": [
+            -0.20582907,
+            -0.7753525,
+            -0.31444415,
+            0.5075311
+          ],
+          "localScale": [
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "transformId": 2847,
+          "gameObjectId": 910,
+          "gameObjectName": "Sun 1",
+          "localPosition": [
+            -0.0,
+            0.0,
+            25.194338
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3878,
+      "gameObjectId": 917,
+      "gameObjectName": "SkyDome",
+      "transformId": 2821,
+      "meshFilterId": 3916,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome",
+      "combinedMeshGuid": "aab39f3751c16c349bae697ed2610511",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_29.asset",
+      "firstSubMesh": 14,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        14
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Jacuda/Renderer-3878.asset",
+      "outputAssetGuid": "4d245b57595d464c073a668cedb37565",
+      "transformChain": [
+        {
+          "transformId": 2817,
+          "gameObjectId": 915,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2843,
+          "gameObjectId": 906,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2821,
+          "gameObjectId": 917,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3880,
+      "gameObjectId": 940,
+      "gameObjectName": "Static",
+      "transformId": 2851,
+      "meshFilterId": 3921,
+      "meshColliderId": 3946,
+      "meshColliderMeshGuid": "0c1bbe9de135447488e8aab93ed2cb49",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map/Statics/Static",
+      "combinedMeshGuid": "aab39f3751c16c349bae697ed2610511",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_29.asset",
+      "firstSubMesh": 1,
+      "subMeshCount": 4,
+      "subMeshIndices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "fac4539e69175da4893406eaaf7356ad",
+        "95ac4d400ff8653448eff7ca51663721",
+        "613f763a77cadaf45bf0e7147f9adde2"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.1615854,
+          0.1615854,
+          0.81317455,
+          -0.0032317084
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Jacuda/Renderer-3880.asset",
+      "outputAssetGuid": "f06b4fed20c42ac1fb79e73bfb678995",
+      "transformChain": [
+        {
+          "transformId": 1982,
+          "gameObjectId": 71,
+          "gameObjectName": "Map",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1983,
+          "gameObjectId": 72,
+          "gameObjectName": "Statics",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2851,
+          "gameObjectId": 940,
+          "gameObjectName": "Static",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3886,
+      "gameObjectId": 951,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2862,
+      "meshFilterId": 3927,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map/Red Platform/Button/GrayBlock",
+      "combinedMeshGuid": "aab39f3751c16c349bae697ed2610511",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_29.asset",
+      "firstSubMesh": 17,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        17
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.014324357,
+          0.014324357,
+          0.9737106,
+          0.08929497
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Jacuda/Renderer-3886.asset",
+      "outputAssetGuid": "a96396948c84aca76d346bf80646f683",
+      "transformChain": [
+        {
+          "transformId": 1982,
+          "gameObjectId": 71,
+          "gameObjectName": "Map",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1936,
+          "gameObjectId": 25,
+          "gameObjectName": "Red Platform",
+          "localPosition": [
+            15.0,
+            1.0,
+            3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2860,
+          "gameObjectId": 949,
+          "gameObjectName": "Button",
+          "localPosition": [
+            -2.5,
+            1.5,
+            49.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2862,
+          "gameObjectId": 951,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}

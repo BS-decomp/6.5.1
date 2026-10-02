@@ -1,0 +1,503 @@
+using System;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using UnityEngine;
+
+[ExecuteInEditMode]
+public class NGUIFont : ScriptableObject, JJIJJJJJIIJIIIIJIIJJJIIIIIJIIIJIJIJIIJJJIJJJIJI
+{
+	[SerializeField]
+	[HideInInspector]
+	private Material mMat;
+
+	[HideInInspector]
+	[SerializeField]
+	private Rect mUVRect;
+
+	[HideInInspector]
+	[SerializeField]
+	private JJIIJIIIJJIIIJJJIJJIIJIJJIIJJJJJJJIJIIIIIIIJJJI mFont;
+
+	[SerializeField]
+	[HideInInspector]
+	private UnityEngine.Object mAtlas;
+
+	[HideInInspector]
+	[SerializeField]
+	private UnityEngine.Object mReplacement;
+
+	[HideInInspector]
+	[SerializeField]
+	private List<IJJIIIIJIJJJIJJJJIIIIJJJIJIJIIJJJIIIIIJJIJIJJII> mSymbols;
+
+	[HideInInspector]
+	[SerializeField]
+	private Font mDynamicFont;
+
+	[HideInInspector]
+	[SerializeField]
+	private int mDynamicFontSize;
+
+	[HideInInspector]
+	[SerializeField]
+	private FontStyle mDynamicFontStyle;
+
+	[NonSerialized]
+	private IJJJJJIIJIIIIJJIJJIJIJJJJJJJIJIJIJIIJIIJJIIIJJJ mSprite;
+
+	[NonSerialized]
+	private int mPMA;
+
+	[NonSerialized]
+	private int mPacked;
+
+	public JJIIJIIIJJIIIJJJIJJIIJIJJIIJJJJJJJIJIIIIIIIJJJI IJJIJJJIJJJIJJIIJJJJJJIJIIIIIIJJIJIJIIJJJJJJIIJ
+	{
+		get
+		{
+			return bmFont;
+		}
+		set
+		{
+			bmFont = value;
+		}
+	}
+
+	public int JIJIIIJJJJJIIJJJIIJIJJIIJIJJJIJJIJIIIIJIJIIIIII
+	{
+		get
+		{
+			return texWidth;
+		}
+		set
+		{
+			texWidth = value;
+		}
+	}
+
+	public int IIJIIJIJIIIJIJJIJJJJJJJIJJIIIJJIIIJJIIJJJJIJJJJ
+	{
+		get
+		{
+			return texHeight;
+		}
+		set
+		{
+			texHeight = value;
+		}
+	}
+
+	public bool IIIJJJIJJJJIIIIIJIJJIJJIJJIJIIIIIIIJIIJJIJIIJJJ => hasSymbols;
+
+	public List<IJJIIIIJIJJJIJJJJIIIIJJJIJIJIIJJJIIIIIJJIJIJJII> JIIJJJJIJJIJIJIJJJIJJJJIJJJJIJIIIIIJIIJJJIIIJJJ
+	{
+		get
+		{
+			return symbols;
+		}
+		set
+		{
+			symbols = value;
+		}
+	}
+
+	public IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII JJJIIIJJJIIIIIJIJIJJIIIJIIIIIIIJIIIJIIIIIIJJJJI
+	{
+		get
+		{
+			return atlas;
+		}
+		set
+		{
+			atlas = value;
+		}
+	}
+
+	public Material IJIIJJJJJIIIJJJJIIIJJJJJIJJIJIJJIIIJJIIJJIIIIII
+	{
+		get
+		{
+			return material;
+		}
+		set
+		{
+			material = value;
+		}
+	}
+
+	public bool JJIIIJJJJIIJJIJIJJIJIIIJIJJIIJJIIJJIIJIJJIIIIIJ => premultipliedAlphaShader;
+
+	public bool JJJIJJIIIJIIIIIJIJJJJJJIJJIJJIJIIIJIIIJJJIJJJIJ => packedFontShader;
+
+	public Texture2D IIJIJIIIJJJIIIJJIIJJIJIIIIIIJJJIIJIJIJJIIIJIIIJ => texture;
+
+	public Rect IIIIIIIIIJIIIJJJIIJJJJIIIJIIJIIIIJJJJIJIIJJIIJJ
+	{
+		get
+		{
+			return uvRect;
+		}
+		set
+		{
+			uvRect = value;
+		}
+	}
+
+	public string JIJJIIIIIIIJIIJIJJIJIJJIIJJIIIIIJIJJIJJJIIIJIJJ
+	{
+		get
+		{
+			return spriteName;
+		}
+		set
+		{
+			spriteName = value;
+		}
+	}
+
+	public bool IIIJIJJJIIJIJIJJJJJJJJJIJJIJIJIJIIIIIIJJJJJJIII => isValid;
+
+	public int JIJIIIJJJIJJIJJIIIJIIJIIJJJJJJIJIIJJJIJIJJIIJII
+	{
+		get
+		{
+			return defaultSize;
+		}
+		set
+		{
+			defaultSize = value;
+		}
+	}
+
+	public IJJJJJIIJIIIIJJIJJIJIJJJJJJJIJIJIJIIJIIJJIIIJJJ JIIIJIIJJIIIJIJJJJJIJIIJIJIJJIIJIJJJIIJJJJJJJIJ => sprite;
+
+	public JJIJJJJJIIJIIIIJIIJJJIIIIIJIIIJIJIJIIJJJIJJJIJI JJJJJJIJJIJJJIIJIIIIJIJJJJJJJIJIJIJIJJIJIIIJJII
+	{
+		get
+		{
+			return replacement;
+		}
+		set
+		{
+			replacement = value;
+		}
+	}
+
+	public bool IIJJJIIJJJJJIIJIJJJIIJIIIJJJIJJJJJIIJIJIJJIJIJI => isDynamic;
+
+	public Font JJJIJJJJJIJJJIIIJJJIIIIJIIIIIJIIJJIIJJJIIJIIJJI
+	{
+		get
+		{
+			return dynamicFont;
+		}
+		set
+		{
+			dynamicFont = value;
+		}
+	}
+
+	public FontStyle IIJJJJJJIIIIIIIIJJIJIJIJIJJIIJJJIIJJIJIJIJIJIII
+	{
+		get
+		{
+			return dynamicFontStyle;
+		}
+		set
+		{
+			dynamicFontStyle = value;
+		}
+	}
+
+	[Obsolete]
+	public bool JIJJJIIJIIIJIJIJIIJIIIIJJIJIJIJIJIJIJJIJJJJIIJI => premultipliedAlpha;
+
+	[Obsolete]
+	public int IJJJJJJIJIIIJJIIIJIJIJJIJIIIJJIJJJIIJJJJJIIJIII
+	{
+		get
+		{
+			return size;
+		}
+		set
+		{
+			size = value;
+		}
+	}
+
+	public JJIIJIIIJJIIIJJJIJJIIJIJJIIJJJJJJJIJIIIIIIIJJJI bmFont
+	{
+		get
+		{
+			return null;
+		}
+		set
+		{
+		}
+	}
+
+	public int texWidth
+	{
+		get
+		{
+			return 0;
+		}
+		set
+		{
+		}
+	}
+
+	public int texHeight
+	{
+		get
+		{
+			return 0;
+		}
+		set
+		{
+		}
+	}
+
+	public bool hasSymbols => false;
+
+	public List<IJJIIIIJIJJJIJJJJIIIIJJJIJIJIIJJJIIIIIJJIJIJJII> symbols
+	{
+		get
+		{
+			return null;
+		}
+		set
+		{
+		}
+	}
+
+	public IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII atlas
+	{
+		get
+		{
+			return null;
+		}
+		set
+		{
+		}
+	}
+
+	public Material material
+	{
+		get
+		{
+			return null;
+		}
+		set
+		{
+		}
+	}
+
+	[Obsolete]
+	public bool premultipliedAlpha => false;
+
+	public bool premultipliedAlphaShader => false;
+
+	public bool packedFontShader => false;
+
+	public Texture2D texture => null;
+
+	public Rect uvRect
+	{
+		get
+		{
+			return default;
+		}
+		set
+		{
+		}
+	}
+
+	public string spriteName
+	{
+		get
+		{
+			return null;
+		}
+		set
+		{
+		}
+	}
+
+	public bool isValid => false;
+
+	[Obsolete]
+	public int size
+	{
+		get
+		{
+			return 0;
+		}
+		set
+		{
+		}
+	}
+
+	public int defaultSize
+	{
+		get
+		{
+			return 0;
+		}
+		set
+		{
+		}
+	}
+
+	public IJJJJJIIJIIIIJJIJJIJIJJJJJJJIJIJIJIIJIIJJIIIJJJ sprite => null;
+
+	public JJIJJJJJIIJIIIIJIIJJJIIIIIJIIIJIJIJIIJJJIJJJIJI replacement
+	{
+		get
+		{
+			return null;
+		}
+		set
+		{
+		}
+	}
+
+	public bool isDynamic => false;
+
+	public Font dynamicFont
+	{
+		get
+		{
+			return null;
+		}
+		set
+		{
+		}
+	}
+
+	public FontStyle dynamicFontStyle
+	{
+		get
+		{
+			return FontStyle.Normal;
+		}
+		set
+		{
+		}
+	}
+	public IJJJJJIIJIIIIJJIJJIJIJJJJJJJIJIJIJIIJIIJJIIIJJJ JJIIJJJIJJIJJJIIIJJIIIIIJIJJJJJJJIJIJJIJJIIIIJI()
+	{
+		return null;
+	}
+	public FontStyle IJJJJIIIIJIIIJJJJJJJJJJJJIIJJJIJIJJIIJJIIIJJIJI()
+	{
+		return FontStyle.Normal;
+	}
+
+	private void IJJJIIJIJIJJIIIIJJIJJJJIIJJJIIJIIJJIJIIJIIIIIJJ()
+	{
+	}
+	public void JJJIIIIIJJIJIIJJJJIIJIIIJIIJJJIIJJJJIIIJJIJJJJJ(int JIIJJIIJIIJIJJJJIJIIIJIIIIJJJIIIIJIJIIJJIIJIIJI)
+	{
+	}
+	public Rect IJIIIJJJIIIJJJIIJJIJJJIIJIIIJIJJIIJJIJJIJJIIIJJ()
+	{
+		return default;
+	}
+
+	private IJJIIIIJIJJJIJJJJIIIIJJJIJIJIIJJJIIIIIJJIJIJJII JJJJJIJIIJIIIIJIJIJJIIJIJJIIIJIIIJJJJIIJIJIJJIJ(string JJIIJJJJJIIJIIIJJJIJJIJJJJJIJIJIJJJIIJJIIIIIIJI, bool IJIIIJIJIIJIJJIJIJJIIIIJJIJIJJIIIJJJJIIIIIJJJII)
+	{
+		return null;
+	}
+
+	public IJJIIIIJIJJJIJJJJIIIIJJJIJIJIIJJJIIIIIJJIJIJJII JIIIIJJJJIJIJJJJJJIJIJJIJJIIJJJIIIJJJJIIIIJIIII(string JIIJJJIJJIIJIJJJJJJJIIIIJIIIJJJJIIIJIIJJJIIIJJI, int IJJIJIIIIJIJIJJIIIIIIIJIIIJJIIIIJIJIJJIJIJIJIJJ, int JIIJIIIJJIJJIJJIIJIJJIIJIIIIJIIJIIIIIJIJJIJJIII)
+	{
+		return null;
+	}
+
+	public bool IIJIIJIIIJJJIIJJJJIJJIIIJJJIJJJIJIJJJIIIJJIJIJJ(JJIJJJJJIIJIIIIJIIJJJIIIIIJIIIJIJIJIIJJJIJJJIJI JJIJIJJJIIJJIJJIIJIIIIJIIJJIIJIIIJJIIJJJIJJIIJJ)
+	{
+		return false;
+	}
+
+	public void JJIIIIIIIJIJJJIIJIIJIJJIIJIJJJIJJJIIIIIIJJIJIJJ(string IJJIJIJJIJIIIJJIIIIJIJJJIJJIJJJJJIJIIIJJIJJJJJI, string JIJIJJIIIIIIIJJIJJIIIIJIJIIJIJIJJIIIJJJIJJJJIJJ)
+	{
+	}
+
+	public bool IIIJIJJIIJJIIIJIJIJJIIJJJIJJJIIIIIIJJIIIJJIJJJI(JJIJJJJJIIJIIIIJIIJJJIIIIIJIIIJIJIJIIJJJIJJJIJI JJIJIJJJIIJJIJJIIJIIIIJIIJJIIJIIIJJIIJJJIJJIIJJ)
+	{
+		return false;
+	}
+
+	public void JIJJJIIIJIJJJJIJJJIIIJJJJIJIJJIIIIIIIIJJIJJIJJI(string JJIIJJJJJIIJIIIJJJIJJIJJJJJIJIJIJJJIIJJIIIIIIJI, string JIJJIIIIIIIJIIJIJJIJIJJIIJJIIIIIJIJJIJJJIIIJIJJ)
+	{
+	}
+
+	public void JIJIJJIJJJJJJIJJJIIIJJIJJIIIIJIJJIIJJIIJJJJJIJJ(string JJIIJJJJJIIJIIIJJJIJJIJJJJJIJIJIJJJIIJJIIIIIIJI)
+	{
+	}
+
+	public bool IIJJIIIIIJJJIJJJJJIIJJIJIIJIJIIIJIJJJJJIJJJJIJJ(JJIJJJJJIIJIIIIJIIJJJIIIIIJIIIJIJIJIIJJJIJJJIJI JJIJIJJJIIJJIJJIIJIIIIJIIJJIIJIIIJJIIJJJIJJIIJJ)
+	{
+		return false;
+	}
+	public void JIIIIJJJJJIIJIJIJIJJJIIJJIJIIIJIIJIIJJIIJJJJJJJ(List<IJJIIIIJIJJJIJJJJIIIIJJJIJIJIIJJJIIIIIJJIJIJJII> JIIJJIIJIIJIJJJJIJIIIJIIIIJJJIIIIJIJIIJJIIJIIJI)
+	{
+	}
+
+	private void IIIJJJJJJIIIIJJIJJJJIIJIIIIIJIJIIJJJJIJJJJIJIII()
+	{
+	}
+
+	public void JIIIIJJIIIJIIIIJJJJIIIIJJIJJIJJIJJIIIJJJJJIIJJI()
+	{
+	}
+	public void IIJIJIJIJIJIIIIIIJJIJIIIIIJIIJIJJIIIIJIJIIJJJJJ(IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII JIIJJIIJIIJIJJJJIJIIIJIIIIJJJIIIIJIJIIJJIIJIIJI)
+	{
+	}
+	public void IIJIIJJIIIJIJIIIJJJJIJJJIIJJJJJIJJIJIJJJJJJJIJJ(int JIIJJIIJIIJIJJJJIJIIIJIIIIJJJIIIIJIJIIJJIIJIIJI)
+	{
+	}
+
+	public void IIJIIIJIJIJJJJIJJIIJIIJJIIJJJJJIIIIIIJIJIJIIIIJ()
+	{
+	}
+	public void IJJIJIJIIIIIIJJJIIJIIJJJIIIJJJJJIJIJIIIJJIJIJIJ(Font JIIJJIIJIIJIJJJJIJIIIJIIIIJJJIIIIJIJIIJJIIJIIJI)
+	{
+	}
+	public IJJJJJIIJIIIIJJIJJIJIJJJJJJJIJIJIJIIJIIJJIIIJJJ JJJIIJJJJJJJIIIIJJIJIJIJJIJJJIIIJJJJJJIJIJJJJJJ()
+	{
+		return null;
+	}
+
+	public IJJJJJIIJIIIIJJIJJIJIJJJJJJJIJIJIJIIJIIJJIIIJJJ JJJJIJJIIIIIJIJJIJJJJIJIIJJJJIJJIJIIIIJIJIJIIJJ(string JIJJIIIIIIIJIIJIJJIJIJJIIJJIIIIIJIJJIJJJIIIJIJJ)
+	{
+		return null;
+	}
+	public void IJIJJIJIIJJJIJJJIJIJIJJJJJJIIIJJJJIIJJIJIJIJIJJ(Font JIIJJIIJIIJIJJJJIJIIIJIIIIJJJIIIIJIJIIJJIIJIIJI)
+	{
+	}
+
+	public bool IIIJIJJJJJIIJJJIJIJJIIJIIJJIIJJIIIIJJIIJIJIIIJJ(string IJJJIJJJIJJIIJJIJIJJJIIIJIJJJJJJIIJIJIIIJIJIJJI)
+	{
+		return false;
+	}
+
+	public void JJJIIIJIJJJIIIJIJJIJJJIJIIJIJJIJJIIIIIJIIJJIJJJ()
+	{
+	}
+
+	private IJJIIIIJIJJJIJJJJIIIIJJJIJIJIIJJJIIIIIJJIJIJJII IJJJJJJIJIJJIIIIIIJJJIJIIIJJIJJIIIIIJJIIIIIIIJI(string JJIIJJJJJIIJIIIJJJIJJIJJJJJIJIJIJJJIIJJIIIIIIJI, bool IJIIIJIJIIJIJJIJIJJIIIIJJIJIJJIIIJJJJIIIIIJJJII)
+	{
+		return null;
+	}
+
+	public void IIJJJIJJJJJIIIJJIIIIIJIIJJIJJJIIIJJJJJJIJJJIIJJ(string IJJIJIJJIJIIIJJIIIIJIJJJIJJIJJJJJIJIIIJJIJJJJJI, string JIJIJJIIIIIIIJJIJJIIIIJIJIIJIJIJJIIIJJJIJJJJIJJ)
+	{
+	}
+
+	public bool JJJJIIJIJIIIIIJJIJJJIJIIIIJIIIIJJJIJIIJIJIJJIJI(string IJJJIJJJIJJIIJJIJIJJJIIIJIJJJJJJIIJIJIIIJIJIJJI)
+	{
+		return false;
+	}
+}

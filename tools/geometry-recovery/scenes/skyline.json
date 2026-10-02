@@ -1,0 +1,3386 @@
+{
+  "sceneName": "Skyline",
+  "sceneSlug": "skyline",
+  "scenePath": "Assets/Levels/Maps/Others/Skyline/Skyline.unity",
+  "staticRendererCount": 43,
+  "referencedSubMeshCount": 56,
+  "lightmappedRendererCount": 38,
+  "renderers": [
+    {
+      "rendererId": 5239,
+      "gameObjectId": 311,
+      "gameObjectName": "Door_Rolling_Black",
+      "transformId": 2774,
+      "meshFilterId": 5595,
+      "meshColliderId": 5952,
+      "meshColliderMeshGuid": "f4e7480db752bef44abff2ac87a8b221",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Door_Rolling_Black",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 19,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        19
+      ],
+      "materialGuids": [
+        "58739587b6d4dbf44a258ccf0724eaed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.082945295,
+          0.082945295,
+          0.41694033,
+          -0.001658906
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5239.asset",
+      "outputAssetGuid": "0aed39f173e136dbdd5d5d2db92ea896",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2774,
+          "gameObjectId": 311,
+          "gameObjectName": "Door_Rolling_Black",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5240,
+      "gameObjectId": 312,
+      "gameObjectName": "Palette",
+      "transformId": 2775,
+      "meshFilterId": 5596,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Palette",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 27,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        27
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.06141073,
+          0.06141073,
+          0.32850385,
+          0.021891505
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5240.asset",
+      "outputAssetGuid": "b5acd1fa337867f9e41742eddca4f0c4",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2775,
+          "gameObjectId": 312,
+          "gameObjectName": "Palette",
+          "localPosition": [
+            -31.938,
+            0.15,
+            -6.438
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5241,
+      "gameObjectId": 314,
+      "gameObjectName": "WhiteBlock",
+      "transformId": 2777,
+      "meshFilterId": 5597,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/WhiteBlock",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 37,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        37
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5241.asset",
+      "outputAssetGuid": "bdd7609ee0b2e3dcef94453b752f07b3",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2777,
+          "gameObjectId": 314,
+          "gameObjectName": "WhiteBlock",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5242,
+      "gameObjectId": 321,
+      "gameObjectName": "Block_Ceiling_Grey",
+      "transformId": 2784,
+      "meshFilterId": 5598,
+      "meshColliderId": 5953,
+      "meshColliderMeshGuid": "dea6f7d351698244dbfc053a0c20e01e",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Block_Ceiling_Grey",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 43,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        43
+      ],
+      "materialGuids": [
+        "8001366289ca51b439730a8b6a01209c"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.19590554,
+          0.19590554,
+          0.36769265,
+          0.6002582
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5242.asset",
+      "outputAssetGuid": "6908db5fe836e454ce23c478bb43911a",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2784,
+          "gameObjectId": 321,
+          "gameObjectName": "Block_Ceiling_Grey",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5247,
+      "gameObjectId": 339,
+      "gameObjectName": "Brick_Brown",
+      "transformId": 2802,
+      "meshFilterId": 5603,
+      "meshColliderId": 5956,
+      "meshColliderMeshGuid": "a5086c963d75f14468908e5617bb2581",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Brick_Brown",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 44,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        44
+      ],
+      "materialGuids": [
+        "5c592630896816b4cbb6a4443dcdb9a8"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.2141838,
+          0.2141838,
+          -0.0042836764,
+          0.71109104
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5247.asset",
+      "outputAssetGuid": "54abc5f856750d41e69c5c143882d87a",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2802,
+          "gameObjectId": 339,
+          "gameObjectName": "Brick_Brown",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5249,
+      "gameObjectId": 341,
+      "gameObjectName": "Door_Gray",
+      "transformId": 2804,
+      "meshFilterId": 5605,
+      "meshColliderId": 5958,
+      "meshColliderMeshGuid": "ac68deb9ea5fa874b80b1ce289c11740",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Door_Gray",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 55,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        55
+      ],
+      "materialGuids": [
+        "9633dd688a3475b499e71f4976ebd55e"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.01421875,
+          0.01421875,
+          0.15366644,
+          0.02998774
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5249.asset",
+      "outputAssetGuid": "50b6c6e7873651151041bef9003327cc",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2804,
+          "gameObjectId": 341,
+          "gameObjectName": "Door_Gray",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5250,
+      "gameObjectId": 373,
+      "gameObjectName": "Sun 1",
+      "transformId": 2819,
+      "meshFilterId": 5608,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome/Sun/Sun 1",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 47,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        47
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5250.asset",
+      "outputAssetGuid": "092820fb45efb3f91e737a9270bf54ef",
+      "transformChain": [
+        {
+          "transformId": 2811,
+          "gameObjectId": 366,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2815,
+          "gameObjectId": 369,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2814,
+          "gameObjectId": 367,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2817,
+          "gameObjectId": 371,
+          "gameObjectName": "Sun",
+          "localPosition": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "localRotation": [
+            -0.14057662,
+            -0.8594216,
+            -0.34853822,
+            0.34663224
+          ],
+          "localScale": [
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "transformId": 2819,
+          "gameObjectId": 373,
+          "gameObjectName": "Sun 1",
+          "localPosition": [
+            -0.0,
+            0.0,
+            25.194338
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5255,
+      "gameObjectId": 367,
+      "gameObjectName": "SkyDome",
+      "transformId": 2814,
+      "meshFilterId": 5607,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 46,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        46
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5255.asset",
+      "outputAssetGuid": "d48178a3b3d56fc24c6b3ee8411cf544",
+      "transformChain": [
+        {
+          "transformId": 2811,
+          "gameObjectId": 366,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2815,
+          "gameObjectId": 369,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2814,
+          "gameObjectId": 367,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5256,
+      "gameObjectId": 377,
+      "gameObjectName": "Present 2 (2)",
+      "transformId": 2840,
+      "meshFilterId": 5612,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Present 2 (2)",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 34,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        34
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.020806529,
+          0.020806529,
+          0.09879662,
+          0.057780996
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5256.asset",
+      "outputAssetGuid": "7ad2476efc0fbdfa1af7b09f89f2b983",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2840,
+          "gameObjectId": 377,
+          "gameObjectName": "Present 2 (2)",
+          "localPosition": [
+            -38.96804,
+            4.0,
+            50.470398
+          ],
+          "localRotation": [
+            -0.0,
+            -0.5699861,
+            -0.0,
+            0.82165444
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5257,
+      "gameObjectId": 384,
+      "gameObjectName": "Poster",
+      "transformId": 2847,
+      "meshFilterId": 5613,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Poster",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 51,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        51
+      ],
+      "materialGuids": [
+        "25c5b90993b85214cb594fcad959e649"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5257.asset",
+      "outputAssetGuid": "772420b70996a6fd30132f9d65d679ac",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2847,
+          "gameObjectId": 384,
+          "gameObjectName": "Poster",
+          "localPosition": [
+            0.0,
+            -10.999,
+            3.9859734
+          ],
+          "localRotation": [
+            -0.12668192,
+            -0.0,
+            -0.0,
+            0.99194336
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5259,
+      "gameObjectId": 1202,
+      "gameObjectName": "Brick_Grey",
+      "transformId": 3665,
+      "meshFilterId": 5615,
+      "meshColliderId": 5960,
+      "meshColliderMeshGuid": "7fe0a90e8b5d81d45a0af93d17068c5e",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Brick_Grey",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 2,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        2,
+        3
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "0f2e11ea837285b4ab704d6d3e2034b9"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.2962443,
+          0.2962443,
+          0.36568588,
+          0.07956701
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5259.asset",
+      "outputAssetGuid": "de19eb98877d6055066c7dba57c47aa5",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3665,
+          "gameObjectId": 1202,
+          "gameObjectName": "Brick_Grey",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5260,
+      "gameObjectId": 1203,
+      "gameObjectName": "Brick_Block",
+      "transformId": 3666,
+      "meshFilterId": 5616,
+      "meshColliderId": 5961,
+      "meshColliderMeshGuid": "72943df66cf4fdc4e9edc15ce2c3d907",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Brick_Block",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 11,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        11,
+        12
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.25889072,
+          0.25889072,
+          -0.0051778145,
+          0.4572672
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5260.asset",
+      "outputAssetGuid": "ed79da7e2896a947378726072851dedc",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3666,
+          "gameObjectId": 1203,
+          "gameObjectName": "Brick_Block",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5262,
+      "gameObjectId": 1205,
+      "gameObjectName": "Present 1 (1)",
+      "transformId": 3668,
+      "meshFilterId": 5618,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Present 1 (1)",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 25,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        25
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.020806529,
+          0.020806529,
+          0.120280996,
+          0.057780996
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5262.asset",
+      "outputAssetGuid": "648a70b9c4166a0308493ad3ff63d0db",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3668,
+          "gameObjectId": 1205,
+          "gameObjectName": "Present 1 (1)",
+          "localPosition": [
+            -34.57831,
+            0.0,
+            35.543007
+          ],
+          "localRotation": [
+            -0.0,
+            -0.4303545,
+            -0.0,
+            0.90266
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5263,
+      "gameObjectId": 1215,
+      "gameObjectName": "Present 1",
+      "transformId": 3678,
+      "meshFilterId": 5619,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Present 1",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 30,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        30
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.020806529,
+          0.020806529,
+          0.20489587,
+          0.040709935
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5263.asset",
+      "outputAssetGuid": "c7ec8ef48d8ea99f980f34e03ec83b5e",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3678,
+          "gameObjectId": 1215,
+          "gameObjectName": "Present 1",
+          "localPosition": [
+            -47.660347,
+            0.15,
+            -9.528739
+          ],
+          "localRotation": [
+            -0.0,
+            -0.3170068,
+            -0.0,
+            0.94842327
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5264,
+      "gameObjectId": 1219,
+      "gameObjectName": "Brick_Block_Black",
+      "transformId": 3682,
+      "meshFilterId": 5620,
+      "meshColliderId": 5962,
+      "meshColliderMeshGuid": "1b26479453dcba941928ccd5ba80bd7f",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Brick_Block_Black",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 50,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        50
+      ],
+      "materialGuids": [
+        "75debbc1a9543054bb10bca76440e0ba"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.100373335,
+          0.100373335,
+          0.643216,
+          -0.0020074667
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5264.asset",
+      "outputAssetGuid": "ee22fa95bf01fe04cffb26774d263d95",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3682,
+          "gameObjectId": 1219,
+          "gameObjectName": "Brick_Block_Black",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5266,
+      "gameObjectId": 1233,
+      "gameObjectName": "Brick_Slab_Grey",
+      "transformId": 3696,
+      "meshFilterId": 5622,
+      "meshColliderId": 5963,
+      "meshColliderMeshGuid": "674943229fb8aa543bd86e20097e172e",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Brick_Slab_Grey",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 38,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        38,
+        39
+      ],
+      "materialGuids": [
+        "1f29a64989172364b8c19c22540222c0",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.1991723,
+          0.1991723,
+          0.5980961,
+          0.3698978
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5266.asset",
+      "outputAssetGuid": "230adfd9a2a0f35e74dd8f29b873df9d",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3696,
+          "gameObjectId": 1233,
+          "gameObjectName": "Brick_Slab_Grey",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5267,
+      "gameObjectId": 1234,
+      "gameObjectName": "Wood",
+      "transformId": 3697,
+      "meshFilterId": 5623,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Wood",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 17,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        17,
+        18
+      ],
+      "materialGuids": [
+        "fac4539e69175da4893406eaaf7356ad",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.09039062,
+          0.09039062,
+          0.32792425,
+          -0.0018078126
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5267.asset",
+      "outputAssetGuid": "325aa65020d2f80e876c600f76ee554f",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3697,
+          "gameObjectId": 1234,
+          "gameObjectName": "Wood",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5268,
+      "gameObjectId": 1235,
+      "gameObjectName": "Box",
+      "transformId": 3698,
+      "meshFilterId": 5624,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Box",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 21,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        21,
+        22
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.06858507,
+          0.06858507,
+          0.4846721,
+          -0.0013717015
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5268.asset",
+      "outputAssetGuid": "2ccc1ed379207b2ed9b95efbf5e224fd",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3698,
+          "gameObjectId": 1235,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5269,
+      "gameObjectId": 1237,
+      "gameObjectName": "Block_Metal_Grey",
+      "transformId": 3700,
+      "meshFilterId": 5625,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Block_Metal_Grey",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 0,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        0,
+        1
+      ],
+      "materialGuids": [
+        "26c3574d9b9b9304c91204aa44d2876b",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.03810753,
+          0.03810753,
+          0.61028165,
+          -0.0007621506
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5269.asset",
+      "outputAssetGuid": "91498b51f739d1b7d42484bad55a89ee",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3700,
+          "gameObjectId": 1237,
+          "gameObjectName": "Block_Metal_Grey",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5273,
+      "gameObjectId": 1255,
+      "gameObjectName": "Block_Metal_Blue",
+      "transformId": 3718,
+      "meshFilterId": 5629,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Block_Metal_Blue",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 54,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        54
+      ],
+      "materialGuids": [
+        "d2b88e6484a8dff44b0632e54d9e368a"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.43613046,
+          0.43613046,
+          0.49518365,
+          -0.00872261
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5273.asset",
+      "outputAssetGuid": "196c03408215e6f85e89d6dabf8c3932",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3718,
+          "gameObjectId": 1255,
+          "gameObjectName": "Block_Metal_Blue",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5286,
+      "gameObjectId": 1304,
+      "gameObjectName": "Snowman (3)",
+      "transformId": 3768,
+      "meshFilterId": 5642,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Snowman (3)",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 31,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        31
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.030107323,
+          0.030107323,
+          0.26551637,
+          0.040346622
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5286.asset",
+      "outputAssetGuid": "933bd5650ba3fd7c044e10ebee42e4cc",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3768,
+          "gameObjectId": 1304,
+          "gameObjectName": "Snowman (3)",
+          "localPosition": [
+            5.325,
+            0.0,
+            24.722
+          ],
+          "localRotation": [
+            -0.0,
+            0.44176272,
+            -0.0,
+            -0.8971319
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5290,
+      "gameObjectId": 1319,
+      "gameObjectName": "Box_2",
+      "transformId": 3782,
+      "meshFilterId": 5646,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Box_2",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 15,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        15,
+        16
+      ],
+      "materialGuids": [
+        "03f05296a3731d540af757ba236d5b38",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.026919039,
+          0.026919039,
+          0.2964275,
+          0.04098431
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5290.asset",
+      "outputAssetGuid": "a33a5330cf701f79d0e1fd352459da80",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3782,
+          "gameObjectId": 1319,
+          "gameObjectName": "Box_2",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5294,
+      "gameObjectId": 1333,
+      "gameObjectName": "Present",
+      "transformId": 3796,
+      "meshFilterId": 5650,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Present",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 29,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        29
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.020806529,
+          0.020806529,
+          0.3903525,
+          0.022306964
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5294.asset",
+      "outputAssetGuid": "44c9b9aeaadeace500a02f4d525ee1a9",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3796,
+          "gameObjectId": 1333,
+          "gameObjectName": "Present",
+          "localPosition": [
+            -9.500695,
+            0.0,
+            30.441538
+          ],
+          "localRotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5295,
+      "gameObjectId": 1337,
+      "gameObjectName": "Snowman (1)",
+      "transformId": 3800,
+      "meshFilterId": 5651,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Snowman (1)",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 28,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        28
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.030107323,
+          0.030107323,
+          0.15277474,
+          0.0392523
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5295.asset",
+      "outputAssetGuid": "77c0d7ac591475a37ca8e3682ebb80ba",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3800,
+          "gameObjectId": 1337,
+          "gameObjectName": "Snowman (1)",
+          "localPosition": [
+            -44.513065,
+            0.14999998,
+            -8.478
+          ],
+          "localRotation": [
+            -0.0,
+            0.30227366,
+            -0.0,
+            0.9532212
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5296,
+      "gameObjectId": 1350,
+      "gameObjectName": "Snowman",
+      "transformId": 3813,
+      "meshFilterId": 5652,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Snowman",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 24,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        24
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.030107323,
+          0.030107323,
+          0.55225056,
+          0.053970456
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5296.asset",
+      "outputAssetGuid": "7ae41db88ab92a1aea41df7c527f0d5e",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3813,
+          "gameObjectId": 1350,
+          "gameObjectName": "Snowman",
+          "localPosition": [
+            -24.81456,
+            0.0,
+            30.230852
+          ],
+          "localRotation": [
+            -0.0,
+            0.9884488,
+            -0.0,
+            0.15155502
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5297,
+      "gameObjectId": 1353,
+      "gameObjectName": "Snowman (2)",
+      "transformId": 3816,
+      "meshFilterId": 5653,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Snowman (2)",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 32,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        32
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.030107323,
+          0.030107323,
+          0.15277474,
+          -0.0011760673
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5297.asset",
+      "outputAssetGuid": "b58ffa0d70da4c107fa64a587d8666a0",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3816,
+          "gameObjectId": 1353,
+          "gameObjectName": "Snowman (2)",
+          "localPosition": [
+            -53.549675,
+            0.0,
+            40.584614
+          ],
+          "localRotation": [
+            -0.0,
+            0.2735653,
+            -0.0,
+            0.96185344
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5298,
+      "gameObjectId": 1352,
+      "gameObjectName": "Present (1)",
+      "transformId": 3815,
+      "meshFilterId": 5654,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Present (1)",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 26,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        26
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.020806529,
+          0.020806529,
+          0.1834115,
+          0.040709935
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5298.asset",
+      "outputAssetGuid": "a64f5ac880b2a3280434d86690bd2da5",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3815,
+          "gameObjectId": 1352,
+          "gameObjectName": "Present (1)",
+          "localPosition": [
+            -44.550106,
+            6.0,
+            20.506004
+          ],
+          "localRotation": [
+            -0.0,
+            -0.5702016,
+            -0.0,
+            0.82150483
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5301,
+      "gameObjectId": 1361,
+      "gameObjectName": "Present 2 (1)",
+      "transformId": 3824,
+      "meshFilterId": 5657,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Present 2 (1)",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 36,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        36
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.020806529,
+          0.020806529,
+          0.20489587,
+          0.0621942
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5301.asset",
+      "outputAssetGuid": "d9e742056c00466adb7e878b39f76d3b",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3824,
+          "gameObjectId": 1361,
+          "gameObjectName": "Present 2 (1)",
+          "localPosition": [
+            -6.4848747,
+            0.15,
+            -8.514296
+          ],
+          "localRotation": [
+            -0.0,
+            0.38571894,
+            -0.0,
+            0.92261636
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5302,
+      "gameObjectId": 1379,
+      "gameObjectName": "Block_Concrete_DarkGrey",
+      "transformId": 3842,
+      "meshFilterId": 5658,
+      "meshColliderId": 5969,
+      "meshColliderMeshGuid": "27c857d55efae1f4683d2d77d79909cd",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Block_Concrete_DarkGrey",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 10,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        10
+      ],
+      "materialGuids": [
+        "7471395cbad85b84aa8ef0911a2738c0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.05934248,
+          0.05934248,
+          0.5510529,
+          -0.0023736993
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5302.asset",
+      "outputAssetGuid": "37266405a6748e32173e445eec195cf7",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3842,
+          "gameObjectId": 1379,
+          "gameObjectName": "Block_Concrete_DarkGrey",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5304,
+      "gameObjectId": 1391,
+      "gameObjectName": "Door_Rolling_Black",
+      "transformId": 3854,
+      "meshFilterId": 5660,
+      "meshColliderId": 5971,
+      "meshColliderMeshGuid": "1ab9c4da571ffcf47b9e12fb65507f51",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Door_Rolling_Black",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 20,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        20
+      ],
+      "materialGuids": [
+        "58739587b6d4dbf44a258ccf0724eaed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.06650688,
+          0.06650688,
+          0.09827924,
+          -0.0013301376
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5304.asset",
+      "outputAssetGuid": "12b88bf08d00b5bca8da4267a3fae76f",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3854,
+          "gameObjectId": 1391,
+          "gameObjectName": "Door_Rolling_Black",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5305,
+      "gameObjectId": 1400,
+      "gameObjectName": "Brick_Red",
+      "transformId": 3863,
+      "meshFilterId": 5661,
+      "meshColliderId": 5972,
+      "meshColliderMeshGuid": "0e827a0d1cbe3c945b9cb1063f9abb4c",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Brick_Red",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 41,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        41
+      ],
+      "materialGuids": [
+        "bb5e43ff814ff7043be182ec3995ab91"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.20062602,
+          0.20062602,
+          0.65666074,
+          0.17091325
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5305.asset",
+      "outputAssetGuid": "a1fc9d025005f9fe214beaa87d1c0629",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3863,
+          "gameObjectId": 1400,
+          "gameObjectName": "Brick_Red",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5307,
+      "gameObjectId": 1412,
+      "gameObjectName": "Window",
+      "transformId": 3875,
+      "meshFilterId": 5663,
+      "meshColliderId": 5974,
+      "meshColliderMeshGuid": "b1652be2295883a49934e97cfaaafbe4",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Window",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 45,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        45
+      ],
+      "materialGuids": [
+        "fe086bab79d3216409e8e3e8f22a789d"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.040261388,
+          0.040261388,
+          0.22638777,
+          0.04071746
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5307.asset",
+      "outputAssetGuid": "73e19fb7af7fdf582ba034303f2b5d5a",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3875,
+          "gameObjectId": 1412,
+          "gameObjectName": "Window",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5311,
+      "gameObjectId": 1436,
+      "gameObjectName": "Brick_Block_Red",
+      "transformId": 3899,
+      "meshFilterId": 5667,
+      "meshColliderId": 5975,
+      "meshColliderMeshGuid": "16721e31edfd7654d8f7bc67c971b0cf",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Brick_Block_Red",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 52,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        52,
+        53
+      ],
+      "materialGuids": [
+        "38781fd3518c1a648b51a175dc94d5d6",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.18890524,
+          0.18890524,
+          0.65689516,
+          0.08171379
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5311.asset",
+      "outputAssetGuid": "ecc928f08da69ce5637d844f98e88cbd",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3899,
+          "gameObjectId": 1436,
+          "gameObjectName": "Brick_Block_Red",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5312,
+      "gameObjectId": 1438,
+      "gameObjectName": "Brick_Black",
+      "transformId": 3901,
+      "meshFilterId": 5668,
+      "meshColliderId": 5976,
+      "meshColliderMeshGuid": "0d88124de559e6e41ace715c418231b9",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Brick_Black",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 23,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        23
+      ],
+      "materialGuids": [
+        "b49e8df51d8811844bb3bfcf5f6b0f94"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.20570554,
+          0.20570554,
+          0.36749664,
+          0.78853875
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5312.asset",
+      "outputAssetGuid": "a2cb9b27ec22d1ace341f5dedb803587",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3901,
+          "gameObjectId": 1438,
+          "gameObjectName": "Brick_Black",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5313,
+      "gameObjectId": 1446,
+      "gameObjectName": "Ladder",
+      "transformId": 3909,
+      "meshFilterId": 5669,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Ladder",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 40,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        40
+      ],
+      "materialGuids": [
+        "d6e3b37ff6ea9084684d360a576375dc"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5313.asset",
+      "outputAssetGuid": "086053c83fa50bf8a68fdbbfeaf07908",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3909,
+          "gameObjectId": 1446,
+          "gameObjectName": "Ladder",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5315,
+      "gameObjectId": 1456,
+      "gameObjectName": "Block_Metal_Red",
+      "transformId": 3919,
+      "meshFilterId": 5671,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Block_Metal_Red",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 6,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        6,
+        7
+      ],
+      "materialGuids": [
+        "c6df2cd8a20c65d44b511ab78a42f2e9",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.5204946,
+          0.5204946,
+          -0.010409893,
+          -0.010409893
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5315.asset",
+      "outputAssetGuid": "59bab119aa3ebc31d95286670f854397",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3919,
+          "gameObjectId": 1456,
+          "gameObjectName": "Block_Metal_Red",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5326,
+      "gameObjectId": 1495,
+      "gameObjectName": "Block_Concrete_DarkGrey",
+      "transformId": 3958,
+      "meshFilterId": 5682,
+      "meshColliderId": 5984,
+      "meshColliderMeshGuid": "e2fbeed6206421b44bdec88c4439538b",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Block_Concrete_DarkGrey",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 4,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        4,
+        5
+      ],
+      "materialGuids": [
+        "0f2e11ea837285b4ab704d6d3e2034b9",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.3803419,
+          0.3803419,
+          -0.0015213676,
+          0.08397053
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5326.asset",
+      "outputAssetGuid": "c4b0e6cea8bdb67b3a3edd0ea6b6f376",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3958,
+          "gameObjectId": 1495,
+          "gameObjectName": "Block_Concrete_DarkGrey",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5329,
+      "gameObjectId": 1505,
+      "gameObjectName": "Brick_Block_White",
+      "transformId": 3968,
+      "meshFilterId": 5685,
+      "meshColliderId": 5985,
+      "meshColliderMeshGuid": "caa0e78e3e351e24896878d35b85490b",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Brick_Block_White",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 8,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        8,
+        9
+      ],
+      "materialGuids": [
+        "bedccc55cd7b23141951b8ab82acc3d4",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.1024653,
+          0.1024653,
+          -0.0020493062,
+          -0.0020493062
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5329.asset",
+      "outputAssetGuid": "4501b9b2426c938d54cba234b4c105a8",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3968,
+          "gameObjectId": 1505,
+          "gameObjectName": "Brick_Block_White",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5330,
+      "gameObjectId": 1513,
+      "gameObjectName": "Brick_Block_Grey",
+      "transformId": 3976,
+      "meshFilterId": 5686,
+      "meshColliderId": 5986,
+      "meshColliderMeshGuid": "2f2ec9b0a0126124480dab283c698948",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Brick_Block_Grey",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 13,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        13,
+        14
+      ],
+      "materialGuids": [
+        "91544e2d08ae8d340aa6a410527c36e5",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.15813036,
+          0.15813036,
+          0.20558639,
+          0.7122121
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5330.asset",
+      "outputAssetGuid": "a06883ca18050208d9cdbdf10f74de01",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3976,
+          "gameObjectId": 1513,
+          "gameObjectName": "Brick_Block_Grey",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5331,
+      "gameObjectId": 1518,
+      "gameObjectName": "Block_Grass_Green",
+      "transformId": 3981,
+      "meshFilterId": 5687,
+      "meshColliderId": 5987,
+      "meshColliderMeshGuid": "9ca2962ae12bc284dbfbe40259736f61",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Block_Grass_Green",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 42,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        42
+      ],
+      "materialGuids": [
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.14929688,
+          0.14929688,
+          0.18123831,
+          -0.0029859378
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5331.asset",
+      "outputAssetGuid": "538959b8db6eedcc6749d6e176ee77e1",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3981,
+          "gameObjectId": 1518,
+          "gameObjectName": "Block_Grass_Green",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5333,
+      "gameObjectId": 1526,
+      "gameObjectName": "Brick_Block_Brown",
+      "transformId": 3989,
+      "meshFilterId": 5689,
+      "meshColliderId": 5988,
+      "meshColliderMeshGuid": "18167cc46e022a54cb73ac525fa74788",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Brick_Block_Brown",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 48,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        48,
+        49
+      ],
+      "materialGuids": [
+        "7459b0c6a52b1de44bbc7891acd4f173",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.24135312,
+          0.24135312,
+          0.3667837,
+          0.3690542
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5333.asset",
+      "outputAssetGuid": "c8dbc7d33ace4f73641340696716f0d5",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3989,
+          "gameObjectId": 1526,
+          "gameObjectName": "Brick_Block_Brown",
+          "localPosition": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5335,
+      "gameObjectId": 1531,
+      "gameObjectName": "Present 2",
+      "transformId": 3994,
+      "meshFilterId": 5691,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Present 2",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 33,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        33
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.020806529,
+          0.020806529,
+          0.1834115,
+          0.0621942
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5335.asset",
+      "outputAssetGuid": "1849b0a935dcd4e336993314807696d4",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3994,
+          "gameObjectId": 1531,
+          "gameObjectName": "Present 2",
+          "localPosition": [
+            -35.415955,
+            2.0,
+            16.573997
+          ],
+          "localRotation": [
+            -0.0,
+            -0.63315547,
+            -0.0,
+            0.7740247
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5593,
+      "gameObjectId": 2765,
+      "gameObjectName": "Wreath",
+      "transformId": 4961,
+      "meshFilterId": 5698,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Wreath",
+      "combinedMeshGuid": "10d2847278fab844a907e041557502e9",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_50.asset",
+      "firstSubMesh": 35,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        35
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 1,
+        "lightmapST": [
+          0.011436231,
+          0.011436231,
+          0.15349336,
+          0.07024303
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Skyline/Renderer-5593.asset",
+      "outputAssetGuid": "ea926fa8604250e35fb7b5b18e4280bd",
+      "transformChain": [
+        {
+          "transformId": 3778,
+          "gameObjectId": 1315,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 4961,
+          "gameObjectId": 2765,
+          "gameObjectName": "Wreath",
+          "localPosition": [
+            2.003,
+            2.1351025,
+            47.032
+          ],
+          "localRotation": [
+            -0.0,
+            0.70710576,
+            -0.0,
+            0.7071078
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}

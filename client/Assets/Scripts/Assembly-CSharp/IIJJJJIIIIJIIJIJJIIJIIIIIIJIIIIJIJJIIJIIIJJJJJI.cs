@@ -1,0 +1,6 @@
+public enum IIJJJJIIIIJIIJIJJIIJIIIIIIJIIIIJIJJIIJIIIJJJJJI
+{
+	Auth = 0,
+	AuthOnce = 1,
+	AuthOnceWss = 2
+}
