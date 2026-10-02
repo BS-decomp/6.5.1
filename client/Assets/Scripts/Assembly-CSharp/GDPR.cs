@@ -1,3 +1,4 @@
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 [IIIJJIJIIIIJIJJJJIJIIIJIIJJIJJJIIIJJJIIIJJJJJJI]
@@ -25,6 +26,17 @@ public class GDPR : MonoBehaviour
 
 	public void OnAccept()
 	{
+	        if (JJIJIIJJIJJIIIJJJIIJIJJIIIJIJIJIIIJIJJIJJIJIIIJ != null)
+	        {
+	            JJIJIIJJIJJIIIJJJIIJIJJIIIJIJIJIIIJIJJIJJIJIIIJ.SetActive(false);
+	        }
+	        if (JJIIIJIJJIJJJIJJJJJJIIJIIJIJJJIJIJJJJIJIJIIIIIJ != null)
+	        {
+	            JJIIIJIJJIJJJIJJJJJJIIJIIJIJJJIJIJJJJIJIJIIIIIJ.SetActive(true);
+	        }
+	        PlayerPrefs.SetInt("GDPR", 1);
+	        PlayerPrefs.Save();
+
 	}
 
 	private void JIJIJJIJJJIJJJIJJIJIIIJJJJJIJIJIJJIIJIJIJJIIJJJ()
@@ -61,6 +73,12 @@ public class GDPR : MonoBehaviour
 
 	public void OnClickTraining(bool isTraining)
 	{
+	        if (JJIIIJIJJIJJJIJJJJJJIIJIIJIJJJIJIJJJJIJIJIIIIIJ != null)
+	        {
+	            JJIIIJIJJIJJJIJJJJJJIIJIIJIJJJIJIJJJJIJIJIIIIIJ.SetActive(false);
+	        }
+	        SceneManager.LoadScene(isTraining ? "MainTutorial" : "Menu");
+
 	}
 
 	public void OnPrivacyPolicy()
@@ -81,6 +99,16 @@ public class GDPR : MonoBehaviour
 
 	private void Start()
 	{
+	        if (PlayerPrefs.GetInt("GDPR", 0) != 0)
+	        {
+	            SceneManager.LoadScene("Menu");
+	            return;
+	        }
+	        if (JJIJIIJJIJJIIIJJJIIJIJJIIIJIJIJIIIJIJJIJJIJIIIJ != null)
+	        {
+	            JJIJIIJJIJJIIIJJJIIJIJJIIIJIJIJIIIJIJJIJJIJIIIJ.SetActive(true);
+	        }
+
 	}
 
 	public void JIIIJIJJJJJIJIJJIIJIIJJJIJJIIJJJJJIIIIIJJJJIJJI()
