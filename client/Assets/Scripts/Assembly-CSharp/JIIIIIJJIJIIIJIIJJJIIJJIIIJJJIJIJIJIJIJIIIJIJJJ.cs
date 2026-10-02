@@ -1,0 +1,6 @@
+public enum JIIIIIJJIJIIIJIIJJJIIJJIIIJJJIJIJIJIJIJIIIJIJJJ
+{
+	None = 0,
+	Blue = 1,
+	Red = 2
+}

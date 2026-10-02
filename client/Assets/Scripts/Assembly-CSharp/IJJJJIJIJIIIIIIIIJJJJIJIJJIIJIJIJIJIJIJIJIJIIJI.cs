@@ -1,0 +1,128 @@
+[IIIJJIJIIIIJIJJJJIJIIIJIIJJIJJJIIIJJJIIIJJJJJJI]
+public class IJJJJIJIJIIIIIIIIJJJJIJIJJIIJIJIJIJIJIJIJIJIIJI
+{
+	private static bool IIJJIIIJJIJJIJJJJJJIJJJIIIIJJJJIIJIJJIIJIIIJIIJ()
+	{
+		return false;
+	}
+
+	private static bool IJIJJIJIIJIJIJIIJIJIIIIIJJJIJIIJJJJJIJIJIJIIIJJ()
+	{
+		return false;
+	}
+
+	private static bool IJJIIJJIJIIJJIIJIIJJJIJJIIJIIJIJJIIIIIIJIIIIJJI()
+	{
+		return false;
+	}
+
+	private static bool JJJJJIIIIIJIIJJJIJJJIIIIIIJIJIIIJJJJIIIJIJIJJJJ()
+	{
+		return false;
+	}
+
+	private static bool JIIIIJJIIJIJIJIJJJIJJIIIIIIIJJJIIIIIJJIJIIJIJJJ()
+	{
+		return false;
+	}
+
+	private static bool IJIJIIIIJIIJJJIIJJJIIJJJJJJJIIJIIJJJIJJIIJJJJII()
+	{
+		return false;
+	}
+
+	private static bool JIJJJIIIJJIJIJJIJIIIIJJJIIIIIJIIJJJIJIIIJJIIJIJ()
+	{
+		return false;
+	}
+
+	public static bool IIJJJJJIJIIIJIIIIIIJJJIJIIIJIJIJJIJIJJJJJJJJIIJ()
+	{
+		return false;
+	}
+
+	private static bool JIIJJJIJIJJIIIIJIIIJIIJJIIIJIIJJIJIJJIIJIJJIIJJ()
+	{
+		return false;
+	}
+
+	private static bool JJJJIJJIJIJJJIJJIJJJJJIIIIJJIJIIIJIIIIJIIIIIIII()
+	{
+		return false;
+	}
+
+	private static bool JIIIIJIJIIIJJJIJIJIIIJIJIJIIJIJJJIIJIIIIJJJIJIJ()
+	{
+		return false;
+	}
+
+	private static bool JJJJIIJJJIJJJJJJJIIJJIJJIJIJIJIJJJIJIJJIIIIJJII()
+	{
+		return false;
+	}
+
+	private static bool JIIJIIIJJJIJIJIJIIIIIIJIJIIJJJJIIJIJIIIIIIIIIJI()
+	{
+		return false;
+	}
+
+	private static bool JIIJJJIJIJIIJJIJJIJJJJJJJIIIIIJJJIJIIIJIIJIIIJJ()
+	{
+		return false;
+	}
+
+	private static bool IIIIIIJJIIJJIJJIJJIJIIJJJJJIIIIJIIJIJJJIJIJJIIJ()
+	{
+		return false;
+	}
+
+	private static bool JJIJIJIIIIIIIIIJJIIJIJJJIIIIJJIJIJJIJJIJJJIIJIJ()
+	{
+		return false;
+	}
+
+	private static bool JJJJIJIIJIJJJIIIJIJJJJJJJIIIJIJIJJIIJJIJIJIJIIJ()
+	{
+		return false;
+	}
+
+	private static bool JJIJIIIJIJJIJIJJIIIIJJIIIJJJJIIIJJJJJJIIJJJIIJJ()
+	{
+		return false;
+	}
+
+	private static bool IJJJIIJIIJJJJIJIJJIIIJIIJIJJIJIIIJJIIIJIIIIIJJI()
+	{
+		return false;
+	}
+
+	private static bool JJIIIIJJIIIJJJIIJJIJIIIIIIJJIJIIIJIJJJIIIJIJIJI()
+	{
+		return false;
+	}
+
+	private static bool IJIJJIIIIJJIJJIIIIIIIIJIJIJIIIIIJIJIJIJIJIIJIIJ()
+	{
+		return false;
+	}
+
+	public static bool JJIJJIJJIJJJIJIJJIJIJIJJJIJIJIJIIIJJIJIJJIIJJIJ()
+	{
+		return false;
+	}
+
+	private static bool JIJJIJJIIJJJIIIIIIJIIJIIJJJIJJJIJIJJJIJJIIJIJJI()
+	{
+		return false;
+	}
+
+	private static bool JJIJIIIIJIIJIIIJJJIJJIJIJJIIIJIJIJIIIIJJIIJIJIJ()
+	{
+		return false;
+	}
+
+	private static bool JIIJJIJJIJIJJIIJJIIJIJIIJJIIIIJJJIJIIJJIIJIIJII()
+	{
+		return false;
+	}
+}
