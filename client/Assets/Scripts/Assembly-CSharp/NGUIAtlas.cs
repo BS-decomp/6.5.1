@@ -85,13 +85,13 @@ public class NGUIAtlas : ScriptableObject, IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJ
 		}
 	}
 
-		public Material spriteMaterial
+			public Material spriteMaterial
 	{
 		get { return (mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII) != null ? (mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII).spriteMaterial : material; }
 		set { if ((mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII) != null) (mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII).spriteMaterial = value; else material = value; }
 	}
 
-		public bool premultipliedAlpha
+			public bool premultipliedAlpha
 	{
 		get
 		{
@@ -100,21 +100,21 @@ public class NGUIAtlas : ScriptableObject, IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJ
 		}
 	}
 
-		public List<IJJJJJIIJIIIIJJIJJIJIJJJJJJJIJIJIJIIJIIJJIIIJJJ> spriteList
+			public List<IJJJJJIIJIIIIJJIJJIJIJJJJJJJIJIJIJIIJIIJJIIIJJJ> spriteList
 	{
 		get { return (mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII) != null ? (mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII).spriteList : (mSprites ?? (mSprites = new List<IJJJJJIIJIIIIJJIJJIJIJJJJJJJIJIJIJIIJIIJJIIIJJJ>())); }
 		set { if ((mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII) != null) (mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII).spriteList = value; else mSprites = value; }
 	}
 
-		public Texture texture => (mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII) != null ? (mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII).texture : (material != null ? material.mainTexture : null);
+			public Texture texture => (mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII) != null ? (mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII).texture : (material != null ? material.mainTexture : null);
 
-		public float pixelSize
+			public float pixelSize
 	{
 		get { return (mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII) != null ? (mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII).pixelSize : mPixelSize; }
 		set { if ((mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII) != null) (mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII).pixelSize = value; else mPixelSize = Mathf.Clamp(value, 0.25f, 4f); }
 	}
 
-		public IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII replacement
+			public IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII replacement
 	{
 		get { return mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII; }
 		set { mReplacement = value as UnityEngine.Object; }

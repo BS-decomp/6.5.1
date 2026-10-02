@@ -216,7 +216,7 @@ public class UITexture : UIBasicSprite
 
 	public override Material IJJIIIIJIIIJIIJIJIIJJIIJJJIJJJJIJJJJIIJJIJJIIII()
 	{
-	return mMat;
+	return mShader != null ? new Material(mShader) : null;
 	}
 
 	public override void IIIIIIJJJIIIJJJIIJJJJJJIIIIIJIJJJJIJJIIJIJIIIJI(Texture JIIJJIIJIIJIJJJJIJIIIJIIIIJJJIIIIJIJIIJJIIJIIJI)

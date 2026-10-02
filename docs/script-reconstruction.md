@@ -22,6 +22,10 @@ unresolved methods visible rather than inventing behavior.
 - `UIEventClick` subscribes/unsubscribes to the ground-truth `UICamera` click
   delegate and invokes its serialized `UnityEvent` only for its own GameObject.
 
+- `mPhotonSettings.CreateServerOffline(string)` (`0x0059df28`) follows the verified
+offline launch branch: disconnect an existing Photon connection, enable Photon
+offline mode, and create the room from the supplied map string.
+
 The atlas, sprite, texture, label, and localization changes restore serialized NGUI
 state access (material, texture, atlas, sprite name, text, and CSV localization).
 They are not a claim that every NGUI rendering or input method has already been

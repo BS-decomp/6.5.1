@@ -1240,7 +1240,7 @@ public class UILabel : UIWidget
 
 	public override Material IJJIIIIJIIIJIIJIJIIJJIIJJJIJJJJIJJJJIIJJIJJIIII()
 	{
-		return mMat;
+	return mMat;
 	}
 
 	private bool IIJIJIIIJJIJJJIIIIIJIJJIJJIJIJIJJIIJIJIIJJIJIJI()
