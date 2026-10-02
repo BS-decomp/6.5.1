@@ -1,0 +1,335 @@
+{
+  "sceneName": "BlockParty",
+  "sceneSlug": "blockparty",
+  "scenePath": "Assets/Levels/Maps/MiniGames/BlockParty/BlockParty.unity",
+  "staticRendererCount": 4,
+  "referencedSubMeshCount": 5,
+  "lightmappedRendererCount": 1,
+  "renderers": [
+    {
+      "rendererId": 4302,
+      "gameObjectId": 946,
+      "gameObjectName": "Lava",
+      "transformId": 3037,
+      "meshFilterId": 4537,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Lava",
+      "combinedMeshGuid": "3edcc00a1cb96f549b6f421e2a1c69e0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_14.asset",
+      "firstSubMesh": 0,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        0
+      ],
+      "materialGuids": [
+        "98d9e6dbacc1de145b97175f3ff14911"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/BlockParty/Renderer-4302.asset",
+      "outputAssetGuid": "dbc81de6744b6a38ec501938aa989d3f",
+      "transformChain": [
+        {
+          "transformId": 3037,
+          "gameObjectId": 946,
+          "gameObjectName": "Lava",
+          "localPosition": [
+            -0.5,
+            -0.5,
+            -1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4350,
+      "gameObjectId": 1026,
+      "gameObjectName": "Sun 1",
+      "transformId": 3118,
+      "meshFilterId": 4587,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome/Sun/Sun 1",
+      "combinedMeshGuid": "3edcc00a1cb96f549b6f421e2a1c69e0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_14.asset",
+      "firstSubMesh": 3,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        3
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/BlockParty/Renderer-4350.asset",
+      "outputAssetGuid": "76167f8551657ecee322f15371560273",
+      "transformChain": [
+        {
+          "transformId": 3090,
+          "gameObjectId": 1003,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3115,
+          "gameObjectId": 1030,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3088,
+          "gameObjectId": 1001,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3116,
+          "gameObjectId": 1024,
+          "gameObjectName": "Sun",
+          "localPosition": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "localRotation": [
+            -0.20582907,
+            -0.7753525,
+            -0.31444415,
+            0.5075311
+          ],
+          "localScale": [
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "transformId": 3118,
+          "gameObjectId": 1026,
+          "gameObjectName": "Sun 1",
+          "localPosition": [
+            -0.0,
+            0.0,
+            25.194338
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4352,
+      "gameObjectId": 1001,
+      "gameObjectName": "SkyDome",
+      "transformId": 3088,
+      "meshFilterId": 4583,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome",
+      "combinedMeshGuid": "3edcc00a1cb96f549b6f421e2a1c69e0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_14.asset",
+      "firstSubMesh": 4,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        4
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/BlockParty/Renderer-4352.asset",
+      "outputAssetGuid": "5d64b202394c6df23cd74c7f7b2ddc05",
+      "transformChain": [
+        {
+          "transformId": 3090,
+          "gameObjectId": 1003,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3115,
+          "gameObjectId": 1030,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3088,
+          "gameObjectId": 1001,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4357,
+      "gameObjectId": 1038,
+      "gameObjectName": "Wall",
+      "transformId": 3129,
+      "meshFilterId": 4592,
+      "meshColliderId": 4660,
+      "meshColliderMeshGuid": "88136457510acfb46be9b9293baab770",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall",
+      "combinedMeshGuid": "3edcc00a1cb96f549b6f421e2a1c69e0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_14.asset",
+      "firstSubMesh": 1,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        1,
+        2
+      ],
+      "materialGuids": [
+        "91544e2d08ae8d340aa6a410527c36e5",
+        "0fe22edb0550c3b41b66dc3015a5c81f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.83457196,
+          0.83457196,
+          -0.003338288,
+          -0.003338288
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/BlockParty/Renderer-4357.asset",
+      "outputAssetGuid": "0125e38d809123775aa4002fd85ed8d6",
+      "transformChain": [
+        {
+          "transformId": 3129,
+          "gameObjectId": 1038,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            58.0,
+            0.0,
+            56.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1391 @@
+{
+  "sceneName": "Pool",
+  "sceneSlug": "pool",
+  "scenePath": "Assets/Levels/Maps/Others/Pool/Pool.unity",
+  "staticRendererCount": 17,
+  "referencedSubMeshCount": 20,
+  "lightmappedRendererCount": 15,
+  "renderers": [
+    {
+      "rendererId": 4279,
+      "gameObjectId": 112,
+      "gameObjectName": "Map - Tile_Blue",
+      "transformId": 2199,
+      "meshFilterId": 4412,
+      "meshColliderId": 4545,
+      "meshColliderMeshGuid": "e90545ee902b9e64c8c52b629d082cdc",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - Tile_Blue",
+      "combinedMeshGuid": "f8feb34ec07109d4db7e173bc9a57ba0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_54.asset",
+      "firstSubMesh": 19,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        19
+      ],
+      "materialGuids": [
+        "33545ce3369eea741a3eb3735e0a081d"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.26767033,
+          0.26767033,
+          -0.0010706814,
+          0.47504598
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Pool/Renderer-4279.asset",
+      "outputAssetGuid": "cc19443761cba828f0f7e2805e87eb81",
+      "transformChain": [
+        {
+          "transformId": 2273,
+          "gameObjectId": 186,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2199,
+          "gameObjectId": 112,
+          "gameObjectName": "Map - Tile_Blue",
+          "localPosition": [
+            23.25,
+            4.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4283,
+      "gameObjectId": 142,
+      "gameObjectName": "Map - Tile_Cyan-Merged",
+      "transformId": 2229,
+      "meshFilterId": 4416,
+      "meshColliderId": 4547,
+      "meshColliderMeshGuid": "f7a2fac38154c8f4786cf5939c878cb3",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - Tile_Cyan-Merged",
+      "combinedMeshGuid": "f8feb34ec07109d4db7e173bc9a57ba0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_54.asset",
+      "firstSubMesh": 13,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        13,
+        14,
+        15
+      ],
+      "materialGuids": [
+        "880af8e535d5d864597d0c091b9dfbed",
+        "fb4d7dc8d55381d488fd2dfbf62184c4",
+        "c73375025fdbda94f9d6843fa0eebf5c"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.33571002,
+          0.33571002,
+          0.3087155,
+          0.16602416
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Pool/Renderer-4283.asset",
+      "outputAssetGuid": "9fc82e95011bd6795eb67204b24e2000",
+      "transformChain": [
+        {
+          "transformId": 2273,
+          "gameObjectId": 186,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2229,
+          "gameObjectId": 142,
+          "gameObjectName": "Map - Tile_Cyan-Merged",
+          "localPosition": [
+            23.25,
+            4.0,
+            0.0
+          ],
+          "localRotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4286,
+      "gameObjectId": 146,
+      "gameObjectName": "Present 1",
+      "transformId": 2233,
+      "meshFilterId": 4419,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Present 1",
+      "combinedMeshGuid": "f8feb34ec07109d4db7e173bc9a57ba0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_54.asset",
+      "firstSubMesh": 8,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        8
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0353711,
+          0.0353711,
+          0.17439957,
+          0.068930425
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Pool/Renderer-4286.asset",
+      "outputAssetGuid": "4dbdea869327a82858bb205672fcddc9",
+      "transformChain": [
+        {
+          "transformId": 2273,
+          "gameObjectId": 186,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2233,
+          "gameObjectId": 146,
+          "gameObjectName": "Present 1",
+          "localPosition": [
+            19.355177,
+            0.0,
+            1.0485504
+          ],
+          "localRotation": [
+            -0.0,
+            -0.15528578,
+            -0.0,
+            0.9878696
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4287,
+      "gameObjectId": 148,
+      "gameObjectName": "Map - Wardrobe",
+      "transformId": 2235,
+      "meshFilterId": 4420,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - Wardrobe",
+      "combinedMeshGuid": "f8feb34ec07109d4db7e173bc9a57ba0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_54.asset",
+      "firstSubMesh": 1,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        1,
+        2
+      ],
+      "materialGuids": [
+        "8bcd8de6b532bbc47b131e96aa185194",
+        "880af8e535d5d864597d0c091b9dfbed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.1481854,
+          0.1481854,
+          0.65718734,
+          -0.0029637082
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Pool/Renderer-4287.asset",
+      "outputAssetGuid": "c28990edd1a166e4c05692ad4f4a9bb0",
+      "transformChain": [
+        {
+          "transformId": 2273,
+          "gameObjectId": 186,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2235,
+          "gameObjectId": 148,
+          "gameObjectName": "Map - Wardrobe",
+          "localPosition": [
+            33.25,
+            0.0,
+            13.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4291,
+      "gameObjectId": 157,
+      "gameObjectName": "Map - WhiteBlock",
+      "transformId": 2244,
+      "meshFilterId": 4424,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - WhiteBlock",
+      "combinedMeshGuid": "f8feb34ec07109d4db7e173bc9a57ba0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_54.asset",
+      "firstSubMesh": 10,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        10
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.017955292,
+          0.017955292,
+          0.17570943,
+          0.10539633
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Pool/Renderer-4291.asset",
+      "outputAssetGuid": "4b04aba2bbb59f995cf263e9954b3d7f",
+      "transformChain": [
+        {
+          "transformId": 2273,
+          "gameObjectId": 186,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2244,
+          "gameObjectId": 157,
+          "gameObjectName": "Map - WhiteBlock",
+          "localPosition": [
+            38.25,
+            4.0,
+            4.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4292,
+      "gameObjectId": 158,
+      "gameObjectName": "Map - Plaster_White",
+      "transformId": 2245,
+      "meshFilterId": 4425,
+      "meshColliderId": 4549,
+      "meshColliderMeshGuid": "4d05fbe48a4beb04caf454da122c9693",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - Plaster_White",
+      "combinedMeshGuid": "f8feb34ec07109d4db7e173bc9a57ba0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_54.asset",
+      "firstSubMesh": 3,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        3
+      ],
+      "materialGuids": [
+        "050b3e294f0f1724f9db491921e70c12"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.175808,
+          0.175808,
+          -0.000703232,
+          -0.000703232
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Pool/Renderer-4292.asset",
+      "outputAssetGuid": "5e7032c30600623658771dc5b55023db",
+      "transformChain": [
+        {
+          "transformId": 2273,
+          "gameObjectId": 186,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2245,
+          "gameObjectId": 158,
+          "gameObjectName": "Map - Plaster_White",
+          "localPosition": [
+            23.25,
+            4.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4302,
+      "gameObjectId": 196,
+      "gameObjectName": "Present 2",
+      "transformId": 2283,
+      "meshFilterId": 4435,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Present 2",
+      "combinedMeshGuid": "f8feb34ec07109d4db7e173bc9a57ba0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_54.asset",
+      "firstSubMesh": 7,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        7
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0353711,
+          0.0353711,
+          0.17439957,
+          -0.0013816835
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Pool/Renderer-4302.asset",
+      "outputAssetGuid": "14c666ecba59ce1e634db2479201ff04",
+      "transformChain": [
+        {
+          "transformId": 2273,
+          "gameObjectId": 186,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2283,
+          "gameObjectId": 196,
+          "gameObjectName": "Present 2",
+          "localPosition": [
+            22.652689,
+            2.0,
+            26.5593
+          ],
+          "localRotation": [
+            -0.0,
+            -0.37667271,
+            -0.0,
+            0.9263464
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4304,
+      "gameObjectId": 199,
+      "gameObjectName": "Water",
+      "transformId": 2286,
+      "meshFilterId": 4437,
+      "meshColliderId": 4551,
+      "meshColliderMeshGuid": "dea6592b800afde4aa6f1ec786c36a3d",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Water",
+      "combinedMeshGuid": "f8feb34ec07109d4db7e173bc9a57ba0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_54.asset",
+      "firstSubMesh": 11,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        11
+      ],
+      "materialGuids": [
+        "e9b28fa6f8ffae54cb2eaa872755ea60"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.19569823,
+          0.19569823,
+          -0.000782793,
+          0.742912
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Pool/Renderer-4304.asset",
+      "outputAssetGuid": "f64a4a4e8044bfb6623da2d14018e8e5",
+      "transformChain": [
+        {
+          "transformId": 2273,
+          "gameObjectId": 186,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2286,
+          "gameObjectId": 199,
+          "gameObjectName": "Water",
+          "localPosition": [
+            26.75,
+            -1.0,
+            22.0
+          ],
+          "localRotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4307,
+      "gameObjectId": 207,
+      "gameObjectName": "Map - Palette",
+      "transformId": 2294,
+      "meshFilterId": 4440,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - Palette",
+      "combinedMeshGuid": "f8feb34ec07109d4db7e173bc9a57ba0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_54.asset",
+      "firstSubMesh": 9,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        9
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.1322321,
+          0.1322321,
+          0.40625,
+          0.0
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Pool/Renderer-4307.asset",
+      "outputAssetGuid": "d6052c350d6c1b16d3474220d988b2c8",
+      "transformChain": [
+        {
+          "transformId": 2273,
+          "gameObjectId": 186,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2294,
+          "gameObjectId": 207,
+          "gameObjectName": "Map - Palette",
+          "localPosition": [
+            38.25,
+            4.0,
+            4.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4310,
+      "gameObjectId": 220,
+      "gameObjectName": "Map - Brick_Red",
+      "transformId": 2307,
+      "meshFilterId": 4443,
+      "meshColliderId": 4553,
+      "meshColliderMeshGuid": "8c14479c35e09d94e8a6396251d07ddb",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - Brick_Red",
+      "combinedMeshGuid": "f8feb34ec07109d4db7e173bc9a57ba0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_54.asset",
+      "firstSubMesh": 12,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        12
+      ],
+      "materialGuids": [
+        "bb5e43ff814ff7043be182ec3995ab91"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.12011884,
+          0.12011884,
+          0.53857684,
+          -0.0004804754
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Pool/Renderer-4310.asset",
+      "outputAssetGuid": "c456d0c9be57dd76affa07cc0d26176b",
+      "transformChain": [
+        {
+          "transformId": 2273,
+          "gameObjectId": 186,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2307,
+          "gameObjectId": 220,
+          "gameObjectName": "Map - Brick_Red",
+          "localPosition": [
+            23.25,
+            4.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4311,
+      "gameObjectId": 222,
+      "gameObjectName": "Map - Block_Ceiling_Grey",
+      "transformId": 2309,
+      "meshFilterId": 4444,
+      "meshColliderId": 4554,
+      "meshColliderMeshGuid": "f3fb60a84fd76f4498fe4e5235c612d0",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - Block_Ceiling_Grey",
+      "combinedMeshGuid": "f8feb34ec07109d4db7e173bc9a57ba0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_54.asset",
+      "firstSubMesh": 16,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        16
+      ],
+      "materialGuids": [
+        "8001366289ca51b439730a8b6a01209c"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.3159844,
+          0.3159844,
+          -0.0012639377,
+          0.17147443
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Pool/Renderer-4311.asset",
+      "outputAssetGuid": "c7ea801b5a2a0ab1495b4a56137e4e19",
+      "transformChain": [
+        {
+          "transformId": 2273,
+          "gameObjectId": 186,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2309,
+          "gameObjectId": 222,
+          "gameObjectName": "Map - Block_Ceiling_Grey",
+          "localPosition": [
+            23.25,
+            4.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4315,
+      "gameObjectId": 231,
+      "gameObjectName": "Map - Brick_Blue",
+      "transformId": 2318,
+      "meshFilterId": 4448,
+      "meshColliderId": 4556,
+      "meshColliderMeshGuid": "f10acc29fac6eb34ebdbc60946a9877c",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - Brick_Blue",
+      "combinedMeshGuid": "f8feb34ec07109d4db7e173bc9a57ba0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_54.asset",
+      "firstSubMesh": 0,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        0
+      ],
+      "materialGuids": [
+        "613f763a77cadaf45bf0e7147f9adde2"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.1447281,
+          0.1447281,
+          0.26016328,
+          -0.0005789124
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Pool/Renderer-4315.asset",
+      "outputAssetGuid": "f71074a105f36bba4a0db96e5bf8dfd8",
+      "transformChain": [
+        {
+          "transformId": 2273,
+          "gameObjectId": 186,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2318,
+          "gameObjectId": 231,
+          "gameObjectName": "Map - Brick_Blue",
+          "localPosition": [
+            23.25,
+            4.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4316,
+      "gameObjectId": 233,
+      "gameObjectName": "Map - Tile_Red",
+      "transformId": 2320,
+      "meshFilterId": 4449,
+      "meshColliderId": 4557,
+      "meshColliderMeshGuid": "213cf5ea32418f94da246f261c8866c1",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Map - Tile_Red",
+      "combinedMeshGuid": "f8feb34ec07109d4db7e173bc9a57ba0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_54.asset",
+      "firstSubMesh": 4,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        4
+      ],
+      "materialGuids": [
+        "b30b804d467bcff4f8981e29f04b466e"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.265071,
+          0.265071,
+          0.64054126,
+          0.17167808
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Pool/Renderer-4316.asset",
+      "outputAssetGuid": "9cf42c8aa60e801a8f8d56d0ea76c130",
+      "transformChain": [
+        {
+          "transformId": 2273,
+          "gameObjectId": 186,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2320,
+          "gameObjectId": 233,
+          "gameObjectName": "Map - Tile_Red",
+          "localPosition": [
+            23.25,
+            4.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4319,
+      "gameObjectId": 1093,
+      "gameObjectName": "Sun 1",
+      "transformId": 3151,
+      "meshFilterId": 4452,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome/Sun/Sun 1",
+      "combinedMeshGuid": "f8feb34ec07109d4db7e173bc9a57ba0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_54.asset",
+      "firstSubMesh": 17,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        17
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Pool/Renderer-4319.asset",
+      "outputAssetGuid": "15440cd75d3009cd1d673e401c2afb82",
+      "transformChain": [
+        {
+          "transformId": 3181,
+          "gameObjectId": 1080,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3155,
+          "gameObjectId": 1090,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3178,
+          "gameObjectId": 1083,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3153,
+          "gameObjectId": 1095,
+          "gameObjectName": "Sun",
+          "localPosition": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "localRotation": [
+            -0.20582907,
+            -0.7753525,
+            -0.31444415,
+            0.5075311
+          ],
+          "localScale": [
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "transformId": 3151,
+          "gameObjectId": 1093,
+          "gameObjectName": "Sun 1",
+          "localPosition": [
+            -0.0,
+            0.0,
+            25.194338
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4324,
+      "gameObjectId": 1083,
+      "gameObjectName": "SkyDome",
+      "transformId": 3178,
+      "meshFilterId": 4457,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome",
+      "combinedMeshGuid": "f8feb34ec07109d4db7e173bc9a57ba0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_54.asset",
+      "firstSubMesh": 18,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        18
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Pool/Renderer-4324.asset",
+      "outputAssetGuid": "d151f55cf9beec52bcb0bf29e683cbdb",
+      "transformChain": [
+        {
+          "transformId": 3181,
+          "gameObjectId": 1080,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3155,
+          "gameObjectId": 1090,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3178,
+          "gameObjectId": 1083,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4328,
+      "gameObjectId": 1119,
+      "gameObjectName": "Snowman",
+      "transformId": 3206,
+      "meshFilterId": 4461,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Snowman",
+      "combinedMeshGuid": "f8feb34ec07109d4db7e173bc9a57ba0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_54.asset",
+      "firstSubMesh": 6,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        6
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.050870992,
+          0.050870992,
+          0.20895036,
+          -0.001987148
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Pool/Renderer-4328.asset",
+      "outputAssetGuid": "a31d58e55f78716b95d4aab230085b95",
+      "transformChain": [
+        {
+          "transformId": 2273,
+          "gameObjectId": 186,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3206,
+          "gameObjectId": 1119,
+          "gameObjectName": "Snowman",
+          "localPosition": [
+            19.375,
+            0.0,
+            15.0
+          ],
+          "localRotation": [
+            -0.0,
+            0.5935264,
+            -0.0,
+            0.8048145
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4331,
+      "gameObjectId": 1127,
+      "gameObjectName": "Present",
+      "transformId": 3214,
+      "meshFilterId": 4464,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map (1)/Present",
+      "combinedMeshGuid": "f8feb34ec07109d4db7e173bc9a57ba0",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_54.asset",
+      "firstSubMesh": 5,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        5
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0353711,
+          0.0353711,
+          0.17439957,
+          0.03377437
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Pool/Renderer-4331.asset",
+      "outputAssetGuid": "45c152c44a14d45f8e52d99f4f72e25f",
+      "transformChain": [
+        {
+          "transformId": 2273,
+          "gameObjectId": 186,
+          "gameObjectName": "Map (1)",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3214,
+          "gameObjectId": 1127,
+          "gameObjectName": "Present",
+          "localPosition": [
+            34.189407,
+            0.0,
+            21.043879
+          ],
+          "localRotation": [
+            -0.0,
+            0.29908532,
+            -0.0,
+            0.9542264
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}

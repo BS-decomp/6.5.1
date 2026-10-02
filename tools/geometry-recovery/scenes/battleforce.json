@@ -1,0 +1,5301 @@
+{
+  "sceneName": "Battleforce",
+  "sceneSlug": "battleforce",
+  "scenePath": "Assets/Levels/Maps/Zombie/Battleforce/Battleforce.unity",
+  "staticRendererCount": 65,
+  "referencedSubMeshCount": 91,
+  "lightmappedRendererCount": 35,
+  "renderers": [
+    {
+      "rendererId": 3995,
+      "gameObjectId": 26,
+      "gameObjectName": "Block",
+      "transformId": 2009,
+      "meshFilterId": 4084,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 16,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        16
+      ],
+      "materialGuids": [
+        "fac4539e69175da4893406eaaf7356ad"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.013950609,
+          0.013950609,
+          0.047225732,
+          0.29283398
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-3995.asset",
+      "outputAssetGuid": "1d4ae3c1864a9dc427882b351733bedb",
+      "transformChain": [
+        {
+          "transformId": 2027,
+          "gameObjectId": 44,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            13.389143,
+            -1.5114,
+            1.0571492
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2009,
+          "gameObjectId": 26,
+          "gameObjectName": "Block",
+          "localPosition": [
+            -13.389143,
+            7.5114326,
+            18.94285
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3997,
+      "gameObjectId": 29,
+      "gameObjectName": "Building",
+      "transformId": 2012,
+      "meshFilterId": 4086,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Building",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 79,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        79,
+        80
+      ],
+      "materialGuids": [
+        "5c592630896816b4cbb6a4443dcdb9a8",
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.013103781,
+          0.013103781,
+          0.052278552,
+          0.2248824
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-3997.asset",
+      "outputAssetGuid": "1419b4627818fb6d2f4d8674480b49b5",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2012,
+          "gameObjectId": 29,
+          "gameObjectName": "Building",
+          "localPosition": [
+            -51.0,
+            5.0,
+            24.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3998,
+      "gameObjectId": 31,
+      "gameObjectName": "Light",
+      "transformId": 2014,
+      "meshFilterId": 4087,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 27,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        27
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-3998.asset",
+      "outputAssetGuid": "ed0268e75c2f3218d483dfad43a73be8",
+      "transformChain": [
+        {
+          "transformId": 2021,
+          "gameObjectId": 38,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2014,
+          "gameObjectId": 31,
+          "gameObjectName": "Light",
+          "localPosition": [
+            -54.5,
+            1.0,
+            7.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4000,
+      "gameObjectId": 37,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2020,
+      "meshFilterId": 4089,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button Wall/Center/GrayBlock",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 39,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        39
+      ],
+      "materialGuids": [
+        "104b514cae0166540a12084ee2c4227a"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4000.asset",
+      "outputAssetGuid": "d72e489edccecb812fe9cd313bc02015",
+      "transformChain": [
+        {
+          "transformId": 2093,
+          "gameObjectId": 110,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2018,
+          "gameObjectId": 35,
+          "gameObjectName": "Button Wall",
+          "localPosition": [
+            -44.5,
+            6.5,
+            4.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2017,
+          "gameObjectId": 34,
+          "gameObjectName": "Center",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2020,
+          "gameObjectId": 37,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.1,
+            0.2,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4001,
+      "gameObjectId": 39,
+      "gameObjectName": "Ladder",
+      "transformId": 2022,
+      "meshFilterId": 4090,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Ladder",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 49,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        49
+      ],
+      "materialGuids": [
+        "d6e3b37ff6ea9084684d360a576375dc"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4001.asset",
+      "outputAssetGuid": "ebbf27ae982fc37733588c654b24a235",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2022,
+          "gameObjectId": 39,
+          "gameObjectName": "Ladder",
+          "localPosition": [
+            -9.0,
+            6.5,
+            -18.45
+          ],
+          "localRotation": [
+            0.0,
+            -0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4002,
+      "gameObjectId": 45,
+      "gameObjectName": "Ladder",
+      "transformId": 2028,
+      "meshFilterId": 4091,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Ladder",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 46,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        46
+      ],
+      "materialGuids": [
+        "d6e3b37ff6ea9084684d360a576375dc"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4002.asset",
+      "outputAssetGuid": "05c6babff9d4856ac54eaf2961945387",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2028,
+          "gameObjectId": 45,
+          "gameObjectName": "Ladder",
+          "localPosition": [
+            -55.5,
+            -3.0,
+            5.55
+          ],
+          "localRotation": [
+            0.0,
+            -0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4003,
+      "gameObjectId": 46,
+      "gameObjectName": "Building",
+      "transformId": 2029,
+      "meshFilterId": 4092,
+      "meshColliderId": 4174,
+      "meshColliderMeshGuid": "190824ecc9e264743b6fa679fd65897b",
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Building",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 0,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        0,
+        1
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "1f29a64989172364b8c19c22540222c0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.09107346,
+          0.09107346,
+          0.26087385,
+          0.0001316556
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4003.asset",
+      "outputAssetGuid": "709bf380b8097743f2d2f7c61d43e221",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2029,
+          "gameObjectId": 46,
+          "gameObjectName": "Building",
+          "localPosition": [
+            -13.0,
+            1.0,
+            20.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4004,
+      "gameObjectId": 47,
+      "gameObjectName": "Ladder",
+      "transformId": 2030,
+      "meshFilterId": 4093,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Ladder",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 50,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        50
+      ],
+      "materialGuids": [
+        "d6e3b37ff6ea9084684d360a576375dc"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4004.asset",
+      "outputAssetGuid": "74e6b144908273e0930d9d3e0a6f02d9",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2030,
+          "gameObjectId": 47,
+          "gameObjectName": "Ladder",
+          "localPosition": [
+            -52.0,
+            2.0,
+            5.0099998
+          ],
+          "localRotation": [
+            0.0,
+            -0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4005,
+      "gameObjectId": 50,
+      "gameObjectName": "Light",
+      "transformId": 2033,
+      "meshFilterId": 4094,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 29,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        29
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4005.asset",
+      "outputAssetGuid": "8d94681c05291b533497c5605cbdb657",
+      "transformChain": [
+        {
+          "transformId": 2021,
+          "gameObjectId": 38,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2033,
+          "gameObjectId": 50,
+          "gameObjectName": "Light",
+          "localPosition": [
+            -11.5,
+            3.0,
+            6.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4006,
+      "gameObjectId": 55,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2038,
+      "meshFilterId": 4095,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button Wall/Center/GrayBlock",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 38,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        38
+      ],
+      "materialGuids": [
+        "104b514cae0166540a12084ee2c4227a"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4006.asset",
+      "outputAssetGuid": "c506a9c95c827c56c3b263ccbcf460cc",
+      "transformChain": [
+        {
+          "transformId": 2093,
+          "gameObjectId": 110,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2037,
+          "gameObjectId": 54,
+          "gameObjectName": "Button Wall",
+          "localPosition": [
+            -8.5,
+            7.0,
+            15.25
+          ],
+          "localRotation": [
+            -0.7071068,
+            0.0,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2036,
+          "gameObjectId": 53,
+          "gameObjectName": "Center",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2038,
+          "gameObjectId": 55,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.1,
+            0.2,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4008,
+      "gameObjectId": 60,
+      "gameObjectName": "Block",
+      "transformId": 2043,
+      "meshFilterId": 4097,
+      "meshColliderId": 4175,
+      "meshColliderMeshGuid": "ac5a44069790124468e43e7387e74194",
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 14,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        14
+      ],
+      "materialGuids": [
+        "fac4539e69175da4893406eaaf7356ad"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.01803681,
+          0.01803681,
+          0.040625036,
+          0.13544628
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4008.asset",
+      "outputAssetGuid": "809be038a5701f781a165eaaa7c14984",
+      "transformChain": [
+        {
+          "transformId": 2027,
+          "gameObjectId": 44,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            13.389143,
+            -1.5114,
+            1.0571492
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2043,
+          "gameObjectId": 60,
+          "gameObjectName": "Block",
+          "localPosition": [
+            -21.389143,
+            3.0114324,
+            4.442851
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4009,
+      "gameObjectId": 61,
+      "gameObjectName": "Building",
+      "transformId": 2044,
+      "meshFilterId": 4098,
+      "meshColliderId": 4176,
+      "meshColliderMeshGuid": "ad1c81080861ddf48b7acb54e40df84d",
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Building",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 83,
+      "subMeshCount": 4,
+      "subMeshIndices": [
+        83,
+        84,
+        85,
+        86
+      ],
+      "materialGuids": [
+        "5c592630896816b4cbb6a4443dcdb9a8",
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "7459b0c6a52b1de44bbc7891acd4f173",
+        "8001366289ca51b439730a8b6a01209c"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.10331248,
+          0.10331248,
+          0.06629313,
+          -0.000113124726
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4009.asset",
+      "outputAssetGuid": "139d3bcbfed2bb03de1b81dca4ebb726",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2044,
+          "gameObjectId": 61,
+          "gameObjectName": "Building",
+          "localPosition": [
+            -12.5,
+            0.0,
+            5.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4011,
+      "gameObjectId": 63,
+      "gameObjectName": "Building",
+      "transformId": 2046,
+      "meshFilterId": 4100,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Building",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 87,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        87,
+        88
+      ],
+      "materialGuids": [
+        "5c592630896816b4cbb6a4443dcdb9a8",
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.014262947,
+          0.014262947,
+          0.052255366,
+          0.19360922
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4011.asset",
+      "outputAssetGuid": "f7ba3f030a259d7336c86b4546fcd083",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2046,
+          "gameObjectId": 63,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            4.0,
+            17.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4013,
+      "gameObjectId": 67,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2050,
+      "meshFilterId": 4102,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button Wall/Center/GrayBlock",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 37,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        37
+      ],
+      "materialGuids": [
+        "104b514cae0166540a12084ee2c4227a"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4013.asset",
+      "outputAssetGuid": "92a8dbba2e8b23505bd3078e0cd65dc7",
+      "transformChain": [
+        {
+          "transformId": 2093,
+          "gameObjectId": 110,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2047,
+          "gameObjectId": 64,
+          "gameObjectName": "Button Wall",
+          "localPosition": [
+            -11.5,
+            1.5,
+            3.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2048,
+          "gameObjectId": 65,
+          "gameObjectName": "Center",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2050,
+          "gameObjectId": 67,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.1,
+            0.2,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4014,
+      "gameObjectId": 69,
+      "gameObjectName": "Building",
+      "transformId": 2052,
+      "meshFilterId": 4103,
+      "meshColliderId": 4177,
+      "meshColliderMeshGuid": "44ad17f5d011e0a49a9bd0273a0f8557",
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Building",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 54,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        54,
+        55
+      ],
+      "materialGuids": [
+        "5c592630896816b4cbb6a4443dcdb9a8",
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.05645501,
+          0.05645501,
+          -0.0011291002,
+          0.31147233
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4014.asset",
+      "outputAssetGuid": "ab6ebacc5a3a48038526f0f14b343ad7",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2052,
+          "gameObjectId": 69,
+          "gameObjectName": "Building",
+          "localPosition": [
+            6.0,
+            1.0,
+            18.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4015,
+      "gameObjectId": 70,
+      "gameObjectName": "Light",
+      "transformId": 2053,
+      "meshFilterId": 4104,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 32,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        32
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4015.asset",
+      "outputAssetGuid": "b9fd2690827396c600020a5c5a028b23",
+      "transformChain": [
+        {
+          "transformId": 2021,
+          "gameObjectId": 38,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2053,
+          "gameObjectId": 70,
+          "gameObjectName": "Light",
+          "localPosition": [
+            -14.0,
+            2.0,
+            -11.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4016,
+      "gameObjectId": 75,
+      "gameObjectName": "Light",
+      "transformId": 2058,
+      "meshFilterId": 4105,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 25,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        25
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4016.asset",
+      "outputAssetGuid": "5e96b92c2b8607cad25ca9069fe56e23",
+      "transformChain": [
+        {
+          "transformId": 2021,
+          "gameObjectId": 38,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2058,
+          "gameObjectId": 75,
+          "gameObjectName": "Light",
+          "localPosition": [
+            -42.5,
+            2.0,
+            -20.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4017,
+      "gameObjectId": 78,
+      "gameObjectName": "Building",
+      "transformId": 2061,
+      "meshFilterId": 4106,
+      "meshColliderId": 4178,
+      "meshColliderMeshGuid": "685b2def18cf52247a7f2e4d295dd8df",
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Building",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 4,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        4
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.068057686,
+          0.068057686,
+          0.0,
+          0.001953125
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4017.asset",
+      "outputAssetGuid": "fba4146c3e9d95cbe2f1f072ff39cb35",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2061,
+          "gameObjectId": 78,
+          "gameObjectName": "Building",
+          "localPosition": [
+            -44.0,
+            0.0,
+            4.0
+          ],
+          "localRotation": [
+            0.0,
+            1.0,
+            0.0,
+            -4.371139e-08
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4018,
+      "gameObjectId": 79,
+      "gameObjectName": "Building",
+      "transformId": 2062,
+      "meshFilterId": 4107,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Building",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 81,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        81,
+        82
+      ],
+      "materialGuids": [
+        "5c592630896816b4cbb6a4443dcdb9a8",
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.014262947,
+          0.014262947,
+          0.052255366,
+          0.20923422
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4018.asset",
+      "outputAssetGuid": "70de49f1f46d586db4dcaa2506e14579",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2062,
+          "gameObjectId": 79,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            4.0,
+            14.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4020,
+      "gameObjectId": 83,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2068,
+      "meshFilterId": 4109,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button Wall/Center/GrayBlock",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 40,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        40
+      ],
+      "materialGuids": [
+        "104b514cae0166540a12084ee2c4227a"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4020.asset",
+      "outputAssetGuid": "2a4bafebcdb845f574f624e1b87f159e",
+      "transformChain": [
+        {
+          "transformId": 2093,
+          "gameObjectId": 110,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2066,
+          "gameObjectId": 85,
+          "gameObjectName": "Button Wall",
+          "localPosition": [
+            2.0,
+            5.0,
+            5.25
+          ],
+          "localRotation": [
+            -0.7071068,
+            0.0,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2065,
+          "gameObjectId": 84,
+          "gameObjectName": "Center",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2068,
+          "gameObjectId": 83,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.1,
+            0.2,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4021,
+      "gameObjectId": 86,
+      "gameObjectName": "Building",
+      "transformId": 2069,
+      "meshFilterId": 4110,
+      "meshColliderId": 4179,
+      "meshColliderMeshGuid": "28bbb1800f8ef2a4eb901f00701b5966",
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Building",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 77,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        77,
+        78
+      ],
+      "materialGuids": [
+        "5c592630896816b4cbb6a4443dcdb9a8",
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.027246095,
+          0.027246095,
+          -0.00054492196,
+          0.15517767
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4021.asset",
+      "outputAssetGuid": "317ce0b8211f4e1d08cc7fe237881519",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2069,
+          "gameObjectId": 86,
+          "gameObjectName": "Building",
+          "localPosition": [
+            -51.0,
+            -1.0,
+            8.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4022,
+      "gameObjectId": 90,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2073,
+      "meshFilterId": 4111,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button Wall/Center/GrayBlock",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 43,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        43
+      ],
+      "materialGuids": [
+        "104b514cae0166540a12084ee2c4227a"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4022.asset",
+      "outputAssetGuid": "b8c1cb360ddd69d556bedabd15cc9ae3",
+      "transformChain": [
+        {
+          "transformId": 2093,
+          "gameObjectId": 110,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2072,
+          "gameObjectId": 89,
+          "gameObjectName": "Button Wall",
+          "localPosition": [
+            -58.5,
+            11.5,
+            -1.0
+          ],
+          "localRotation": [
+            0.0,
+            1.0,
+            0.0,
+            -4.371139e-08
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2071,
+          "gameObjectId": 88,
+          "gameObjectName": "Center",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2073,
+          "gameObjectId": 90,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.1,
+            0.2,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4024,
+      "gameObjectId": 92,
+      "gameObjectName": "Ladder",
+      "transformId": 2075,
+      "meshFilterId": 4113,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Ladder",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 52,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        52
+      ],
+      "materialGuids": [
+        "d6e3b37ff6ea9084684d360a576375dc"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4024.asset",
+      "outputAssetGuid": "32addf3cca2e8d3a3ebfe9f0bf60830c",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2075,
+          "gameObjectId": 92,
+          "gameObjectName": "Ladder",
+          "localPosition": [
+            -53.0,
+            2.0,
+            5.0099998
+          ],
+          "localRotation": [
+            0.0,
+            -0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4025,
+      "gameObjectId": 93,
+      "gameObjectName": "Block",
+      "transformId": 2076,
+      "meshFilterId": 4114,
+      "meshColliderId": 4180,
+      "meshColliderMeshGuid": "13b463dd115d7d4458457ef4703557f6",
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 12,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        12
+      ],
+      "materialGuids": [
+        "fac4539e69175da4893406eaaf7356ad"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.039810073,
+          0.039810073,
+          -0.0001592403,
+          0.11454772
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4025.asset",
+      "outputAssetGuid": "9a60cce5c5bdeca40cfb42710329a0bd",
+      "transformChain": [
+        {
+          "transformId": 2027,
+          "gameObjectId": 44,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            13.389143,
+            -1.5114,
+            1.0571492
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2076,
+          "gameObjectId": 93,
+          "gameObjectName": "Block",
+          "localPosition": [
+            -72.389145,
+            10.511433,
+            1.9428508
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4026,
+      "gameObjectId": 94,
+      "gameObjectName": "Light",
+      "transformId": 2077,
+      "meshFilterId": 4115,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 31,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        31
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4026.asset",
+      "outputAssetGuid": "8751f6f589f447e1845044ba600dbef2",
+      "transformChain": [
+        {
+          "transformId": 2021,
+          "gameObjectId": 38,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2077,
+          "gameObjectId": 94,
+          "gameObjectName": "Light",
+          "localPosition": [
+            -54.5,
+            1.0,
+            17.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4027,
+      "gameObjectId": 95,
+      "gameObjectName": "Building",
+      "transformId": 2078,
+      "meshFilterId": 4116,
+      "meshColliderId": 4181,
+      "meshColliderMeshGuid": "8b59b8d1aa62c984f81739a2dfdda3dd",
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Building",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 69,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        69,
+        70
+      ],
+      "materialGuids": [
+        "5c592630896816b4cbb6a4443dcdb9a8",
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.025306366,
+          0.025306366,
+          0.040191054,
+          0.11420084
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4027.asset",
+      "outputAssetGuid": "597e79ee73ef09c5d64ab5cab3f9366e",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2078,
+          "gameObjectId": 95,
+          "gameObjectName": "Building",
+          "localPosition": [
+            -4.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4028,
+      "gameObjectId": 96,
+      "gameObjectName": "Wall",
+      "transformId": 2079,
+      "meshFilterId": 4117,
+      "meshColliderId": 4182,
+      "meshColliderMeshGuid": "0fda73f285b46f04e9e61a5263799f37",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 60,
+      "subMeshCount": 5,
+      "subMeshIndices": [
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "materialGuids": [
+        "5c592630896816b4cbb6a4443dcdb9a8",
+        "97e14c9ff84465d4db7df42d3d2ccd2b",
+        "95ac4d400ff8653448eff7ca51663721",
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "8001366289ca51b439730a8b6a01209c"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.4945704,
+          0.4945704,
+          0.2137414,
+          0.40742877
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4028.asset",
+      "outputAssetGuid": "b28d45c3e77421831f1c904a150c3785",
+      "transformChain": [
+        {
+          "transformId": 2079,
+          "gameObjectId": 96,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            7.0,
+            1.0,
+            17.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4029,
+      "gameObjectId": 100,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2083,
+      "meshFilterId": 4118,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button Wall/Center/GrayBlock",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 35,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        35
+      ],
+      "materialGuids": [
+        "104b514cae0166540a12084ee2c4227a"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4029.asset",
+      "outputAssetGuid": "4e1518a65596c174b1084d95b99a3aa5",
+      "transformChain": [
+        {
+          "transformId": 2093,
+          "gameObjectId": 110,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2081,
+          "gameObjectId": 98,
+          "gameObjectName": "Button Wall",
+          "localPosition": [
+            -10.0,
+            4.0,
+            -22.25
+          ],
+          "localRotation": [
+            0.0,
+            -0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2082,
+          "gameObjectId": 99,
+          "gameObjectName": "Center",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2083,
+          "gameObjectId": 100,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.1,
+            0.2,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4031,
+      "gameObjectId": 102,
+      "gameObjectName": "Ladder",
+      "transformId": 2085,
+      "meshFilterId": 4120,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Ladder",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 48,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        48
+      ],
+      "materialGuids": [
+        "d6e3b37ff6ea9084684d360a576375dc"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4031.asset",
+      "outputAssetGuid": "52747bafa2877405440e8fc32f87f567",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2085,
+          "gameObjectId": 102,
+          "gameObjectName": "Ladder",
+          "localPosition": [
+            7.0,
+            5.0,
+            17.99
+          ],
+          "localRotation": [
+            0.0,
+            0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4033,
+      "gameObjectId": 106,
+      "gameObjectName": "Wood",
+      "transformId": 2089,
+      "meshFilterId": 4122,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Wood",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 20,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        20
+      ],
+      "materialGuids": [
+        "fac4539e69175da4893406eaaf7356ad"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.028437499,
+          0.028437499,
+          -0.00056875,
+          0.29232103
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4033.asset",
+      "outputAssetGuid": "365f3ce14686d16562fa699be21e1542",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2089,
+          "gameObjectId": 106,
+          "gameObjectName": "Wood",
+          "localPosition": [
+            -13.25,
+            3.0,
+            -20.75
+          ],
+          "localRotation": [
+            0.0,
+            -0.094977185,
+            0.0,
+            0.9954795
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4034,
+      "gameObjectId": 107,
+      "gameObjectName": "Light",
+      "transformId": 2090,
+      "meshFilterId": 4123,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 30,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        30
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4034.asset",
+      "outputAssetGuid": "ce6776e1ff566c0e9c5241c3d8ba77eb",
+      "transformChain": [
+        {
+          "transformId": 2021,
+          "gameObjectId": 38,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2090,
+          "gameObjectId": 107,
+          "gameObjectName": "Light",
+          "localPosition": [
+            -54.5,
+            1.0,
+            11.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4036,
+      "gameObjectId": 109,
+      "gameObjectName": "Block",
+      "transformId": 2092,
+      "meshFilterId": 4125,
+      "meshColliderId": 4183,
+      "meshColliderMeshGuid": "8933697e898790d42880b1054e308671",
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 23,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        23
+      ],
+      "materialGuids": [
+        "fac4539e69175da4893406eaaf7356ad"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.028546875,
+          0.028546875,
+          0.027229542,
+          0.40340602
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4036.asset",
+      "outputAssetGuid": "9f50410a483a0e2a51d2c967ae382423",
+      "transformChain": [
+        {
+          "transformId": 2027,
+          "gameObjectId": 44,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            13.389143,
+            -1.5114,
+            1.0571492
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2092,
+          "gameObjectId": 109,
+          "gameObjectName": "Block",
+          "localPosition": [
+            -66.389145,
+            1.0114324,
+            12.442851
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4038,
+      "gameObjectId": 115,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2098,
+      "meshFilterId": 4127,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button Wall/Center/GrayBlock",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 42,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        42
+      ],
+      "materialGuids": [
+        "104b514cae0166540a12084ee2c4227a"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4038.asset",
+      "outputAssetGuid": "2e915699a7e23eed9d9324e8a99b9675",
+      "transformChain": [
+        {
+          "transformId": 2093,
+          "gameObjectId": 110,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2097,
+          "gameObjectId": 114,
+          "gameObjectName": "Button Wall",
+          "localPosition": [
+            -43.75,
+            0.25,
+            -23.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2096,
+          "gameObjectId": 113,
+          "gameObjectName": "Center",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2098,
+          "gameObjectId": 115,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.1,
+            0.2,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4040,
+      "gameObjectId": 117,
+      "gameObjectName": "Block",
+      "transformId": 2100,
+      "meshFilterId": 4129,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 24,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        24
+      ],
+      "materialGuids": [
+        "fac4539e69175da4893406eaaf7356ad"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0078665055,
+          0.0078665055,
+          0.058650564,
+          0.13548696
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4040.asset",
+      "outputAssetGuid": "0cd436a38032be5fcd9994b960a96f4e",
+      "transformChain": [
+        {
+          "transformId": 2027,
+          "gameObjectId": 44,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            13.389143,
+            -1.5114,
+            1.0571492
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2100,
+          "gameObjectId": 117,
+          "gameObjectName": "Block",
+          "localPosition": [
+            -58.389145,
+            6.5114326,
+            5.942851
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4041,
+      "gameObjectId": 119,
+      "gameObjectName": "Block",
+      "transformId": 2102,
+      "meshFilterId": 4130,
+      "meshColliderId": 4184,
+      "meshColliderMeshGuid": "58aa565454fa29946ac6f4fc662ce2a3",
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 18,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        18
+      ],
+      "materialGuids": [
+        "fac4539e69175da4893406eaaf7356ad"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.018054398,
+          0.018054398,
+          0.029224657,
+          0.29281756
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4041.asset",
+      "outputAssetGuid": "b3ccd4202a0231e7268f3ff44be56058",
+      "transformChain": [
+        {
+          "transformId": 2027,
+          "gameObjectId": 44,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            13.389143,
+            -1.5114,
+            1.0571492
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2102,
+          "gameObjectId": 119,
+          "gameObjectName": "Block",
+          "localPosition": [
+            -64.889145,
+            1.7614324,
+            17.94285
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4043,
+      "gameObjectId": 121,
+      "gameObjectName": "Building",
+      "transformId": 2104,
+      "meshFilterId": 4131,
+      "meshColliderId": 4185,
+      "meshColliderMeshGuid": "a5c39046fd0b92a4ba42453577345bca",
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Building",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 2,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        2
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.044811677,
+          0.044811677,
+          0.0,
+          0.06880854
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4043.asset",
+      "outputAssetGuid": "b31d9f747740952e9599087755a94f16",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2104,
+          "gameObjectId": 121,
+          "gameObjectName": "Building",
+          "localPosition": [
+            -58.0,
+            9.0,
+            2.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4044,
+      "gameObjectId": 127,
+      "gameObjectName": "Building",
+      "transformId": 2110,
+      "meshFilterId": 4133,
+      "meshColliderId": 4186,
+      "meshColliderMeshGuid": "884c0322c4086c242a633784786524bd",
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Building",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 65,
+      "subMeshCount": 4,
+      "subMeshIndices": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "materialGuids": [
+        "5c592630896816b4cbb6a4443dcdb9a8",
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "7459b0c6a52b1de44bbc7891acd4f173",
+        "8001366289ca51b439730a8b6a01209c"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.09197184,
+          0.09197184,
+          0.16992188,
+          0.001953125
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4044.asset",
+      "outputAssetGuid": "63289742d759ca7fabdba801b0ec25fe",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2110,
+          "gameObjectId": 127,
+          "gameObjectName": "Building",
+          "localPosition": [
+            -42.0,
+            -1.0,
+            -22.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4045,
+      "gameObjectId": 123,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2106,
+      "meshFilterId": 4134,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button Wall/Center/GrayBlock",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 41,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        41
+      ],
+      "materialGuids": [
+        "104b514cae0166540a12084ee2c4227a"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4045.asset",
+      "outputAssetGuid": "6c304fe91b0334aeb7ac32ab1d4276c6",
+      "transformChain": [
+        {
+          "transformId": 2093,
+          "gameObjectId": 110,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2108,
+          "gameObjectId": 125,
+          "gameObjectName": "Button Wall",
+          "localPosition": [
+            -17.0,
+            0.25,
+            -15.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2109,
+          "gameObjectId": 126,
+          "gameObjectName": "Center",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2106,
+          "gameObjectId": 123,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.1,
+            0.2,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4047,
+      "gameObjectId": 128,
+      "gameObjectName": "Building",
+      "transformId": 2111,
+      "meshFilterId": 4136,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Building",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 58,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        58,
+        59
+      ],
+      "materialGuids": [
+        "5c592630896816b4cbb6a4443dcdb9a8",
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.013103781,
+          0.013103781,
+          0.04368324,
+          0.2766402
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4047.asset",
+      "outputAssetGuid": "f8aeeeda6c28d3b8d713e1e6934ac35a",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2111,
+          "gameObjectId": 128,
+          "gameObjectName": "Building",
+          "localPosition": [
+            -51.0,
+            4.0,
+            22.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4048,
+      "gameObjectId": 129,
+      "gameObjectName": "Block",
+      "transformId": 2112,
+      "meshFilterId": 4137,
+      "meshColliderId": 4187,
+      "meshColliderMeshGuid": "e48025c76a568444aa628417e3889afc",
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 22,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        22
+      ],
+      "materialGuids": [
+        "fac4539e69175da4893406eaaf7356ad"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.022035472,
+          0.022035472,
+          0.043857172,
+          0.25337663
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4048.asset",
+      "outputAssetGuid": "11e19ead8357a6cbec094f9cfa368d0f",
+      "transformChain": [
+        {
+          "transformId": 2027,
+          "gameObjectId": 44,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            13.389143,
+            -1.5114,
+            1.0571492
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2112,
+          "gameObjectId": 129,
+          "gameObjectName": "Block",
+          "localPosition": [
+            -55.389145,
+            2.0114324,
+            -18.05715
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4049,
+      "gameObjectId": 131,
+      "gameObjectName": "Block",
+      "transformId": 2114,
+      "meshFilterId": 4138,
+      "meshColliderId": 4188,
+      "meshColliderMeshGuid": "56efcd9dac80a014cabc54bc373a57b5",
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 17,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        17
+      ],
+      "materialGuids": [
+        "fac4539e69175da4893406eaaf7356ad"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.05870233,
+          0.05870233,
+          -0.00023480934,
+          0.19365966
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4049.asset",
+      "outputAssetGuid": "e80035ceeef67406de19e8af0fdabed1",
+      "transformChain": [
+        {
+          "transformId": 2027,
+          "gameObjectId": 44,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            13.389143,
+            -1.5114,
+            1.0571492
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2114,
+          "gameObjectId": 131,
+          "gameObjectName": "Block",
+          "localPosition": [
+            -54.389145,
+            0.5114324,
+            -22.55715
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4050,
+      "gameObjectId": 133,
+      "gameObjectName": "Block",
+      "transformId": 2116,
+      "meshFilterId": 4139,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 15,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        15
+      ],
+      "materialGuids": [
+        "fac4539e69175da4893406eaaf7356ad"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.00984375,
+          0.00984375,
+          0.019491876,
+          0.18069886
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4050.asset",
+      "outputAssetGuid": "d8ec07650777492e204da978b624fc52",
+      "transformChain": [
+        {
+          "transformId": 2027,
+          "gameObjectId": 44,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            13.389143,
+            -1.5114,
+            1.0571492
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2116,
+          "gameObjectId": 133,
+          "gameObjectName": "Block",
+          "localPosition": [
+            -22.389143,
+            8.761433,
+            15.692851
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4051,
+      "gameObjectId": 136,
+      "gameObjectName": "Building",
+      "transformId": 2119,
+      "meshFilterId": 4140,
+      "meshColliderId": 4189,
+      "meshColliderMeshGuid": "c58f4f115bdc5c043b054856f1ce6017",
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Building",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 44,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        44
+      ],
+      "materialGuids": [
+        "97e14c9ff84465d4db7df42d3d2ccd2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.028255878,
+          0.028255878,
+          -0.0005651176,
+          0.40295509
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4051.asset",
+      "outputAssetGuid": "03c8d41dc2bd2f7f618bb5ae1a65377e",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2119,
+          "gameObjectId": 136,
+          "gameObjectName": "Building",
+          "localPosition": [
+            -43.0,
+            3.0,
+            32.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4052,
+      "gameObjectId": 138,
+      "gameObjectName": "Light",
+      "transformId": 2121,
+      "meshFilterId": 4141,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 28,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        28
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4052.asset",
+      "outputAssetGuid": "ae94e5fde1752e75681f0678e596eb1a",
+      "transformChain": [
+        {
+          "transformId": 2021,
+          "gameObjectId": 38,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2121,
+          "gameObjectId": 138,
+          "gameObjectName": "Light",
+          "localPosition": [
+            -38.0,
+            2.0,
+            -20.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4053,
+      "gameObjectId": 139,
+      "gameObjectName": "Block",
+      "transformId": 2122,
+      "meshFilterId": 4142,
+      "meshColliderId": 4190,
+      "meshColliderMeshGuid": "9f0627508d4cb264ab04752e32718135",
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 19,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        19
+      ],
+      "materialGuids": [
+        "fac4539e69175da4893406eaaf7356ad"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.030547917,
+          0.030547917,
+          0.028198121,
+          0.1556004
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4053.asset",
+      "outputAssetGuid": "0625e8da29c548c598c401a0088cfc1c",
+      "transformChain": [
+        {
+          "transformId": 2027,
+          "gameObjectId": 44,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            13.389143,
+            -1.5114,
+            1.0571492
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2122,
+          "gameObjectId": 139,
+          "gameObjectName": "Block",
+          "localPosition": [
+            -27.889143,
+            4.5114326,
+            -16.05715
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4054,
+      "gameObjectId": 140,
+      "gameObjectName": "Wood",
+      "transformId": 2123,
+      "meshFilterId": 4143,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Wood",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 11,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        11
+      ],
+      "materialGuids": [
+        "fac4539e69175da4893406eaaf7356ad"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.018281251,
+          0.018281251,
+          -0.00036562505,
+          0.1803726
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4054.asset",
+      "outputAssetGuid": "5465d42b758824bbf6ff6351598e0205",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2123,
+          "gameObjectId": 140,
+          "gameObjectName": "Wood",
+          "localPosition": [
+            -13.25,
+            7.5,
+            -5.0
+          ],
+          "localRotation": [
+            0.22265461,
+            0.0,
+            0.0,
+            0.9748974
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4055,
+      "gameObjectId": 141,
+      "gameObjectName": "Hidden",
+      "transformId": 2124,
+      "meshFilterId": 4144,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Building/Hidden",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 3,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        3
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0121875,
+          0.0121875,
+          0.052296877,
+          0.23954916
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4055.asset",
+      "outputAssetGuid": "51b7b0d8aad9a3f5b68dfc564ff43100",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2029,
+          "gameObjectId": 46,
+          "gameObjectName": "Building",
+          "localPosition": [
+            -13.0,
+            1.0,
+            20.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2124,
+          "gameObjectId": 141,
+          "gameObjectName": "Hidden",
+          "localPosition": [
+            4.0,
+            2.0,
+            -1.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4056,
+      "gameObjectId": 142,
+      "gameObjectName": "Wall-detach",
+      "transformId": 2125,
+      "meshFilterId": 4145,
+      "meshColliderId": 4191,
+      "meshColliderMeshGuid": "1b2deb60c8c727c4b8e7eb385010dd87",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall-detach",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 5,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        5,
+        6
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721",
+        "5c592630896816b4cbb6a4443dcdb9a8"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.32555813,
+          0.32555813,
+          0.5315748,
+          0.09647952
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4056.asset",
+      "outputAssetGuid": "70ae4882cffc88ed8f6ff8e04446fa92",
+      "transformChain": [
+        {
+          "transformId": 2125,
+          "gameObjectId": 142,
+          "gameObjectName": "Wall-detach",
+          "localPosition": [
+            7.0,
+            1.0,
+            17.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4057,
+      "gameObjectId": 143,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2128,
+      "meshFilterId": 4146,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button Wall/Center/GrayBlock",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 34,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        34
+      ],
+      "materialGuids": [
+        "104b514cae0166540a12084ee2c4227a"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4057.asset",
+      "outputAssetGuid": "ad5a972b73fea4e13c7dcca235ad6157",
+      "transformChain": [
+        {
+          "transformId": 2093,
+          "gameObjectId": 110,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2126,
+          "gameObjectId": 145,
+          "gameObjectName": "Button Wall",
+          "localPosition": [
+            -57.5,
+            -0.75,
+            11.0
+          ],
+          "localRotation": [
+            0.0,
+            0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2127,
+          "gameObjectId": 146,
+          "gameObjectName": "Center",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2128,
+          "gameObjectId": 143,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.1,
+            0.2,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4059,
+      "gameObjectId": 148,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2133,
+      "meshFilterId": 4148,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button Wall/Center/GrayBlock",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 36,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        36
+      ],
+      "materialGuids": [
+        "104b514cae0166540a12084ee2c4227a"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4059.asset",
+      "outputAssetGuid": "df90a881f5da4374dfe75ddbdc589bf0",
+      "transformChain": [
+        {
+          "transformId": 2093,
+          "gameObjectId": 110,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2132,
+          "gameObjectId": 151,
+          "gameObjectName": "Button Wall",
+          "localPosition": [
+            -38.75,
+            0.25,
+            -23.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2131,
+          "gameObjectId": 150,
+          "gameObjectName": "Center",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2133,
+          "gameObjectId": 148,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.1,
+            0.2,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4061,
+      "gameObjectId": 152,
+      "gameObjectName": "Block",
+      "transformId": 2135,
+      "meshFilterId": 4150,
+      "meshColliderId": 4192,
+      "meshColliderMeshGuid": "cbee309d30438cb469b688f510ce16da",
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 10,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        10
+      ],
+      "materialGuids": [
+        "fac4539e69175da4893406eaaf7356ad"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.030556332,
+          0.030556332,
+          -0.00012222533,
+          0.43074173
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4061.asset",
+      "outputAssetGuid": "dc7db863ac37c0362d20e50b47ca2c5f",
+      "transformChain": [
+        {
+          "transformId": 2027,
+          "gameObjectId": 44,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            13.389143,
+            -1.5114,
+            1.0571492
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2135,
+          "gameObjectId": 152,
+          "gameObjectName": "Block",
+          "localPosition": [
+            -64.889145,
+            1.7614324,
+            17.94285
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4062,
+      "gameObjectId": 153,
+      "gameObjectName": "Ladder",
+      "transformId": 2136,
+      "meshFilterId": 4151,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Ladder",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 47,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        47
+      ],
+      "materialGuids": [
+        "d6e3b37ff6ea9084684d360a576375dc"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4062.asset",
+      "outputAssetGuid": "bad4425e8c77460aa04ff06538cf1366",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2136,
+          "gameObjectId": 153,
+          "gameObjectName": "Ladder",
+          "localPosition": [
+            -35.95,
+            3.5,
+            -24.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4063,
+      "gameObjectId": 157,
+      "gameObjectName": "Block",
+      "transformId": 2140,
+      "meshFilterId": 4152,
+      "meshColliderId": 4193,
+      "meshColliderMeshGuid": "11510ec3e54ec4d4e926e761b78aedec",
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 13,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        13
+      ],
+      "materialGuids": [
+        "fac4539e69175da4893406eaaf7356ad"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.042864427,
+          0.042864427,
+          -0.00017145772,
+          0.25329334
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4063.asset",
+      "outputAssetGuid": "d4caabfbc691c3a95777266d1e55f340",
+      "transformChain": [
+        {
+          "transformId": 2027,
+          "gameObjectId": 44,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            13.389143,
+            -1.5114,
+            1.0571492
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2140,
+          "gameObjectId": 157,
+          "gameObjectName": "Block",
+          "localPosition": [
+            -28.889143,
+            5.5114326,
+            -21.55715
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4064,
+      "gameObjectId": 159,
+      "gameObjectName": "Ladder",
+      "transformId": 2142,
+      "meshFilterId": 4153,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Ladder",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 53,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        53
+      ],
+      "materialGuids": [
+        "d6e3b37ff6ea9084684d360a576375dc"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4064.asset",
+      "outputAssetGuid": "dfc9828da2cd344532a429c8f9e900dd",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2142,
+          "gameObjectId": 159,
+          "gameObjectName": "Ladder",
+          "localPosition": [
+            -47.989998,
+            4.0,
+            26.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4065,
+      "gameObjectId": 160,
+      "gameObjectName": "Ladder",
+      "transformId": 2143,
+      "meshFilterId": 4154,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Ladder",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 45,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        45
+      ],
+      "materialGuids": [
+        "d6e3b37ff6ea9084684d360a576375dc"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4065.asset",
+      "outputAssetGuid": "b781ef0eeb8e2cc3d574b81e995015b5",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2143,
+          "gameObjectId": 160,
+          "gameObjectName": "Ladder",
+          "localPosition": [
+            -21.0,
+            5.0,
+            27.0
+          ],
+          "localRotation": [
+            0.0,
+            1.0,
+            0.0,
+            -4.371139e-08
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4066,
+      "gameObjectId": 161,
+      "gameObjectName": "Light",
+      "transformId": 2144,
+      "meshFilterId": 4155,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 26,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        26
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4066.asset",
+      "outputAssetGuid": "e417d7b3923b3816225fabe2423fd127",
+      "transformChain": [
+        {
+          "transformId": 2021,
+          "gameObjectId": 38,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2144,
+          "gameObjectId": 161,
+          "gameObjectName": "Light",
+          "localPosition": [
+            -14.0,
+            5.5,
+            -11.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4067,
+      "gameObjectId": 162,
+      "gameObjectName": "Floor",
+      "transformId": 2145,
+      "meshFilterId": 4156,
+      "meshColliderId": 4194,
+      "meshColliderMeshGuid": "28da2359f18346e44af6f96d265c8f05",
+      "meshAtlasId": null,
+      "hierarchyPath": "Floor",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 7,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        7,
+        8
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721",
+        "5c592630896816b4cbb6a4443dcdb9a8"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.3234415,
+          0.3234415,
+          0.21716398,
+          0.096521854
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4067.asset",
+      "outputAssetGuid": "bdae55592c5ba05ce023011e74124bea",
+      "transformChain": [
+        {
+          "transformId": 2145,
+          "gameObjectId": 162,
+          "gameObjectName": "Floor",
+          "localPosition": [
+            7.0,
+            1.0,
+            17.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4068,
+      "gameObjectId": 165,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2146,
+      "meshFilterId": 4157,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button Wall/Center/GrayBlock",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 33,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        33
+      ],
+      "materialGuids": [
+        "104b514cae0166540a12084ee2c4227a"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4068.asset",
+      "outputAssetGuid": "cd94ddec52e27355755a240148341946",
+      "transformChain": [
+        {
+          "transformId": 2093,
+          "gameObjectId": 110,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2148,
+          "gameObjectId": 163,
+          "gameObjectName": "Button Wall",
+          "localPosition": [
+            -57.5,
+            -0.75,
+            19.75
+          ],
+          "localRotation": [
+            0.0,
+            0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2149,
+          "gameObjectId": 164,
+          "gameObjectName": "Center",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2146,
+          "gameObjectId": 165,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.1,
+            0.2,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4070,
+      "gameObjectId": 167,
+      "gameObjectName": "Block",
+      "transformId": 2150,
+      "meshFilterId": 4159,
+      "meshColliderId": 4195,
+      "meshColliderMeshGuid": "9c01a92c46a9fcc498d67817da40843a",
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 9,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        9
+      ],
+      "materialGuids": [
+        "fac4539e69175da4893406eaaf7356ad"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.020753907,
+          0.020753907,
+          0.045815423,
+          0.06872553
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4070.asset",
+      "outputAssetGuid": "7f39794f32b3facab81ca9701b54002c",
+      "transformChain": [
+        {
+          "transformId": 2027,
+          "gameObjectId": 44,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            13.389143,
+            -1.5114,
+            1.0571492
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2150,
+          "gameObjectId": 167,
+          "gameObjectName": "Block",
+          "localPosition": [
+            -31.889143,
+            0.5114324,
+            -8.057149
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4071,
+      "gameObjectId": 168,
+      "gameObjectName": "Building",
+      "transformId": 2151,
+      "meshFilterId": 4160,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Building",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 56,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        56,
+        57
+      ],
+      "materialGuids": [
+        "5c592630896816b4cbb6a4443dcdb9a8",
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.048121694,
+          0.048121694,
+          -0.0009624339,
+          0.3582374
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4071.asset",
+      "outputAssetGuid": "fb583dad4f85d117ad20bc90e1391c54",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2151,
+          "gameObjectId": 168,
+          "gameObjectName": "Building",
+          "localPosition": [
+            -1.5,
+            4.0,
+            10.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4072,
+      "gameObjectId": 170,
+      "gameObjectName": "Building",
+      "transformId": 2153,
+      "meshFilterId": 4161,
+      "meshColliderId": 4196,
+      "meshColliderMeshGuid": "866c906714e9afb43bf18b4b721e1fc0",
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Building",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 71,
+      "subMeshCount": 6,
+      "subMeshIndices": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      "materialGuids": [
+        "5c592630896816b4cbb6a4443dcdb9a8",
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "fac4539e69175da4893406eaaf7356ad",
+        "7459b0c6a52b1de44bbc7891acd4f173",
+        "8001366289ca51b439730a8b6a01209c",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.1583905,
+          0.1583905,
+          0.06519157,
+          0.09982288
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4072.asset",
+      "outputAssetGuid": "d54f78f5adea9da1ea8f45a093664292",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2153,
+          "gameObjectId": 170,
+          "gameObjectName": "Building",
+          "localPosition": [
+            -15.5,
+            -1.0,
+            -12.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4073,
+      "gameObjectId": 171,
+      "gameObjectName": "Block",
+      "transformId": 2154,
+      "meshFilterId": 4162,
+      "meshColliderId": 4197,
+      "meshColliderMeshGuid": "d05b3d4d54d4bee4197bcbdaefcc96b4",
+      "meshAtlasId": null,
+      "hierarchyPath": "Blocks/Block",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 21,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        21
+      ],
+      "materialGuids": [
+        "fac4539e69175da4893406eaaf7356ad"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.01803681,
+          0.01803681,
+          0.04582629,
+          0.08956162
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4073.asset",
+      "outputAssetGuid": "afa10324fb838c906c0688bf1efce2da",
+      "transformChain": [
+        {
+          "transformId": 2027,
+          "gameObjectId": 44,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            13.389143,
+            -1.5114,
+            1.0571492
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2154,
+          "gameObjectId": 171,
+          "gameObjectName": "Block",
+          "localPosition": [
+            -29.389143,
+            1.5114324,
+            7.942851
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4079,
+      "gameObjectId": 991,
+      "gameObjectName": "Sun 1",
+      "transformId": 2992,
+      "meshFilterId": 4168,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome/Sun/Sun 1",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 89,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        89
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4079.asset",
+      "outputAssetGuid": "2688952ffbee7cba6002604df6b56944",
+      "transformChain": [
+        {
+          "transformId": 3002,
+          "gameObjectId": 1003,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2997,
+          "gameObjectId": 996,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3003,
+          "gameObjectId": 1000,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2994,
+          "gameObjectId": 993,
+          "gameObjectName": "Sun",
+          "localPosition": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "localRotation": [
+            -0.35270104,
+            -0.3200078,
+            -0.129779,
+            0.86968637
+          ],
+          "localScale": [
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "transformId": 2992,
+          "gameObjectId": 991,
+          "gameObjectName": "Sun 1",
+          "localPosition": [
+            -0.0,
+            0.0,
+            25.194338
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4080,
+      "gameObjectId": 1000,
+      "gameObjectName": "SkyDome",
+      "transformId": 3003,
+      "meshFilterId": 4169,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 90,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        90
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4080.asset",
+      "outputAssetGuid": "a84715de862ca136bc90a925d143a0db",
+      "transformChain": [
+        {
+          "transformId": 3002,
+          "gameObjectId": 1003,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2997,
+          "gameObjectId": 996,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3003,
+          "gameObjectId": 1000,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4082,
+      "gameObjectId": 1026,
+      "gameObjectName": "Ladder",
+      "transformId": 3009,
+      "meshFilterId": 4171,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Props/Ladder",
+      "combinedMeshGuid": "c27fbac792bb2d046ac32186343f1439",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_6.asset",
+      "firstSubMesh": 51,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        51
+      ],
+      "materialGuids": [
+        "d6e3b37ff6ea9084684d360a576375dc"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Battleforce/Renderer-4082.asset",
+      "outputAssetGuid": "2597a5f4746450b54ace333371bcff51",
+      "transformChain": [
+        {
+          "transformId": 2064,
+          "gameObjectId": 81,
+          "gameObjectName": "Props",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3009,
+          "gameObjectId": 1026,
+          "gameObjectName": "Ladder",
+          "localPosition": [
+            -56.5,
+            -3.0,
+            5.55
+          ],
+          "localRotation": [
+            0.0,
+            -0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}

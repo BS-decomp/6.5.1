@@ -1,0 +1,5132 @@
+{
+  "sceneName": "Escape",
+  "sceneSlug": "escape",
+  "scenePath": "Assets/Levels/Maps/Zombie/Escape/Escape.unity",
+  "staticRendererCount": 70,
+  "referencedSubMeshCount": 83,
+  "lightmappedRendererCount": 28,
+  "renderers": [
+    {
+      "rendererId": 4029,
+      "gameObjectId": 18,
+      "gameObjectName": "Light",
+      "transformId": 2022,
+      "meshFilterId": 4128,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 72,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        72
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4029.asset",
+      "outputAssetGuid": "ac4db322c59b3b6fee9b0cde178acbe7",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2022,
+          "gameObjectId": 18,
+          "gameObjectName": "Light",
+          "localPosition": [
+            -5.0,
+            16.0,
+            26.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4030,
+      "gameObjectId": 20,
+      "gameObjectName": "Light",
+      "transformId": 2024,
+      "meshFilterId": 4129,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 39,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        39
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4030.asset",
+      "outputAssetGuid": "709fbfac2ee660b3c78b94560eb82572",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2024,
+          "gameObjectId": 20,
+          "gameObjectName": "Light",
+          "localPosition": [
+            86.5,
+            33.75001,
+            -5.0
+          ],
+          "localRotation": [
+            0.5,
+            0.5,
+            -0.5,
+            0.5
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4031,
+      "gameObjectId": 22,
+      "gameObjectName": "Light",
+      "transformId": 2026,
+      "meshFilterId": 4130,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 64,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        64
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4031.asset",
+      "outputAssetGuid": "ddbe584b087809c2fb52fb39daf7ead7",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2026,
+          "gameObjectId": 22,
+          "gameObjectName": "Light",
+          "localPosition": [
+            173.99193,
+            57.012146,
+            4.0007896
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4032,
+      "gameObjectId": 23,
+      "gameObjectName": "Light",
+      "transformId": 2027,
+      "meshFilterId": 4131,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 73,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        73
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4032.asset",
+      "outputAssetGuid": "f24651c1760847d63dc4833c95495b54",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2027,
+          "gameObjectId": 23,
+          "gameObjectName": "Light",
+          "localPosition": [
+            90.991936,
+            41.012127,
+            28.000801
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4033,
+      "gameObjectId": 25,
+      "gameObjectName": "pb-Cube-287408",
+      "transformId": 2029,
+      "meshFilterId": 4132,
+      "meshColliderId": 4228,
+      "meshColliderMeshGuid": "fa480cdbe338dfd4899b6831703ed5e0",
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-287408",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 20,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        20
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.016923908,
+          0.016923908,
+          -6.769563e-05,
+          0.1748299
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4033.asset",
+      "outputAssetGuid": "12536881741a0a0e31d2200e0077d196",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2029,
+          "gameObjectId": 25,
+          "gameObjectName": "pb-Cube-287408",
+          "localPosition": [
+            5.0,
+            11.0,
+            24.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.09584575,
+            0.9953962
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4034,
+      "gameObjectId": 26,
+      "gameObjectName": "pb-Cube-68704",
+      "transformId": 2030,
+      "meshFilterId": 4133,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-68704",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 35,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        35
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.013778939,
+          0.013778939,
+          0.38074917,
+          0.0018980092
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4034.asset",
+      "outputAssetGuid": "a50aa3fb433149a3cdff7dc846d5ac16",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2030,
+          "gameObjectId": 26,
+          "gameObjectName": "pb-Cube-68704",
+          "localPosition": [
+            57.0,
+            26.0,
+            -25.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4035,
+      "gameObjectId": 28,
+      "gameObjectName": "pb-Cube-287408",
+      "transformId": 2032,
+      "meshFilterId": 4134,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-287408",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 19,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        19
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.013778939,
+          0.013778939,
+          0.31439802,
+          0.0018980092
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4035.asset",
+      "outputAssetGuid": "61f72388bba3b30dff5b3eeee5ab62b6",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2032,
+          "gameObjectId": 28,
+          "gameObjectName": "pb-Cube-287408",
+          "localPosition": [
+            16.0,
+            13.25,
+            27.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.09584575,
+            0.9953962
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4036,
+      "gameObjectId": 36,
+      "gameObjectName": "Light",
+      "transformId": 2040,
+      "meshFilterId": 4135,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 58,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        58
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4036.asset",
+      "outputAssetGuid": "95d28d906c606da9956f098834f8dbf4",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2040,
+          "gameObjectId": 36,
+          "gameObjectName": "Light",
+          "localPosition": [
+            86.50701,
+            37.00337,
+            8.995474
+          ],
+          "localRotation": [
+            0.5,
+            0.5,
+            -0.5,
+            0.5
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4037,
+      "gameObjectId": 37,
+      "gameObjectName": "Wall",
+      "transformId": 2041,
+      "meshFilterId": 4136,
+      "meshColliderId": 4229,
+      "meshColliderMeshGuid": "811e0542077d60744a48f0485d76bd19",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 11,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        11,
+        12,
+        13
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721",
+        "8001366289ca51b439730a8b6a01209c",
+        "0fe22edb0550c3b41b66dc3015a5c81f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.26122683,
+          0.26122683,
+          0.14656378,
+          0.4089389
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4037.asset",
+      "outputAssetGuid": "eb5b2ab65225a0a7bf65a805eb7e2891",
+      "transformChain": [
+        {
+          "transformId": 2039,
+          "gameObjectId": 35,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2041,
+          "gameObjectId": 37,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            109.0,
+            38.5,
+            64.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4038,
+      "gameObjectId": 40,
+      "gameObjectName": "Wall",
+      "transformId": 2044,
+      "meshFilterId": 4137,
+      "meshColliderId": 4230,
+      "meshColliderMeshGuid": "a6c79c53c50ccfe4e915bc5743fbcc62",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 8,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        8,
+        9,
+        10
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721",
+        "8001366289ca51b439730a8b6a01209c",
+        "0fe22edb0550c3b41b66dc3015a5c81f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.27385792,
+          0.27385792,
+          0.43087053,
+          0.12255347
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4038.asset",
+      "outputAssetGuid": "db7cbdd123d826b15c86ef909497a322",
+      "transformChain": [
+        {
+          "transformId": 2039,
+          "gameObjectId": 35,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2044,
+          "gameObjectId": 40,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            109.0,
+            38.5,
+            64.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4044,
+      "gameObjectId": 52,
+      "gameObjectName": "Wall",
+      "transformId": 2056,
+      "meshFilterId": 4143,
+      "meshColliderId": 4232,
+      "meshColliderMeshGuid": "eb36ac4214c29db469f591f7b12c1f47",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 78,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        78,
+        79,
+        80
+      ],
+      "materialGuids": [
+        "8001366289ca51b439730a8b6a01209c",
+        "95ac4d400ff8653448eff7ca51663721",
+        "0fe22edb0550c3b41b66dc3015a5c81f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.23422241,
+          0.23422241,
+          0.14710388,
+          0.663646
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4044.asset",
+      "outputAssetGuid": "8452af1cf19c44f10d1ac51c803fef41",
+      "transformChain": [
+        {
+          "transformId": 2039,
+          "gameObjectId": 35,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2056,
+          "gameObjectId": 52,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            109.0,
+            38.5,
+            64.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4045,
+      "gameObjectId": 54,
+      "gameObjectName": "Light",
+      "transformId": 2058,
+      "meshFilterId": 4144,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 48,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        48
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4045.asset",
+      "outputAssetGuid": "858df9925abf18735363770b7e456a7b",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2058,
+          "gameObjectId": 54,
+          "gameObjectName": "Light",
+          "localPosition": [
+            108.51,
+            45.01,
+            34.0
+          ],
+          "localRotation": [
+            0.5,
+            0.5,
+            -0.5,
+            0.5
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4046,
+      "gameObjectId": 55,
+      "gameObjectName": "Light",
+      "transformId": 2059,
+      "meshFilterId": 4145,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 60,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        60
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4046.asset",
+      "outputAssetGuid": "49bb8b4d84721d40c58f334b30675796",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2059,
+          "gameObjectId": 55,
+          "gameObjectName": "Light",
+          "localPosition": [
+            95.50001,
+            37.000015,
+            9.0
+          ],
+          "localRotation": [
+            0.5,
+            0.5,
+            -0.5,
+            0.5
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4047,
+      "gameObjectId": 56,
+      "gameObjectName": "Light",
+      "transformId": 2060,
+      "meshFilterId": 4146,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 65,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        65
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4047.asset",
+      "outputAssetGuid": "350439d19208c510619a4c1219086207",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2060,
+          "gameObjectId": 56,
+          "gameObjectName": "Light",
+          "localPosition": [
+            49.5,
+            25.5,
+            8.0
+          ],
+          "localRotation": [
+            0.5,
+            0.5,
+            -0.5,
+            0.5
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4048,
+      "gameObjectId": 58,
+      "gameObjectName": "pb-Cube-207684",
+      "transformId": 2062,
+      "meshFilterId": 4147,
+      "meshColliderId": 4233,
+      "meshColliderMeshGuid": "b39bfe37292315d44a913bba857eded3",
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-207684",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 37,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        37
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.021647438,
+          0.021647438,
+          -8.658976e-05,
+          0.21485005
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4048.asset",
+      "outputAssetGuid": "2a6d90ce6b2312faeb47b6724a893b19",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2062,
+          "gameObjectId": 58,
+          "gameObjectName": "pb-Cube-207684",
+          "localPosition": [
+            70.0,
+            26.0,
+            -27.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4049,
+      "gameObjectId": 60,
+      "gameObjectName": "pb-Cube-437890",
+      "transformId": 2064,
+      "meshFilterId": 4148,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-437890",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 36,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        36
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.01081862,
+          0.01081862,
+          0.34267506,
+          0.0019098505
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4049.asset",
+      "outputAssetGuid": "293c8bcd6a3ce48201ba77f1d871348e",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2064,
+          "gameObjectId": 60,
+          "gameObjectName": "pb-Cube-437890",
+          "localPosition": [
+            45.25,
+            19.75,
+            11.25
+          ],
+          "localRotation": [
+            0.10018806,
+            0.0,
+            0.0,
+            0.99496853
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4050,
+      "gameObjectId": 61,
+      "gameObjectName": "Light",
+      "transformId": 2065,
+      "meshFilterId": 4149,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 56,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        56
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4050.asset",
+      "outputAssetGuid": "4112ae0a8a5145ae368d8c1865a7c8ca",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2065,
+          "gameObjectId": 61,
+          "gameObjectName": "Light",
+          "localPosition": [
+            26.0,
+            20.25,
+            21.5
+          ],
+          "localRotation": [
+            0.7071068,
+            0.0,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4052,
+      "gameObjectId": 94,
+      "gameObjectName": "Sun 1",
+      "transformId": 2087,
+      "meshFilterId": 4151,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome/Sun/Sun 1",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 81,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        81
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4052.asset",
+      "outputAssetGuid": "99b0cba3f392e5d3d3edc0ab48180310",
+      "transformChain": [
+        {
+          "transformId": 2098,
+          "gameObjectId": 72,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2092,
+          "gameObjectId": 92,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2099,
+          "gameObjectId": 73,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2089,
+          "gameObjectId": 96,
+          "gameObjectName": "Sun",
+          "localPosition": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "localRotation": [
+            -0.20582907,
+            -0.7753525,
+            -0.31444415,
+            0.5075311
+          ],
+          "localScale": [
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "transformId": 2087,
+          "gameObjectId": 94,
+          "gameObjectName": "Sun 1",
+          "localPosition": [
+            -0.0,
+            0.0,
+            25.194338
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4055,
+      "gameObjectId": 73,
+      "gameObjectName": "SkyDome",
+      "transformId": 2099,
+      "meshFilterId": 4155,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 82,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        82
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4055.asset",
+      "outputAssetGuid": "fcfb22e6406efea512327bc7e7e469ed",
+      "transformChain": [
+        {
+          "transformId": 2098,
+          "gameObjectId": 72,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2092,
+          "gameObjectId": 92,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2099,
+          "gameObjectId": 73,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4057,
+      "gameObjectId": 100,
+      "gameObjectName": "Light",
+      "transformId": 2104,
+      "meshFilterId": 4156,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 38,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        38
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4057.asset",
+      "outputAssetGuid": "5292ba0e2569871ed2373013c2d0df51",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2104,
+          "gameObjectId": 100,
+          "gameObjectName": "Light",
+          "localPosition": [
+            40.5,
+            25.5,
+            8.0
+          ],
+          "localRotation": [
+            0.5,
+            0.5,
+            -0.5,
+            0.5
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4058,
+      "gameObjectId": 101,
+      "gameObjectName": "Light",
+      "transformId": 2105,
+      "meshFilterId": 4157,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 51,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        51
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4058.asset",
+      "outputAssetGuid": "b69a25eb0483a6404bde8a44730bda1e",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2105,
+          "gameObjectId": 101,
+          "gameObjectName": "Light",
+          "localPosition": [
+            40.5,
+            28.5,
+            -8.0
+          ],
+          "localRotation": [
+            0.5,
+            0.5,
+            -0.5,
+            0.5
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4060,
+      "gameObjectId": 103,
+      "gameObjectName": "Light",
+      "transformId": 2107,
+      "meshFilterId": 4159,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 40,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        40
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4060.asset",
+      "outputAssetGuid": "2d124319d12eb1adf577ed0bd765cbe9",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2107,
+          "gameObjectId": 103,
+          "gameObjectName": "Light",
+          "localPosition": [
+            103.99194,
+            49.012127,
+            14.000799
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4062,
+      "gameObjectId": 106,
+      "gameObjectName": "Light",
+      "transformId": 2110,
+      "meshFilterId": 4161,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 54,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        54
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4062.asset",
+      "outputAssetGuid": "5c35996b4654758527fc7c5b4fd46179",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2110,
+          "gameObjectId": 106,
+          "gameObjectName": "Light",
+          "localPosition": [
+            45.0,
+            32.0,
+            -25.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4063,
+      "gameObjectId": 107,
+      "gameObjectName": "Light",
+      "transformId": 2111,
+      "meshFilterId": 4162,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 67,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        67
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4063.asset",
+      "outputAssetGuid": "122582f2e23271eaf91806f3d9af249a",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2111,
+          "gameObjectId": 107,
+          "gameObjectName": "Light",
+          "localPosition": [
+            59.0,
+            32.0,
+            -25.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4064,
+      "gameObjectId": 108,
+      "gameObjectName": "pb-Cube-68704",
+      "transformId": 2112,
+      "meshFilterId": 4163,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-68704",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 22,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        22
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0127791,
+          0.0127791,
+          0.41092038,
+          0.0019020085
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4064.asset",
+      "outputAssetGuid": "8468e113aec11a752160e5f2a56cb918",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2112,
+          "gameObjectId": 108,
+          "gameObjectName": "pb-Cube-68704",
+          "localPosition": [
+            63.0,
+            26.0,
+            -28.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4065,
+      "gameObjectId": 113,
+      "gameObjectName": "pb-Cube-661834",
+      "transformId": 2117,
+      "meshFilterId": 4164,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-661834",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 29,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        29
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.048234377,
+          0.048234377,
+          0.19902581,
+          0.0017601874
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4065.asset",
+      "outputAssetGuid": "736579e1e7d2da63563a913012603bc9",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2117,
+          "gameObjectId": 113,
+          "gameObjectName": "pb-Cube-661834",
+          "localPosition": [
+            86.0,
+            35.0,
+            36.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4067,
+      "gameObjectId": 115,
+      "gameObjectName": "pb-Cube-68704",
+      "transformId": 2119,
+      "meshFilterId": 4166,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-68704",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 23,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        23
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.012779105,
+          0.012779105,
+          0.39632306,
+          0.0019020085
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4067.asset",
+      "outputAssetGuid": "97c645962eb31e9514eb5ddbf654b317",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2119,
+          "gameObjectId": 115,
+          "gameObjectName": "pb-Cube-68704",
+          "localPosition": [
+            54.0,
+            26.0,
+            -29.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4068,
+      "gameObjectId": 116,
+      "gameObjectName": "pb-Cube-44390",
+      "transformId": 2120,
+      "meshFilterId": 4167,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-44390",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 26,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        26
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.020006955,
+          0.020006955,
+          0.042888723,
+          0.19337225
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4068.asset",
+      "outputAssetGuid": "e5341e0e5643ba1ece6e50de88ad73e9",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2120,
+          "gameObjectId": 116,
+          "gameObjectName": "pb-Cube-44390",
+          "localPosition": [
+            65.5,
+            26.0,
+            -20.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4069,
+      "gameObjectId": 117,
+      "gameObjectName": "Light",
+      "transformId": 2121,
+      "meshFilterId": 4168,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 57,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        57
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4069.asset",
+      "outputAssetGuid": "788b5bf2e54fe0cf2475e8561a5c64ac",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2121,
+          "gameObjectId": 117,
+          "gameObjectName": "Light",
+          "localPosition": [
+            12.0,
+            17.5,
+            21.5
+          ],
+          "localRotation": [
+            0.7071068,
+            0.0,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4070,
+      "gameObjectId": 118,
+      "gameObjectName": "pb-Cube-437890",
+      "transformId": 2122,
+      "meshFilterId": 4169,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-437890",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 27,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        27
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.01081862,
+          0.01081862,
+          0.43822086,
+          0.0019098505
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4070.asset",
+      "outputAssetGuid": "1d8d682054360772c7ea189a62cb17e3",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2122,
+          "gameObjectId": 118,
+          "gameObjectName": "pb-Cube-437890",
+          "localPosition": [
+            42.5,
+            24.0,
+            -10.0
+          ],
+          "localRotation": [
+            0.10018806,
+            0.0,
+            0.0,
+            0.99496853
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4071,
+      "gameObjectId": 120,
+      "gameObjectName": "Wall",
+      "transformId": 2124,
+      "meshFilterId": 4170,
+      "meshColliderId": 4235,
+      "meshColliderMeshGuid": "2b4a2414f738c2e4baf7ad703d35cbb5",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 14,
+      "subMeshCount": 4,
+      "subMeshIndices": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721",
+        "8001366289ca51b439730a8b6a01209c",
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "58739587b6d4dbf44a258ccf0724eaed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.15926789,
+          0.15926789,
+          -0.003185358,
+          0.015462235
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4071.asset",
+      "outputAssetGuid": "34d776e00f4d15a54ae5c420774df990",
+      "transformChain": [
+        {
+          "transformId": 2039,
+          "gameObjectId": 35,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2124,
+          "gameObjectId": 120,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            109.0,
+            38.5,
+            64.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4073,
+      "gameObjectId": 123,
+      "gameObjectName": "pb-Cube-661834",
+      "transformId": 2127,
+      "meshFilterId": 4172,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-661834",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 25,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        25
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.048234377,
+          0.048234377,
+          0.14922112,
+          0.0017601874
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4073.asset",
+      "outputAssetGuid": "2686d719c21cdc195cab01357de8d3b5",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2127,
+          "gameObjectId": 123,
+          "gameObjectName": "pb-Cube-661834",
+          "localPosition": [
+            86.0,
+            35.0,
+            48.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4075,
+      "gameObjectId": 130,
+      "gameObjectName": "Light",
+      "transformId": 2134,
+      "meshFilterId": 4174,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 62,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        62
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4075.asset",
+      "outputAssetGuid": "9af338b26c0bc0ba0f78ac3a90337bd9",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2134,
+          "gameObjectId": 130,
+          "gameObjectName": "Light",
+          "localPosition": [
+            146.0,
+            52.25,
+            -0.5
+          ],
+          "localRotation": [
+            0.7071068,
+            0.0,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4076,
+      "gameObjectId": 134,
+      "gameObjectName": "Light",
+      "transformId": 2138,
+      "meshFilterId": 4175,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 63,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        63
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4076.asset",
+      "outputAssetGuid": "13eaadb5a9f9ea4d5869b08e03e47a30",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2138,
+          "gameObjectId": 134,
+          "gameObjectName": "Light",
+          "localPosition": [
+            99.5,
+            42.25,
+            48.0
+          ],
+          "localRotation": [
+            0.5,
+            0.5,
+            -0.5,
+            0.5
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4077,
+      "gameObjectId": 135,
+      "gameObjectName": "Light",
+      "transformId": 2139,
+      "meshFilterId": 4176,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 50,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        50
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4077.asset",
+      "outputAssetGuid": "a97008e92e66b4fa32a7ce992be9fe9e",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2139,
+          "gameObjectId": 135,
+          "gameObjectName": "Light",
+          "localPosition": [
+            91.0,
+            32.00001,
+            -25.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4082,
+      "gameObjectId": 142,
+      "gameObjectName": "pb-Cube-661834",
+      "transformId": 2146,
+      "meshFilterId": 4181,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-661834",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 30,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        30
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.048234377,
+          0.048234377,
+          0.099416435,
+          0.0017601874
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4082.asset",
+      "outputAssetGuid": "ab8a7ee5bcdd50710b383736ef63528d",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2146,
+          "gameObjectId": 142,
+          "gameObjectName": "pb-Cube-661834",
+          "localPosition": [
+            86.0,
+            35.0,
+            42.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4083,
+      "gameObjectId": 143,
+      "gameObjectName": "Light",
+      "transformId": 2147,
+      "meshFilterId": 4182,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 74,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        74
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4083.asset",
+      "outputAssetGuid": "84c792cee12c308b5e22590b42a58871",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2147,
+          "gameObjectId": 143,
+          "gameObjectName": "Light",
+          "localPosition": [
+            160.0,
+            54.5,
+            -0.5
+          ],
+          "localRotation": [
+            0.7071068,
+            0.0,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4084,
+      "gameObjectId": 146,
+      "gameObjectName": "Wall",
+      "transformId": 2150,
+      "meshFilterId": 4183,
+      "meshColliderId": 4238,
+      "meshColliderMeshGuid": "1be2a174ad4e1374b8109a0e215c5897",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 2,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        2,
+        3,
+        4
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721",
+        "8001366289ca51b439730a8b6a01209c",
+        "0fe22edb0550c3b41b66dc3015a5c81f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.2791483,
+          0.2791483,
+          0.6972516,
+          0.12244766
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4084.asset",
+      "outputAssetGuid": "f28b3953c0ae1297b28bf1e221ac8eac",
+      "transformChain": [
+        {
+          "transformId": 2039,
+          "gameObjectId": 35,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2150,
+          "gameObjectId": 146,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            109.0,
+            38.5,
+            64.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4086,
+      "gameObjectId": 148,
+      "gameObjectName": "pb-Cube-661834",
+      "transformId": 2152,
+      "meshFilterId": 4185,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-661834",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 18,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        18
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.048234377,
+          0.048234377,
+          0.04961175,
+          0.0017601874
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4086.asset",
+      "outputAssetGuid": "59dddc23b9336641bdb2565d3ef4b88e",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2152,
+          "gameObjectId": 148,
+          "gameObjectName": "pb-Cube-661834",
+          "localPosition": [
+            86.0,
+            35.0,
+            31.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4088,
+      "gameObjectId": 152,
+      "gameObjectName": "Wall",
+      "transformId": 2156,
+      "meshFilterId": 4187,
+      "meshColliderId": 4240,
+      "meshColliderMeshGuid": "e59f429eb59a5464a8620c51b6e61ebd",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 0,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        0
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.3859375,
+          0.3859375,
+          0.48391333,
+          0.010928841
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4088.asset",
+      "outputAssetGuid": "8776219acdd801af6d3e41fd2ce2e625",
+      "transformChain": [
+        {
+          "transformId": 2039,
+          "gameObjectId": 35,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2156,
+          "gameObjectId": 152,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            98.0,
+            33.0,
+            21.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4090,
+      "gameObjectId": 158,
+      "gameObjectName": "Wall",
+      "transformId": 2162,
+      "meshFilterId": 4188,
+      "meshColliderId": 4241,
+      "meshColliderMeshGuid": "d1f35937f3306674aa0f20dba106049e",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 1,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        1
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.35140625,
+          0.35140625,
+          0.14476019,
+          0.011619467
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4090.asset",
+      "outputAssetGuid": "2b64b1b43b3f3370f9f1ae1da98dd1d3",
+      "transformChain": [
+        {
+          "transformId": 2039,
+          "gameObjectId": 35,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2162,
+          "gameObjectId": 158,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            84.5,
+            33.0,
+            21.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4091,
+      "gameObjectId": 159,
+      "gameObjectName": "Light",
+      "transformId": 2163,
+      "meshFilterId": 4190,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 43,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        43
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4091.asset",
+      "outputAssetGuid": "d7801cb77f9349ce078ee504d6a8f81e",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2163,
+          "gameObjectId": 159,
+          "gameObjectName": "Light",
+          "localPosition": [
+            73.0,
+            32.00001,
+            -25.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4092,
+      "gameObjectId": 160,
+      "gameObjectName": "Light",
+      "transformId": 2164,
+      "meshFilterId": 4191,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 75,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        75
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4092.asset",
+      "outputAssetGuid": "bc40386987cdf967f2f08f24087f7ef4",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2164,
+          "gameObjectId": 160,
+          "gameObjectName": "Light",
+          "localPosition": [
+            99.51,
+            45.01,
+            34.0
+          ],
+          "localRotation": [
+            0.5,
+            0.5,
+            -0.5,
+            0.5
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4093,
+      "gameObjectId": 161,
+      "gameObjectName": "pb-Cube-437890",
+      "transformId": 2165,
+      "meshFilterId": 4192,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-437890",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 32,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        32
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.01081862,
+          0.01081862,
+          0.32997975,
+          0.0019098505
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4093.asset",
+      "outputAssetGuid": "6215b9e55d2397c5e07ccb4db97c9dea",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2165,
+          "gameObjectId": 161,
+          "gameObjectName": "pb-Cube-437890",
+          "localPosition": [
+            43.25,
+            20.75,
+            6.25
+          ],
+          "localRotation": [
+            0.10018806,
+            0.0,
+            0.0,
+            0.99496853
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4094,
+      "gameObjectId": 165,
+      "gameObjectName": "Light",
+      "transformId": 2169,
+      "meshFilterId": 4193,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 53,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        53
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4094.asset",
+      "outputAssetGuid": "3d70ee904136ea4bccc53bb49689abdd",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2169,
+          "gameObjectId": 165,
+          "gameObjectName": "Light",
+          "localPosition": [
+            104.0,
+            49.000015,
+            4.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4095,
+      "gameObjectId": 166,
+      "gameObjectName": "Light",
+      "transformId": 2170,
+      "meshFilterId": 4194,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 59,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        59
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4095.asset",
+      "outputAssetGuid": "9a44575b9bcbd00989d82162c5043992",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2170,
+          "gameObjectId": 166,
+          "gameObjectName": "Light",
+          "localPosition": [
+            95.50001,
+            33.75001,
+            -5.0
+          ],
+          "localRotation": [
+            0.5,
+            0.5,
+            -0.5,
+            0.5
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4097,
+      "gameObjectId": 168,
+      "gameObjectName": "Light",
+      "transformId": 2172,
+      "meshFilterId": 4196,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 52,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        52
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4097.asset",
+      "outputAssetGuid": "e3eb0c12258c14d522654d090a7fc814",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2172,
+          "gameObjectId": 168,
+          "gameObjectName": "Light",
+          "localPosition": [
+            26.0,
+            20.25,
+            30.5
+          ],
+          "localRotation": [
+            0.7071068,
+            0.0,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4098,
+      "gameObjectId": 169,
+      "gameObjectName": "Light",
+      "transformId": 2173,
+      "meshFilterId": 4197,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 66,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        66
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4098.asset",
+      "outputAssetGuid": "b34715931bc1948589da9c510c722fa0",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2173,
+          "gameObjectId": 169,
+          "gameObjectName": "Light",
+          "localPosition": [
+            -5.0,
+            16.0,
+            6.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4099,
+      "gameObjectId": 171,
+      "gameObjectName": "Light",
+      "transformId": 2175,
+      "meshFilterId": 4198,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 69,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        69
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4099.asset",
+      "outputAssetGuid": "144bf25ff6e452338b5b2c794aa37b6c",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2175,
+          "gameObjectId": 171,
+          "gameObjectName": "Light",
+          "localPosition": [
+            49.5,
+            28.5,
+            -8.0
+          ],
+          "localRotation": [
+            0.5,
+            0.5,
+            -0.5,
+            0.5
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4100,
+      "gameObjectId": 175,
+      "gameObjectName": "Light",
+      "transformId": 2179,
+      "meshFilterId": 4199,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 77,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        77
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4100.asset",
+      "outputAssetGuid": "dafe41f8c544c7380d5316cd16e415a6",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2179,
+          "gameObjectId": 175,
+          "gameObjectName": "Light",
+          "localPosition": [
+            12.0,
+            17.5,
+            30.5
+          ],
+          "localRotation": [
+            0.7071068,
+            0.0,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4103,
+      "gameObjectId": 180,
+      "gameObjectName": "Light",
+      "transformId": 2184,
+      "meshFilterId": 4202,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 47,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        47
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4103.asset",
+      "outputAssetGuid": "63ac42465f0127679d80f9111c9e48eb",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2184,
+          "gameObjectId": 180,
+          "gameObjectName": "Light",
+          "localPosition": [
+            91.0,
+            41.000015,
+            50.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4104,
+      "gameObjectId": 187,
+      "gameObjectName": "Light",
+      "transformId": 2191,
+      "meshFilterId": 4203,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 76,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        76
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4104.asset",
+      "outputAssetGuid": "ec99197e226d739cbece0dd09ec256f1",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2191,
+          "gameObjectId": 187,
+          "gameObjectName": "Light",
+          "localPosition": [
+            132.0,
+            50.0,
+            -0.5
+          ],
+          "localRotation": [
+            0.7071068,
+            0.0,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4105,
+      "gameObjectId": 189,
+      "gameObjectName": "Light",
+      "transformId": 2193,
+      "meshFilterId": 4204,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 49,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        49
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4105.asset",
+      "outputAssetGuid": "e80ad10703d038e889fbb141c95ae30e",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2193,
+          "gameObjectId": 189,
+          "gameObjectName": "Light",
+          "localPosition": [
+            103.99193,
+            41.01213,
+            65.0008
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4106,
+      "gameObjectId": 190,
+      "gameObjectName": "Wall",
+      "transformId": 2194,
+      "meshFilterId": 4205,
+      "meshColliderId": 4242,
+      "meshColliderMeshGuid": "a0150860b03bf2e4486e8ff03c48f814",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 5,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        5,
+        6,
+        7
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721",
+        "8001366289ca51b439730a8b6a01209c",
+        "0fe22edb0550c3b41b66dc3015a5c81f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.29301766,
+          0.29301766,
+          0.14592797,
+          0.12217028
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4106.asset",
+      "outputAssetGuid": "ccec0d593f660e10a135b6c1a241b999",
+      "transformChain": [
+        {
+          "transformId": 2039,
+          "gameObjectId": 35,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2194,
+          "gameObjectId": 190,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            109.0,
+            38.5,
+            64.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4107,
+      "gameObjectId": 194,
+      "gameObjectName": "Light",
+      "transformId": 2198,
+      "meshFilterId": 4206,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 61,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        61
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4107.asset",
+      "outputAssetGuid": "5b2f7da8db055a6385639b77d895bfa4",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2198,
+          "gameObjectId": 194,
+          "gameObjectName": "Light",
+          "localPosition": [
+            45.0,
+            24.0,
+            26.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4108,
+      "gameObjectId": 195,
+      "gameObjectName": "Light",
+      "transformId": 2199,
+      "meshFilterId": 4207,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 70,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        70
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4108.asset",
+      "outputAssetGuid": "46c1b03365b1c8c10dc4f30714c3b9f9",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2199,
+          "gameObjectId": 195,
+          "gameObjectName": "Light",
+          "localPosition": [
+            188.00002,
+            57.000023,
+            4.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4109,
+      "gameObjectId": 197,
+      "gameObjectName": "pb-Cube-661834",
+      "transformId": 2201,
+      "meshFilterId": 4208,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-661834",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 28,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        28
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.048234377,
+          0.048234377,
+          -0.00019293751,
+          0.0017601874
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4109.asset",
+      "outputAssetGuid": "8093b85525cdce53b4d6b3cdab94988b",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2201,
+          "gameObjectId": 197,
+          "gameObjectName": "pb-Cube-661834",
+          "localPosition": [
+            86.0,
+            35.0,
+            25.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4111,
+      "gameObjectId": 200,
+      "gameObjectName": "Light",
+      "transformId": 2204,
+      "meshFilterId": 4210,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 68,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        68
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4111.asset",
+      "outputAssetGuid": "a2d8ab47ae2ca5309055e6161361f8aa",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2204,
+          "gameObjectId": 200,
+          "gameObjectName": "Light",
+          "localPosition": [
+            146.0,
+            52.25,
+            8.5
+          ],
+          "localRotation": [
+            0.7071068,
+            0.0,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4112,
+      "gameObjectId": 201,
+      "gameObjectName": "pb-Cube-437890",
+      "transformId": 2205,
+      "meshFilterId": 4211,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-437890",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 31,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        31
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.01081862,
+          0.01081862,
+          0.42552555,
+          0.0019098505
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4112.asset",
+      "outputAssetGuid": "5c138169d1c37fe60d9443d2dc19dd87",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2205,
+          "gameObjectId": 201,
+          "gameObjectName": "pb-Cube-437890",
+          "localPosition": [
+            47.0,
+            25.0,
+            -15.0
+          ],
+          "localRotation": [
+            0.10018806,
+            0.0,
+            0.0,
+            0.99496853
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4113,
+      "gameObjectId": 202,
+      "gameObjectName": "pb-Cube-44390",
+      "transformId": 2206,
+      "meshFilterId": 4212,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-44390",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 21,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        21
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.020006955,
+          0.020006955,
+          0.021404346,
+          0.19337225
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4113.asset",
+      "outputAssetGuid": "accf949ba346aed71e9c947e65309640",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2206,
+          "gameObjectId": 202,
+          "gameObjectName": "pb-Cube-44390",
+          "localPosition": [
+            50.0,
+            26.0,
+            -20.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4114,
+      "gameObjectId": 204,
+      "gameObjectName": "Light",
+      "transformId": 2208,
+      "meshFilterId": 4213,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 46,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        46
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4114.asset",
+      "outputAssetGuid": "8e66360853a72e7ba72f8613e3f9c02b",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2208,
+          "gameObjectId": 204,
+          "gameObjectName": "Light",
+          "localPosition": [
+            -5.0,
+            16.0,
+            15.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4115,
+      "gameObjectId": 205,
+      "gameObjectName": "Light",
+      "transformId": 2209,
+      "meshFilterId": 4214,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 44,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        44
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4115.asset",
+      "outputAssetGuid": "19b23ef18b4d61a844c620ec082762d8",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2209,
+          "gameObjectId": 205,
+          "gameObjectName": "Light",
+          "localPosition": [
+            132.0,
+            50.0,
+            8.5
+          ],
+          "localRotation": [
+            0.7071068,
+            0.0,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4116,
+      "gameObjectId": 206,
+      "gameObjectName": "Light",
+      "transformId": 2210,
+      "meshFilterId": 4215,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 55,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        55
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4116.asset",
+      "outputAssetGuid": "81e4490120cc23adb110f8debbea49fc",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2210,
+          "gameObjectId": 206,
+          "gameObjectName": "Light",
+          "localPosition": [
+            -5.0,
+            16.0,
+            15.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4118,
+      "gameObjectId": 209,
+      "gameObjectName": "pb-Cube-437890",
+      "transformId": 2213,
+      "meshFilterId": 4218,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-437890",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 33,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        33
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.01081862,
+          0.01081862,
+          0.36806569,
+          0.0019098505
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4118.asset",
+      "outputAssetGuid": "c047f1d30875bea4f94214c885a6ced8",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2213,
+          "gameObjectId": 209,
+          "gameObjectName": "pb-Cube-437890",
+          "localPosition": [
+            45.25,
+            21.75,
+            1.5
+          ],
+          "localRotation": [
+            0.10018806,
+            0.0,
+            0.0,
+            0.99496853
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4120,
+      "gameObjectId": 1025,
+      "gameObjectName": "Light",
+      "transformId": 3029,
+      "meshFilterId": 4219,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 45,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        45
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4120.asset",
+      "outputAssetGuid": "30d01dfc2038b8bc286269aa3eae3578",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3029,
+          "gameObjectId": 1025,
+          "gameObjectName": "Light",
+          "localPosition": [
+            108.5,
+            42.25,
+            48.0
+          ],
+          "localRotation": [
+            0.5,
+            0.5,
+            -0.5,
+            0.5
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4121,
+      "gameObjectId": 1029,
+      "gameObjectName": "pb-Cube-437890",
+      "transformId": 3033,
+      "meshFilterId": 4220,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-437890",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 24,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        24
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.01081862,
+          0.01081862,
+          0.35537037,
+          0.0019098505
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4121.asset",
+      "outputAssetGuid": "bb7a7da4f8aea8f873e31e497a626aa1",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3033,
+          "gameObjectId": 1029,
+          "gameObjectName": "pb-Cube-437890",
+          "localPosition": [
+            41.25,
+            22.5,
+            -2.5
+          ],
+          "localRotation": [
+            0.10018806,
+            0.0,
+            0.0,
+            0.99496853
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4122,
+      "gameObjectId": 1032,
+      "gameObjectName": "Light",
+      "transformId": 3036,
+      "meshFilterId": 4221,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 41,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        41
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4122.asset",
+      "outputAssetGuid": "ad4baeca8a797a763a826f6432469818",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3036,
+          "gameObjectId": 1032,
+          "gameObjectName": "Light",
+          "localPosition": [
+            91.0,
+            41.000015,
+            65.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4123,
+      "gameObjectId": 1034,
+      "gameObjectName": "pb-Cube-287408",
+      "transformId": 3038,
+      "meshFilterId": 4222,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Box/pb-Cube-287408",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 34,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        34
+      ],
+      "materialGuids": [
+        "2ef774ce4ee0c6a489fad745c128e993"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.020006955,
+          0.020006955,
+          -8.002782e-05,
+          0.19337225
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4123.asset",
+      "outputAssetGuid": "533620c4e01fb877648e9ddefc579c4d",
+      "transformChain": [
+        {
+          "transformId": 2133,
+          "gameObjectId": 129,
+          "gameObjectName": "Box",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3038,
+          "gameObjectId": 1034,
+          "gameObjectName": "pb-Cube-287408",
+          "localPosition": [
+            30.0,
+            16.0,
+            31.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.09584575,
+            0.9953962
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4124,
+      "gameObjectId": 1035,
+      "gameObjectName": "Light",
+      "transformId": 3039,
+      "meshFilterId": 4223,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 71,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        71
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4124.asset",
+      "outputAssetGuid": "54dcae0cbc81971cd982550faf7d2cd5",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3039,
+          "gameObjectId": 1035,
+          "gameObjectName": "Light",
+          "localPosition": [
+            81.99195,
+            32.01212,
+            -24.999203
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4126,
+      "gameObjectId": 1039,
+      "gameObjectName": "Light",
+      "transformId": 3043,
+      "meshFilterId": 4225,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Light/Light",
+      "combinedMeshGuid": "0aeb13faf784c874682a01405fa4032a",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_3.asset",
+      "firstSubMesh": 42,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        42
+      ],
+      "materialGuids": [
+        "eb89607f43c1c0a4bae73492ccbd94aa"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Escape/Renderer-4126.asset",
+      "outputAssetGuid": "138d59d52be6c388828db9e6d89a2ef0",
+      "transformChain": [
+        {
+          "transformId": 2031,
+          "gameObjectId": 27,
+          "gameObjectName": "Light",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3043,
+          "gameObjectId": 1039,
+          "gameObjectName": "Light",
+          "localPosition": [
+            160.0,
+            54.5,
+            8.5
+          ],
+          "localRotation": [
+            0.7071068,
+            0.0,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}
