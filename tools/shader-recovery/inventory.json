@@ -1,0 +1,628 @@
+[
+  {
+    "shader_name": "Hidden/ProBuilder/EdgePicker",
+    "family": "ProBuilder",
+    "asset_path": "Assets/Shader/Hidden_ProBuilder_EdgePicker.shader",
+    "canonical_source": "tools/shader-canonical/probuilder/EdgePicker.shader",
+    "canonical_sha256": "81bea7444c4ad7377d11b574aaa7f2ce78ba2966a9b8b2ee63783d8d234f2cae",
+    "apk_extract_file": "tools/shader-extract/shader_32_Hidden_ProBuilder_EdgePicker.txt",
+    "apk_container": "86212504c7e9f468db2300dc5932dc17",
+    "apk_path_id": 1,
+    "properties": []
+  },
+  {
+    "shader_name": "Hidden/ProBuilder/FacePicker",
+    "family": "ProBuilder",
+    "asset_path": "Assets/Shader/Hidden_ProBuilder_FacePicker.shader",
+    "canonical_source": "tools/shader-canonical/probuilder/FacePicker.shader",
+    "canonical_sha256": "7873883896fff0b92e59caa3f8243ba1caf28f511e8e9e3f4abc79e595311fbf",
+    "apk_extract_file": "tools/shader-extract/shader_45_Hidden_ProBuilder_FacePicker.txt",
+    "apk_container": "c84d57d423a2042eb92da86f9fa670a3",
+    "apk_path_id": 1,
+    "properties": []
+  },
+  {
+    "shader_name": "Hidden/ProBuilder/HideVertices",
+    "family": "ProBuilder",
+    "asset_path": "Assets/Shader/Hidden_ProBuilder_HideVertices.shader",
+    "canonical_source": "tools/shader-canonical/probuilder/pb_HideVertices.shader",
+    "canonical_sha256": "1581152753d657eb9aa31ac391373f4e6e641160b245e4b5293adc81ceca688a",
+    "apk_extract_file": "tools/shader-extract/shader_47_Hidden_ProBuilder_HideVertices.txt",
+    "apk_container": "cfa7edf01005f4e338d973cea2f6eab3",
+    "apk_path_id": 1,
+    "properties": []
+  },
+  {
+    "shader_name": "Hidden/ProBuilder/VertexPicker",
+    "family": "ProBuilder",
+    "asset_path": "Assets/Shader/Hidden_ProBuilder_VertexPicker.shader",
+    "canonical_source": "tools/shader-canonical/probuilder/VertexPicker.shader",
+    "canonical_sha256": "6f659c627f116acfc5712b93fadc303486484fd462e36a4547fc731b62d85ff6",
+    "apk_extract_file": "tools/shader-extract/shader_43_Hidden_ProBuilder_VertexPicker.txt",
+    "apk_container": "c26db15b9a2ed4b2ebefefd26ce85ae1",
+    "apk_path_id": 1,
+    "properties": []
+  },
+  {
+    "shader_name": "Hidden/Unlit/Premultiplied Colored (TextureClip)",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Premultiplied Colored (TextureClip).shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Premultiplied Colored (TextureClip).shader",
+    "canonical_sha256": "33fa5788f6ec2240dcf1957e1d76faaa7194ccd96af30397982f9433a05f16bd",
+    "apk_extract_file": "tools/shader-extract/shader_29_Hidden_Unlit_Premultiplied_Colored_TextureClip.txt",
+    "apk_container": "773952d1ab5b7714392cdc5473b20244",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Hidden/Unlit/Premultiplied Colored 1",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Premultiplied Colored 1.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Premultiplied Colored 1.shader",
+    "canonical_sha256": "36c8226260bbdcb31662e8dabfeb0b9e6e672f0ff12d4f4cac7e3d9eac85f11c",
+    "apk_extract_file": "tools/shader-extract/shader_35_Hidden_Unlit_Premultiplied_Colored_1.txt",
+    "apk_container": "93c84009f8f004b4f84697c8cb12dd63",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Hidden/Unlit/Premultiplied Colored 2",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Premultiplied Colored 2.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Premultiplied Colored 2.shader",
+    "canonical_sha256": "3af875108271274f7e323a376507718699d0ea49e01b0d049e2427c526c633a5",
+    "apk_extract_file": "tools/shader-extract/shader_24_Hidden_Unlit_Premultiplied_Colored_2.txt",
+    "apk_container": "65ca32170bb371f459991a5d7696a9ba",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Hidden/Unlit/Premultiplied Colored 3",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Premultiplied Colored 3.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Premultiplied Colored 3.shader",
+    "canonical_sha256": "f7615e1430080499e62d12955fc732ebe7981191a5baed66916e395fe4e5eb95",
+    "apk_extract_file": "tools/shader-extract/shader_23_Hidden_Unlit_Premultiplied_Colored_3.txt",
+    "apk_container": "5e82b392f79aa394fb1a579743600d5f",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Hidden/Unlit/Text (TextureClip)",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Text (TextureClip).shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Text (TextureClip).shader",
+    "canonical_sha256": "bb4b23f49bcbc19711bb35250deffb5e7a4951f691d28bfcfc545a1255d3ccdb",
+    "apk_extract_file": "tools/shader-extract/shader_53_Hidden_Unlit_Text_TextureClip.txt",
+    "apk_container": "eec9c90e5acd4d74d9e021119fc70cf8",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Hidden/Unlit/Text 1",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Text 1.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Text 1.shader",
+    "canonical_sha256": "70dc3f399d9352e358bd5cdd4f5162c2cc8a7208138790947e81e6ab37170960",
+    "apk_extract_file": "tools/shader-extract/shader_37_Hidden_Unlit_Text_1.txt",
+    "apk_container": "9f39f1d1f2f3ee04bb793082eee05819",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Hidden/Unlit/Text 2",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Text 2.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Text 2.shader",
+    "canonical_sha256": "23114a51f557339d2ae9e0adde96895f31835ae14f5f53e6049d1d08016b52d1",
+    "apk_extract_file": "tools/shader-extract/shader_22_Hidden_Unlit_Text_2.txt",
+    "apk_container": "37590480333382341b5007dec2a032c6",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Hidden/Unlit/Text 3",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Text 3.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Text 3.shader",
+    "canonical_sha256": "7efd90f0b6197e4850a6edd9e352017b38ba8bdede61fb5d94cc3002e76d35da",
+    "apk_extract_file": "tools/shader-extract/shader_18_Hidden_Unlit_Text_3.txt",
+    "apk_container": "27275fc7df2ec0346ba12831e6a01345",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Hidden/Unlit/Transparent Colored (TextureClip)",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Transparent Colored (TextureClip).shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Transparent Colored (TextureClip).shader",
+    "canonical_sha256": "a397cf13eba2a0156bc274377c78a92070f3ed3b8c25a3f8cd1cc5cca0a2eff4",
+    "apk_extract_file": "tools/shader-extract/shader_25_Hidden_Unlit_Transparent_Colored_TextureClip.txt",
+    "apk_container": "720c2c242cde13e4188964c550502b5e",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Hidden/Unlit/Transparent Colored 1",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Transparent Colored 1.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Transparent Colored 1.shader",
+    "canonical_sha256": "4d6d5a3659b1de3acc28062d232b3bfa122adac89d4bfcf8f0d079398c1fadcf",
+    "apk_extract_file": "tools/shader-extract/shader_46_Hidden_Unlit_Transparent_Colored_1.txt",
+    "apk_container": "cf9ebc36d43f657468fecb524763e3bc",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Hidden/Unlit/Transparent Colored 2",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Transparent Colored 2.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Transparent Colored 2.shader",
+    "canonical_sha256": "ed3d34af317f196d23e25a527ab8e830751537b02555080add14742c3e89b01c",
+    "apk_extract_file": "tools/shader-extract/shader_12_Hidden_Unlit_Transparent_Colored_2.txt",
+    "apk_container": "1682092270f88d04bb434756a984ea87",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Hidden/Unlit/Transparent Colored 3",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Transparent Colored 3.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Transparent Colored 3.shader",
+    "canonical_sha256": "8e68dfce817cff57c0c4767a3d60b0ca1e728763c3de736b48efec37377c5bc3",
+    "apk_extract_file": "tools/shader-extract/shader_30_Hidden_Unlit_Transparent_Colored_3.txt",
+    "apk_container": "7c0a1aa668787ad42a48d1a535825520",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Hidden/Unlit/Transparent Masked 1",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Transparent Masked 1.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Transparent Masked 1.shader",
+    "canonical_sha256": "23fdf6278cd1e85d10182bad4f5c4cfad22ad9b8bff61352cc2cd4f174be2487",
+    "apk_extract_file": "tools/shader-extract/shader_20_Hidden_Unlit_Transparent_Masked_1.txt",
+    "apk_container": "2cd1f5408130bdc4cbcf8c8fab8efd21",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex",
+      "_Mask"
+    ]
+  },
+  {
+    "shader_name": "Hidden/Unlit/Transparent Masked 2",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Transparent Masked 2.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Transparent Masked 2.shader",
+    "canonical_sha256": "1425262000e16212359d246ed3b483e960f3cf7a67505804d57638838710b649",
+    "apk_extract_file": "tools/shader-extract/shader_44_Hidden_Unlit_Transparent_Masked_2.txt",
+    "apk_container": "c6f11eb0ceeb5e044b3199208e1a99bf",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex",
+      "_Mask"
+    ]
+  },
+  {
+    "shader_name": "Hidden/Unlit/Transparent Masked 3",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Transparent Masked 3.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Transparent Masked 3.shader",
+    "canonical_sha256": "22c49ed51388ea5653cd8aa03f6d8203fa0c527f7cf14aca8a0301b51fc6bf2c",
+    "apk_extract_file": "tools/shader-extract/shader_16_Hidden_Unlit_Transparent_Masked_3.txt",
+    "apk_container": "222c64d503379884db00185ebbe08590",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex",
+      "_Mask"
+    ]
+  },
+  {
+    "shader_name": "Hidden/Unlit/Transparent Packed 1",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Transparent Packed 1.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Transparent Packed 1.shader",
+    "canonical_sha256": "8f2e4970dc2b3bf5c9f6b18be5fd0f8501fa68e481517226f912302be28d378c",
+    "apk_extract_file": "tools/shader-extract/shader_14_Hidden_Unlit_Transparent_Packed_1.txt",
+    "apk_container": "182695e850938314fa6675a8926ad9ee",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Hidden/Unlit/Transparent Packed 2",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Transparent Packed 2.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Transparent Packed 2.shader",
+    "canonical_sha256": "fde30af3eae675fd8ffb85acb7985f71e9d691c2105d630473a39400a5f394e2",
+    "apk_extract_file": "tools/shader-extract/shader_56_Hidden_Unlit_Transparent_Packed_2.txt",
+    "apk_container": "f4f0faf73e6bf89419cf29b611f29ade",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Hidden/Unlit/Transparent Packed 3",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Transparent Packed 3.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Transparent Packed 3.shader",
+    "canonical_sha256": "0606a706649fc79c50fe320dd7069ff7a3788b5b01fb8e84952f86c653f815f4",
+    "apk_extract_file": "tools/shader-extract/shader_49_Hidden_Unlit_Transparent_Packed_3.txt",
+    "apk_container": "d1ba9e7ba321b2c4d97f6a19f1deab6a",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "MADFINGER/Diffuse/Simple",
+    "family": "MADFINGER",
+    "asset_path": "Assets/Shader/MADFINGER_Diffuse_Simple.shader",
+    "canonical_source": "tools/shader-canonical/madfinger/MADFINGER-diffuse-simple.shader",
+    "canonical_sha256": "eaa83588d121f8334638c91770f1a788663b16b9bf4f31a4d789e550e1ec8899",
+    "apk_extract_file": "tools/shader-extract/shader_54_MADFINGER_Diffuse_Simple.txt",
+    "apk_container": "f0f6699f6027e4c369f66e1263b5291b",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "MADFINGER/Environment/Cube env map",
+    "family": "MADFINGER",
+    "asset_path": "Assets/Shader/MADFINGER_Environment_Cube env map.shader",
+    "canonical_source": "tools/shader-canonical/madfinger/MADFINGER-cube-env-map.shader",
+    "canonical_sha256": "46e78bfce752ba1017490f4843902082948e760ef4c3b203f06d01baf0378b9a",
+    "apk_extract_file": "tools/shader-extract/shader_58_MADFINGER_Environment_Cube_env_map.txt",
+    "apk_container": "sharedassets3.assets",
+    "apk_path_id": 197,
+    "properties": [
+      "_MainTex",
+      "_EnvTex",
+      "_Spread"
+    ]
+  },
+  {
+    "shader_name": "MADFINGER/Particles/Additive TwoSide",
+    "family": "MADFINGER",
+    "asset_path": "Assets/Shader/MADFINGER_Particles_Additive TwoSide.shader",
+    "canonical_source": "tools/shader-canonical/madfinger/MADFINGER-particles-additive-twoside.shader",
+    "canonical_sha256": "1494cdad1f402bab017c40d383dc9fba139fb34c5a87a50434884b3ef041bf3f",
+    "apk_extract_file": "tools/shader-extract/shader_48_MADFINGER_Particles_Additive_TwoSide.txt",
+    "apk_container": "d136d238f9b2e49fd944a94c62476bf8",
+    "apk_path_id": 1,
+    "properties": [
+      "_TintColor",
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "MADFINGER/Particles/Alpha Blended",
+    "family": "MADFINGER",
+    "asset_path": "Assets/Shader/MADFINGER_Particles_Alpha Blended.shader",
+    "canonical_source": "tools/shader-canonical/madfinger/MADFINGER-particles-alpha-blended.shader",
+    "canonical_sha256": "8ceaed75c341bc7cc58b1346c474afdd180016a0f3c19eb2607eb9f382d88c57",
+    "apk_extract_file": "tools/shader-extract/shader_36_MADFINGER_Particles_Alpha_Blended.txt",
+    "apk_container": "94cfe2f570cb9904ca2470e2ede840a4",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "MADFINGER/Transparent/Blinking GodRays",
+    "family": "MADFINGER",
+    "asset_path": "Assets/Shader/MADFINGER_Transparent_Blinking GodRays.shader",
+    "canonical_source": "tools/shader-canonical/madfinger/MADFINGER-blinking-god-rays.shader",
+    "canonical_sha256": "b77429b3eca2ac7e36582fda2c1802349136682a8678544161d5e12659c439ec",
+    "apk_extract_file": "tools/shader-extract/shader_60_MADFINGER_Transparent_Blinking_GodRays.txt",
+    "apk_container": "sharedassets4.assets",
+    "apk_path_id": 8,
+    "properties": [
+      "_MainTex",
+      "_FadeOutDistNear",
+      "_FadeOutDistFar",
+      "_Multiplier",
+      "_Bias",
+      "_TimeOnDuration",
+      "_TimeOffDuration",
+      "_BlinkingTimeOffsScale",
+      "_SizeGrowStartDist",
+      "_SizeGrowEndDist",
+      "_MaxGrowSize",
+      "_NoiseAmount",
+      "_Color"
+    ]
+  },
+  {
+    "shader_name": "MADFINGER/Transparent/GodRays",
+    "family": "MADFINGER",
+    "asset_path": "Assets/Shader/MADFINGER_Transparent_GodRays.shader",
+    "canonical_source": "tools/shader-canonical/madfinger/MADFINGER-god-rays.shader",
+    "canonical_sha256": "683d6b34b892c442a5f202a11304648b129aa4e02e2483394f128a82b925b3bf",
+    "apk_extract_file": "tools/shader-extract/shader_61_MADFINGER_Transparent_GodRays.txt",
+    "apk_container": "sharedassets5.assets",
+    "apk_path_id": 21,
+    "properties": [
+      "_MainTex",
+      "_FadeOutDistNear",
+      "_FadeOutDistFar",
+      "_Multiplier",
+      "_ContractionAmount"
+    ]
+  },
+  {
+    "shader_name": "Mobile/Unlit/Transparent Color",
+    "family": "Custom",
+    "asset_path": "Assets/Shader/Mobile_Unlit_Transparent Color.shader",
+    "canonical_source": "tools/shader-canonical/custom/Mobile-Unlit-Transparent-Color.shader",
+    "canonical_sha256": "20bb792dd934553cc75def648094d9af127d939fb18f393c91da4dbf65b1d20c",
+    "apk_extract_file": "tools/shader-extract/shader_42_Mobile_Unlit_Transparent_Color.txt",
+    "apk_container": "ac39205b8d373bd488abd58152197c8f",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex",
+      "_Color"
+    ]
+  },
+  {
+    "shader_name": "ProBuilder/Diffuse Vertex Color",
+    "family": "ProBuilder",
+    "asset_path": "Assets/Shader/ProBuilder_Diffuse Vertex Color.shader",
+    "canonical_source": "tools/shader-canonical/probuilder/DiffuseVertexColor.shader",
+    "canonical_sha256": "ce1f5b58f885abe1b8a8f883a7bc6408129194b5e2373e0cfdd9c73b75b72f53",
+    "apk_extract_file": "tools/shader-extract/shader_33_ProBuilder_Diffuse_Vertex_Color.txt",
+    "apk_container": "911130a939bf84843bcc4211c327f579",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "ProBuilder/Standard Vertex Color",
+    "family": "ProBuilder",
+    "asset_path": "Assets/Shader/ProBuilder_Standard Vertex Color.shader",
+    "canonical_source": "tools/shader-canonical/probuilder/StandardVertexColor.shader",
+    "canonical_sha256": "8ad17ddf619d52533df57d87dd1ed95b7bbd635e2e80cf8517dc0f5aaf1887fe",
+    "apk_extract_file": "tools/shader-extract/shader_15_ProBuilder_Standard_Vertex_Color.txt",
+    "apk_container": "1ccecd9b89b8a4f14bfb64f29ddfcc81",
+    "apk_path_id": 1,
+    "properties": [
+      "_Color",
+      "_MainTex",
+      "_Glossiness",
+      "_Metallic"
+    ]
+  },
+  {
+    "shader_name": "ProBuilder/Unlit Solid Color",
+    "family": "ProBuilder",
+    "asset_path": "Assets/Shader/ProBuilder_Unlit Solid Color.shader",
+    "canonical_source": "tools/shader-canonical/probuilder/UnlitSolidColor.shader",
+    "canonical_sha256": "d2b767805a68561145e9f8570854f415c6349528096b0ea457bf09de58dd4da7",
+    "apk_extract_file": "tools/shader-extract/shader_17_ProBuilder_Unlit_Solid_Color.txt",
+    "apk_container": "24f9f312f97bd48dba1a728d58c89842",
+    "apk_path_id": 1,
+    "properties": [
+      "_Color"
+    ]
+  },
+  {
+    "shader_name": "ProBuilder/UnlitVertexColor",
+    "family": "ProBuilder",
+    "asset_path": "Assets/Shader/ProBuilder_UnlitVertexColor.shader",
+    "canonical_source": "tools/shader-canonical/probuilder/pb_UnlitVertexColor.shader",
+    "canonical_sha256": "38a28f65d8c7ec7366bc1988448f6dd51106baee3e1d3ec27b939ef6ccf911e5",
+    "apk_extract_file": "tools/shader-extract/shader_21_ProBuilder_UnlitVertexColor.txt",
+    "apk_container": "35e778fba8b2b49a198d8d7cfced67eb",
+    "apk_path_id": 1,
+    "properties": []
+  },
+  {
+    "shader_name": "Unlit/Premultiplied Colored",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Premultiplied Colored.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Premultiplied Colored.shader",
+    "canonical_sha256": "d99b9e664ace72725b9e6de9d5be282945bbeba3a528bdc6e68e3c2215e68660",
+    "apk_extract_file": "tools/shader-extract/shader_52_Unlit_Premultiplied_Colored.txt",
+    "apk_container": "ed5591596df551e4c8f4b05ce88a7a07",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Unlit/Text",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Text.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Text.shader",
+    "canonical_sha256": "9469f60c5b1ae2e8f6c3eb632584fefe28a6a19808a5b9c74b96b3267c4d8d4a",
+    "apk_extract_file": "tools/shader-extract/shader_28_Unlit_Text.txt",
+    "apk_container": "773417da4aa1b46409bd1e7574dcb251",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Unlit/Transparent Colored",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Transparent Colored.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Transparent Colored.shader",
+    "canonical_sha256": "9d4f2dd523777809b03e29a86c372a2707b32d7dfa10119ea04ea51822f8382f",
+    "apk_extract_file": "tools/shader-extract/shader_51_Unlit_Transparent_Colored.txt",
+    "apk_container": "e75727d9555d9d14ca51d91908c681bc",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Unlit/Transparent Colored (Packed) (TextureClip)",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Transparent Colored (Packed) (TextureClip).shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Transparent Colored (Packed) (TextureClip).shader",
+    "canonical_sha256": "a6b92269cb7feef4b0a37a9fe86c76e1fe0f427d8ef8d4efd82bcdc6149b586e",
+    "apk_extract_file": "tools/shader-extract/shader_50_Unlit_Transparent_Colored_Packed_TextureClip.txt",
+    "apk_container": "e37f44f1a08cf594fb6b3919774527ed",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Unlit/Transparent Colored Cubemap",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Transparent Colored Cubemap.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Transparent Colored Cubemap.shader",
+    "canonical_sha256": "59d864b80dd7e348161c0edea06e70402e10195d3bf6398e4c58771ef9b09021",
+    "apk_extract_file": "tools/shader-extract/shader_11_Unlit_Transparent_Colored_Cubemap.txt",
+    "apk_container": "09a0222c8cee99f44b0d3d45e51281dc",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex",
+      "_EnvTex"
+    ]
+  },
+  {
+    "shader_name": "Unlit/Transparent Masked",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Transparent Masked.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Transparent Masked.shader",
+    "canonical_sha256": "032b4eeeb767dc5e34ad3d2c4d95ed5b0ae00e1d62da9d55a96a45a32f9a042a",
+    "apk_extract_file": "tools/shader-extract/shader_34_Unlit_Transparent_Masked.txt",
+    "apk_container": "9300d87db4ad0b0439f6fb97c3ce8ccf",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex",
+      "_Mask"
+    ]
+  },
+  {
+    "shader_name": "Unlit/Transparent Packed",
+    "family": "NGUI",
+    "asset_path": "Assets/Resources/shaders/Unlit - Transparent Packed.shader",
+    "canonical_source": "tools/shader-canonical/ngui/Unlit - Transparent Packed.shader",
+    "canonical_sha256": "c3f4e8543fc6f04ba67abf1744137757ca28d09d953f2bba5e215b38728cedcc",
+    "apk_extract_file": "tools/shader-extract/shader_55_Unlit_Transparent_Packed.txt",
+    "apk_container": "f3fd145b191cf4040ac6b55cda352a53",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex"
+    ]
+  },
+  {
+    "shader_name": "Vertigo/GaussianBlur",
+    "family": "Custom",
+    "asset_path": "Assets/Shader/Vertigo_GaussianBlur.shader",
+    "canonical_source": "tools/shader-canonical/custom/Vertigo-GaussianBlur.shader",
+    "canonical_sha256": "44aad4a6f27232012829c811e607029fe086547840edd53b516d2a2984f7c46c",
+    "apk_extract_file": "tools/shader-extract/shader_59_Vertigo_GaussianBlur.txt",
+    "apk_container": "sharedassets3.assets",
+    "apk_path_id": 198,
+    "properties": [
+      "_Color",
+      "_blurSizeXY"
+    ]
+  },
+  {
+    "shader_name": "WFX/Additive (Soft) Alpha8",
+    "family": "WarFX",
+    "asset_path": "Assets/Shader/WFX_Additive (Soft) Alpha8.shader",
+    "canonical_source": "tools/shader-canonical/wfx/WFX-Additive-Soft-Alpha8.shader",
+    "canonical_sha256": "98946583f31b7f152e6c06d6ce64224f664f7ab5d1d572ad95eda6723e6db037",
+    "apk_extract_file": "tools/shader-extract/shader_31_WFX_Additive_Soft_Alpha8.txt",
+    "apk_container": "7da55032bc1723749a4a351ea0d98969",
+    "apk_path_id": 1,
+    "properties": [
+      "_TintColor",
+      "_MainTex",
+      "_InvFade"
+    ]
+  },
+  {
+    "shader_name": "WFX/Additive Alpha8",
+    "family": "WarFX",
+    "asset_path": "Assets/Shader/WFX_Additive Alpha8.shader",
+    "canonical_source": "tools/shader-canonical/wfx/WFX-Additive-Alpha8.shader",
+    "canonical_sha256": "2d0948097984b5048b843e3aeddc16aa187974bc392c2d9f62b23232e8fce1fd",
+    "apk_extract_file": "tools/shader-extract/shader_27_WFX_Additive_Alpha8.txt",
+    "apk_container": "76840267cd7c0e64292ec296b1769b24",
+    "apk_path_id": 1,
+    "properties": [
+      "_TintColor",
+      "_MainTex",
+      "_InvFade"
+    ]
+  },
+  {
+    "shader_name": "WFX/Multiply Alpha8",
+    "family": "WarFX",
+    "asset_path": "Assets/Shader/WFX_Multiply Alpha8.shader",
+    "canonical_source": "tools/shader-canonical/wfx/WFX-Multiply-Alpha8.shader",
+    "canonical_sha256": "56f0380893b5f579c86621d520590eb99075e6a638c9122c4754a76790e8c407",
+    "apk_extract_file": "tools/shader-extract/shader_19_WFX_Multiply_Alpha8.txt",
+    "apk_container": "27aa926a717dbfe44b4b79e7d91fa71d",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex",
+      "_InvFade"
+    ]
+  },
+  {
+    "shader_name": "WFX/Scroll/Additive",
+    "family": "WarFX",
+    "asset_path": "Assets/Shader/WFX_Scroll_Additive.shader",
+    "canonical_source": "tools/shader-canonical/wfx/WFX-Scroll-Additive.shader",
+    "canonical_sha256": "36dafb68848bf2096446e1d183efcb0736d3d7442b5e332b4ff3d23f9e5ee5ac",
+    "apk_extract_file": "tools/shader-extract/shader_26_WFX_Scroll_Additive.txt",
+    "apk_container": "7439add42f7e65b4dbc36568299dde17",
+    "apk_path_id": 1,
+    "properties": [
+      "_MainTex",
+      "_InvFade",
+      "_ScrollSpeed"
+    ]
+  },
+  {
+    "shader_name": "WFX/Scroll/Smoke",
+    "family": "WarFX",
+    "asset_path": "Assets/Shader/WFX_Scroll_Smoke.shader",
+    "canonical_source": "tools/shader-canonical/wfx/WFX-Scroll-Smoke.shader",
+    "canonical_sha256": "419ffe3a8df8d66ddcc845f8a4dcf6cf7b31441ceaa00a84219e65768afa8194",
+    "apk_extract_file": "tools/shader-extract/shader_13_WFX_Scroll_Smoke.txt",
+    "apk_container": "179c22242d881384a9a9b7abd22a944b",
+    "apk_path_id": 1,
+    "properties": [
+      "_TintColor",
+      "_MainTex",
+      "_ScrollSpeed"
+    ]
+  }
+]
