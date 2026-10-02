@@ -25,6 +25,9 @@ unresolved methods visible rather than inventing behavior.
 - `mPhotonSettings.CreateServerOffline(string)` (`0x0059df28`) follows the verified
 offline launch branch: disconnect an existing Photon connection, enable Photon
 offline mode, and create the room from the supplied map string.
+- `mCreateServer.Start` (`0x007dd1e0`), `Open` (`0x007de300`), and
+  `SetMaxPlayer` (`0x007dc64c`) restore the serialized singleton, panel-open state,
+  numeric player-limit parse, and selected-limit marker movement.
 
 The atlas, sprite, texture, label, and localization changes restore serialized NGUI
 state access (material, texture, atlas, sprite name, text, and CSV localization).

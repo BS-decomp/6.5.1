@@ -85,6 +85,12 @@ public class mCreateServer : MonoBehaviour
 
 	public void SetMaxPlayer(GameObject go)
 	{
+	        if (go == null) return;
+	        IIIJIIIJJJJJJIIJJJIIJJIJIIJIIIJIIIIIIIJJJIJJIJJ = int.Parse(go.name);
+	        if (IIJIIJJIJIJIJJIJJIIIIIJJIJIJJIJJIIIIIIIJIJIJJJJ != null)
+	        {
+	            IIJIIJJIJIJIJJIJJIIIIIJJIJIJJIJJIIIIIIIJIJIJJJJ.transform.localPosition = go.transform.localPosition;
+	        }
 	}
 
 	public static bool JIIJJIIIIJIJIIIIIIJIJJIIIJJJJJJJIIJJJJIIIIIJIII()
@@ -118,6 +124,7 @@ public class mCreateServer : MonoBehaviour
 
 	private void Start()
 	{
+	JIIIIJJJJIIJJJIIJIJIIJIIJJIIIIIIIIJJIJIJJJJJJJJ = this;
 	}
 
 	public static string JJIJJIJIJJIJIJJJIJIIIJIJJIJJIIJIIJJJJIIJIJIIIII()
@@ -171,6 +178,7 @@ public class mCreateServer : MonoBehaviour
 
 	public void Open()
 	{
+	JIIIIJJJJIIJJJIIJIJIIJIIJJIIIIIIIIJJIJIJJJJJJJJ = this;
 	}
 
 	public void IIIIJJJIIIIJIIIJIIJIIJIJJIJIIIJIIJJJJIJJIJIJIII()
