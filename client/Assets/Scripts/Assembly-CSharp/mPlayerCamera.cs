@@ -48,6 +48,8 @@ public class mPlayerCamera : MonoBehaviour
 
 	private void Awake()
 	{
+	        JIIIIJJJJIIJJJIIJIJIIJIIJJIIIIIIIIJJIJIJJJJJJJJ = this;
+	        IJJJIJJJJIIIIIIJJIJJJJJJIIIIJIIIJIIJIIJIJJIJIJJ = GetComponent<Camera>();
 	}
 
 	public static void IIIJIIJJIJJJIIJIIIJIJIJJJIIIJIIIIIJIIIJJJJIJIIJ()

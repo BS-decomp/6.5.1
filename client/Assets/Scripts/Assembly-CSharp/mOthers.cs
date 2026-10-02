@@ -175,6 +175,7 @@ public class mOthers : MonoBehaviour
 
 	public void ShowOthersGames()
 	{
+	Application.OpenURL("https://play.google.com/store/apps/dev?id=6363329851677974248");
 	}
 
 	private void JIJJJJJIIIIJJIJIJIJIJIIIJJJIIJJIJJIIJIIJJJIIJII()
@@ -195,6 +196,7 @@ public class mOthers : MonoBehaviour
 
 	public void ExitGame()
 	{
+	Application.Quit();
 	}
 
 	private void IJIJJIJJJJIIIJJIJIJIJJIIIJJIIJJIIIIJJJJJJIJIIJI()
@@ -239,6 +241,7 @@ public class mOthers : MonoBehaviour
 
 	public void ShowToast(string text)
 	{
+	UIToast.IIIJIIJJIJJJIIJIIIJIJIJJJIIIJIIIIIJIIIJJJJIJII(text);
 	}
 
 	public void IJJIJIIJJJJIJIJJJIIIIJJIJIJJIJJJJIJJJJJJJIJJJIJ()
