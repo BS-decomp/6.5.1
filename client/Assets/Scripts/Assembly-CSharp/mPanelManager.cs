@@ -119,6 +119,7 @@ public class mPanelManager : MonoBehaviour
 
 	public void ShowAnim(GameObject go)
 	{
+	Show(go);
 	}
 
 	public void IIJIJJIIIJIJJIIJIJJIJJJIIIIJIJIIIIJJIJJIIIIJIJJ(GameObject go)
@@ -136,6 +137,7 @@ public class mPanelManager : MonoBehaviour
 
 	public void HideAnim(GameObject go)
 	{
+	if (go != null) go.SetActive(false);
 	}
 
 	public static void IIJJJIIJIJJIJJIJIJJIIIJJJIJIJIIIJIJIIIJIJJJJIJI(GameObject IIIJJJIJIJIIJJIJIJIJIIIJIJJJJIJJIIIJIJJJJIJJIII)
@@ -152,6 +154,9 @@ public class mPanelManager : MonoBehaviour
 
 	public void Show(GameObject panel)
 	{
+	if (panel == null) return;
+	        foreach (UIPanel item in JIJIJIIJIIIIJIJIIIJIJIIIJIJJIJIIIJJIJIIJJIIIIIJ) if (item != null) item.gameObject.SetActive(item.gameObject == panel);
+	        panel.SetActive(true);
 	}
 
 	public void JJJJJIJJIJJJIIJIIJIJIIIJJJIJJIJJIJIJIJIJIJJIIJI(bool active)
@@ -165,6 +170,8 @@ public class mPanelManager : MonoBehaviour
 
 	public void Show(string panel)
 	{
+	if (string.IsNullOrEmpty(panel)) return;
+	        foreach (UIPanel item in JIJIJIIJIIIIJIJIIIJIJIIIJIJJIJIIIJJIJIIJJIIIIIJ) if (item != null) item.gameObject.SetActive(item.gameObject.name == panel);
 	}
 	public static bool JJIIIJJIIIIIIJJIIJIJJIIIIJIJIIJJJIJJJIIIIIIIJIJ()
 	{
@@ -222,6 +229,8 @@ public class mPanelManager : MonoBehaviour
 
 	private void Awake()
 	{
+	JIIIIJJJJIIJJJIIJIJIIJIIJJIIIIIIIIJJIJIJJJJJJJJ = this;
+	        if (JIJIJIIJIIIIJIJIIIJIJIIIJIJJIJIIIJJIJIIJJIIIIIJ == null) JIJIJIIJIIIIJIJIIIJIJIIIJIJJIJIIIJJIJIIJJIIIIIJ = new List<UIPanel>();
 	}
 
 	public void JJIJJIJJIIIJIIJIJIJIIIJIIJIIJJIJJIIJIJJJIIIIJII(GameObject panel)

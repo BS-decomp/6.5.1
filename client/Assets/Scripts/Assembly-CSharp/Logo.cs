@@ -1,3 +1,4 @@
+using UnityEngine.SceneManagement;
 #pragma warning disable 0618
 using System;
 using System.Collections;
@@ -272,11 +273,12 @@ public class Logo : MonoBehaviour
 
 	private void Start()
 	{
+	StartCoroutine(IIJJIIJJIJJJIJJIIJJIIIJJJJIIIIIJJJJIJIIJIJJIIJJ());
 	}
 
 	private IEnumerator IIJJIIJJIJJJIJJIIJJIIIJJJJIIIIIJJJJIJIIJIJJIIJJ()
 	{
-		return null;
+	return ReconstructedBoot();
 	}
 
 	private bool IIJIIIIIJJIJIIIJJIJJJJJJJIJIIJIIIIJJIIJIJJJIJIJ()
@@ -359,4 +361,30 @@ public class Logo : MonoBehaviour
 	{
 		return false;
 	}
+
+    private IEnumerator ReconstructedBoot()
+    {
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
+        if (IIJJJJIJIJJJJIJJJIIIJJJIIJJIJJIJJJJIJJIIJJIIIJJ != null)
+        {
+            IIJJJJIJIJJJJIJJJIIIJJJIIJJIJJIJJJJIJJIIJJIIIJJ.text = "0%";
+        }
+        yield return new WaitForSeconds(0.01f);
+        if (IIJJJJIJIJJJJIJJJIIIJJJIIJJIJJIJJJJIJJIIJJIIIJJ != null)
+        {
+            IIJJJJIJIJJJJIJJJIIIJJJIIJJIJJIJJJJIJJIIJJIIIJJ.text = "50%";
+        }
+        yield return new WaitForSeconds(0.01f);
+        if (IIJJJJIJIJJJJIJJJIIIJJJIIJJIJJIJJJJIJJIIJJIIIJJ != null)
+        {
+            IIJJJJIJIJJJJIJJJIIIJJJIIJJIJJIJJJJIJJIIJJIIIJJ.text = "90%";
+        }
+        yield return new WaitForSeconds(0.01f);
+        if (IIJJJJIJIJJJJIJJJIIIJJJIIJJIJJIJJJJIJJIIJJIIIJJ != null)
+        {
+            IIJJJJIJIJJJJIJJJIIIJJJIIJJIJJIJJJJIJJIIJJIIIJJ.text = "100%";
+        }
+        SceneManager.LoadScene("GDPR");
+    }
+
 }

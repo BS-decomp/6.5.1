@@ -1,3 +1,4 @@
+using System;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
@@ -52,6 +53,7 @@ public class UILocalize : MonoBehaviour
 
 	private void OnEnable()
 	{
+	ApplyLocalization();
 	}
 
 	private void JIJJJIIIJJIJIJJIJJJJJIIIIJJIJJJIJJJJIJIIIJJJJII()
@@ -83,6 +85,7 @@ public class UILocalize : MonoBehaviour
 
 	private void Start()
 	{
+	ApplyLocalization();
 	}
 	public void JJIIJJJJIJIJIIIJJJJIIJIIIIIIJIIJJIJIIIIIIIJIIJI(string JIIJJIIJIIJIJJJJIJIIIJIIIIJJJIIIIJIJIIJJIIJIIJI)
 	{
@@ -94,6 +97,7 @@ public class UILocalize : MonoBehaviour
 
 	public void JJIJIIIIJJJIJIJIIIJJJIJIIJIJJJIJIJJJIIIIJIIJIII(string JIIJJIIJIIJIJJJJIJIIIJIIIIJJJIIIIJIJIIJJIIJIIJI)
 	{
+	ApplyLocalization(JIIJJIIJIIJIJJJJIJIIIJIIIIJJJIIIIJIJIIJJIIJIIJI);
 	}
 
 	private void IIJJIJJJIJJJJJJJJIJIIJJJJJIIIIJIIIJIIJIIJIIJJIJ()
@@ -102,5 +106,38 @@ public class UILocalize : MonoBehaviour
 
 	private void OnDisable()
 	{
+	IIJJIJIJJIJJIJIJIJJJIIIJJJIJJIIIIJJJJIJIJIIJIJI = false;
 	}
+
+    private void ApplyLocalization()
+    {
+        ApplyLocalization(IIIJIJJJIIIIJJIIJJJIJJJIIIJJIJIIJJIJIJJJIIJIJIJ);
+    }
+
+    private void ApplyLocalization(string key)
+    {
+        if (string.IsNullOrEmpty(key)) return;
+        if (IJIJIJIIJJJJIJJJIJJIJIJIJJIJJIIJIJJIJJIJJIIIJII == null)
+        {
+            IJIJIJIIJJJJIJJJIJJIJIJIJJIJJIIJIJJIJJIJJIIIJII = GetComponent<UILabel>();
+        }
+        if (IJIJIJIIJJJJIJJJIJJIJIJIJJIJJIIJIJJIJJIJJIIIJII == null) return;
+        TextAsset csv = Resources.Load<TextAsset>("Localization");
+        if (csv == null) return;
+        string[] rows = csv.text.Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
+        for (int i = 1; i < rows.Length; i++)
+        {
+            string row = rows[i].TrimEnd('\r');
+            string[] columns = row.Split(',');
+            if (columns.Length >= 2 && columns[0] == key)
+            {
+                IJIJIJIIJJJJIJJJIJJIJIJIJJIJJIIJIJJIJJIJJIIIJII.text = columns[1];
+                IIJJIJIJJIJJIJIJIJJJIIIJJJIJJIIIIJJJJIJIJIIJIJI = true;
+                return;
+            }
+        }
+        IJIJIJIIJJJJIJJJIJJIJIJIJJIJJIIJIJJIJJIJJIIIJII.text = key;
+        IIJJIJIJJIJJIJIJIJJJIIIJJJIJJIIIIJJJJIJIJIIJIJI = true;
+    }
+
 }

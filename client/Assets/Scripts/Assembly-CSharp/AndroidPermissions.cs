@@ -1,3 +1,4 @@
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 [IIIJJIJIIIIJIJJJJIJIIIJIIJJIJJJIIIJJJIIIJJJJJJI]
@@ -33,6 +34,7 @@ public class AndroidPermissions : MonoBehaviour
 
 	private void Start()
 	{
+	SceneManager.LoadScene("Logo");
 	}
 
 	private void JIIIJIJIJJIIIJIIJJJJIIIIIIIIJIJIJJIJIIJIJIIIIJI()
