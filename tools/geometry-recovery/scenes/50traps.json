@@ -1,0 +1,330 @@
+{
+  "sceneName": "50Traps",
+  "sceneSlug": "50traps",
+  "scenePath": "Assets/Levels/Maps/MiniGames/50Traps/50Traps.unity",
+  "staticRendererCount": 3,
+  "referencedSubMeshCount": 4,
+  "lightmappedRendererCount": 1,
+  "renderers": [
+    {
+      "rendererId": 5817,
+      "gameObjectId": 1809,
+      "gameObjectName": "Map",
+      "transformId": 4310,
+      "meshFilterId": 6272,
+      "meshColliderId": 6431,
+      "meshColliderMeshGuid": "b611c58f1595b9347beb0bb68031663f",
+      "meshAtlasId": null,
+      "hierarchyPath": "Main/Level 1/Map",
+      "combinedMeshGuid": "73d5f5b6f4ff9f44491548c1308faabe",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_17.asset",
+      "firstSubMesh": 2,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        2,
+        3
+      ],
+      "materialGuids": [
+        "33545ce3369eea741a3eb3735e0a081d",
+        "fb4d7dc8d55381d488fd2dfbf62184c4"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.103945434,
+          0.103945434,
+          0.49357447,
+          0.5736165
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/50Traps/Renderer-5817.asset",
+      "outputAssetGuid": "cd3144a2b40e32cf0819b04854290a9e",
+      "transformChain": [
+        {
+          "transformId": 2965,
+          "gameObjectId": 464,
+          "gameObjectName": "Main",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 4063,
+          "gameObjectId": 1562,
+          "gameObjectName": "Level 1",
+          "localPosition": [
+            28.0,
+            0.0,
+            11.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 4310,
+          "gameObjectId": 1809,
+          "gameObjectName": "Map",
+          "localPosition": [
+            0.0,
+            1.5,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5850,
+      "gameObjectId": 1866,
+      "gameObjectName": "Sun 1",
+      "transformId": 4366,
+      "meshFilterId": 6305,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome/Sun/Sun 1",
+      "combinedMeshGuid": "73d5f5b6f4ff9f44491548c1308faabe",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_17.asset",
+      "firstSubMesh": 0,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        0
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/50Traps/Renderer-5850.asset",
+      "outputAssetGuid": "3b4f305890a4f133904262d2ce3b2dbf",
+      "transformChain": [
+        {
+          "transformId": 4396,
+          "gameObjectId": 1894,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 4369,
+          "gameObjectId": 1862,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 4397,
+          "gameObjectId": 1891,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 4364,
+          "gameObjectId": 1864,
+          "gameObjectName": "Sun",
+          "localPosition": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "localRotation": [
+            -0.20582907,
+            -0.7753525,
+            -0.31444415,
+            0.5075311
+          ],
+          "localScale": [
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "transformId": 4366,
+          "gameObjectId": 1866,
+          "gameObjectName": "Sun 1",
+          "localPosition": [
+            -0.0,
+            0.0,
+            25.194338
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 5855,
+      "gameObjectId": 1891,
+      "gameObjectName": "SkyDome",
+      "transformId": 4397,
+      "meshFilterId": 6310,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome",
+      "combinedMeshGuid": "73d5f5b6f4ff9f44491548c1308faabe",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_17.asset",
+      "firstSubMesh": 1,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        1
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/50Traps/Renderer-5855.asset",
+      "outputAssetGuid": "9172eba6c38f844320d04091f58a5a1e",
+      "transformChain": [
+        {
+          "transformId": 4396,
+          "gameObjectId": 1894,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 4369,
+          "gameObjectId": 1862,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 4397,
+          "gameObjectId": 1891,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}

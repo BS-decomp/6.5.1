@@ -1,0 +1,501 @@
+{
+  "sceneName": "Eazy",
+  "sceneSlug": "eazy",
+  "scenePath": "Assets/Levels/Maps/BunnyHop/Eazy/Eazy.unity",
+  "staticRendererCount": 7,
+  "referencedSubMeshCount": 7,
+  "lightmappedRendererCount": 4,
+  "renderers": [
+    {
+      "rendererId": 4122,
+      "gameObjectId": 858,
+      "gameObjectName": "Map - Tile_White",
+      "transformId": 2915,
+      "meshFilterId": 4134,
+      "meshColliderId": 4147,
+      "meshColliderMeshGuid": "565d730ee7fab3142b16ae30fdf8588c",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map - Tile_White",
+      "combinedMeshGuid": "ebe88616f24e2b34ca62ec0ed871bba5",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_43.asset",
+      "firstSubMesh": 5,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        5
+      ],
+      "materialGuids": [
+        "fb4d7dc8d55381d488fd2dfbf62184c4"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.678713,
+          0.678713,
+          -0.0027148523,
+          0.22834814
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Eazy/Renderer-4122.asset",
+      "outputAssetGuid": "7804f5a81541df3dffee142a8ee44a6c",
+      "transformChain": [
+        {
+          "transformId": 2915,
+          "gameObjectId": 858,
+          "gameObjectName": "Map - Tile_White",
+          "localPosition": [
+            -95.0,
+            2.75,
+            -4.25
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4123,
+      "gameObjectId": 898,
+      "gameObjectName": "Map - Tile_Red",
+      "transformId": 2955,
+      "meshFilterId": 4135,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map - Tile_Red",
+      "combinedMeshGuid": "ebe88616f24e2b34ca62ec0ed871bba5",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_43.asset",
+      "firstSubMesh": 2,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        2
+      ],
+      "materialGuids": [
+        "b30b804d467bcff4f8981e29f04b466e"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.2321225,
+          0.2321225,
+          -0.00092849,
+          -0.00092849
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Eazy/Renderer-4123.asset",
+      "outputAssetGuid": "207caa35ae5941cf343d350f49dbdd77",
+      "transformChain": [
+        {
+          "transformId": 2955,
+          "gameObjectId": 898,
+          "gameObjectName": "Map - Tile_Red",
+          "localPosition": [
+            -4.0,
+            0.0,
+            -86.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4124,
+      "gameObjectId": 916,
+      "gameObjectName": "Map - Tile_Blue",
+      "transformId": 2973,
+      "meshFilterId": 4136,
+      "meshColliderId": 4148,
+      "meshColliderMeshGuid": "cdb18b4498aa2a747bdfdf092adadd2b",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map - Tile_Blue",
+      "combinedMeshGuid": "ebe88616f24e2b34ca62ec0ed871bba5",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_43.asset",
+      "firstSubMesh": 6,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        6
+      ],
+      "materialGuids": [
+        "33545ce3369eea741a3eb3735e0a081d"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.15645587,
+          0.15645587,
+          0.23765543,
+          -0.0006258235
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Eazy/Renderer-4124.asset",
+      "outputAssetGuid": "ecd50c682706302af48feb00601fca8b",
+      "transformChain": [
+        {
+          "transformId": 2973,
+          "gameObjectId": 916,
+          "gameObjectName": "Map - Tile_Blue",
+          "localPosition": [
+            -95.0,
+            2.75,
+            -4.25
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4127,
+      "gameObjectId": 987,
+      "gameObjectName": "Sun 1",
+      "transformId": 3018,
+      "meshFilterId": 4139,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome/Sun/Sun 1",
+      "combinedMeshGuid": "ebe88616f24e2b34ca62ec0ed871bba5",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_43.asset",
+      "firstSubMesh": 4,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        4
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Eazy/Renderer-4127.asset",
+      "outputAssetGuid": "6c4a34349357e0add8056c7a2fb2cd11",
+      "transformChain": [
+        {
+          "transformId": 3041,
+          "gameObjectId": 972,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3012,
+          "gameObjectId": 988,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3045,
+          "gameObjectId": 974,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3016,
+          "gameObjectId": 985,
+          "gameObjectName": "Sun",
+          "localPosition": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "localRotation": [
+            -0.20582907,
+            -0.7753525,
+            -0.31444415,
+            0.5075311
+          ],
+          "localScale": [
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "transformId": 3018,
+          "gameObjectId": 987,
+          "gameObjectName": "Sun 1",
+          "localPosition": [
+            -0.0,
+            0.0,
+            25.194338
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4130,
+      "gameObjectId": 974,
+      "gameObjectName": "SkyDome",
+      "transformId": 3045,
+      "meshFilterId": 4141,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome",
+      "combinedMeshGuid": "ebe88616f24e2b34ca62ec0ed871bba5",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_43.asset",
+      "firstSubMesh": 3,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        3
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Eazy/Renderer-4130.asset",
+      "outputAssetGuid": "93bdeb6d946567b664d3bed6b49ef23a",
+      "transformChain": [
+        {
+          "transformId": 3041,
+          "gameObjectId": 972,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3012,
+          "gameObjectId": 988,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3045,
+          "gameObjectId": 974,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4131,
+      "gameObjectId": 997,
+      "gameObjectName": "Map - Water",
+      "transformId": 3054,
+      "meshFilterId": 4143,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Map - Water",
+      "combinedMeshGuid": "ebe88616f24e2b34ca62ec0ed871bba5",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_43.asset",
+      "firstSubMesh": 1,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        1
+      ],
+      "materialGuids": [
+        "670a39a52f89e1b41b73f91884463d6a"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Eazy/Renderer-4131.asset",
+      "outputAssetGuid": "e346f0529f97f6d16b7b1931cb8fd674",
+      "transformChain": [
+        {
+          "transformId": 3054,
+          "gameObjectId": 997,
+          "gameObjectName": "Map - Water",
+          "localPosition": [
+            -117.0,
+            -7.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4132,
+      "gameObjectId": 1014,
+      "gameObjectName": "Map - Block_Concrete_DarkGrey",
+      "transformId": 3071,
+      "meshFilterId": 4144,
+      "meshColliderId": 4149,
+      "meshColliderMeshGuid": "0d31e87a7deb2c34a98269ed374b9a62",
+      "meshAtlasId": null,
+      "hierarchyPath": "Map - Block_Concrete_DarkGrey",
+      "combinedMeshGuid": "ebe88616f24e2b34ca62ec0ed871bba5",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_43.asset",
+      "firstSubMesh": 0,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        0
+      ],
+      "materialGuids": [
+        "0f2e11ea837285b4ab704d6d3e2034b9"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0039433413,
+          0.0039433413,
+          0.2324061,
+          -1.5773367e-05
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Eazy/Renderer-4132.asset",
+      "outputAssetGuid": "c13c7308c3814dc5b9e4aceb75d99860",
+      "transformChain": [
+        {
+          "transformId": 3071,
+          "gameObjectId": 1014,
+          "gameObjectName": "Map - Block_Concrete_DarkGrey",
+          "localPosition": [
+            -117.0,
+            -9.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}

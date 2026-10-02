@@ -1,0 +1,3389 @@
+{
+  "sceneName": "Tennis",
+  "sceneSlug": "tennis",
+  "scenePath": "Assets/Levels/Maps/MiniGames/Tennis/Tennis.unity",
+  "staticRendererCount": 38,
+  "referencedSubMeshCount": 47,
+  "lightmappedRendererCount": 21,
+  "renderers": [
+    {
+      "rendererId": 3910,
+      "gameObjectId": 12,
+      "gameObjectName": "Wall",
+      "transformId": 1960,
+      "meshFilterId": 3959,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "4 Players/Wall",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 45,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        45
+      ],
+      "materialGuids": [
+        "fb4d7dc8d55381d488fd2dfbf62184c4"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.109265625,
+          0.109265625,
+          0.14800043,
+          0.88885915
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3910.asset",
+      "outputAssetGuid": "7969e832e953cae88f0cb0117a2dd94c",
+      "transformChain": [
+        {
+          "transformId": 2921,
+          "gameObjectId": 973,
+          "gameObjectName": "4 Players",
+          "localPosition": [
+            7.0,
+            -10.0,
+            -47.0
+          ],
+          "localRotation": [
+            0.0,
+            0.3826835,
+            0.0,
+            0.92387956
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1960,
+          "gameObjectId": 12,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            33.25,
+            5.5,
+            11.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3911,
+      "gameObjectId": 13,
+      "gameObjectName": "Ground",
+      "transformId": 1961,
+      "meshFilterId": 3960,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "10-12 Players/Field/Ground",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 3,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        3
+      ],
+      "materialGuids": [
+        "0d29bc280fc5ad2489860372de47e680"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.37389013,
+          0.37389013,
+          -0.0014955606,
+          -0.0014955606
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3911.asset",
+      "outputAssetGuid": "c084dd492be22a7634b52271ec13ad05",
+      "transformChain": [
+        {
+          "transformId": 2835,
+          "gameObjectId": 887,
+          "gameObjectName": "10-12 Players",
+          "localPosition": [
+            -15.0,
+            19.0,
+            49.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.08715574,
+            0.0,
+            0.9961947
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2887,
+          "gameObjectId": 939,
+          "gameObjectName": "Field",
+          "localPosition": [
+            10.25,
+            5.0,
+            -1.75
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1961,
+          "gameObjectId": 13,
+          "gameObjectName": "Ground",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3912,
+      "gameObjectId": 15,
+      "gameObjectName": "Fence",
+      "transformId": 1963,
+      "meshFilterId": 3961,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "4 Players/Post/Fence",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 36,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        36
+      ],
+      "materialGuids": [
+        "44aae18f9ed974f46ac2e01c8ed0d73f"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3912.asset",
+      "outputAssetGuid": "55dde1d9f2e07fbcae72a43d2d6fa25e",
+      "transformChain": [
+        {
+          "transformId": 2921,
+          "gameObjectId": 973,
+          "gameObjectName": "4 Players",
+          "localPosition": [
+            7.0,
+            -10.0,
+            -47.0
+          ],
+          "localRotation": [
+            0.0,
+            0.3826835,
+            0.0,
+            0.92387956
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2822,
+          "gameObjectId": 874,
+          "gameObjectName": "Post",
+          "localPosition": [
+            21.25,
+            5.0,
+            -3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1963,
+          "gameObjectId": 15,
+          "gameObjectName": "Fence",
+          "localPosition": [
+            -12.0,
+            1.0,
+            29.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3913,
+      "gameObjectId": 20,
+      "gameObjectName": "Glass",
+      "transformId": 1968,
+      "meshFilterId": 3962,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "4 Players/Wall/Glass",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 22,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        22
+      ],
+      "materialGuids": [
+        "1ee98d36f743aee489882c23bf0c2f70"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3913.asset",
+      "outputAssetGuid": "ed114a7d44401e1495c910e2a7268678",
+      "transformChain": [
+        {
+          "transformId": 2921,
+          "gameObjectId": 973,
+          "gameObjectName": "4 Players",
+          "localPosition": [
+            7.0,
+            -10.0,
+            -47.0
+          ],
+          "localRotation": [
+            0.0,
+            0.3826835,
+            0.0,
+            0.92387956
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1960,
+          "gameObjectId": 12,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            33.25,
+            5.5,
+            11.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 1968,
+          "gameObjectId": 20,
+          "gameObjectName": "Glass",
+          "localPosition": [
+            -0.5,
+            0.0,
+            0.25
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3915,
+      "gameObjectId": 839,
+      "gameObjectName": "SkyDome",
+      "transformId": 2790,
+      "meshFilterId": 3964,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 42,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        42
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3915.asset",
+      "outputAssetGuid": "a54af8e95f404a27240ba89073de3b3b",
+      "transformChain": [
+        {
+          "transformId": 2788,
+          "gameObjectId": 841,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2819,
+          "gameObjectId": 870,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2790,
+          "gameObjectId": 839,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3920,
+      "gameObjectId": 867,
+      "gameObjectName": "Sun 1",
+      "transformId": 2816,
+      "meshFilterId": 3969,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome/Sun/Sun 1",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 43,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        43
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3920.asset",
+      "outputAssetGuid": "7cf7e32f222f57ee98a1a065ee23750d",
+      "transformChain": [
+        {
+          "transformId": 2788,
+          "gameObjectId": 841,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2819,
+          "gameObjectId": 870,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2790,
+          "gameObjectId": 839,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2818,
+          "gameObjectId": 869,
+          "gameObjectName": "Sun",
+          "localPosition": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "localRotation": [
+            -0.20582907,
+            -0.7753525,
+            -0.31444415,
+            0.5075311
+          ],
+          "localScale": [
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "transformId": 2816,
+          "gameObjectId": 867,
+          "gameObjectName": "Sun 1",
+          "localPosition": [
+            -0.0,
+            0.0,
+            25.194338
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3921,
+      "gameObjectId": 874,
+      "gameObjectName": "Post",
+      "transformId": 2822,
+      "meshFilterId": 3970,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "4 Players/Post",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 28,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        28
+      ],
+      "materialGuids": [
+        "104b514cae0166540a12084ee2c4227a"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.039550446,
+          0.039550446,
+          0.9448811,
+          0.2372559
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3921.asset",
+      "outputAssetGuid": "f5a42563a011375d80825dc8f168c1d6",
+      "transformChain": [
+        {
+          "transformId": 2921,
+          "gameObjectId": 973,
+          "gameObjectName": "4 Players",
+          "localPosition": [
+            7.0,
+            -10.0,
+            -47.0
+          ],
+          "localRotation": [
+            0.0,
+            0.3826835,
+            0.0,
+            0.92387956
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2822,
+          "gameObjectId": 874,
+          "gameObjectName": "Post",
+          "localPosition": [
+            21.25,
+            5.0,
+            -3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3922,
+      "gameObjectId": 876,
+      "gameObjectName": "Post",
+      "transformId": 2824,
+      "meshFilterId": 3971,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "10-12 Players/Post",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 27,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        27
+      ],
+      "materialGuids": [
+        "104b514cae0166540a12084ee2c4227a"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.051444538,
+          0.051444538,
+          0.9448335,
+          0.21352309
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3922.asset",
+      "outputAssetGuid": "2e474bc65311e58df4244268b13ddf4d",
+      "transformChain": [
+        {
+          "transformId": 2835,
+          "gameObjectId": 887,
+          "gameObjectName": "10-12 Players",
+          "localPosition": [
+            -15.0,
+            19.0,
+            49.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.08715574,
+            0.0,
+            0.9961947
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2824,
+          "gameObjectId": 876,
+          "gameObjectName": "Post",
+          "localPosition": [
+            21.25,
+            5.0,
+            -3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3923,
+      "gameObjectId": 877,
+      "gameObjectName": "Field",
+      "transformId": 2825,
+      "meshFilterId": 3972,
+      "meshColliderId": 4010,
+      "meshColliderMeshGuid": "df9f54e8e0ccd094fad035f12c6ae887",
+      "meshAtlasId": null,
+      "hierarchyPath": "4 Players/Field",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 13,
+      "subMeshCount": 4,
+      "subMeshIndices": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "materialGuids": [
+        "050b3e294f0f1724f9db491921e70c12",
+        "d42b4e7f005f08147bf0bdbd4d300c9e",
+        "c444398b41796d54290e57cf5b62dd89",
+        "c15e215be38445e4e9aeb10c5b382977"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.26184377,
+          0.26184377,
+          0.3221948,
+          0.3311437
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3923.asset",
+      "outputAssetGuid": "450ed9d3af2235758a98d072294214cd",
+      "transformChain": [
+        {
+          "transformId": 2921,
+          "gameObjectId": 973,
+          "gameObjectName": "4 Players",
+          "localPosition": [
+            7.0,
+            -10.0,
+            -47.0
+          ],
+          "localRotation": [
+            0.0,
+            0.3826835,
+            0.0,
+            0.92387956
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2825,
+          "gameObjectId": 877,
+          "gameObjectName": "Field",
+          "localPosition": [
+            10.25,
+            5.0,
+            -1.75
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3924,
+      "gameObjectId": 880,
+      "gameObjectName": "Wall",
+      "transformId": 2828,
+      "meshFilterId": 3973,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "10-12 Players/Wall",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 46,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        46
+      ],
+      "materialGuids": [
+        "fb4d7dc8d55381d488fd2dfbf62184c4"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.14765625,
+          0.14765625,
+          -0.00059062504,
+          0.8887056
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3924.asset",
+      "outputAssetGuid": "dbbbbeb91d9206610e123f4ae3e5e45d",
+      "transformChain": [
+        {
+          "transformId": 2835,
+          "gameObjectId": 887,
+          "gameObjectName": "10-12 Players",
+          "localPosition": [
+            -15.0,
+            19.0,
+            49.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.08715574,
+            0.0,
+            0.9961947
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2828,
+          "gameObjectId": 880,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            33.25,
+            5.5,
+            11.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3925,
+      "gameObjectId": 883,
+      "gameObjectName": "Ground",
+      "transformId": 2831,
+      "meshFilterId": 3974,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Fields/Field/Ground",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 4,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        4
+      ],
+      "materialGuids": [
+        "0d29bc280fc5ad2489860372de47e680"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.060249154,
+          0.060249154,
+          0.1481965,
+          0.93309206
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3925.asset",
+      "outputAssetGuid": "27e63441fd63f89b6078f2378dd44feb",
+      "transformChain": [
+        {
+          "transformId": 2911,
+          "gameObjectId": 963,
+          "gameObjectName": "Fields",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2864,
+          "gameObjectId": 916,
+          "gameObjectName": "Field",
+          "localPosition": [
+            47.5,
+            4.125,
+            13.875
+          ],
+          "localRotation": [
+            0.0,
+            0.30070582,
+            0.0,
+            0.953717
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2831,
+          "gameObjectId": 883,
+          "gameObjectName": "Ground",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3926,
+      "gameObjectId": 886,
+      "gameObjectName": "Post",
+      "transformId": 2834,
+      "meshFilterId": 3975,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "6-8 Players/Post",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 29,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        29
+      ],
+      "materialGuids": [
+        "104b514cae0166540a12084ee2c4227a"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.039537456,
+          0.039537456,
+          0.94488114,
+          0.2679937
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3926.asset",
+      "outputAssetGuid": "79a2ec8b3f139ddc453cb8730f9e4a04",
+      "transformChain": [
+        {
+          "transformId": 2899,
+          "gameObjectId": 951,
+          "gameObjectName": "6-8 Players",
+          "localPosition": [
+            -99.0,
+            4.0,
+            -35.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.30070582,
+            0.0,
+            0.953717
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2834,
+          "gameObjectId": 886,
+          "gameObjectName": "Post",
+          "localPosition": [
+            21.25,
+            5.0,
+            -3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3927,
+      "gameObjectId": 888,
+      "gameObjectName": "Field",
+      "transformId": 2836,
+      "meshFilterId": 3976,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Fields/Field",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 8,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        8
+      ],
+      "materialGuids": [
+        "c15e215be38445e4e9aeb10c5b382977"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.057916842,
+          0.057916842,
+          0.9448076,
+          0.05836208
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3927.asset",
+      "outputAssetGuid": "bed615af3239997029cd2ef01fe0bf7f",
+      "transformChain": [
+        {
+          "transformId": 2911,
+          "gameObjectId": 963,
+          "gameObjectName": "Fields",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2836,
+          "gameObjectId": 888,
+          "gameObjectName": "Field",
+          "localPosition": [
+            -59.75,
+            11.25,
+            -61.125
+          ],
+          "localRotation": [
+            0.0,
+            0.3826835,
+            0.0,
+            0.92387956
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3928,
+      "gameObjectId": 890,
+      "gameObjectName": "Ground",
+      "transformId": 2838,
+      "meshFilterId": 3977,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "4 Players/Field/Ground",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 1,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        1
+      ],
+      "materialGuids": [
+        "0d29bc280fc5ad2489860372de47e680"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.33120596,
+          0.33120596,
+          0.7213314,
+          -0.0013248239
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3928.asset",
+      "outputAssetGuid": "c56e5b2a55d478c9cabf4375152bc9f3",
+      "transformChain": [
+        {
+          "transformId": 2921,
+          "gameObjectId": 973,
+          "gameObjectName": "4 Players",
+          "localPosition": [
+            7.0,
+            -10.0,
+            -47.0
+          ],
+          "localRotation": [
+            0.0,
+            0.3826835,
+            0.0,
+            0.92387956
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2825,
+          "gameObjectId": 877,
+          "gameObjectName": "Field",
+          "localPosition": [
+            10.25,
+            5.0,
+            -1.75
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2838,
+          "gameObjectId": 890,
+          "gameObjectName": "Ground",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3930,
+      "gameObjectId": 894,
+      "gameObjectName": "Wall",
+      "transformId": 2842,
+      "meshFilterId": 3979,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "6-8 Players/Wall",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 44,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        44
+      ],
+      "materialGuids": [
+        "fb4d7dc8d55381d488fd2dfbf62184c4"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.12501563,
+          0.12501563,
+          -0.00050006254,
+          0.9325523
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3930.asset",
+      "outputAssetGuid": "37d23bd995f6346679d31c6a228822c3",
+      "transformChain": [
+        {
+          "transformId": 2899,
+          "gameObjectId": 951,
+          "gameObjectName": "6-8 Players",
+          "localPosition": [
+            -99.0,
+            4.0,
+            -35.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.30070582,
+            0.0,
+            0.953717
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2842,
+          "gameObjectId": 894,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            33.25,
+            5.5,
+            11.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3931,
+      "gameObjectId": 895,
+      "gameObjectName": "Fence",
+      "transformId": 2843,
+      "meshFilterId": 3980,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "6-8 Players/Post/Fence",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 38,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        38
+      ],
+      "materialGuids": [
+        "44aae18f9ed974f46ac2e01c8ed0d73f"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3931.asset",
+      "outputAssetGuid": "6244cbb072999a802f8f7126b9731d13",
+      "transformChain": [
+        {
+          "transformId": 2899,
+          "gameObjectId": 951,
+          "gameObjectName": "6-8 Players",
+          "localPosition": [
+            -99.0,
+            4.0,
+            -35.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.30070582,
+            0.0,
+            0.953717
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2834,
+          "gameObjectId": 886,
+          "gameObjectName": "Post",
+          "localPosition": [
+            21.25,
+            5.0,
+            -3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2843,
+          "gameObjectId": 895,
+          "gameObjectName": "Fence",
+          "localPosition": [
+            -0.25,
+            1.0,
+            31.0
+          ],
+          "localRotation": [
+            0.0,
+            0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3932,
+      "gameObjectId": 896,
+      "gameObjectName": "Glass",
+      "transformId": 2844,
+      "meshFilterId": 3981,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "10-12 Players/Wall/Glass",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 23,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        23
+      ],
+      "materialGuids": [
+        "1ee98d36f743aee489882c23bf0c2f70"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3932.asset",
+      "outputAssetGuid": "b0b016716ab2f6902ddf167f55549a18",
+      "transformChain": [
+        {
+          "transformId": 2835,
+          "gameObjectId": 887,
+          "gameObjectName": "10-12 Players",
+          "localPosition": [
+            -15.0,
+            19.0,
+            49.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.08715574,
+            0.0,
+            0.9961947
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2828,
+          "gameObjectId": 880,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            33.25,
+            5.5,
+            11.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2844,
+          "gameObjectId": 896,
+          "gameObjectName": "Glass",
+          "localPosition": [
+            -0.5,
+            0.0,
+            0.25
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3933,
+      "gameObjectId": 897,
+      "gameObjectName": "Tree",
+      "transformId": 2854,
+      "meshFilterId": 3982,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Fields/Field/Tree",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 26,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        26
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.034074202,
+          0.034074202,
+          0.25865278,
+          0.8891599
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3933.asset",
+      "outputAssetGuid": "45fc5d1e9e5a0d672b90dcbba91ec9c5",
+      "transformChain": [
+        {
+          "transformId": 2911,
+          "gameObjectId": 963,
+          "gameObjectName": "Fields",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2904,
+          "gameObjectId": 956,
+          "gameObjectName": "Field",
+          "localPosition": [
+            -83.75,
+            29.125,
+            56.5
+          ],
+          "localRotation": [
+            0.0,
+            -0.30070582,
+            0.0,
+            0.953717
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2854,
+          "gameObjectId": 897,
+          "gameObjectName": "Tree",
+          "localPosition": [
+            10.575001,
+            -0.125,
+            14.049999
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3934,
+      "gameObjectId": 908,
+      "gameObjectName": "Glass",
+      "transformId": 2856,
+      "meshFilterId": 3983,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "6-8 Players/Wall/Glass",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 21,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        21
+      ],
+      "materialGuids": [
+        "1ee98d36f743aee489882c23bf0c2f70"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3934.asset",
+      "outputAssetGuid": "e55e4bf11118af12d2e285fdd0199b5b",
+      "transformChain": [
+        {
+          "transformId": 2899,
+          "gameObjectId": 951,
+          "gameObjectName": "6-8 Players",
+          "localPosition": [
+            -99.0,
+            4.0,
+            -35.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.30070582,
+            0.0,
+            0.953717
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2842,
+          "gameObjectId": 894,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            33.25,
+            5.5,
+            11.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2856,
+          "gameObjectId": 908,
+          "gameObjectName": "Glass",
+          "localPosition": [
+            -0.5,
+            0.0,
+            0.25
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3935,
+      "gameObjectId": 909,
+      "gameObjectName": "Field",
+      "transformId": 2857,
+      "meshFilterId": 3984,
+      "meshColliderId": 4012,
+      "meshColliderMeshGuid": "1ba41b303be4ac544a2f3d93a6f2dbc9",
+      "meshAtlasId": null,
+      "hierarchyPath": "6-8 Players/Field",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 17,
+      "subMeshCount": 4,
+      "subMeshIndices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "materialGuids": [
+        "050b3e294f0f1724f9db491921e70c12",
+        "d42b4e7f005f08147bf0bdbd4d300c9e",
+        "c444398b41796d54290e57cf5b62dd89",
+        "c15e215be38445e4e9aeb10c5b382977"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.29728127,
+          0.29728127,
+          -0.0011891251,
+          0.6168347
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3935.asset",
+      "outputAssetGuid": "9c0936a358e6dafeb067f48e58fadc2c",
+      "transformChain": [
+        {
+          "transformId": 2899,
+          "gameObjectId": 951,
+          "gameObjectName": "6-8 Players",
+          "localPosition": [
+            -99.0,
+            4.0,
+            -35.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.30070582,
+            0.0,
+            0.953717
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2857,
+          "gameObjectId": 909,
+          "gameObjectName": "Field",
+          "localPosition": [
+            10.25,
+            5.0,
+            -1.75
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3936,
+      "gameObjectId": 912,
+      "gameObjectName": "Fence",
+      "transformId": 2860,
+      "meshFilterId": 3985,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "4 Players/Post/Fence",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 33,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        33
+      ],
+      "materialGuids": [
+        "44aae18f9ed974f46ac2e01c8ed0d73f"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3936.asset",
+      "outputAssetGuid": "766537a1313ae9257e147d219477cc30",
+      "transformChain": [
+        {
+          "transformId": 2921,
+          "gameObjectId": 973,
+          "gameObjectName": "4 Players",
+          "localPosition": [
+            7.0,
+            -10.0,
+            -47.0
+          ],
+          "localRotation": [
+            0.0,
+            0.3826835,
+            0.0,
+            0.92387956
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2822,
+          "gameObjectId": 874,
+          "gameObjectName": "Post",
+          "localPosition": [
+            21.25,
+            5.0,
+            -3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2860,
+          "gameObjectId": 912,
+          "gameObjectName": "Fence",
+          "localPosition": [
+            -0.25,
+            1.0,
+            29.0
+          ],
+          "localRotation": [
+            0.0,
+            0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3937,
+      "gameObjectId": 913,
+      "gameObjectName": "Fence",
+      "transformId": 2861,
+      "meshFilterId": 3986,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "10-12 Players/Post/Fence",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 32,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        32
+      ],
+      "materialGuids": [
+        "44aae18f9ed974f46ac2e01c8ed0d73f"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3937.asset",
+      "outputAssetGuid": "f8a6c0bb24768e47863f99a1ccf67f1c",
+      "transformChain": [
+        {
+          "transformId": 2835,
+          "gameObjectId": 887,
+          "gameObjectName": "10-12 Players",
+          "localPosition": [
+            -15.0,
+            19.0,
+            49.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.08715574,
+            0.0,
+            0.9961947
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2824,
+          "gameObjectId": 876,
+          "gameObjectName": "Post",
+          "localPosition": [
+            21.25,
+            5.0,
+            -3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2861,
+          "gameObjectId": 913,
+          "gameObjectName": "Fence",
+          "localPosition": [
+            -0.25,
+            1.0,
+            31.0
+          ],
+          "localRotation": [
+            0.0,
+            0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3938,
+      "gameObjectId": 914,
+      "gameObjectName": "Fence",
+      "transformId": 2862,
+      "meshFilterId": 3987,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "6-8 Players/Post/Fence",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 40,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        40
+      ],
+      "materialGuids": [
+        "44aae18f9ed974f46ac2e01c8ed0d73f"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3938.asset",
+      "outputAssetGuid": "3042f2b79898927992d1294c9c5c4e67",
+      "transformChain": [
+        {
+          "transformId": 2899,
+          "gameObjectId": 951,
+          "gameObjectName": "6-8 Players",
+          "localPosition": [
+            -99.0,
+            4.0,
+            -35.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.30070582,
+            0.0,
+            0.953717
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2834,
+          "gameObjectId": 886,
+          "gameObjectName": "Post",
+          "localPosition": [
+            21.25,
+            5.0,
+            -3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2862,
+          "gameObjectId": 914,
+          "gameObjectName": "Fence",
+          "localPosition": [
+            14.0,
+            1.0,
+            29.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3939,
+      "gameObjectId": 915,
+      "gameObjectName": "Fence",
+      "transformId": 2863,
+      "meshFilterId": 3988,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "6-8 Players/Post/Fence",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 30,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        30
+      ],
+      "materialGuids": [
+        "44aae18f9ed974f46ac2e01c8ed0d73f"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3939.asset",
+      "outputAssetGuid": "b2470dfc30932e13e0bc2dfc04c3295a",
+      "transformChain": [
+        {
+          "transformId": 2899,
+          "gameObjectId": 951,
+          "gameObjectName": "6-8 Players",
+          "localPosition": [
+            -99.0,
+            4.0,
+            -35.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.30070582,
+            0.0,
+            0.953717
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2834,
+          "gameObjectId": 886,
+          "gameObjectName": "Post",
+          "localPosition": [
+            21.25,
+            5.0,
+            -3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2863,
+          "gameObjectId": 915,
+          "gameObjectName": "Fence",
+          "localPosition": [
+            -0.25,
+            1.0,
+            -2.0
+          ],
+          "localRotation": [
+            0.0,
+            0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3940,
+      "gameObjectId": 916,
+      "gameObjectName": "Field",
+      "transformId": 2864,
+      "meshFilterId": 3989,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Fields/Field",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 6,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        6
+      ],
+      "materialGuids": [
+        "c15e215be38445e4e9aeb10c5b382977"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.057916842,
+          0.057916842,
+          0.9448076,
+          -0.00023166738
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3940.asset",
+      "outputAssetGuid": "f87f500640f71a51655f34ccd76d3956",
+      "transformChain": [
+        {
+          "transformId": 2911,
+          "gameObjectId": 963,
+          "gameObjectName": "Fields",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2864,
+          "gameObjectId": 916,
+          "gameObjectName": "Field",
+          "localPosition": [
+            47.5,
+            4.125,
+            13.875
+          ],
+          "localRotation": [
+            0.0,
+            0.30070582,
+            0.0,
+            0.953717
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3941,
+      "gameObjectId": 917,
+      "gameObjectName": "Tree",
+      "transformId": 2874,
+      "meshFilterId": 3990,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Fields/Field/Tree",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 25,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        25
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.034074202,
+          0.034074202,
+          0.26939496,
+          0.9331967
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3941.asset",
+      "outputAssetGuid": "af09d6b9c8c92f0688fef496d297ca25",
+      "transformChain": [
+        {
+          "transformId": 2911,
+          "gameObjectId": 963,
+          "gameObjectName": "Fields",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2864,
+          "gameObjectId": 916,
+          "gameObjectName": "Field",
+          "localPosition": [
+            47.5,
+            4.125,
+            13.875
+          ],
+          "localRotation": [
+            0.0,
+            0.30070582,
+            0.0,
+            0.953717
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2874,
+          "gameObjectId": 917,
+          "gameObjectName": "Tree",
+          "localPosition": [
+            10.575001,
+            -0.125,
+            14.049999
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3942,
+      "gameObjectId": 927,
+      "gameObjectName": "Tree 2",
+      "transformId": 2886,
+      "meshFilterId": 3991,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Fields/Field/Tree 2",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 24,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        24
+      ],
+      "materialGuids": [
+        "656474bf8c9634941b7b3e04b4d3dec0"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.037649676,
+          0.037649676,
+          0.94488865,
+          0.17563064
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3942.asset",
+      "outputAssetGuid": "6d99a53410d7fd6adb455c0c2aa5af23",
+      "transformChain": [
+        {
+          "transformId": 2911,
+          "gameObjectId": 963,
+          "gameObjectName": "Fields",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2836,
+          "gameObjectId": 888,
+          "gameObjectName": "Field",
+          "localPosition": [
+            -59.75,
+            11.25,
+            -61.125
+          ],
+          "localRotation": [
+            0.0,
+            0.3826835,
+            0.0,
+            0.92387956
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2886,
+          "gameObjectId": 927,
+          "gameObjectName": "Tree 2",
+          "localPosition": [
+            10.625,
+            0.0,
+            14.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3943,
+      "gameObjectId": 939,
+      "gameObjectName": "Field",
+      "transformId": 2887,
+      "meshFilterId": 3992,
+      "meshColliderId": 4013,
+      "meshColliderMeshGuid": "aa6c0faf1b91a4e47931f76daa46efea",
+      "meshAtlasId": null,
+      "hierarchyPath": "10-12 Players/Field",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 9,
+      "subMeshCount": 4,
+      "subMeshIndices": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "materialGuids": [
+        "050b3e294f0f1724f9db491921e70c12",
+        "d42b4e7f005f08147bf0bdbd4d300c9e",
+        "c444398b41796d54290e57cf5b62dd89",
+        "c15e215be38445e4e9aeb10c5b382977"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.35043752,
+          0.35043752,
+          0.37164512,
+          -0.0014017501
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3943.asset",
+      "outputAssetGuid": "2677b81d9b1acfcfcfaf87603a686a67",
+      "transformChain": [
+        {
+          "transformId": 2835,
+          "gameObjectId": 887,
+          "gameObjectName": "10-12 Players",
+          "localPosition": [
+            -15.0,
+            19.0,
+            49.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.08715574,
+            0.0,
+            0.9961947
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2887,
+          "gameObjectId": 939,
+          "gameObjectName": "Field",
+          "localPosition": [
+            10.25,
+            5.0,
+            -1.75
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3945,
+      "gameObjectId": 945,
+      "gameObjectName": "Fence",
+      "transformId": 2893,
+      "meshFilterId": 3994,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "6-8 Players/Post/Fence",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 39,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        39
+      ],
+      "materialGuids": [
+        "44aae18f9ed974f46ac2e01c8ed0d73f"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3945.asset",
+      "outputAssetGuid": "88ad059679e4d8bd346909dff1b3ae6f",
+      "transformChain": [
+        {
+          "transformId": 2899,
+          "gameObjectId": 951,
+          "gameObjectName": "6-8 Players",
+          "localPosition": [
+            -99.0,
+            4.0,
+            -35.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.30070582,
+            0.0,
+            0.953717
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2834,
+          "gameObjectId": 886,
+          "gameObjectName": "Post",
+          "localPosition": [
+            21.25,
+            5.0,
+            -3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2893,
+          "gameObjectId": 945,
+          "gameObjectName": "Fence",
+          "localPosition": [
+            -14.0,
+            1.0,
+            29.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3947,
+      "gameObjectId": 948,
+      "gameObjectName": "Fence",
+      "transformId": 2896,
+      "meshFilterId": 3996,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "10-12 Players/Post/Fence",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 31,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        31
+      ],
+      "materialGuids": [
+        "44aae18f9ed974f46ac2e01c8ed0d73f"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3947.asset",
+      "outputAssetGuid": "4122da8acac11a398d220abcbea07b3a",
+      "transformChain": [
+        {
+          "transformId": 2835,
+          "gameObjectId": 887,
+          "gameObjectName": "10-12 Players",
+          "localPosition": [
+            -15.0,
+            19.0,
+            49.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.08715574,
+            0.0,
+            0.9961947
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2824,
+          "gameObjectId": 876,
+          "gameObjectName": "Post",
+          "localPosition": [
+            21.25,
+            5.0,
+            -3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2896,
+          "gameObjectId": 948,
+          "gameObjectName": "Fence",
+          "localPosition": [
+            -0.25,
+            1.0,
+            -2.0
+          ],
+          "localRotation": [
+            0.0,
+            0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3948,
+      "gameObjectId": 956,
+      "gameObjectName": "Field",
+      "transformId": 2904,
+      "meshFilterId": 3997,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Fields/Field",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 7,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        7
+      ],
+      "materialGuids": [
+        "c15e215be38445e4e9aeb10c5b382977"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.057916842,
+          0.057916842,
+          0.9448076,
+          0.11695583
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3948.asset",
+      "outputAssetGuid": "a7a8d361433816bdf4cdb04c40bc88d4",
+      "transformChain": [
+        {
+          "transformId": 2911,
+          "gameObjectId": 963,
+          "gameObjectName": "Fields",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2904,
+          "gameObjectId": 956,
+          "gameObjectName": "Field",
+          "localPosition": [
+            -83.75,
+            29.125,
+            56.5
+          ],
+          "localRotation": [
+            0.0,
+            -0.30070582,
+            0.0,
+            0.953717
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3949,
+      "gameObjectId": 959,
+      "gameObjectName": "Ground",
+      "transformId": 2907,
+      "meshFilterId": 3998,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Fields/Field/Ground",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 0,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        0
+      ],
+      "materialGuids": [
+        "0d29bc280fc5ad2489860372de47e680"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.060249154,
+          0.060249154,
+          0.702884,
+          0.44963774
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3949.asset",
+      "outputAssetGuid": "f33d14a8f8d3f334b0d608e40dcc4679",
+      "transformChain": [
+        {
+          "transformId": 2911,
+          "gameObjectId": 963,
+          "gameObjectName": "Fields",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2904,
+          "gameObjectId": 956,
+          "gameObjectName": "Field",
+          "localPosition": [
+            -83.75,
+            29.125,
+            56.5
+          ],
+          "localRotation": [
+            0.0,
+            -0.30070582,
+            0.0,
+            0.953717
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2907,
+          "gameObjectId": 959,
+          "gameObjectName": "Ground",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3950,
+      "gameObjectId": 965,
+      "gameObjectName": "Fence",
+      "transformId": 2913,
+      "meshFilterId": 3999,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "10-12 Players/Post/Fence",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 41,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        41
+      ],
+      "materialGuids": [
+        "44aae18f9ed974f46ac2e01c8ed0d73f"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3950.asset",
+      "outputAssetGuid": "1ea921ee4308b9f3cedd96eee178287e",
+      "transformChain": [
+        {
+          "transformId": 2835,
+          "gameObjectId": 887,
+          "gameObjectName": "10-12 Players",
+          "localPosition": [
+            -15.0,
+            19.0,
+            49.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.08715574,
+            0.0,
+            0.9961947
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2824,
+          "gameObjectId": 876,
+          "gameObjectName": "Post",
+          "localPosition": [
+            21.25,
+            5.0,
+            -3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2913,
+          "gameObjectId": 965,
+          "gameObjectName": "Fence",
+          "localPosition": [
+            17.0,
+            1.0,
+            29.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3951,
+      "gameObjectId": 970,
+      "gameObjectName": "Ground",
+      "transformId": 2918,
+      "meshFilterId": 4000,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "6-8 Players/Field/Ground",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 5,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        5
+      ],
+      "materialGuids": [
+        "0d29bc280fc5ad2489860372de47e680"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.32365015,
+          0.32365015,
+          -0.0012946007,
+          0.33089647
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3951.asset",
+      "outputAssetGuid": "8269472a0b83bac296a9823eff153f74",
+      "transformChain": [
+        {
+          "transformId": 2899,
+          "gameObjectId": 951,
+          "gameObjectName": "6-8 Players",
+          "localPosition": [
+            -99.0,
+            4.0,
+            -35.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.30070582,
+            0.0,
+            0.953717
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2857,
+          "gameObjectId": 909,
+          "gameObjectName": "Field",
+          "localPosition": [
+            10.25,
+            5.0,
+            -1.75
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2918,
+          "gameObjectId": 970,
+          "gameObjectName": "Ground",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3952,
+      "gameObjectId": 971,
+      "gameObjectName": "Ground",
+      "transformId": 2919,
+      "meshFilterId": 4001,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Fields/Field/Ground",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 2,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        2
+      ],
+      "materialGuids": [
+        "0d29bc280fc5ad2489860372de47e680"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.060249154,
+          0.060249154,
+          0.20874338,
+          0.93309206
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3952.asset",
+      "outputAssetGuid": "6985cd863c5920ff4a52eed830ca2e7c",
+      "transformChain": [
+        {
+          "transformId": 2911,
+          "gameObjectId": 963,
+          "gameObjectName": "Fields",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2836,
+          "gameObjectId": 888,
+          "gameObjectName": "Field",
+          "localPosition": [
+            -59.75,
+            11.25,
+            -61.125
+          ],
+          "localRotation": [
+            0.0,
+            0.3826835,
+            0.0,
+            0.92387956
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2919,
+          "gameObjectId": 971,
+          "gameObjectName": "Ground",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3954,
+      "gameObjectId": 974,
+      "gameObjectName": "Fence",
+      "transformId": 2922,
+      "meshFilterId": 4003,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "10-12 Players/Post/Fence",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 37,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        37
+      ],
+      "materialGuids": [
+        "44aae18f9ed974f46ac2e01c8ed0d73f"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3954.asset",
+      "outputAssetGuid": "1221b0cd75e57af5a9d2a9b04694851d",
+      "transformChain": [
+        {
+          "transformId": 2835,
+          "gameObjectId": 887,
+          "gameObjectName": "10-12 Players",
+          "localPosition": [
+            -15.0,
+            19.0,
+            49.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.08715574,
+            0.0,
+            0.9961947
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2824,
+          "gameObjectId": 876,
+          "gameObjectName": "Post",
+          "localPosition": [
+            21.25,
+            5.0,
+            -3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2922,
+          "gameObjectId": 974,
+          "gameObjectName": "Fence",
+          "localPosition": [
+            -14.0,
+            1.0,
+            29.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3956,
+      "gameObjectId": 976,
+      "gameObjectName": "Fence",
+      "transformId": 2924,
+      "meshFilterId": 4005,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "4 Players/Post/Fence",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 35,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        35
+      ],
+      "materialGuids": [
+        "44aae18f9ed974f46ac2e01c8ed0d73f"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3956.asset",
+      "outputAssetGuid": "678110bf70f6f9804844e5cbc12bdd3e",
+      "transformChain": [
+        {
+          "transformId": 2921,
+          "gameObjectId": 973,
+          "gameObjectName": "4 Players",
+          "localPosition": [
+            7.0,
+            -10.0,
+            -47.0
+          ],
+          "localRotation": [
+            0.0,
+            0.3826835,
+            0.0,
+            0.92387956
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2822,
+          "gameObjectId": 874,
+          "gameObjectName": "Post",
+          "localPosition": [
+            21.25,
+            5.0,
+            -3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2924,
+          "gameObjectId": 976,
+          "gameObjectName": "Fence",
+          "localPosition": [
+            12.0,
+            1.0,
+            29.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3957,
+      "gameObjectId": 977,
+      "gameObjectName": "Fence",
+      "transformId": 2925,
+      "meshFilterId": 4006,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "4 Players/Post/Fence",
+      "combinedMeshGuid": "0d215a08a152ada44bc473b84b9be02f",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_9.asset",
+      "firstSubMesh": 34,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        34
+      ],
+      "materialGuids": [
+        "44aae18f9ed974f46ac2e01c8ed0d73f"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Tennis/Renderer-3957.asset",
+      "outputAssetGuid": "7bfb4daf147018e41a8bb8528c122e37",
+      "transformChain": [
+        {
+          "transformId": 2921,
+          "gameObjectId": 973,
+          "gameObjectName": "4 Players",
+          "localPosition": [
+            7.0,
+            -10.0,
+            -47.0
+          ],
+          "localRotation": [
+            0.0,
+            0.3826835,
+            0.0,
+            0.92387956
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2822,
+          "gameObjectId": 874,
+          "gameObjectName": "Post",
+          "localPosition": [
+            21.25,
+            5.0,
+            -3.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2925,
+          "gameObjectId": 977,
+          "gameObjectName": "Fence",
+          "localPosition": [
+            -0.25,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.7071068,
+            0.0,
+            0.7071068
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}

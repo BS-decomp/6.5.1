@@ -1,0 +1,6286 @@
+{
+  "sceneName": "Simple",
+  "sceneSlug": "simple",
+  "scenePath": "Assets/Levels/Maps/DeathRun/Simple/Simple.unity",
+  "staticRendererCount": 74,
+  "referencedSubMeshCount": 114,
+  "lightmappedRendererCount": 64,
+  "renderers": [
+    {
+      "rendererId": 4214,
+      "gameObjectId": 77,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2144,
+      "meshFilterId": 4359,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 112,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        112
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.06958832,
+          0.02447888
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4214.asset",
+      "outputAssetGuid": "551e1cb634f442dcebc248090d4ea2fc",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2146,
+          "gameObjectId": 79,
+          "gameObjectName": "Button",
+          "localPosition": [
+            46.0,
+            1.5,
+            -19.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2144,
+          "gameObjectId": 77,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4216,
+      "gameObjectId": 80,
+      "gameObjectName": "Platform",
+      "transformId": 2147,
+      "meshFilterId": 4361,
+      "meshColliderId": 4525,
+      "meshColliderMeshGuid": "968c77689f66b9940ba9a3024faac48c",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Platform",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 30,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        30,
+        31,
+        32
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "91544e2d08ae8d340aa6a410527c36e5",
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.054039847,
+          0.054039847,
+          -0.001080797,
+          0.00087232795
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4216.asset",
+      "outputAssetGuid": "e94664171cc73b4723020fc8d1927c53",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2147,
+          "gameObjectId": 80,
+          "gameObjectName": "Platform",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4217,
+      "gameObjectId": 82,
+      "gameObjectName": "Wall",
+      "transformId": 2149,
+      "meshFilterId": 4362,
+      "meshColliderId": 4526,
+      "meshColliderMeshGuid": "b8966417163d8ff429baba37640eeaf7",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 8,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        8,
+        9
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.15956406,
+          0.15956406,
+          0.10716028,
+          0.64844126
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4217.asset",
+      "outputAssetGuid": "698e75b8065a50784813ba7a48b79cc5",
+      "transformChain": [
+        {
+          "transformId": 2179,
+          "gameObjectId": 112,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2149,
+          "gameObjectId": 82,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4218,
+      "gameObjectId": 83,
+      "gameObjectName": "Platform",
+      "transformId": 2150,
+      "meshFilterId": 4363,
+      "meshColliderId": 4527,
+      "meshColliderMeshGuid": "81f68416d10f78845bce74a034277dd9",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Platform",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 55,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        55,
+        56,
+        57
+      ],
+      "materialGuids": [
+        "91544e2d08ae8d340aa6a410527c36e5",
+        "95ac4d400ff8653448eff7ca51663721",
+        "0fe22edb0550c3b41b66dc3015a5c81f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.1213554,
+          0.1213554,
+          0.7508774,
+          0.24825998
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4218.asset",
+      "outputAssetGuid": "e729d27155bb40142cd9ac125d1d7967",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2150,
+          "gameObjectId": 83,
+          "gameObjectName": "Platform",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4220,
+      "gameObjectId": 85,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2152,
+      "meshFilterId": 4365,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 106,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        106
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.28540865,
+          0.038720988
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4220.asset",
+      "outputAssetGuid": "9b47b027339b996e02f2761bb58d1cc6",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2153,
+          "gameObjectId": 86,
+          "gameObjectName": "Button",
+          "localPosition": [
+            -27.5,
+            1.5,
+            -83.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2152,
+          "gameObjectId": 85,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4221,
+      "gameObjectId": 87,
+      "gameObjectName": "Blocks",
+      "transformId": 2154,
+      "meshFilterId": 4366,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Blocks",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 40,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        40
+      ],
+      "materialGuids": [
+        "ea079644060718940ada4f4460e3e133"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0059354664,
+          0.0059354664,
+          0.19016573,
+          0.017269194
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4221.asset",
+      "outputAssetGuid": "521f10e3935fd7a5d5618c140b2e278d",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2154,
+          "gameObjectId": 87,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            43.0,
+            3.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4222,
+      "gameObjectId": 90,
+      "gameObjectName": "Wall",
+      "transformId": 2157,
+      "meshFilterId": 4367,
+      "meshColliderId": 4528,
+      "meshColliderMeshGuid": "10ba58c80108a9941a32e0fac0d4a5f7",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 6,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        6,
+        7
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.11932244,
+          0.11932244,
+          0.25737917,
+          0.80298656
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4222.asset",
+      "outputAssetGuid": "972e5b5c039ef8773bc5c497069e81a1",
+      "transformChain": [
+        {
+          "transformId": 2179,
+          "gameObjectId": 112,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2157,
+          "gameObjectId": 90,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4223,
+      "gameObjectId": 91,
+      "gameObjectName": "Platform",
+      "transformId": 2158,
+      "meshFilterId": 4368,
+      "meshColliderId": 4529,
+      "meshColliderMeshGuid": "4308a005be184cf41b7e138af4990d4c",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Platform",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 50,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        50,
+        51
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.076527484,
+          0.076527484,
+          0.8935582,
+          0.105861165
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4223.asset",
+      "outputAssetGuid": "258e3a093714eb69c146b19421dae060",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2158,
+          "gameObjectId": 91,
+          "gameObjectName": "Platform",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4225,
+      "gameObjectId": 95,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2162,
+      "meshFilterId": 4370,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 90,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        90
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.2551352,
+          0.00913907
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4225.asset",
+      "outputAssetGuid": "fe3bac86552d4a1468430892cce21986",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2160,
+          "gameObjectId": 93,
+          "gameObjectName": "Button",
+          "localPosition": [
+            -27.5,
+            1.5,
+            -32.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2162,
+          "gameObjectId": 95,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4227,
+      "gameObjectId": 98,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2165,
+      "meshFilterId": 4372,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 92,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        92
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.27166346,
+          0.030021256
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4227.asset",
+      "outputAssetGuid": "00d69990562e6ff9ba47bf11d498e580",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2164,
+          "gameObjectId": 97,
+          "gameObjectName": "Button",
+          "localPosition": [
+            10.5,
+            1.5,
+            -63.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2165,
+          "gameObjectId": 98,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4229,
+      "gameObjectId": 106,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2173,
+      "meshFilterId": 4374,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 113,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        113
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.2551352,
+          0.0014691649
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4229.asset",
+      "outputAssetGuid": "4ffab989dfffe1f84b40ba6d99688a83",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2172,
+          "gameObjectId": 105,
+          "gameObjectName": "Button",
+          "localPosition": [
+            10.5,
+            1.5,
+            -84.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2173,
+          "gameObjectId": 106,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4231,
+      "gameObjectId": 108,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2175,
+      "meshFilterId": 4376,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 108,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        108
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.26392427,
+          0.02235135
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4231.asset",
+      "outputAssetGuid": "9a3e5e8f25e58ac0ec2b98fd12685801",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2177,
+          "gameObjectId": 110,
+          "gameObjectName": "Button",
+          "localPosition": [
+            10.5,
+            1.5,
+            -47.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2175,
+          "gameObjectId": 108,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4234,
+      "gameObjectId": 113,
+      "gameObjectName": "Glass",
+      "transformId": 2180,
+      "meshFilterId": 4379,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Glass",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 66,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        66
+      ],
+      "materialGuids": [
+        "1ee98d36f743aee489882c23bf0c2f70"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4234.asset",
+      "outputAssetGuid": "3e5c5fa69593ddfa846416946a6f23b6",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2180,
+          "gameObjectId": 113,
+          "gameObjectName": "Glass",
+          "localPosition": [
+            3.5,
+            1.0,
+            -4.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4235,
+      "gameObjectId": 115,
+      "gameObjectName": "Blocks",
+      "transformId": 2182,
+      "meshFilterId": 4380,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Blocks",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 39,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        39
+      ],
+      "materialGuids": [
+        "ea079644060718940ada4f4460e3e133"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0059354664,
+          0.0059354664,
+          0.21653292,
+          0.03276984
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4235.asset",
+      "outputAssetGuid": "4c883c311e02bc7fac11dcd077548569",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2182,
+          "gameObjectId": 115,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            47.0,
+            3.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4236,
+      "gameObjectId": 117,
+      "gameObjectName": "Platform",
+      "transformId": 2184,
+      "meshFilterId": 4381,
+      "meshColliderId": 4531,
+      "meshColliderMeshGuid": "ddc2df5def99d4c4488a4fb59ff1b56a",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Platform",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 58,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        58,
+        59,
+        60
+      ],
+      "materialGuids": [
+        "91544e2d08ae8d340aa6a410527c36e5",
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.17774601,
+          0.17774601,
+          0.109640576,
+          0.47318718
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4236.asset",
+      "outputAssetGuid": "120a5135fe61b1104b7f5ac5f16fc5a9",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2184,
+          "gameObjectId": 117,
+          "gameObjectName": "Platform",
+          "localPosition": [
+            9.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4237,
+      "gameObjectId": 119,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2186,
+      "meshFilterId": 4382,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 104,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        104
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.27166346,
+          0.03769116
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4237.asset",
+      "outputAssetGuid": "7f6fbe61107d8e8bfddf5604fa22adfc",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2185,
+          "gameObjectId": 118,
+          "gameObjectName": "Button",
+          "localPosition": [
+            -27.5,
+            1.5,
+            -63.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2186,
+          "gameObjectId": 119,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4239,
+      "gameObjectId": 121,
+      "gameObjectName": "Wall",
+      "transformId": 2188,
+      "meshFilterId": 4384,
+      "meshColliderId": 4532,
+      "meshColliderMeshGuid": "b547b83485c096147980f84da6c134e7",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 33,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        33,
+        34
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.14523438,
+          0.14523438,
+          0.84963435,
+          0.37346253
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4239.asset",
+      "outputAssetGuid": "ac93f4b34007b5d970453d72dee48e25",
+      "transformChain": [
+        {
+          "transformId": 2179,
+          "gameObjectId": 112,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2188,
+          "gameObjectId": 121,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4240,
+      "gameObjectId": 124,
+      "gameObjectName": "Press",
+      "transformId": 2191,
+      "meshFilterId": 4385,
+      "meshColliderId": 4533,
+      "meshColliderMeshGuid": "d63e9621bd42d8342aff930cfc748ba3",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Press",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 64,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        64
+      ],
+      "materialGuids": [
+        "58739587b6d4dbf44a258ccf0724eaed"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.019866802,
+          0.019866802,
+          0.26432878,
+          0.0018736578
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4240.asset",
+      "outputAssetGuid": "bb3bcaff6982e08659414fcf7b6ce218",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2191,
+          "gameObjectId": 124,
+          "gameObjectName": "Press",
+          "localPosition": [
+            22.0,
+            1.0,
+            -0.25
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4241,
+      "gameObjectId": 125,
+      "gameObjectName": "Platform",
+      "transformId": 2192,
+      "meshFilterId": 4386,
+      "meshColliderId": 4534,
+      "meshColliderMeshGuid": "204917ea61b79a048908cb4823e010da",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Platform",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 43,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        43,
+        44
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.098038994,
+          0.098038994,
+          -0.00196078,
+          0.42012593
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4241.asset",
+      "outputAssetGuid": "adbf7297bcaeccd8ab0e29fc3a1c4e32",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2192,
+          "gameObjectId": 125,
+          "gameObjectName": "Platform",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4242,
+      "gameObjectId": 127,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2194,
+      "meshFilterId": 4387,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 99,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        99
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.06958832,
+          0.032148786
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4242.asset",
+      "outputAssetGuid": "4ae526186261fe63cc9750c9bd60d001",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2193,
+          "gameObjectId": 126,
+          "gameObjectName": "Button",
+          "localPosition": [
+            34.0,
+            1.5,
+            -6.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2194,
+          "gameObjectId": 127,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4245,
+      "gameObjectId": 133,
+      "gameObjectName": "RedWall",
+      "transformId": 2200,
+      "meshFilterId": 4390,
+      "meshColliderId": 4535,
+      "meshColliderMeshGuid": "583680a1deb9af24abd96cda8e6f4881",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/RedWall",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 73,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        73,
+        74,
+        75
+      ],
+      "materialGuids": [
+        "bb5e43ff814ff7043be182ec3995ab91",
+        "91544e2d08ae8d340aa6a410527c36e5",
+        "8001366289ca51b439730a8b6a01209c"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.15234375,
+          0.15234375,
+          0.43738282,
+          0.21881238
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4245.asset",
+      "outputAssetGuid": "cc89ac507964db57293ae167b60291f2",
+      "transformChain": [
+        {
+          "transformId": 2179,
+          "gameObjectId": 112,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2200,
+          "gameObjectId": 133,
+          "gameObjectName": "RedWall",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4246,
+      "gameObjectId": 136,
+      "gameObjectName": "Glass",
+      "transformId": 2203,
+      "meshFilterId": 4391,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Glass",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 68,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        68
+      ],
+      "materialGuids": [
+        "1ee98d36f743aee489882c23bf0c2f70"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4246.asset",
+      "outputAssetGuid": "71f9cf721cfe9a3c372fc0c78c538016",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2203,
+          "gameObjectId": 136,
+          "gameObjectName": "Glass",
+          "localPosition": [
+            3.5,
+            1.0,
+            -4.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4247,
+      "gameObjectId": 141,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2208,
+      "meshFilterId": 4392,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 97,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        97
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.27271333,
+          0.02235135
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4247.asset",
+      "outputAssetGuid": "d44ada2daee4567b3cd652ddd0d15b78",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2210,
+          "gameObjectId": 143,
+          "gameObjectName": "Button",
+          "localPosition": [
+            -27.5,
+            1.5,
+            -35.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2208,
+          "gameObjectId": 141,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4252,
+      "gameObjectId": 149,
+      "gameObjectName": "Sun 1",
+      "transformId": 2242,
+      "meshFilterId": 4399,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome/Sun/Sun 1",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 85,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        85
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4252.asset",
+      "outputAssetGuid": "2e6fa06e44a6fbbbcad1dea5c0d6f65c",
+      "transformChain": [
+        {
+          "transformId": 2216,
+          "gameObjectId": 157,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2245,
+          "gameObjectId": 152,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2217,
+          "gameObjectId": 158,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2240,
+          "gameObjectId": 147,
+          "gameObjectName": "Sun",
+          "localPosition": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "localRotation": [
+            -0.20582907,
+            -0.7753525,
+            -0.31444415,
+            0.5075311
+          ],
+          "localScale": [
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "transformId": 2242,
+          "gameObjectId": 149,
+          "gameObjectName": "Sun 1",
+          "localPosition": [
+            -0.0,
+            0.0,
+            25.194338
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4253,
+      "gameObjectId": 158,
+      "gameObjectName": "SkyDome",
+      "transformId": 2217,
+      "meshFilterId": 4395,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 86,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        86
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4253.asset",
+      "outputAssetGuid": "de360753961b11ca887035dfe392758f",
+      "transformChain": [
+        {
+          "transformId": 2216,
+          "gameObjectId": 157,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2245,
+          "gameObjectId": 152,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2217,
+          "gameObjectId": 158,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4255,
+      "gameObjectId": 183,
+      "gameObjectName": "Platform",
+      "transformId": 2250,
+      "meshFilterId": 4400,
+      "meshColliderId": 4536,
+      "meshColliderMeshGuid": "05e281b5f48fd184fa756997dbce4d06",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Platform",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 61,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        61,
+        62,
+        63
+      ],
+      "materialGuids": [
+        "91544e2d08ae8d340aa6a410527c36e5",
+        "95ac4d400ff8653448eff7ca51663721",
+        "0fe22edb0550c3b41b66dc3015a5c81f"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.054140627,
+          0.054140627,
+          -0.00021656252,
+          0.36903825
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4255.asset",
+      "outputAssetGuid": "2758e9d7440b2fe00b647ca779edf1ff",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2250,
+          "gameObjectId": 183,
+          "gameObjectName": "Platform",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4256,
+      "gameObjectId": 186,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2253,
+      "meshFilterId": 4401,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 98,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        98
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.06958832,
+          0.0014691649
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4256.asset",
+      "outputAssetGuid": "5f21a24e86fa5e2a608f7f0efa845b01",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2252,
+          "gameObjectId": 185,
+          "gameObjectName": "Button",
+          "localPosition": [
+            -27.5,
+            1.5,
+            -7.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2253,
+          "gameObjectId": 186,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4259,
+      "gameObjectId": 190,
+      "gameObjectName": "Platform",
+      "transformId": 2257,
+      "meshFilterId": 4404,
+      "meshColliderId": 4537,
+      "meshColliderMeshGuid": "df45660bc0122fc40ab4581d9fba15c4",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Platform",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 54,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        54
+      ],
+      "materialGuids": [
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.034538463,
+          0.034538463,
+          0.36973882,
+          0.0018149711
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4259.asset",
+      "outputAssetGuid": "abebaa95b30f6a380f3c36d1e4319287",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2257,
+          "gameObjectId": 190,
+          "gameObjectName": "Platform",
+          "localPosition": [
+            61.0,
+            0.0,
+            -14.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4260,
+      "gameObjectId": 191,
+      "gameObjectName": "Wall",
+      "transformId": 2258,
+      "meshFilterId": 4405,
+      "meshColliderId": 4538,
+      "meshColliderMeshGuid": "f2d3e8e9c864875449ba6e7bfed98cd0",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 2,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        2,
+        3
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.2315625,
+          0.2315625,
+          0.38794687,
+          0.37173596
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4260.asset",
+      "outputAssetGuid": "063a6bc369f3cf8b7a70ee617783a4e9",
+      "transformChain": [
+        {
+          "transformId": 2179,
+          "gameObjectId": 112,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2258,
+          "gameObjectId": 191,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4261,
+      "gameObjectId": 192,
+      "gameObjectName": "Glass",
+      "transformId": 2259,
+      "meshFilterId": 4406,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Glass",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 67,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        67
+      ],
+      "materialGuids": [
+        "1ee98d36f743aee489882c23bf0c2f70"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4261.asset",
+      "outputAssetGuid": "15561c1641e137861415a25d4066c0fd",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2259,
+          "gameObjectId": 192,
+          "gameObjectName": "Glass",
+          "localPosition": [
+            3.5,
+            1.0,
+            -5.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4262,
+      "gameObjectId": 193,
+      "gameObjectName": "Wall",
+      "transformId": 2260,
+      "meshFilterId": 4407,
+      "meshColliderId": 4539,
+      "meshColliderMeshGuid": "a4b6f3f0f17c994488fc83286b639456",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 21,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        21,
+        22
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.11265227,
+          0.11265227,
+          -0.0022530456,
+          0.04496487
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4262.asset",
+      "outputAssetGuid": "204edd3473f92e6ac6980a3628061c55",
+      "transformChain": [
+        {
+          "transformId": 2179,
+          "gameObjectId": 112,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2260,
+          "gameObjectId": 193,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4265,
+      "gameObjectId": 197,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2264,
+      "meshFilterId": 4410,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 110,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        110
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.06958832,
+          0.016808975
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4265.asset",
+      "outputAssetGuid": "f2f7888f8342e8313295ad0fc49c0e95",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2262,
+          "gameObjectId": 195,
+          "gameObjectName": "Button",
+          "localPosition": [
+            27.5,
+            1.5,
+            -19.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2264,
+          "gameObjectId": 197,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4266,
+      "gameObjectId": 199,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2266,
+      "meshFilterId": 4411,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 101,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        101
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.2551352,
+          0.02447888
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4266.asset",
+      "outputAssetGuid": "06fcb24bf6fd4bef9214fade49a5ba1a",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2265,
+          "gameObjectId": 198,
+          "gameObjectName": "Button",
+          "localPosition": [
+            25.0,
+            1.5,
+            -6.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2266,
+          "gameObjectId": 199,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4270,
+      "gameObjectId": 205,
+      "gameObjectName": "Lava",
+      "transformId": 2272,
+      "meshFilterId": 4415,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Lava",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 37,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        37
+      ],
+      "materialGuids": [
+        "98d9e6dbacc1de145b97175f3ff14911"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4270.asset",
+      "outputAssetGuid": "005e3d99f4e0048a1809be6dc2c56af6",
+      "transformChain": [
+        {
+          "transformId": 2272,
+          "gameObjectId": 205,
+          "gameObjectName": "Lava",
+          "localPosition": [
+            31.0,
+            0.75,
+            -32.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4272,
+      "gameObjectId": 207,
+      "gameObjectName": "Platform",
+      "transformId": 2274,
+      "meshFilterId": 4417,
+      "meshColliderId": 4541,
+      "meshColliderMeshGuid": "dd44405eea14cd84ab4bd8347dc5ed4e",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Platform",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 52,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        52
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.04949488,
+          0.04949488,
+          0.05816327,
+          0.24503341
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4272.asset",
+      "outputAssetGuid": "c4eb5fe36a82cb6b9c23035f05b692f1",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2274,
+          "gameObjectId": 207,
+          "gameObjectName": "Platform",
+          "localPosition": [
+            51.0,
+            1.0,
+            -27.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4274,
+      "gameObjectId": 210,
+      "gameObjectName": "Platform",
+      "transformId": 2277,
+      "meshFilterId": 4419,
+      "meshColliderId": 4542,
+      "meshColliderMeshGuid": "711cb4b84ed7d13468d35b86f6c4db94",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Platform",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 48,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        48,
+        49
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.11517188,
+          0.11517188,
+          0.439969,
+          0.14913295
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4274.asset",
+      "outputAssetGuid": "a1b424bdc5d00879ffb88a14a250ad8e",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2277,
+          "gameObjectId": 210,
+          "gameObjectName": "Platform",
+          "localPosition": [
+            9.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4276,
+      "gameObjectId": 213,
+      "gameObjectName": "Platform",
+      "transformId": 2280,
+      "meshFilterId": 4421,
+      "meshColliderId": 4543,
+      "meshColliderMeshGuid": "64df27d694621ff468503bc4af747293",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Platform",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 45,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        45
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.070875004,
+          0.070875004,
+          -0.00028350003,
+          0.56993407
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4276.asset",
+      "outputAssetGuid": "fd59d9c8f751fedc161a0b169d298da9",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2280,
+          "gameObjectId": 213,
+          "gameObjectName": "Platform",
+          "localPosition": [
+            9.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4277,
+      "gameObjectId": 215,
+      "gameObjectName": "Wall",
+      "transformId": 2282,
+      "meshFilterId": 4422,
+      "meshColliderId": 4544,
+      "meshColliderMeshGuid": "e8897355580dcf04bb3fcf0e213641ef",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 12,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        12,
+        13
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.060116313,
+          0.060116313,
+          -0.0012023264,
+          0.24402906
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4277.asset",
+      "outputAssetGuid": "fab95b31146ada28c6dc7de611c3d9a5",
+      "transformChain": [
+        {
+          "transformId": 2179,
+          "gameObjectId": 112,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2282,
+          "gameObjectId": 215,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4280,
+      "gameObjectId": 225,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2292,
+      "meshFilterId": 4425,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 93,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        93
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.1897055,
+          0.00913907
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4280.asset",
+      "outputAssetGuid": "154e95c7d514ad989c123c193c410c7b",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2291,
+          "gameObjectId": 224,
+          "gameObjectName": "Button",
+          "localPosition": [
+            34.5,
+            1.5,
+            -19.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2292,
+          "gameObjectId": 225,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4282,
+      "gameObjectId": 229,
+      "gameObjectName": "Glass",
+      "transformId": 2296,
+      "meshFilterId": 4427,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Glass",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 65,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        65
+      ],
+      "materialGuids": [
+        "1ee98d36f743aee489882c23bf0c2f70"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4282.asset",
+      "outputAssetGuid": "268b1d920e6826fe837d29497428eb71",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2296,
+          "gameObjectId": 229,
+          "gameObjectName": "Glass",
+          "localPosition": [
+            3.5,
+            1.0,
+            -4.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4286,
+      "gameObjectId": 237,
+      "gameObjectName": "RedWall",
+      "transformId": 2304,
+      "meshFilterId": 4431,
+      "meshColliderId": 4546,
+      "meshColliderMeshGuid": "343f0312d633e57409c083e0dbd21d25",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/RedWall",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 70,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        70,
+        71,
+        72
+      ],
+      "materialGuids": [
+        "bb5e43ff814ff7043be182ec3995ab91",
+        "8001366289ca51b439730a8b6a01209c",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.24273439,
+          0.24273439,
+          0.6123328,
+          0.37151253
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4286.asset",
+      "outputAssetGuid": "807c0b3cdfbcab2fd4d0c0645b62d3e1",
+      "transformChain": [
+        {
+          "transformId": 2179,
+          "gameObjectId": 112,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2304,
+          "gameObjectId": 237,
+          "gameObjectName": "RedWall",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4289,
+      "gameObjectId": 245,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2312,
+      "meshFilterId": 4434,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 102,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        102
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.053226978,
+          0.018070728
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4289.asset",
+      "outputAssetGuid": "7cda35dcc8e32bfb172e45d1c711029b",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2310,
+          "gameObjectId": 243,
+          "gameObjectName": "Button",
+          "localPosition": [
+            -27.5,
+            1.5,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2312,
+          "gameObjectId": 245,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4294,
+      "gameObjectId": 251,
+      "gameObjectName": "Platform",
+      "transformId": 2318,
+      "meshFilterId": 4439,
+      "meshColliderId": 4550,
+      "meshColliderMeshGuid": "55ef0b1e9900c264094641f51005c1b9",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Platform",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 53,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        53
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.05634124,
+          0.05634124,
+          0.7507512,
+          0.046992548
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4294.asset",
+      "outputAssetGuid": "bb1de7c910929f9daff64c12e9ee1d67",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2318,
+          "gameObjectId": 251,
+          "gameObjectName": "Platform",
+          "localPosition": [
+            60.0,
+            1.0,
+            -16.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4295,
+      "gameObjectId": 253,
+      "gameObjectName": "GrayBlock",
+      "transformId": 2320,
+      "meshFilterId": 4440,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 94,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        94
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.053226978,
+          0.033410538
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4295.asset",
+      "outputAssetGuid": "1180c6da48483b5e65b15e7ba7ed4247",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2322,
+          "gameObjectId": 255,
+          "gameObjectName": "Button",
+          "localPosition": [
+            -27.5,
+            1.5,
+            -4.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2320,
+          "gameObjectId": 253,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4298,
+      "gameObjectId": 256,
+      "gameObjectName": "Wall",
+      "transformId": 2323,
+      "meshFilterId": 4443,
+      "meshColliderId": 4551,
+      "meshColliderMeshGuid": "d8967fa7d5f3960468bba2f19c837cdf",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 27,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        27,
+        28,
+        29
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "91544e2d08ae8d340aa6a410527c36e5",
+        "8001366289ca51b439730a8b6a01209c"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.15349153,
+          0.15349153,
+          0.10728173,
+          0.8023032
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4298.asset",
+      "outputAssetGuid": "24e75539ea73311f35f02d1fd448af76",
+      "transformChain": [
+        {
+          "transformId": 2179,
+          "gameObjectId": 112,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2323,
+          "gameObjectId": 256,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4299,
+      "gameObjectId": 1071,
+      "gameObjectName": "GrayBlock",
+      "transformId": 3138,
+      "meshFilterId": 4444,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 107,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        107
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.053226978,
+          0.025740633
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4299.asset",
+      "outputAssetGuid": "86b273d4c2a50344868202a2f6a21b98",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3140,
+          "gameObjectId": 1073,
+          "gameObjectName": "Button",
+          "localPosition": [
+            7.0,
+            1.5,
+            -6.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3138,
+          "gameObjectId": 1071,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4301,
+      "gameObjectId": 1075,
+      "gameObjectName": "GrayBlock",
+      "transformId": 3142,
+      "meshFilterId": 4446,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 95,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        95
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.19849457,
+          0.03230962
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4301.asset",
+      "outputAssetGuid": "cbec13c036bdd692fb0def4663e5caae",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3141,
+          "gameObjectId": 1074,
+          "gameObjectName": "Button",
+          "localPosition": [
+            52.5,
+            1.5,
+            -6.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3142,
+          "gameObjectId": 1075,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4308,
+      "gameObjectId": 1084,
+      "gameObjectName": "Trap",
+      "transformId": 3151,
+      "meshFilterId": 4453,
+      "meshColliderId": 4555,
+      "meshColliderMeshGuid": "19d655de6366f3f4eb0103344f88514f",
+      "meshAtlasId": null,
+      "hierarchyPath": "Trap/Trap",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 69,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        69
+      ],
+      "materialGuids": [
+        "1ee98d36f743aee489882c23bf0c2f70"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4308.asset",
+      "outputAssetGuid": "171b84e79c2f0b5f737c4c7023c69f1b",
+      "transformChain": [
+        {
+          "transformId": 2283,
+          "gameObjectId": 216,
+          "gameObjectName": "Trap",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3151,
+          "gameObjectId": 1084,
+          "gameObjectName": "Trap",
+          "localPosition": [
+            29.0,
+            1.0,
+            4.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4309,
+      "gameObjectId": 1085,
+      "gameObjectName": "Lava",
+      "transformId": 3152,
+      "meshFilterId": 4454,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Lava",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 35,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        35
+      ],
+      "materialGuids": [
+        "98d9e6dbacc1de145b97175f3ff14911"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4309.asset",
+      "outputAssetGuid": "56cb6e7b1b3a8e6dd100781646a24a44",
+      "transformChain": [
+        {
+          "transformId": 3152,
+          "gameObjectId": 1085,
+          "gameObjectName": "Lava",
+          "localPosition": [
+            0.0,
+            -3.5,
+            6.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4310,
+      "gameObjectId": 1086,
+      "gameObjectName": "Wall",
+      "transformId": 3153,
+      "meshFilterId": 4455,
+      "meshColliderId": 4556,
+      "meshColliderMeshGuid": "0c570b50469300b4c9f77462bca08588",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 14,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        14,
+        15
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.19786777,
+          0.19786777,
+          0.38862076,
+          0.5747898
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4310.asset",
+      "outputAssetGuid": "f8c0f77054a61934019380e15807708a",
+      "transformChain": [
+        {
+          "transformId": 2179,
+          "gameObjectId": 112,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3153,
+          "gameObjectId": 1086,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4311,
+      "gameObjectId": 1087,
+      "gameObjectName": "Trap",
+      "transformId": 3154,
+      "meshFilterId": 4456,
+      "meshColliderId": 4557,
+      "meshColliderMeshGuid": "e950f796ef5d1304cbdfb4e1ed011d9e",
+      "meshAtlasId": null,
+      "hierarchyPath": "Trap/Trap",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 16,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        16,
+        17
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.053066183,
+          0.053066183,
+          0.053838447,
+          0.5153178
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4311.asset",
+      "outputAssetGuid": "fdbed09580b7a1e798ecd8384c09cea5",
+      "transformChain": [
+        {
+          "transformId": 2283,
+          "gameObjectId": 216,
+          "gameObjectName": "Trap",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3154,
+          "gameObjectId": 1087,
+          "gameObjectName": "Trap",
+          "localPosition": [
+            -38.5,
+            -4.0,
+            -2.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4312,
+      "gameObjectId": 1089,
+      "gameObjectName": "RedWall",
+      "transformId": 3156,
+      "meshFilterId": 4457,
+      "meshColliderId": 4558,
+      "meshColliderMeshGuid": "f5f0feedbba1b3c41bd95a740f0ba015",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/RedWall",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 76,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        76,
+        77,
+        78
+      ],
+      "materialGuids": [
+        "bb5e43ff814ff7043be182ec3995ab91",
+        "8001366289ca51b439730a8b6a01209c",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.16453126,
+          0.16453126,
+          0.58752966,
+          0.043927286
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4312.asset",
+      "outputAssetGuid": "696313876ce54939803a9acf0f20e35c",
+      "transformChain": [
+        {
+          "transformId": 2179,
+          "gameObjectId": 112,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3156,
+          "gameObjectId": 1089,
+          "gameObjectName": "RedWall",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4316,
+      "gameObjectId": 1095,
+      "gameObjectName": "GrayBlock",
+      "transformId": 3162,
+      "meshFilterId": 4461,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 111,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        111
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.28540865,
+          0.023381181
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4316.asset",
+      "outputAssetGuid": "f67219ff1b9f5908def4141e65e0a24c",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3160,
+          "gameObjectId": 1093,
+          "gameObjectName": "Button",
+          "localPosition": [
+            -10.5,
+            1.5,
+            -84.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3162,
+          "gameObjectId": 1095,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4317,
+      "gameObjectId": 1097,
+      "gameObjectName": "Wall",
+      "transformId": 3164,
+      "meshFilterId": 4462,
+      "meshColliderId": 4560,
+      "meshColliderMeshGuid": "03d5b6620b36bd04fad3b96d8767ef0c",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 0,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        0,
+        1
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.13632113,
+          0.13632113,
+          0.3898517,
+          0.7693801
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4317.asset",
+      "outputAssetGuid": "7055f3e497e70afd879482888ff4cb78",
+      "transformChain": [
+        {
+          "transformId": 2179,
+          "gameObjectId": 112,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3164,
+          "gameObjectId": 1097,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4318,
+      "gameObjectId": 1100,
+      "gameObjectName": "Wall",
+      "transformId": 3167,
+      "meshFilterId": 4463,
+      "meshColliderId": 4561,
+      "meshColliderMeshGuid": "b30dde1e869dc6d4ebe58fb5ef25c0ab",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 25,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        25,
+        26
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.14637955,
+          0.14637955,
+          0.7484352,
+          0.10323968
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4318.asset",
+      "outputAssetGuid": "5c6264f8e43149367f7ba91b7d034653",
+      "transformChain": [
+        {
+          "transformId": 2179,
+          "gameObjectId": 112,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3167,
+          "gameObjectId": 1100,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4320,
+      "gameObjectId": 1103,
+      "gameObjectName": "RedWall",
+      "transformId": 3170,
+      "meshFilterId": 4465,
+      "meshColliderId": 4563,
+      "meshColliderMeshGuid": "e5f4c4c54c843b5489982db57f1d7623",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/RedWall",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 79,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        79,
+        80,
+        81
+      ],
+      "materialGuids": [
+        "bb5e43ff814ff7043be182ec3995ab91",
+        "8001366289ca51b439730a8b6a01209c",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.1540237,
+          0.1540237,
+          0.4373492,
+          0.044137437
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4320.asset",
+      "outputAssetGuid": "12b2fbf38c7cdf9065f488ab42295280",
+      "transformChain": [
+        {
+          "transformId": 2179,
+          "gameObjectId": 112,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3170,
+          "gameObjectId": 1103,
+          "gameObjectName": "RedWall",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4321,
+      "gameObjectId": 1105,
+      "gameObjectName": "GrayBlock",
+      "transformId": 3172,
+      "meshFilterId": 4466,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 87,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        87
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.1897055,
+          0.0014691649
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4321.asset",
+      "outputAssetGuid": "3dd1f763d5e34bcdef76f81f50adea70",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3171,
+          "gameObjectId": 1104,
+          "gameObjectName": "Button",
+          "localPosition": [
+            45.5,
+            1.5,
+            -6.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3172,
+          "gameObjectId": 1105,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4325,
+      "gameObjectId": 1111,
+      "gameObjectName": "Platform",
+      "transformId": 3178,
+      "meshFilterId": 4470,
+      "meshColliderId": 4565,
+      "meshColliderMeshGuid": "96e8a223e01c12c4eba86ec8c6ab4b52",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Platform",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 18,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        18,
+        19,
+        20
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "95ac4d400ff8653448eff7ca51663721",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.09753699,
+          0.09753699,
+          -0.00039014796,
+          0.15701224
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4325.asset",
+      "outputAssetGuid": "cb942957893ff06465e30627616afc15",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3178,
+          "gameObjectId": 1111,
+          "gameObjectName": "Platform",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4326,
+      "gameObjectId": 1112,
+      "gameObjectName": "Trap",
+      "transformId": 3179,
+      "meshFilterId": 4471,
+      "meshColliderId": 4566,
+      "meshColliderMeshGuid": "cac3e4b7262844041bd891c5634c7800",
+      "meshAtlasId": null,
+      "hierarchyPath": "Trap/Trap",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 4,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        4,
+        5
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "95ac4d400ff8653448eff7ca51663721"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.053066183,
+          0.053066183,
+          -0.00021226474,
+          0.5153178
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4326.asset",
+      "outputAssetGuid": "0e5aaa5ede6541b9ca28680e0811502a",
+      "transformChain": [
+        {
+          "transformId": 2283,
+          "gameObjectId": 216,
+          "gameObjectName": "Trap",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3179,
+          "gameObjectId": 1112,
+          "gameObjectName": "Trap",
+          "localPosition": [
+            -34.5,
+            -4.0,
+            -9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4329,
+      "gameObjectId": 1116,
+      "gameObjectName": "GrayBlock",
+      "transformId": 3183,
+      "meshFilterId": 4474,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 100,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        100
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.06958832,
+          0.00913907
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4329.asset",
+      "outputAssetGuid": "af99f37f605727f12237d07b48c4a18b",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3181,
+          "gameObjectId": 1114,
+          "gameObjectName": "Button",
+          "localPosition": [
+            32.0,
+            1.5,
+            -19.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3183,
+          "gameObjectId": 1116,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4331,
+      "gameObjectId": 1119,
+      "gameObjectName": "GrayBlock",
+      "transformId": 3186,
+      "meshFilterId": 4476,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 96,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        96
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.2551352,
+          0.032148786
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4331.asset",
+      "outputAssetGuid": "c4a5a4764b60d23ab01b6da7732d9ca4",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3187,
+          "gameObjectId": 1120,
+          "gameObjectName": "Button",
+          "localPosition": [
+            25.0,
+            1.5,
+            -19.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3186,
+          "gameObjectId": 1119,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4335,
+      "gameObjectId": 1129,
+      "gameObjectName": "GrayBlock",
+      "transformId": 3196,
+      "meshFilterId": 4480,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 103,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        103
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.1897055,
+          0.032291375
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4335.asset",
+      "outputAssetGuid": "a89c024c6a91181a5302f7b6e68882b7",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3194,
+          "gameObjectId": 1127,
+          "gameObjectName": "Button",
+          "localPosition": [
+            52.5,
+            1.5,
+            -11.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3196,
+          "gameObjectId": 1129,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4336,
+      "gameObjectId": 1131,
+      "gameObjectName": "GrayBlock",
+      "transformId": 3198,
+      "meshFilterId": 4481,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 88,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        88
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.2551352,
+          0.016808975
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4336.asset",
+      "outputAssetGuid": "7f2fae29cfeeade14d0a0d41856f3b7c",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3200,
+          "gameObjectId": 1133,
+          "gameObjectName": "Button",
+          "localPosition": [
+            15.0,
+            1.5,
+            -6.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3198,
+          "gameObjectId": 1131,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4338,
+      "gameObjectId": 1135,
+      "gameObjectName": "Platform",
+      "transformId": 3202,
+      "meshFilterId": 4483,
+      "meshColliderId": 4570,
+      "meshColliderMeshGuid": "0a892015f9fd0aa4dabcc9b4b773d101",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Platform",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 41,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        41,
+        42
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.08767178,
+          0.08767178,
+          -0.00035068713,
+          0.7176397
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4338.asset",
+      "outputAssetGuid": "0348c159d11a89dcde6f4f5de6aee384",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3202,
+          "gameObjectId": 1135,
+          "gameObjectName": "Platform",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4339,
+      "gameObjectId": 1137,
+      "gameObjectName": "Platform",
+      "transformId": 3204,
+      "meshFilterId": 4484,
+      "meshColliderId": 4571,
+      "meshColliderMeshGuid": "66a03f01189eac3468066ff5c87fa17a",
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Platform",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 46,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        46,
+        47
+      ],
+      "materialGuids": [
+        "95ac4d400ff8653448eff7ca51663721",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.057721157,
+          0.057721157,
+          0.5280894,
+          0.2815502
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4339.asset",
+      "outputAssetGuid": "8a87733aef5f202afd0640399598e7a0",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3204,
+          "gameObjectId": 1137,
+          "gameObjectName": "Platform",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4341,
+      "gameObjectId": 1140,
+      "gameObjectName": "GrayBlock",
+      "transformId": 3207,
+      "meshFilterId": 4486,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 105,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        105
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.1897055,
+          0.024621472
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4341.asset",
+      "outputAssetGuid": "09dbaa5297a36fd2e43296a95ac2a3b4",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3205,
+          "gameObjectId": 1138,
+          "gameObjectName": "Button",
+          "localPosition": [
+            -36.5,
+            1.5,
+            22.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3207,
+          "gameObjectId": 1140,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4342,
+      "gameObjectId": 1141,
+      "gameObjectName": "Wall",
+      "transformId": 3208,
+      "meshFilterId": 4487,
+      "meshColliderId": 4572,
+      "meshColliderMeshGuid": "3fd48c9c5377c7b4caf80cd49e17024d",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 23,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        23,
+        24
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.12693037,
+          0.12693037,
+          0.8708945,
+          0.24620679
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4342.asset",
+      "outputAssetGuid": "0642b4244e7a289aed7afc7134a06026",
+      "transformChain": [
+        {
+          "transformId": 2179,
+          "gameObjectId": 112,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3208,
+          "gameObjectId": 1141,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4343,
+      "gameObjectId": 1143,
+      "gameObjectName": "Wall",
+      "transformId": 3210,
+      "meshFilterId": 4488,
+      "meshColliderId": 4573,
+      "meshColliderMeshGuid": "5a274d429d132a54293db81b1a498168",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/Wall",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 10,
+      "subMeshCount": 2,
+      "subMeshIndices": [
+        10,
+        11
+      ],
+      "materialGuids": [
+        "0fe22edb0550c3b41b66dc3015a5c81f",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.06538131,
+          0.06538131,
+          -0.0013076263,
+          0.30349407
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4343.asset",
+      "outputAssetGuid": "f86d9cfee9032cf0f6589f9be9a24de6",
+      "transformChain": [
+        {
+          "transformId": 2179,
+          "gameObjectId": 112,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3210,
+          "gameObjectId": 1143,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4344,
+      "gameObjectId": 1145,
+      "gameObjectName": "RedWall",
+      "transformId": 3212,
+      "meshFilterId": 4489,
+      "meshColliderId": 4574,
+      "meshColliderMeshGuid": "9bc8fa8688afb1448b69c204d76797cb",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall/RedWall",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 82,
+      "subMeshCount": 3,
+      "subMeshIndices": [
+        82,
+        83,
+        84
+      ],
+      "materialGuids": [
+        "bb5e43ff814ff7043be182ec3995ab91",
+        "8001366289ca51b439730a8b6a01209c",
+        "91544e2d08ae8d340aa6a410527c36e5"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.285545,
+          0.285545,
+          0.11035156,
+          0.3763672
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4344.asset",
+      "outputAssetGuid": "b569690f625c67d2acdfcab6ad685439",
+      "transformChain": [
+        {
+          "transformId": 2179,
+          "gameObjectId": 112,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3212,
+          "gameObjectId": 1145,
+          "gameObjectName": "RedWall",
+          "localPosition": [
+            -7.0,
+            1.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4346,
+      "gameObjectId": 1146,
+      "gameObjectName": "GrayBlock",
+      "transformId": 3213,
+      "meshFilterId": 4491,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 91,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        91
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.23936354,
+          0.03230962
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4346.asset",
+      "outputAssetGuid": "c13c240cc0dddaad18eaa2db95ba19ad",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3215,
+          "gameObjectId": 1148,
+          "gameObjectName": "Button",
+          "localPosition": [
+            10.5,
+            1.5,
+            -73.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3213,
+          "gameObjectId": 1146,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4350,
+      "gameObjectId": 1154,
+      "gameObjectName": "GrayBlock",
+      "transformId": 3221,
+      "meshFilterId": 4495,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 109,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        109
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.20728363,
+          0.03230962
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4350.asset",
+      "outputAssetGuid": "d1a897ac7065cabaa4649e71c310d9e6",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3219,
+          "gameObjectId": 1152,
+          "gameObjectName": "Button",
+          "localPosition": [
+            52.5,
+            1.5,
+            -19.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3221,
+          "gameObjectId": 1154,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4352,
+      "gameObjectId": 1157,
+      "gameObjectName": "GrayBlock",
+      "transformId": 3224,
+      "meshFilterId": 4497,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Buttons/Button/GrayBlock",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 89,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        89
+      ],
+      "materialGuids": [
+        "ff3a3010c1665d849ab3faa2c0703e2b"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0077131153,
+          0.0077131153,
+          0.28540865,
+          0.031051084
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4352.asset",
+      "outputAssetGuid": "ce134b25b79b13c34356e8d8b75021f0",
+      "transformChain": [
+        {
+          "transformId": 2279,
+          "gameObjectId": 212,
+          "gameObjectName": "Buttons",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3222,
+          "gameObjectId": 1155,
+          "gameObjectName": "Button",
+          "localPosition": [
+            -25.0,
+            1.5,
+            -84.5
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3224,
+          "gameObjectId": 1157,
+          "gameObjectName": "GrayBlock",
+          "localPosition": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4353,
+      "gameObjectId": 1158,
+      "gameObjectName": "Blocks",
+      "transformId": 3225,
+      "meshFilterId": 4498,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Building/Blocks",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 38,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        38
+      ],
+      "materialGuids": [
+        "ea079644060718940ada4f4460e3e133"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.0059354664,
+          0.0059354664,
+          0.06247626,
+          0.033870757
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4353.asset",
+      "outputAssetGuid": "83abf96d3812f3d596dd8fd0f51ac5e9",
+      "transformChain": [
+        {
+          "transformId": 2170,
+          "gameObjectId": 103,
+          "gameObjectName": "Building",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 3225,
+          "gameObjectId": 1158,
+          "gameObjectName": "Blocks",
+          "localPosition": [
+            45.0,
+            3.0,
+            9.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 4354,
+      "gameObjectId": 1159,
+      "gameObjectName": "Lava",
+      "transformId": 3226,
+      "meshFilterId": 4499,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Lava",
+      "combinedMeshGuid": "c86436469d2cefb409830c3b06ed3c67",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_25.asset",
+      "firstSubMesh": 36,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        36
+      ],
+      "materialGuids": [
+        "98d9e6dbacc1de145b97175f3ff14911"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Simple/Renderer-4354.asset",
+      "outputAssetGuid": "4cc94c8a213b7063db49bac7c7248457",
+      "transformChain": [
+        {
+          "transformId": 3226,
+          "gameObjectId": 1159,
+          "gameObjectName": "Lava",
+          "localPosition": [
+            0.0,
+            -3.5,
+            6.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "sceneName": "Football",
+  "sceneSlug": "football",
+  "scenePath": "Assets/Levels/Maps/MiniGames/Football/Sunshine/Football.unity",
+  "staticRendererCount": 4,
+  "referencedSubMeshCount": 11,
+  "lightmappedRendererCount": 2,
+  "renderers": [
+    {
+      "rendererId": 3757,
+      "gameObjectId": 7,
+      "gameObjectName": "Wall",
+      "transformId": 1881,
+      "meshFilterId": 3770,
+      "meshColliderId": 3785,
+      "meshColliderMeshGuid": "a4b93db8f31f2ed4bac45b2e2bbf58a3",
+      "meshAtlasId": null,
+      "hierarchyPath": "Wall",
+      "combinedMeshGuid": "a9eed300b29a6cc4c9e8a0a6c2b10e66",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_13.asset",
+      "firstSubMesh": 1,
+      "subMeshCount": 8,
+      "subMeshIndices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "materialGuids": [
+        "bb5e43ff814ff7043be182ec3995ab91",
+        "613f763a77cadaf45bf0e7147f9adde2",
+        "24e1fba3ebb151d4083c4f7ceeb35c6f",
+        "97e14c9ff84465d4db7df42d3d2ccd2b",
+        "95ac4d400ff8653448eff7ca51663721",
+        "fac4539e69175da4893406eaaf7356ad",
+        "38781fd3518c1a648b51a175dc94d5d6",
+        "c6976a4b4f8184a4abc9e32f78273445"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.4539557,
+          0.4539557,
+          -0.0018158229,
+          0.50990295
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Football/Renderer-3757.asset",
+      "outputAssetGuid": "17af3a20574a95d7075474bdeca7b691",
+      "transformChain": [
+        {
+          "transformId": 1881,
+          "gameObjectId": 7,
+          "gameObjectName": "Wall",
+          "localPosition": [
+            -31.0,
+            0.0,
+            -42.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3765,
+      "gameObjectId": 863,
+      "gameObjectName": "Sun 1",
+      "transformId": 2755,
+      "meshFilterId": 3778,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome/Sun/Sun 1",
+      "combinedMeshGuid": "a9eed300b29a6cc4c9e8a0a6c2b10e66",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_13.asset",
+      "firstSubMesh": 9,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        9
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Football/Renderer-3765.asset",
+      "outputAssetGuid": "efcab269990b179ac293b9d5962fc471",
+      "transformChain": [
+        {
+          "transformId": 2760,
+          "gameObjectId": 873,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2751,
+          "gameObjectId": 866,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2763,
+          "gameObjectId": 870,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2753,
+          "gameObjectId": 861,
+          "gameObjectName": "Sun",
+          "localPosition": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "localRotation": [
+            -0.30704427,
+            -0.5343684,
+            -0.21671297,
+            0.75710624
+          ],
+          "localScale": [
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "transformId": 2755,
+          "gameObjectId": 863,
+          "gameObjectName": "Sun 1",
+          "localPosition": [
+            -0.0,
+            0.0,
+            25.194338
+          ],
+          "localRotation": [
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3766,
+      "gameObjectId": 870,
+      "gameObjectName": "SkyDome",
+      "transformId": 2763,
+      "meshFilterId": 3779,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "RoundManager/Skybox/SkyDome",
+      "combinedMeshGuid": "a9eed300b29a6cc4c9e8a0a6c2b10e66",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_13.asset",
+      "firstSubMesh": 10,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        10
+      ],
+      "materialGuids": [
+        "fe1c15a4b32dc6d40a3e7bc70d72fd6c"
+      ],
+      "lightmapInfo": null,
+      "outputAssetPath": "Assets/RecoveredGeometry/Football/Renderer-3766.asset",
+      "outputAssetGuid": "adcefae2c93f7c7e57eba100b3b48e81",
+      "transformChain": [
+        {
+          "transformId": 2760,
+          "gameObjectId": 873,
+          "gameObjectName": "RoundManager",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2751,
+          "gameObjectId": 866,
+          "gameObjectName": "Skybox",
+          "localPosition": [
+            7000.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2763,
+          "gameObjectId": 870,
+          "gameObjectName": "SkyDome",
+          "localPosition": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "rendererId": 3768,
+      "gameObjectId": 898,
+      "gameObjectName": "Field",
+      "transformId": 2772,
+      "meshFilterId": 3781,
+      "meshColliderId": null,
+      "meshColliderMeshGuid": null,
+      "meshAtlasId": null,
+      "hierarchyPath": "Football place/Field",
+      "combinedMeshGuid": "a9eed300b29a6cc4c9e8a0a6c2b10e66",
+      "combinedMeshAssetPath": "Assets/Mesh/Combined Mesh (root_ scene)_13.asset",
+      "firstSubMesh": 0,
+      "subMeshCount": 1,
+      "subMeshIndices": [
+        0
+      ],
+      "materialGuids": [
+        "0d29bc280fc5ad2489860372de47e680"
+      ],
+      "lightmapInfo": {
+        "lightingDataAsset": "LightingData_0.asset",
+        "lightmapIndex": 0,
+        "lightmapST": [
+          0.8150625,
+          0.8150625,
+          -0.0032602502,
+          -0.0032602502
+        ]
+      },
+      "outputAssetPath": "Assets/RecoveredGeometry/Football/Renderer-3768.asset",
+      "outputAssetGuid": "d392ac3c8faffaab6b87b20a305879b4",
+      "transformChain": [
+        {
+          "transformId": 2707,
+          "gameObjectId": 833,
+          "gameObjectName": "Football place",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "transformId": 2772,
+          "gameObjectId": 898,
+          "gameObjectName": "Field",
+          "localPosition": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "localScale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}
