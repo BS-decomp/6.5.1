@@ -28,6 +28,9 @@ offline mode, and create the room from the supplied map string.
 - `mCreateServer.Start` (`0x007dd1e0`), `Open` (`0x007de300`), and
   `SetMaxPlayer` (`0x007dc64c`) restore the serialized singleton, panel-open state,
   numeric player-limit parse, and selected-limit marker movement.
+- `mPlayerCamera.Awake` (`0x0071f138`) restores its singleton and Camera component
+  reference; `mOthers.ExitGame`, `ShowOthersGames`, and `ShowToast` restore their
+  verified application/URL/toast calls.
 
 The atlas, sprite, texture, label, and localization changes restore serialized NGUI
 state access (material, texture, atlas, sprite name, text, and CSV localization).

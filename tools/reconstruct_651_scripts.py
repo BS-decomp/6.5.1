@@ -355,6 +355,25 @@ def patch_uiwidget(text: str) -> str:
     return text
 
 
+def patch_mplayer_camera(text: str) -> str:
+    text = replace_method(
+        text,
+        "private void Awake()",
+        """
+        JIIIIJJJJIIJJJIIJIJIIJIIJJIIIIIIIIJJIJIJJJJJJJJ = this;
+        IJJJIJJJJIIIIIIJJIJJJJJJIIIIJIIIJIIJIIJIJJIJIJJ = GetComponent<Camera>();
+        """,
+    )
+    return text
+
+
+def patch_mothers(text: str) -> str:
+    text = replace_method(text, "public void ExitGame()", "Application.Quit();")
+    text = replace_method(text, "public void ShowOthersGames()", "Application.OpenURL(\"https://play.google.com/store/apps/dev?id=6363329851677974248\");")
+    text = replace_method(text, "public void ShowToast(string text)", "UIToast.IIIJIIJJIJJJIIJIIIJIJIJJJIIIJIIIIIJIIIJJJJIJII(text);")
+    return text
+
+
 def patch_create_server(text: str) -> str:
     text = replace_method(text, "private void Start()", "JIIIIJJJJIIJJJIIJIJIIJIIJJIIIIIIIIJJIJIJJJJJJJJ = this;")
     text = replace_method(text, "public void Open()", "JIIIIJJJJIIJJJIIJIJIIJIIJJIIIIIIIIJJIJIJJJJJJJJ = this;")
@@ -414,6 +433,8 @@ def main() -> None:
     patch_file("UIWidget.cs", patch_uiwidget)
     patch_file("mPhotonSettings.cs", patch_photon_settings)
     patch_file("mCreateServer.cs", patch_create_server)
+    patch_file("mPlayerCamera.cs", patch_mplayer_camera)
+    patch_file("mOthers.cs", patch_mothers)
     patch_file("mPanelManager.cs", patch_panel_manager)
 
 
