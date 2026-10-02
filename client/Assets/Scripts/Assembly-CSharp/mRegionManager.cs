@@ -1,0 +1,205 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
+using UnityEngine;
+
+public class mRegionManager : MonoBehaviour
+{
+	private sealed class IJJIJJIJJIIIJJIJIJIJIJIJIJIJIJIJIJJIJJJIJIJJIJI : IEnumerator<object>, IEnumerator, IDisposable
+	{
+		private int IJJJJJJJJIIJIIIIIJIIJJJIJJIIJIJJJJJIJJJJJIIIIII;
+
+		private object IJJJJJIIIJJIIIIIIJIIIJIJJJIJIJIIJJIJIIIJJIIIJIJ;
+
+		public mRegionManager JIJJIJIJIJJIJJJIIIIIJIIIJJJJIJJIIJJIIJIIIJJIIII;
+
+		private JJJJIJIJJIIIIJIIIJJIJJJIIIJJJIJIJIJJJIIIJIJIIIJ JIIIIIIJJIIIJJIJJIIJIJJIIJIIIIIIIJIIJJJJJIJIJIJ;
+
+		object IEnumerator<object>.Current
+		{
+			[DebuggerHidden]
+			get
+			{
+				return null;
+			}
+		}
+
+		object IEnumerator.Current
+		{
+			[DebuggerHidden]
+			get
+			{
+				return null;
+			}
+		}
+
+		private void IJJJIIIIJIJJIJJIIIJJJIJJJIJJJIJJJJIJJJJJIJJIJIJ()
+		{
+		}
+
+		private void JIIIJJIIIIIIJIJIJIIJJIIIIJIJIIIJJIJIJJIIIIJIIJJ()
+		{
+		}
+
+		[DebuggerHidden]
+		void IDisposable.Dispose()
+		{
+		}
+		private object IJJJJIJIIJIJJJJJJIIIIIIIJJIIIJIJIIIIJJIIJIIIJJJ()
+		{
+			return null;
+		}
+
+		private void IIIIIIJJIIIIIIJIJIIJIJJIIJJIJJIIJIIJJIJJIJJIIJJ()
+		{
+		}
+		private object IJJIJJJJIIIJJIIJIIIIJIJJIIIJIIJIJIJIJIIIIJIIIJJ()
+		{
+			return null;
+		}
+
+		[DebuggerHidden]
+		void IEnumerator.Reset()
+		{
+		}
+
+		private void JIIJJIJIIIIJIIJJIIIIJIIIIIIJJJJJJJJIJIJJIJJIJJJ()
+		{
+		}
+
+		private void IIIJJJIIJIJIIJIIJJJIIJJJJJIIIIIJIIJJJIIJIIJJIIJ()
+		{
+		}
+
+		private void JJIJJIJIJIIIJIIJJJJJIIJJJIIIIIIIIJIIIJIJIIIJIJI()
+		{
+		}
+
+		private void IIJIIJJJJJIJIJJIIIIJJIJIJIJIJIIJIIJJIIIJIIJJJIJ()
+		{
+		}
+		private object IIIJIJJIIIIIIIJJIIIIJJIJJIJJIJIIJIJJJIIJJJIIJII()
+		{
+			return null;
+		}
+
+		private bool IIIJIIIJIIIJJIIJJJIJIJIIJJJJIJIIIJJIJIJIJIIIIJI()
+		{
+			return false;
+		}
+		private object JIIJJIJJJJJIJJJIJIIIJIIIJJIJJJJIIJIIJIIJIJJJIJJ()
+		{
+			return null;
+		}
+		private object IIJIIJJIIJIJJIIJJJIJIIJIIJIIIJIIJIIJJJIJJIJJJJI()
+		{
+			return null;
+		}
+		private object IJIIJJIIIJJJIIJJIIIIIIJIIIIIJIIIIJJIIJJIIIJIJJI()
+		{
+			return null;
+		}
+
+		[DebuggerHidden]
+		public IJJIJJIJJIIIJJIJIJIJIJIJIJIJIJIJIJJIJJJIJIJJIJI(int IJJJJJJJJIIJIIIIIJIIJJJIJJIIJIJJJJJIJJJJJIIIIII)
+		{
+		}
+
+		private bool JJIJJJIIJJJJIJIIJIJIIIIIJJJJIIIIIJJIJJIIIIIIJII()
+		{
+			return false;
+		}
+
+		private bool MoveNext()
+		{
+			return false;
+		}
+
+		bool IEnumerator.MoveNext()
+		{
+			//ILSpy generated this explicit interface implementation from .override directive in MoveNext
+			return this.MoveNext();
+		}
+		private object IJIIIJIIIIIJJJIJIIIIJIJJIIJJJJJJJIJJJIIJIIIIJII()
+		{
+			return null;
+		}
+
+		private void IJJJJIIJJIJJIJIIIIJJIJIJJIJIJIIJIJJJIJIIIJIJIJI()
+		{
+		}
+		private object IIIIIJJIIJJIJJJJJIJJJIJJIIIJJJJJIJIIIJJJIJIIIII()
+		{
+			return null;
+		}
+	}
+
+	public UILabel[] IIJIJIIJJIJJJIJJJIJIJIJIJIJJIIIIIJIJJJJJIIJJJIJ;
+
+	public bool JJIJJIJIIJJIIIJIJIJJIIIJIJIIIJJIIJJJJJIIJIIJIII;
+
+	private IEnumerator JIJJJIIJJIJIIIIIIJJJIJJIJIJJJJIJJIJJJIJJIJIJIJJ()
+	{
+		return null;
+	}
+
+	private IEnumerator JJIJIIJIJIIJIJIIJJJJIJIIIIJIIIIJIJIJIJIIIJIIIJI()
+	{
+		return null;
+	}
+
+	private IEnumerator JIIIIJIJIIIJJIIIIJJJIIIIIIIJIJJJJJJIIJIJJJJJJJJ()
+	{
+		return null;
+	}
+
+	public void IJJIIJIIJJIIIJJJIIIJIJIIJIIIJJJIJIIJIIJJIJJJIJJ()
+	{
+	}
+
+	public void IIJJIIJJIJJJIJJIIJJIIIJJJJIIIIIJJJJIJIIJIJJIIJJ()
+	{
+	}
+
+	private IEnumerator JIJJIJJIIIIIJIJJJJIJIIIIJIJJIJIJJIIJJIJIJJIJJII()
+	{
+		return null;
+	}
+
+	public void IIIIIJIIIIJIIJJJJIJJJIJJJJIIJIJIIJIIIJJJJJIJJJJ()
+	{
+	}
+
+	public void JJJIJJIIIIIIJJIJIJJJJIIJJIIJIJIJIJJJJIJJIJIIIIJ()
+	{
+	}
+
+	private IEnumerator JJIIJJJJIJIIIJJJJIIIIIIIIJIIIJJJJIIJJJIIIJJJIII()
+	{
+		return null;
+	}
+
+	private IEnumerator JJIJIIIJIIIJJIIJIIJIJJIJIJJJJJJJIIJJIIJJIJIIJIJ()
+	{
+		return null;
+	}
+
+	public void IJJJJIJIIJIIJJIIJIJIJJJJJJJJJJJJIJJJJIIIJIJIIJI()
+	{
+	}
+
+	public void JIJJIJIIJIJJIIJJIIIIJIJIJIIJJJIIIIIIJIIJIJJJIIJ()
+	{
+	}
+
+	private IEnumerator IIIIJJIIJJJIJIIIIJJJIJJJIJIJJIIJIIIJIIIIJJJJIIJ()
+	{
+		return null;
+	}
+
+	public void JIJIJIIIIJIJJIJIIIIJIJIJIIJJIJIIIIJIIIJIJIIJIJI()
+	{
+	}
+}

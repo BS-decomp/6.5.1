@@ -1,0 +1,6 @@
+public enum JJJJJIIIJJIIJIJIIIJJIIJIJJJJJJIIIJIJJIIJIJIJIIJ
+{
+	Head = 0,
+	Body = 1,
+	Legs = 2
+}

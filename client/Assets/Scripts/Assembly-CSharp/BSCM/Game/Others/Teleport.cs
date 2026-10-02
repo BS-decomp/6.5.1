@@ -1,0 +1,13 @@
+using UnityEngine;
+
+namespace BSCM.Game.Others
+{
+	public class Teleport : MonoBehaviour
+	{
+		public Vector3 to;
+
+		private void Start()
+		{
+		}
+	}
+}

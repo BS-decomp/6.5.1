@@ -1,0 +1,240 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
+using UnityEngine;
+
+public class UIFontControl : MonoBehaviour
+{
+	private sealed class IJIIJJJIIJJIJJIIIJIIJJIIIIJIIJJJJIIJIIIIIIJJJJJ : IEnumerator<object>, IEnumerator, IDisposable
+	{
+		private int IJJJJJJJJIIJIIIIIJIIJJJIJJIIJIJJJJJIJJJJJIIIIII;
+
+		private object IJJJJJIIIJJIIIIIIJIIIJIJJJIJIJIIJJIJIIIJJIIIJIJ;
+
+		public UIFontControl JIJJIJIJIJJIJJJIIIIIJIIIJJJJIJJIIJJIIJIIIJJIIII;
+
+		private WWW IJJJJIJIIIIJJJJIIIJJIIJIIJIIJIJJJIIIIIIJIIIIJII;
+
+		private byte[] JIJJIJIIIIIIJJIIIIIJJJIIIJJJJIIIIJIIJJIIIIJIJIJ;
+
+		object IEnumerator<object>.Current
+		{
+			[DebuggerHidden]
+			get
+			{
+				return null;
+			}
+		}
+
+		object IEnumerator.Current
+		{
+			[DebuggerHidden]
+			get
+			{
+				return null;
+			}
+		}
+		private object JIJJJJJIIJJIIJJJJIIJJJIIJJIJIIJIIJJJJIIJIIIIIJI()
+		{
+			return null;
+		}
+
+		private void JJIJJIJIJIIIJIIJJJJJIIJJJIIIIIIIIJIIIJIJIIIJIJI()
+		{
+		}
+
+		private bool JJIJJJIIJJJJIJIIJIJIIIIIJJJJIIIIIJJIJJIIIIIIJII()
+		{
+			return false;
+		}
+		private object IJJJJIJIIJIJJJJJJIIIIIIIJJIIIJIJIIIIJJIIJIIIJJJ()
+		{
+			return null;
+		}
+
+		private bool MoveNext()
+		{
+			return false;
+		}
+
+		bool IEnumerator.MoveNext()
+		{
+			//ILSpy generated this explicit interface implementation from .override directive in MoveNext
+			return this.MoveNext();
+		}
+		private object JIIIJIJJJIIIIJIJIIIJIIJIIJJJJJIIIJJJIIIIJIIJIJI()
+		{
+			return null;
+		}
+
+		private void IIJIJIIIIIIIIJJIIIIIJIIIIJJIIJIIIIIIIJJIJIJJJII()
+		{
+		}
+
+		private void JJIIJJJIJIIIJIIJIIJIJJJJIIIIJJJIIIJIJJIJIIIJIJJ()
+		{
+		}
+		private object JIJJJIJJIIJJJIIJIIIIJJIJJIJIIIIJIJJIIIIJJIJIIJI()
+		{
+			return null;
+		}
+		private object JJIIJJJJJJIJIIJJIJJIJJIIJIIJIJIJIIJIIIJIIJIIJII()
+		{
+			return null;
+		}
+
+		private void IIJJJIJJJIJIJIJIIIIIIIJJIIIJJJIIJJJIJJJIJIJIJJJ()
+		{
+		}
+
+		private void IIJJJJJIJJJJIJIIJJIIIJJIJIJIJIIJJJIJIIJIIIJJJIJ()
+		{
+		}
+
+		[DebuggerHidden]
+		void IEnumerator.Reset()
+		{
+		}
+
+		private void IIIIIIJJIIIIIIJIJIIJIJJIIJJIJJIIJIIJJIJJIJJIIJJ()
+		{
+		}
+		private object JIIJIJJJIIJIIJJJJIIIJJIIIIJJIJIJIJJIIJIJIJJIIII()
+		{
+			return null;
+		}
+
+		[DebuggerHidden]
+		void IDisposable.Dispose()
+		{
+		}
+		private object JIJIIJIIIJIJJJJIJIJIIJIJIJJIJJIJJJIJJIJIJJJIIII()
+		{
+			return null;
+		}
+
+		private bool JJIIIJJJJIIIJJJJIJIJJIIJIJJJIJJIIJIJJJIIIJJJIIJ()
+		{
+			return false;
+		}
+		private object IJIIJJIJJJIJJIIIJJIJIJJJJJIJJIJJIJIIJIIIJJJIJIJ()
+		{
+			return null;
+		}
+
+		[DebuggerHidden]
+		public IJIIJJJIIJJIJJIIIJIIJJIIIIJIIJJJJIIJIIIIIIJJJJJ(int IJJJJJJJJIIJIIIIIJIIJJJIJJIIJIJJJJJIJJJJJIIIIII)
+		{
+		}
+		private object JJJIIJIJJIIIJIJIIIJJJJIJIJJJIJIJJJIIJIIJJJIJIJJ()
+		{
+			return null;
+		}
+		private object IIIIIJJIIJJIJJJJJIJJJIJJIIIJJJJJIJIIIJJJIJIIIII()
+		{
+			return null;
+		}
+
+		private void JIJJIJIIIJIIIIJJIJIJJIJIJIIIIJIIJJIIIJIIJJJIJII()
+		{
+		}
+	}
+
+	public int IIIJIIIJIJIJIIIIJJIIJJJJIIJJJIIJIIIIJIJJIIIIIJJ;
+
+	private void IJJIJJIJJIJJJIIIJJJIIJIIIIJJIIIIIJJJIIJIIJIIIJJ()
+	{
+	}
+
+	private void IJIIJJIJJJIJIJJJIIJIJIIJJJJJIJIJJJJIIJIIJIJJJJI()
+	{
+	}
+
+	private void IIIJJIIJJJJJJIIIIJJIJJJIJJIIJJIIJIJIJIJJJIIJIJI()
+	{
+	}
+
+	private void JIJJJIJIIIJIIIIIIJIJIIIIIJIIJIJJIJIJJIJJJIIIIJI()
+	{
+	}
+
+	private IEnumerator JJJJJIJIJIJIIIIJJIIJJJIJJIJJIIIJJIIJIIJIJIIIJII()
+	{
+		return null;
+	}
+
+	private IEnumerator IIIJIIIJIIIIJJJJJIJIIJJJIJIIIJIIJIIIJJIJJIIIJJI()
+	{
+		return null;
+	}
+
+	private void IIJIIJIIJIIIIJIJIIIJJJJJJIJIIIJIJJIIJJJIIJJIIJJ()
+	{
+	}
+
+	private void JIJIJJJJJJJJIJJJJJIJJIIIJJJIIJJIIIIJJIIJIJJJIIJ()
+	{
+	}
+
+	private IEnumerator IJIJIIJJJIJIJIIJJJIJJIIIIJJJJJIIJJJJJIJJIIIIIJJ()
+	{
+		return null;
+	}
+
+	private IEnumerator IIJJIJIIIIJIJIIIIJIIIIIJIIIJJIIIJJJJIIJJJIIJIIJ()
+	{
+		return null;
+	}
+
+	private void JIJJJJIJIIJJIJJJIIJIJJIIJJIIJIIJIJJIIJIIJIIIJJJ()
+	{
+	}
+
+	private IEnumerator JIIIIJIJJJJIIIJIIIJJJIJIJIIJJJJJJIIIIJJIJIJIJII()
+	{
+		return null;
+	}
+
+	private void JIJIIIIIIIJJJIJJJJJJIIIIJJIJJIIIIJJJJJIJJIIIJII()
+	{
+	}
+
+	private void JJJJIIIIJJJJIIIIJIJIIJJJJIIJIIIJIJJJJJJIIIJJIJJ()
+	{
+	}
+
+	private IEnumerator IJIIJJIJJIIJJIIIIIIIJIJIIJIIIIIJIJJJIIIIIIJJIII()
+	{
+		return null;
+	}
+
+	private IEnumerator IIIIJIIJIJJJJIJIJJIJJJIJIIIIIIIJIJJJJJJJIJIIJII()
+	{
+		return null;
+	}
+
+	private IEnumerator IIIJIJJJIIJIIJIIIIJIIJIIJJIJJIJIIIJJIIIJJJIIIIJ()
+	{
+		return null;
+	}
+
+	private void JIIIJIJIJIJIIJJIJIIJJJJJIJIIIIIJJIJJIJJIIJJIIJJ()
+	{
+	}
+
+	private IEnumerator JJIJJIJJIIJJIIJIIIJIJJJJIIJJJJJIJIJIJJJIIJJIIIJ()
+	{
+		return null;
+	}
+
+	private void Start()
+	{
+	}
+
+	private IEnumerator IJIJJJJJIJIIJJJIIIJJIJJIIJIJIIIIIJJIJJJJIIJJJJJ()
+	{
+		return null;
+	}
+}
