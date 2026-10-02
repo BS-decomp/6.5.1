@@ -247,7 +247,6 @@ public class mPhotonSettings : MonoBehaviour
 	        }
 	        PhotonNetwork.offlineMode = true;
 	        PhotonNetwork.CreateRoom(map);
-
 	}
 
 	private void IIJJJIJIIIJIIIJJJJIIIIJIJJIJIIIIJJJIIIJIIIIIJII()
