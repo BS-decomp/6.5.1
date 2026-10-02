@@ -21,6 +21,35 @@ public class JIJJIIIIIIJJIJJJJJJIIIJJIJJJJJIJJJJIJIIJJJJIIIJ<TKey, TValue> : IDi
 
 	protected IDictionary<TKey, TValue> IJJIJJJIJIIJJIJJIIJJJIIIJIIIJIJIJIIJJJIJIJIIJII => JIJIJIIJIIJIIIJJJIIIJJIJIIJJIJJIIIJIJJJIIIJJJJJ();
 
+	public ICollection<TKey> Keys => null;
+
+	public ICollection<TValue> Values => null;
+
+	public int Count => 0;
+
+	public bool IsReadOnly => false;
+
+	public TValue this[TKey IIIJIJJJIIIIJJIIJJJIJJJIIIJJIJIIJJIJIJJJIIJIJIJ]
+	{
+		get
+		{
+			return default;
+		}
+		set
+		{
+		}
+	}
+
+	public event PropertyChangedEventHandler PropertyChanged
+	{
+		add
+		{
+		}
+		remove
+		{
+		}
+	}
+
 	public ICollection<TKey> IIJIIIIJJIJIIJIIJJIJJJJJJIJIJIJJJIIIJIIJIIIJJJI => Keys;
 
 	public ICollection<TValue> JJJJJIIIIJJJIJIIJIIIJIJJJIIJIIJIIJIIIJIIIJIIJJI => Values;

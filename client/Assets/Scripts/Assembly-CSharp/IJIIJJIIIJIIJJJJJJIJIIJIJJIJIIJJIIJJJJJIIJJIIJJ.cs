@@ -1,3 +1,4 @@
+#pragma warning disable 0618
 using System;
 using BestHTTP;
 using UnityEngine;
