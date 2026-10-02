@@ -96,7 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
-  m_LightingDataAsset: {fileID: 112000000, guid: 6d453b29c5c53ea478561f01eb6ff4b2, type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 0
 --- !u!1 &9
 GameObject:
@@ -3140,7 +3140,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2350}
   - component: {fileID: 3921}
-  - component: {fileID: 4282}
   - component: {fileID: 4338}
   m_Layer: 21
   m_Name: Camera
@@ -69017,14 +69016,6 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946}
-  m_Enabled: 1
---- !u!92 &4282
-GUILayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181}
   m_Enabled: 1
 --- !u!108 &4284
 Light:
@@ -208986,3 +208977,78 @@ MonoBehaviour:
   JJJJIJIJJIIIJJIIJIIJJIIJIIIJIIIIJJJJJJJIJJIIIII: {fileID: 5465}
   JJJIJIIIJIJIIJIJIJIIIJJJIIIJIIJJJIIIIIIIJIIJJII: {fileID: 5490}
   IIIJJIJIIJJJJJIIJJIJIJJJJJIJJJIJJIIIJJJIJIIIIIJ: {fileID: 5480}
+--- !u!1 &6761
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 6762}
+  - component: {fileID: 6763}
+  m_Layer: 0
+  m_Name: BS651_LegacyLightmaps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6762
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6761}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f37952b2d1fcb8e634a8d944026e2043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightmapColor: {fileID: 2800000, guid: 6d3fc4092ec9e1e478e0735ceb644667, type: 3}
+  lightmapColors:
+  - {fileID: 2800000, guid: 6d3fc4092ec9e1e478e0735ceb644667, type: 3}
+  renderers:
+  - {fileID: 3924}
+  - {fileID: 3926}
+  - {fileID: 3927}
+  - {fileID: 3935}
+  - {fileID: 3936}
+  - {fileID: 3937}
+  - {fileID: 3950}
+  - {fileID: 3951}
+  - {fileID: 3952}
+  - {fileID: 3953}
+  - {fileID: 3954}
+  - {fileID: 3955}
+  - {fileID: 3959}
+  lightmapIndexes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  lightmapScaleOffsets:
+  - {x: 0.0275625, y: 0.0275625, z: 0.5560089, w: 0.27200213}
+  - {x: 0.38236457, y: 0.38236457, z: 0, w: 0.33417475}
+  - {x: 0.08788537, y: 0.08788537, z: 0.625625, w: 0.19056642}
+  - {x: 0.5010469, y: 0.5010469, z: 0.38080832, w: 0.33217058}
+  - {x: 0.042067595, y: 0.042067595, z: 0.5847927, w: 0.1907497}
+  - {x: 0.009133397, y: 0.009133397, z: 0.55593646, w: 0.2611879}
+  - {x: 0.5079375, y: 0.5079375, z: 0.4891792, w: -0.00203175}
+  - {x: 0.07100506, y: 0.07100506, z: 0.7129741, w: 0.18949787}
+  - {x: 0.028900987, y: 0.028900987, z: 0.5848453, w: 0.23181795}
+  - {x: 0.065185755, y: 0.065185755, z: 0.4909502, w: 0.23908322}
+  - {x: 0.09457119, y: 0.09457119, z: 0.49083266, w: 0.19053969}
+  - {x: 0.4931719, y: 0.4931719, z: -0.0019726877, w: -0.0019726877}
+  - {x: 0.0275625, y: 0.0275625, z: 0.5560089, w: 0.2392337}

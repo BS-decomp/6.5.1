@@ -96,7 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
-  m_LightingDataAsset: {fileID: 112000000, guid: 73c7f6572c899404c83cdb51f9e2dec9, type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 0
 --- !u!1 &99
 GameObject:
@@ -13611,7 +13611,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2307}
   - component: {fileID: 4043}
-  - component: {fileID: 4516}
   - component: {fileID: 4565}
   m_Layer: 21
   m_Name: Camera
@@ -72511,14 +72510,6 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2053}
-  m_Enabled: 1
---- !u!92 &4516
-GUILayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 860}
   m_Enabled: 1
 --- !u!108 &4518
 Light:
@@ -225719,3 +225710,84 @@ MonoBehaviour:
   JJJJIJIJJIIIJJIIJIIJJIIJIIIJIIIIJJJJJJJIJJIIIII: {fileID: 5713}
   JJJIJIIIJIJIIJIJIJIIIJJJIIIJIIJJJIIIIIIIJIIJJII: {fileID: 5744}
   IIIJJIJIIJJJJJIIJJIJIJJJJJIJJJIJJIIIJJJIJIIIIIJ: {fileID: 5749}
+--- !u!1 &7010
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 7011}
+  - component: {fileID: 7012}
+  m_Layer: 0
+  m_Name: BS651_LegacyLightmaps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f37952b2d1fcb8e634a8d944026e2043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightmapColor: {fileID: 2800000, guid: 93c0ec7d833708a42ac5c234ddc9be5c, type: 3}
+  lightmapColors:
+  - {fileID: 2800000, guid: 93c0ec7d833708a42ac5c234ddc9be5c, type: 3}
+  renderers:
+  - {fileID: 4058}
+  - {fileID: 4063}
+  - {fileID: 4065}
+  - {fileID: 4073}
+  - {fileID: 4075}
+  - {fileID: 4091}
+  - {fileID: 4097}
+  - {fileID: 4100}
+  - {fileID: 4102}
+  - {fileID: 4113}
+  - {fileID: 4124}
+  - {fileID: 4130}
+  - {fileID: 4131}
+  - {fileID: 4133}
+  - {fileID: 4134}
+  - {fileID: 4136}
+  lightmapIndexes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  lightmapScaleOffsets:
+  - {x: 0.5084696, y: 0.5084696, z: 0.47642884, w: -0.0020338784}
+  - {x: 0.050870992, y: 0.050870992, z: 0.38570815, w: 0.77505046}
+  - {x: 0.24314064, y: 0.24314064, z: 0.47749016, w: 0.7530585}
+  - {x: 0.050870992, y: 0.050870992, z: 0.38570815, w: 0.72524804}
+  - {x: 0.092143975, y: 0.092143975, z: 0.38732675, w: 0.58654547}
+  - {x: 0.46265626, y: 0.46265626, z: -0.0018506252, w: 0.83323514}
+  - {x: 0.38882813, y: 0.38882813, z: -0.0015553125, w: 0.58535874}
+  - {x: 0.0963745, y: 0.0963745, z: 0.8657725, w: 0.50547385}
+  - {x: 0.015234375, y: 0.015234375, z: 0.4602679, w: 0.60305166}
+  - {x: 0.015234375, y: 0.015234375, z: 0.4602679, w: 0.58660936}
+  - {x: 0.5896201, y: 0.5896201, z: -0.0023584806, w: -0.0023584806}
+  - {x: 0.0353711, y: 0.0353711, z: 0.4361183, w: 0.7258535}
+  - {x: 0.38882813, y: 0.38882813, z: 0.4769074, w: 0.50430405}
+  - {x: 0.0963745, y: 0.0963745, z: 0.8657725, w: 0.55031407}
+  - {x: 0.0353711, y: 0.0353711, z: 0.4361183, w: 0.7756559}
+  - {x: 0.066124015, y: 0.066124015, z: 0.38743082, w: 0.679423}

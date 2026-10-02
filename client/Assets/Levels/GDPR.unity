@@ -86,7 +86,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
-  m_LightingDataAsset: {fileID: 112000000, guid: 538e30b7e987e1441a86162338386bae, type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 0
 --- !u!1 &1
 GameObject:
@@ -98,7 +98,6 @@ GameObject:
   m_Component:
   - component: {fileID: 13}
   - component: {fileID: 25}
-  - component: {fileID: 33}
   - component: {fileID: 35}
   - component: {fileID: 32}
   - component: {fileID: 39}
@@ -645,14 +644,6 @@ BoxCollider:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!81 &32
 AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1}
-  m_Enabled: 1
---- !u!92 &33
-GUILayer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
