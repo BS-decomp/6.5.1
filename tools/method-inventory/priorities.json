@@ -1,7 +1,7 @@
 {
  "summary": {
   "description": "Reachable methods whose exported C# body is a stub but whose ARMv7 body in libil2cpp.so is substantive (lost implementations), ranked by reachability tier, scene usage and binary size.",
-  "count": 6128
+  "count": 6121
  },
  "methods": [
   {
@@ -2933,18 +2933,6 @@
    "scene_used": true
   },
   {
-   "type": "mPhotonSettings",
-   "method": "OnDisable",
-   "token": "0x06003DB1",
-   "rva": "0x0059BDC4",
-   "size": 1448,
-   "params": 0,
-   "bin": "substantive",
-   "src": "empty",
-   "reach": "direct",
-   "scene_used": true
-  },
-  {
    "type": "AccountManager",
    "method": "IJJJIJJIJJIIJJJJIJIJIJIIJIJJIJJIJIJJJIJJJIIIIJJ",
    "token": "0x06001C1E",
@@ -3059,18 +3047,6 @@
    "rva": "0x006B7078",
    "size": 1416,
    "params": 2,
-   "bin": "substantive",
-   "src": "empty",
-   "reach": "direct",
-   "scene_used": true
-  },
-  {
-   "type": "mPhotonSettings",
-   "method": "OnEnable",
-   "token": "0x06003DB3",
-   "rva": "0x0059C8F0",
-   "size": 1412,
-   "params": 0,
    "bin": "substantive",
    "src": "empty",
    "reach": "direct",
@@ -35561,18 +35537,6 @@
    "scene_used": false
   },
   {
-   "type": "JJJJJIJJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII",
-   "method": "JIJIJJJJJIIIIIIIIIIIIJJJJIIIJJJIIJJJJJJJJIJIJIJ",
-   "token": "0x06001244",
-   "rva": "0x008FEE9C",
-   "size": 560,
-   "params": 1,
-   "bin": "substantive",
-   "src": "empty",
-   "reach": "direct",
-   "scene_used": false
-  },
-  {
    "type": "Loom",
    "method": "IJJJIIIJIIIJJJJIIIIJIIIIJIJIIJIJIIJJIJIJIIIJJJI",
    "token": "0x0600491E",
@@ -35675,18 +35639,6 @@
    "rva": "0x00C6E52C",
    "size": 540,
    "params": 2,
-   "bin": "substantive",
-   "src": "empty",
-   "reach": "direct",
-   "scene_used": false
-  },
-  {
-   "type": "JJJJJIJJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII",
-   "method": "JJJIIIJJJJJJJJJJIIIIJJJIIJJIJJJJIIJIJJIIIJIJJJI",
-   "token": "0x060011FF",
-   "rva": "0x00900A88",
-   "size": 540,
-   "params": 0,
    "bin": "substantive",
    "src": "empty",
    "reach": "direct",
@@ -37513,18 +37465,6 @@
    "params": 2,
    "bin": "substantive",
    "src": "ret_default",
-   "reach": "direct",
-   "scene_used": false
-  },
-  {
-   "type": "JJJJJIJJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII",
-   "method": "IJJIIIJIJJJIJJIIIIJIJIJJJJIIIJJIIJIJIJIJJJJIIIJ",
-   "token": "0x0600122E",
-   "rva": "0x008FAB54",
-   "size": 348,
-   "params": 0,
-   "bin": "substantive",
-   "src": "ret_null",
    "reach": "direct",
    "scene_used": false
   },
@@ -41033,18 +40973,6 @@
    "scene_used": false
   },
   {
-   "type": "JJJJIIJIIIJIIIJIIJIJJJJIJJJJIIIJIJIIJIIJJIIJIII",
-   "method": "IIIJIJIJJIIIJIJIJIJJIJIJJIIIJJIIJJIJJJIIJIIIJII",
-   "token": "0x06001405",
-   "rva": "0x00C45F08",
-   "size": 164,
-   "params": 1,
-   "bin": "substantive",
-   "src": "empty",
-   "reach": "direct",
-   "scene_used": false
-  },
-  {
    "type": "TimerManager",
    "method": "In",
    "token": "0x06004BE7",
@@ -41353,18 +41281,6 @@
    "params": 0,
    "bin": "substantive",
    "src": "ret_zero",
-   "reach": "direct",
-   "scene_used": false
-  },
-  {
-   "type": "JJJJJIJJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII",
-   "method": "JJJJIJJJJIIJJIJIJJJJIIJIJJIJJJJIIIIIJIIJIJJIJII",
-   "token": "0x060011DD",
-   "rva": "0x008FAAC0",
-   "size": 148,
-   "params": 1,
-   "bin": "substantive",
-   "src": "ret_false",
    "reach": "direct",
    "scene_used": false
   },

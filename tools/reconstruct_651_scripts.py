@@ -478,6 +478,50 @@ def patch_photon_settings(text: str) -> str:
         }
         """,
     )
+
+    # OnEnable (RVA 0x0059c8f0): subscribes the eight canonical callbacks of
+    # this component onto the PN static delegate fields via Delegate.Combine
+    # (`+=`), in binary order: +0x18 OnConnectedToPhoton, +0x3c
+    # OnDisconnectedFromPhoton, +0x40 OnConnectionFail, +0x4c OnJoinedRoom,
+    # +0x28 OnPhotonJoinRoomFailed, +0x24 OnPhotonCreateRoomFailed,
+    # +0x70 OnCustomAuthenticationFailed, +0x74 OnCustomAuthenticationResponse.
+    text = replace_method(
+        text,
+        "private void OnEnable()",
+        """
+        // RVA 0x0059c8f0: Delegate.Combine subscriptions onto PN statics,
+        // binary store order +0x18, +0x3c, +0x40, +0x4c, +0x28, +0x24, +0x70, +0x74.
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IJIJJJIJIJJIIIIIIIJJIJJJJIJJIJJJIJJIIIIJIJJIJIJ += OnConnectedToPhoton;
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.JIJJJJIJJIIJIIJJJJJIIIJIJJIJIJIIJJIIIJIJIJJIJJJ += OnDisconnectedFromPhoton;
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IJJIIJIJJJIJIIIJIIJIIIIJIJJIIJIIIIIJIIIJIIJJJII += OnConnectionFail;
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IJIIJIJIJJJIIIJJIJIJJIJJJIJJJJIIIIIIJJJJJJIJIII += OnJoinedRoom;
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.JIJIIIIJJIJIJJJJJJJIJJIJJIIJJJJIJIJIIJIIJIJJJII += OnPhotonJoinRoomFailed;
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IIJJIJIJIIJJIJIJIIIIJJIJJIJIIIJIJIIJIJIJIIIJJJJ += OnPhotonCreateRoomFailed;
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.JJIJIIIJJIIJJJIJIJIIJJJJJIJJIJJJIIJJIJJIJIJIJIJ += OnCustomAuthenticationFailed;
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IJJIIJJJJIIIIJIIJJJJIIIJJJJJJIJIIJIIIIIIJJJJJII += OnCustomAuthenticationResponse;
+        """,
+    )
+
+    # OnDisable (RVA 0x0059bdc4): first clears the deferred Action slot
+    # (mPhotonSettings static +0x0c), then removes the same eight delegate
+    # subscriptions via Delegate.Remove (`-=`), same field order as OnEnable.
+    text = replace_method(
+        text,
+        "private void OnDisable()",
+        """
+        // RVA 0x0059bdc4: static Action slot (+0x0c) = null, then eight
+        // Delegate.Remove calls mirroring OnEnable.
+        IIIJJIIJIIIIJIIJJJIJIIJIIIIIIIIIIJJIIJIIJJJJIII = null;
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IJIJJJIJIJJIIIIIIIJJIJJJJIJJIJJJIJJIIIIJIJJIJIJ -= OnConnectedToPhoton;
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.JIJJJJIJJIIJIIJJJJJIIIJIJJIJIJIIJJIIIJIJIJJIJJJ -= OnDisconnectedFromPhoton;
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IJJIIJIJJJIJIIIJIIJIIIIJIJJIIJIIIIIJIIIJIIJJJII -= OnConnectionFail;
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IJIIJIJIJJJIIIJJIJIJJIJJJIJJJJIIIIIIJJJJJJIJIII -= OnJoinedRoom;
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.JIJIIIIJJIJIJJJJJJJIJJIJJIIJJJJIJIJIIJIIJIJJJII -= OnPhotonJoinRoomFailed;
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IIJJIJIJIIJJIJIJIIIIJJIJJIJIIIJIJIIJIJIJIIIJJJJ -= OnPhotonCreateRoomFailed;
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.JJIJIIIJJIIJJJIJIJIIJJJJJIJJIJJJIIJJIJJIJIJIJIJ -= OnCustomAuthenticationFailed;
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IJJIIJJJJIIIIJIIJJJJIIIJJJJJJIJIIJIIIIIIJJJJJII -= OnCustomAuthenticationResponse;
+        """,
+    )
     return text
 
 
@@ -687,6 +731,131 @@ def patch_networking_peer(text: str) -> str:
             }
             break;
         }
+        """,
+    )
+
+    # OpCreateGame (RVA 0x008faac0), byte-for-byte equal in behaviour to PUN
+    # 1.101 NetworkingPeer.OpCreateGame(EnterRoomParams): sets
+    # params.OnGameServer (+0x18) from this.Server==GameServer (+0xb0),
+    # fills params.PlayerProperties (+0x14) from GetLocalActorProperties(),
+    # caches the params when still on master (+0xec), sets
+    # mLastJoinType=CreateRoom (+0xe8 = 0) and tail-calls the inherited
+    # LoadBalancingPeer.OpCreateRoom (0x008892c0).
+    text = replace_method(
+        text,
+        "public bool JJJJIJJJJIIJJIJIJJJJIIJIJJIJJJJIIIIIJIIJIJJIJII(IJIJJIJIIJIIIJJJIJIIIIJJJJJIIIJIJIIIJIIJJJIIIJI IIJJIJIIJIIJIIIIJJJJJIIJJJJJJIIJIIJIIJIIJIIIIJJ)",
+        """
+        // RVA 0x008faac0: verified against PUN 1.101 NetworkingPeer.OpCreateGame.
+        bool onGameServer = JJIJIJJJIJIIJIJJIIIIIJJIJIIIJJIIJIIIJIJIJJJJJII == IIIJIIJJJIJIJIIJIIJJJJJIIIIJJIIJIIJIJIIIJJIJJJJ.GameServer;
+        IIJJIJIIJIIJIIIIJJJJJIIJJJJJJIIJIIJIIJIIJIIIIJJ.IJJIJIIIIJJJJIIIIIJIJJIJJIIIJIJJIIIJIIIJIIIIJJI = onGameServer;
+        IIJJIJIIJIIJIIIIJJJJJIIJJJJJJIIJIIJIIJIIJIIIIJJ.IIIIJIIJIJJJIIJIIIIJJIIJIJJIJJIIIIJIIJJJIJJIIJJ = IJJIIIJIJJJIJJIIIIJIJIJJJJIIIJJIIJIJIJIJJJJIIIJ();
+        if (!onGameServer)
+        {
+            IJJIIIIJIJIIJIIJJJJJIJJJIJIJIJJIIJJJIJJJIIJJJII = IIJJIJIIJIIJIIIIJJJJJIIJJJJJJIIJIIJIIJIIJIIIIJJ;
+        }
+        JIJJJJIJIIIJIIJJJIIIJJJIIJJIJIIIJIJIIIIJIIJJJII = JIIIJJIIIIIIIJIIIIJJJJIJIJJJJJIIJJJJJIIIIJIIIJI.CreateRoom;
+        return base.JIIIJIJIIIJIIJIJJJJJJIIJIIJJIJJJIIIIJIJJJIIJJII(IIJJIJIIJIIJIIIIJJJJJIIJJJJJJIIJIIJIIJIIJIIIIJJ);
+        """,
+    )
+
+    # GetLocalActorProperties (RVA 0x008fab54), equal to PUN 1.101
+    # NetworkingPeer.GetLocalActorProperties: returns PN.player.AllProperties
+    # when PN.player (static getter 0x00481f3c) is set, otherwise a fresh
+    # Hashtable with [(byte)255] = this.PlayerName (+0xcc).
+    text = replace_method(
+        text,
+        "private Hashtable IJJIIIJIJJJIJJIIIIJIJIJJJJIIIJJIIJIJIJIJJJJIIIJ()",
+        """
+        // RVA 0x008fab54: verified against PUN 1.101 GetLocalActorProperties.
+        if (JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.JIIJIJIJIJJIJJJIJIIJIIIIIJJIIIIIJJIIIIJJIJJIIII != null)
+        {
+            return JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.JIIJIJIJIJJIJJJIJIIJIIIIIJJIIIIIJJIIIIJJIJJIIII.IIIJJJIIIIJIIJJIIIJJIJIIIJIJIJJJIJIIIIIJIIIIJII;
+        }
+        Hashtable hashtable = new Hashtable();
+        hashtable[(byte)255] = JIJIJIIIJJJIIJIJIJIJIIIJJIIJIIJJJIJJJJJIJJJJJII;
+        return hashtable;
+        """,
+    )
+
+    # ChangeLocalID (RVA 0x008fee9c), equal to PUN 1.101
+    # NetworkingPeer.ChangeLocalID(int): warns when LocalPlayer (+0xd8) is
+    # null (format string literal is bit-identical to upstream), removes the
+    # old actor id from mActors (+0x108), renumbers the local player via
+    # PhotonPlayer.InternalChangeLocalID (0x00c45f08), re-registers it and
+    # rebuilds the player list copies (0x00900a88).
+    text = replace_method(
+        text,
+        "public void JIJIJJJJJIIIIIIIIIIIIJJJJIIIJJJIIJJJJJJJJIJIJIJ(int JJJIIIIIJIIIIIIJJIJIIJIJJIIIIJJJJJIJIIJIIIIIIIJ)",
+        """
+        // RVA 0x008fee9c: verified against PUN 1.101 NetworkingPeer.ChangeLocalID.
+        if (IJJJIJJIIJJIIJIJIJIIIIIJJJIJJJIJIJJJJIIJIIIJIII == null)
+        {
+            Debug.LogWarning(string.Format("LocalPlayer is null or not in mActors! LocalPlayer: {0} mActors==null: {1} newID: {2}", IJJJIJJIIJJIIJIJIJIIIIIJJJIJJJIJIJJJJIIJIIIJIII, IIIJJJJIJJJJJJIJIIIIIIIIJIJJJJIJJJIJIIIIJIIIIJI == null, JJJIIIIIJIIIIIIJJIJIIJIJJIIIIJJJJJIJIIJIIIIIIIJ));
+        }
+        if (IIIJJJJIJJJJJJIJIIIIIIIIJIJJJJIJJJIJIIIIJIIIIJI.ContainsKey(IJJJIJJIIJJIIJIJIJIIIIIJJJIJJJIJIJJJJIIJIIIJIII.IJJJIIJIJIJJJIIIIJJIIJJIIIIIIIIIJJIJIJIIJIJIIIJ))
+        {
+            IIIJJJJIJJJJJJIJIIIIIIIIJIJJJJIJJJIJIIIIJIIIIJI.Remove(IJJJIJJIIJJIIJIJIJIIIIIJJJIJJJIJIJJJJIIJIIIJIII.IJJJIIJIJIJJJIIIIJJIIJJIIIIIIIIIJJIJIJIIJIJIIIJ);
+        }
+        IJJJIJJIIJJIIJIJIJIIIIIJJJIJJJIJIJJJJIIJIIIJIII.IIIJIJIJJIIIJIJIJIJJIJIJJIIIJJIIJJIJJJIIJIIIJII(JJJIIIIIJIIIIIIJJIJIIJIJJIIIIJJJJJIJIIJIIIIIIIJ);
+        IIIJJJJIJJJJJJIJIIIIIIIIJIJJJJIJJJIJIIIIJIIIIJI[IJJJIJJIIJJIIJIJIJIIIIIJJJIJJJIJIJJJJIIJIIIJIII.IJJJIIJIJIJJJIIIIJJIIJJIIIIIIIIIJJIJIJIIJIJIIIJ] = IJJJIJJIIJJIIJIJIJIIIIIJJJIJJJIJIJJJJIIJIIIJIII;
+        JJJIIIJJJJJJJJJJIIIIJJJIIJJIJJJJIIJIJJIIIJIJJJI();
+        """,
+    )
+
+    # RebuildPlayerListCopies (RVA 0x00900a88), equal to PUN 1.101
+    # NetworkingPeer.RebuildPlayerListCopies: mPlayerListCopy (+0x110) =
+    # mActors.Values snapshot, mOtherPlayerListCopy (+0x10c) = all non-local
+    # players (PhotonPlayer.IsLocal byte +0x14 checked per element).
+    text = replace_method(
+        text,
+        "private void JJJIIIJJJJJJJJJJIIIIJJJIIJJIJJJJIIJIJJIIIJIJJJI()",
+        """
+        // RVA 0x00900a88: verified against PUN 1.101 RebuildPlayerListCopies.
+        JIJIJIIIIJJIJJIJIIIIJJJJIIIJIJJIJIIIIIIJIIJIJJI = new JJJJIIJIIIJIIIJIIJIJJJJIJJJJIIIJIJIIJIIJJIIJIII[IIIJJJJIJJJJJJIJIIIIIIIIJIJJJJIJJJIJIIIIJIIIIJI.Count];
+        IIIJJJJIJJJJJJIJIIIIIIIIJIJJJJIJJJIJIIIIJIIIIJI.Values.CopyTo(JIJIJIIIIJJIJJIJIIIIJJJJIIIJIJJIJIIIIIIJIIJIJJI, 0);
+        List<JJJJIIJIIIJIIIJIIJIJJJJIJJJJIIIJIJIIJIIJJIIJIII> list = new List<JJJJIIJIIIJIIIJIIJIJJJJIJJJJIIIJIJIIJIIJJIIJIII>();
+        for (int i = 0; i < JIJIJIIIIJJIJJIJIIIIJJJJIIIJIJJIJIIIIIIJIIJIJJI.Length; i++)
+        {
+            JJJJIIJIIIJIIIJIIJIJJJJIJJJJIIIJIJIIJIIJJIIJIII photonPlayer = JIJIJIIIIJJIJJIJIIIIJJJJIIIJIJJIJIIIIIIJIIJIJJI[i];
+            if (!photonPlayer.IIJJIJJJJIJJIIJJJJJJIIJJJIJIJIJIJIJIIJJJJIIJJJI)
+            {
+                list.Add(photonPlayer);
+            }
+        }
+        IIIJIJIIIIJIIJIIIJJJIIJIJJIJIJIIIIJIJJJJIIIJJIJ = list.ToArray();
+        """,
+    )
+    return text
+
+
+def patch_photon_player(text: str) -> str:
+    # PhotonPlayer (obfuscated JJJJIIJIIIJIIIJIIJIJJJJIJJJJIIIJIJIIJIIJJIIJIII).
+    # ID getter (RVA 0x00c44b8c): single `ldr r0,[r0,#8]; bx lr` - returns the
+    # actorID field (+0x08).
+    text = replace_method(
+        text,
+        "public int JJIJJJJJIIIJJIIJJJJJJIJIJJJJJIIIIIJIIIJIJJJIJJJ()",
+        """
+        // RVA 0x00c44b8c: returns actorID (+0x08).
+        return JJJJJIIIIJJIJIIJJJJIJJJIJIJIIJJJJJJIIIIIJJIJJJI;
+        """,
+    )
+
+    # InternalChangeLocalID (RVA 0x00c45f08), equal to PUN 1.101
+    # PhotonPlayer.InternalChangeLocalID: assigns actorID (+0x08) only when
+    # IsLocal (+0x14), otherwise logs the upstream error literal
+    # "ERROR You should never change PhotonPlayer IDs!".
+    text = replace_method(
+        text,
+        "internal void IIIJIJIJJIIIJIJIJIJJIJIJJIIIJJIIJJIJJJIIJIIIJII(int JJJIIIIIJIIIIIIJJIJIIJIJJIIIIJJJJJIJIIJIIIIIIIJ)",
+        """
+        // RVA 0x00c45f08: verified against PUN 1.101 InternalChangeLocalID.
+        if (IIJJIJJJJIJJIIJJJJJJIIJJJIJIJIJIJIJIIJJJJIIJJJI)
+        {
+            JJJJJIIIIJJIJIIJJJJIJJJIJIJIIJJJJJJIIIIIJJIJJJI = JJJIIIIIJIIIIIIJJIJIIJIJJIIIIJJJJJIJIIJIIIIIIIJ;
+            return;
+        }
+        UnityEngine.Debug.LogError("ERROR You should never change PhotonPlayer IDs!");
         """,
     )
     return text
@@ -1012,6 +1181,7 @@ def main() -> None:
     # Obfuscated PhotonNetwork / NetworkingPeer (PUN 1.x offline-mode core).
     patch_file("JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.cs", patch_photon_network)
     patch_file("JJJJJIJJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.cs", patch_networking_peer)
+    patch_file("JJJJIIJIIIJIIIJIIJIJJJJIJJJJIIIJIJIIJIIJJIIJIII.cs", patch_photon_player)
     patch_file("mCreateServer.cs", patch_create_server)
     patch_file("mPlayerCamera.cs", patch_mplayer_camera)
     patch_file("mOthers.cs", patch_mothers)

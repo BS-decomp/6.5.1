@@ -124,6 +124,44 @@ unresolved methods visible rather than inventing behavior.
   (PUN 1.x `Server`/`State`/`lobby`). The export flattened them to `private`
   fields; `tools/reconstruct_651_scripts.py` restores the public accessibility so
   the verified PhotonNetwork bodies compile. No identifiers were invented.
+- `mPhotonSettings.OnEnable` (`0x0059c8f0`) / `OnDisable` (`0x0059bdc4`):
+  the only subscriber of the obfuscated `PhotonNetwork` delegate fields found
+  so far. OnEnable performs eight `Delegate.Combine` (`+=`) stores onto the
+  PN statics in binary order `+0x18` (OnConnectedToPhoton), `+0x3c`
+  (OnDisconnectedFromPhoton), `+0x40` (OnConnectionFail), `+0x4c`
+  (OnJoinedRoom), `+0x28` (OnPhotonJoinRoomFailed), `+0x24`
+  (OnPhotonCreateRoomFailed), `+0x70` (OnCustomAuthenticationFailed), `+0x74`
+  (OnCustomAuthenticationResponse); the callback methods carry their
+  canonical names in the export and their signatures match the delegate
+  types. OnDisable first nulls the component's static `Action` slot
+  (`mPhotonSettings` static `+0x0c`) and then issues the mirrored
+  `Delegate.Remove` (`-=`) sequence. A grep over Assembly-CSharp confirmed no
+  other C# source references these delegate fields.
+- Obfuscated `NetworkingPeer.OpCreateGame` (`0x008faac0`): matches PUN 1.101
+  `NetworkingPeer.OpCreateGame(EnterRoomParams)` instruction-for-instruction:
+  `params.OnGameServer` (`+0x18`) = `Server==GameServer` (`+0xb0`),
+  `params.PlayerProperties` (`+0x14`) = `GetLocalActorProperties()`, caches
+  the params in `enterRoomParamsCache` (`+0xec`) while still on master, sets
+  `mLastJoinType = JoinType.CreateRoom` (`+0xe8` = 0) and tail-calls the
+  inherited `LoadBalancingPeer.OpCreateRoom` (`0x008892c0`).
+- Obfuscated `NetworkingPeer.GetLocalActorProperties` (`0x008fab54`): equals
+  PUN 1.101 — returns `PhotonNetwork.player.AllProperties` when the static
+  player getter (`0x00481f3c`) yields non-null, otherwise builds a
+  `Hashtable` with `[(byte)255] = PlayerName` (`+0xcc`).
+- Obfuscated `NetworkingPeer.ChangeLocalID` (`0x008fee9c`): equals PUN 1.101;
+  the warning literal `"LocalPlayer is null or not in mActors! …"` is
+  bit-identical in the binary. Uses `LocalPlayer` (`+0xd8`), `mActors`
+  (`+0x108`), `PhotonPlayer.InternalChangeLocalID` (`0x00c45f08`) and
+  `RebuildPlayerListCopies` (`0x00900a88`).
+- Obfuscated `NetworkingPeer.RebuildPlayerListCopies` (`0x00900a88`): equals
+  PUN 1.101 — `mPlayerListCopy` (`+0x110`) = snapshot of `mActors.Values`,
+  `mOtherPlayerListCopy` (`+0x10c`) = all entries whose `IsLocal` byte
+  (`PhotonPlayer +0x14`) is clear, via a `List<>` + `ToArray()`.
+- Obfuscated `PhotonPlayer`: ID getter (`0x00c44b8c`) is a single
+  `ldr r0,[r0,#8]; bx lr` returning the actorID field (`+0x08`);
+  `InternalChangeLocalID` (`0x00c45f08`) equals PUN 1.101, assigning actorID
+  only when `IsLocal` (`+0x14`) and otherwise logging the upstream literal
+  `"ERROR You should never change PhotonPlayer IDs!"`.
 
 The atlas, sprite, texture, label, and localization changes restore serialized NGUI
 state access (material, texture, atlas, sprite name, text, and CSV localization).

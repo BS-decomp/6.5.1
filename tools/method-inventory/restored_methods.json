@@ -5,7 +5,9 @@
       "file": "Assets/Scripts/Assembly-CSharp/AndroidPermissions.cs",
       "methods": "AndroidPermissions.Start",
       "evidence": "RVA 0x0100b594",
-      "must_contain": ["SceneManager.LoadScene(\"Logo\");"]
+      "must_contain": [
+        "SceneManager.LoadScene(\"Logo\");"
+      ]
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/Logo.cs",
@@ -31,7 +33,9 @@
       "file": "Assets/Scripts/Assembly-CSharp/JIJJJIIJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.cs",
       "methods": "obfuscated scene wrappers",
       "evidence": "RVAs 0x013bce08, 0x013bd5e8, 0x013be83c",
-      "must_contain": ["SceneManager.LoadScene(JIIJIJIJJJIIJJJJJIIJJJIIIIJIIIJIJIIIJIJIIJJJJIJ);"]
+      "must_contain": [
+        "SceneManager.LoadScene(JIIJIJIJJJIIJJJJJIIJJJIIIIJIIIJIJIIIJIJIIJJJJIJ);"
+      ]
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/UIEventClick.cs",
@@ -46,78 +50,106 @@
       "file": "Assets/Scripts/Assembly-CSharp/UILabel.cs",
       "methods": "UILabel serialized text/material accessors",
       "evidence": "NGUI serialized-state access (docs/script-reconstruction.md)",
-      "must_contain": ["return mText ?? string.Empty;"]
+      "must_contain": [
+        "return mText ?? string.Empty;"
+      ]
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/UILocalize.cs",
       "methods": "UILocalize.OnEnable / Start / localization lookup",
       "evidence": "CSV localization via Resources/Localization",
-      "must_contain": ["private void ApplyLocalization()", "Resources.Load<TextAsset>(\"Localization\")"]
+      "must_contain": [
+        "private void ApplyLocalization()",
+        "Resources.Load<TextAsset>(\"Localization\")"
+      ]
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/UIAtlas.cs",
       "methods": "UIAtlas replacement/sprite accessors",
       "evidence": "NGUI atlas data model (docs/script-reconstruction.md)",
-      "must_contain": ["mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII"]
+      "must_contain": [
+        "mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII"
+      ]
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/NGUIAtlas.cs",
       "methods": "NGUIAtlas replacement/sprite accessors",
       "evidence": "NGUI atlas data model (docs/script-reconstruction.md)",
-      "must_contain": ["mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII"]
+      "must_contain": [
+        "mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII"
+      ]
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/UISprite.cs",
       "methods": "UISprite atlas/sprite-name accessors",
       "evidence": "NGUI serialized-state access",
-      "must_contain": ["return mSpriteName ?? string.Empty;"]
+      "must_contain": [
+        "return mSpriteName ?? string.Empty;"
+      ]
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/UITexture.cs",
       "methods": "UITexture texture/shader/material accessors",
       "evidence": "NGUI serialized-state access",
-      "must_contain": ["return mShader != null ? new Material(mShader) : null;"]
+      "must_contain": [
+        "return mShader != null ? new Material(mShader) : null;"
+      ]
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/UIWidget.cs",
       "methods": "UIWidget material/color/size accessors",
       "evidence": "NGUI serialized-state access",
-      "must_contain": ["return mMat;"]
+      "must_contain": [
+        "return mMat;"
+      ]
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/mPhotonSettings.cs",
-      "methods": "mPhotonSettings.CreateServerOffline / deferred offline-create helper / OnJoinedRoom",
-      "evidence": "RVAs 0x0059df28, 0x0071d948, 0x0059d310 (PUN statics: connected-check 0x0049af18, Disconnect 0x004a1d08, offline-mode getter/setter 0x0049c544/0x0049c5d0, CreateRoom 0x004a2078, sync scene load 0x004a96ac, room getter 0x0049bb98; game-mode manager 0x00d8d5d8/0x00d8e644; room.GetGameMode 0x01475d6c)",
+      "methods": "mPhotonSettings.CreateServerOffline / deferred offline-create helper / OnJoinedRoom / OnEnable / OnDisable",
+      "evidence": "RVAs 0x0059df28, 0x0071d948, 0x0059d310 (PUN statics: connected-check 0x0049af18, Disconnect 0x004a1d08, offline-mode getter/setter 0x0049c544/0x0049c5d0, CreateRoom 0x004a2078, sync scene load 0x004a96ac, room getter 0x0049bb98; game-mode manager 0x00d8d5d8/0x00d8e644; room.GetGameMode 0x01475d6c); OnEnable 0x0059c8f0 and OnDisable 0x0059bdc4 subscribe/unsubscribe the eight PN delegate fields (+0x18,+0x3c,+0x40,+0x4c,+0x28,+0x24,+0x70,+0x74) and clear the static Action slot (+0x0c)",
       "must_contain": [
         "TimerManager.In(0.2f, new Callback(deferredCreate.IJIIJIIIIIIJIIIIJJJIJIIJJIJJJJIIJIJJJIJJJIJIIJI));",
         "JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.JJIJIJIJIIJIIIJJJJIJIJJJIIJJJJIJIIJJJJJJIJJIIJI = true;",
         "JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IIJJJJJJIIJJIIJJJIJIIIJJJJIJJJIIIJIJJJIJIIIIIIJ(JJJIJIJJIIJJIIIJIJJIIJJIIJIIJJIJJIJJJIIIIIIJIJI);",
-        "JIJJJIIJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.JIJJJIIJJIIJIIIJIJIIIJIJIIJIIIJJJJIIIJIJIJIIJII(JJIJIJIJIJJJJJIIJIIJJIJIJJJJJJIJIJIJJIIJIJIJIJJ);"
+        "JIJJJIIJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.JIJJJIIJJIIJIIIJIJIIIJIJIIJIIIJJJJIIIJIJIJIIJII(JJIJIJIJIJJJJJIIJIIJJIJIJJJJJJIJIJIJJIIJIJIJIJJ);",
+        "// RVA 0x0059c8f0",
+        "// RVA 0x0059bdc4",
+        "JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IJIIJIJIJJJIIIJJIJIJJIJJJIJJJJIIIIIIJJJJJJIJIII += OnJoinedRoom;",
+        "JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IJIIJIJIJJJIIIJJIJIJJIJJJIJJJJIIIIIIJJJJJJIJIII -= OnJoinedRoom;",
+        "IIIJJIIJIIIIJIIJJJIJIIJIIIIIIIIIIJJIIJIIJJJJIII = null;"
       ]
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/mCreateServer.cs",
       "methods": "mCreateServer.Start / Open / SetMaxPlayer",
       "evidence": "RVAs 0x007dd1e0, 0x007de300, 0x007dc64c",
-      "must_contain": ["= int.Parse(go.name);"]
+      "must_contain": [
+        "= int.Parse(go.name);"
+      ]
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/mPlayerCamera.cs",
       "methods": "mPlayerCamera.Awake",
       "evidence": "RVA 0x0071f138",
-      "must_contain": ["GetComponent<Camera>();"]
+      "must_contain": [
+        "GetComponent<Camera>();"
+      ]
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/mOthers.cs",
       "methods": "mOthers.ExitGame / ShowOthersGames / ShowToast",
       "evidence": "application/URL/toast calls (docs/script-reconstruction.md)",
-      "must_contain": ["Application.Quit();"]
+      "must_contain": [
+        "Application.Quit();"
+      ]
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/mPanelManager.cs",
       "methods": "mPanelManager.Awake / Show / ShowAnim / HideAnim",
       "evidence": "panel singleton and visibility flow (docs/script-reconstruction.md)",
-      "must_contain": ["item.gameObject.SetActive(item.gameObject == panel);"]
+      "must_contain": [
+        "item.gameObject.SetActive(item.gameObject == panel);"
+      ]
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.cs",
@@ -148,15 +180,30 @@
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/JJJJJIJJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.cs",
-      "methods": "obf NetworkingPeer: SendMonoMessage 0x008f8364 (jump table 0x008f83bc -> 28 static delegate fields of obf PhotonNetwork); Server(+0xb0)/State(+0xb4)/lobby(+0xbc) restored to original public accessibility (metadata <name>k__BackingField auto-properties)",
-      "evidence": "libil2cpp.so disassembly + global-metadata.dat field records for TypeInfo(JJJJJIJJJ...)",
+      "methods": "obf NetworkingPeer: SendMonoMessage 0x008f8364 (jump table 0x008f83bc -> 28 static delegate fields of obf PhotonNetwork); Server(+0xb0)/State(+0xb4)/lobby(+0xbc) restored to original public accessibility (metadata <name>k__BackingField auto-properties) / OpCreateGame / GetLocalActorProperties / ChangeLocalID / RebuildPlayerListCopies",
+      "evidence": "libil2cpp.so disassembly + global-metadata.dat field records for TypeInfo(JJJJJIJJJ...); OpCreateGame 0x008faac0, GetLocalActorProperties 0x008fab54, ChangeLocalID 0x008fee9c, RebuildPlayerListCopies 0x00900a88 - all verified against PUN 1.101 NetworkingPeer",
       "must_contain": [
         "// RVA 0x008f8364",
         "case IJJIIIJJJIIJIJIJJIJJIJJJIIIJIJJIJIJJJJJIIJJIIIJ.OnJoinedRoom:",
         "case IJJIIIJJJIIJIJIJJIJJIJJJIIIJIJJIJIJJJJJIIJJIIIJ.OnCreatedRoom:",
         "public IIIJIIJJJIJIJIIJIIJJJJJIIIIJJIIJIIJIJIIIJJIJJJJ JJIJIJJJIJIIJIJJIIIIIJJIJIIIJJIIJIIIJIJIJJJJJII;",
         "public JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ IJJJIIIIJIIJIJIIIIIIJJJJIJIJJJIIIIIIJIJJIIIIIII;",
-        "public IJIJIIJIJJJJIJJIIJIJJIJJIJIJJIJJJJIIJJJJIJJJJJJ IIIIJIIIJIIJJIIJJJIJJJIJIJIIIIIIJJJIIIJIIJJIJJJ;"
+        "public IJIJIIJIJJJJIJJIIJIJJIJJIJIJJIJJJJIIJJJJIJJJJJJ IIIIJIIIJIIJJIIJJJIJJJIJIJIIIIIIJJJIIIJIIJJIJJJ;",
+        "// RVA 0x008faac0",
+        "// RVA 0x008fab54",
+        "// RVA 0x008fee9c",
+        "// RVA 0x00900a88",
+        "\"LocalPlayer is null or not in mActors! LocalPlayer: {0} mActors==null: {1} newID: {2}\""
+      ]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/JJJJIIJIIIJIIIJIIJIJJJJIJJJJIIIJIJIIJIIJJIIJIII.cs",
+      "methods": "PhotonPlayer ID getter / InternalChangeLocalID",
+      "evidence": "ID getter RVA 0x00c44b8c (ldr r0,[r0,#8]; bx lr -> actorID +0x08); InternalChangeLocalID RVA 0x00c45f08 verified against PUN 1.101 (IsLocal byte +0x14 guard, upstream error literal)",
+      "must_contain": [
+        "// RVA 0x00c44b8c",
+        "// RVA 0x00c45f08",
+        "\"ERROR You should never change PhotonPlayer IDs!\""
       ]
     }
   ]
