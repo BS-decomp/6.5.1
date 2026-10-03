@@ -162,6 +162,32 @@ unresolved methods visible rather than inventing behavior.
   `InternalChangeLocalID` (`0x00c45f08`) equals PUN 1.101, assigning actorID
   only when `IsLocal` (`+0x14`) and otherwise logging the upstream literal
   `"ERROR You should never change PhotonPlayer IDs!"`.
+- `PhotonHandler.Awake` (`0x0063f2d0`): equals PUN 1.101 — singleton guard
+  `if (SP != null && SP != this && SP.gameObject != null)
+  DestroyImmediate(SP.gameObject)` on the static `SP` field (static
+  `+0x00`), `SP = this`, `DontDestroyOnLoad(gameObject)`, then
+  `updateInterval` (`+0x0c`) `= 1000 / sendRate` and
+  `updateIntervalOnSerialize` (`+0x10`) `= 1000 / sendRateOnSerialize`,
+  tail-calling `StartFallbackSendAckThread` (`0x0063efac`).
+- Obfuscated `PhotonNetwork.sendRate` (`0x0049d2e0`) /
+  `sendRateOnSerialize` (`0x0049d528`) getters: `return 1000 / <static>`
+  over the PN static ints at `+0xc0` / `+0xc4`. The PN `.cctor`
+  (`0x0049edcc`) stores `0x32`/`0x64` there — the PUN 1.101 initializers
+  `sendInterval = 50` / `sendIntervalOnSerialize = 100`, restored as C#
+  field initializers.
+- `PhotonHandler.OnCreatedRoom` (`0x0063ff4c`): forwards the active scene
+  name to the obfuscated `NetworkingPeer.SetLevelInPropsIfSynced`
+  (`0x00912828`) with both bool arguments false (binary passes `r2=0`,
+  `r3=0`). `PhotonHandler.OnJoinedRoom` (`0x00640290`) tail-calls the
+  networkingPeer `LoadLevelIfSynced` body (`0x008fddbc`). Both equal PUN
+  1.101.
+- `SceneManagerHelper.ActiveSceneName` body (`0x0166a90c`):
+  `SceneManager.GetActiveScene()` (`0x15dbcf8`) + `Scene.get_name`
+  (`0x15db718`) — identical to PUN 1.101.
+- `UIOthers.OnLeftRoom` (`0x009d1e58`): clears the scene-wrapper guard flag
+  (SW static `+0x00`) and the PN static bool at `+0xe8`, then tail-calls
+  the verified scene wrapper load (`0x013bd5e8`) with the literal
+  `"Menu"`.
 
 The atlas, sprite, texture, label, and localization changes restore serialized NGUI
 state access (material, texture, atlas, sprite name, text, and CSV localization).

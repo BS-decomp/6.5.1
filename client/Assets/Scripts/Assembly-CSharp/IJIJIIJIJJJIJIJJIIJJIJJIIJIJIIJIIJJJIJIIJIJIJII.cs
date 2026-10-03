@@ -30,7 +30,8 @@ public class IJIJIIJIJJJIJIJJIIJJIJJIIJIJIIJIIJJJIJIIJIJIJII
 
 	public static string JIJJIIJJJIJJJIIIJIJIJJJIJJJJIIJIJJIIJIIIJJIIJII()
 	{
-		return null;
+	        // RVA 0x0166a90c: verified - SceneManager.GetActiveScene().name.
+	        return UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
 	}
 	public static string JIJJIIJJIJIJJIJJJIJJIIIIJIJIJIJJJIIIIJIIJJJIJJJ()
 	{

@@ -153,8 +153,8 @@
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.cs",
-      "methods": "obf PhotonNetwork: connected 0x0049af18 / connectionStateDetailed 0x0049b61c / connectedAndReady 0x0049b47c / offlineMode get 0x0049c544, set 0x0049c5d0 / room 0x0049bb98 / isMessageQueueRunning get 0x0049d7b4, set 0x0049d840 / Disconnect 0x004a1d08 / CreateRoom 0x004a2078, 0x004a258c, 0x004a210c / EnterOfflineRoom 0x004a2628 / LoadLevel 0x004a96ac",
-      "evidence": "libil2cpp.so disassembly + global-metadata.dat string literals (docs/script-reconstruction.md)",
+      "methods": "obf PhotonNetwork: connected 0x0049af18 / connectionStateDetailed 0x0049b61c / connectedAndReady 0x0049b47c / offlineMode get 0x0049c544, set 0x0049c5d0 / room 0x0049bb98 / isMessageQueueRunning get 0x0049d7b4, set 0x0049d840 / Disconnect 0x004a1d08 / CreateRoom 0x004a2078, 0x004a258c, 0x004a210c / EnterOfflineRoom 0x004a2628 / LoadLevel 0x004a96ac / sendRate getter / sendRateOnSerialize getter (+cctor initializers 50/100)",
+      "evidence": "libil2cpp.so disassembly + global-metadata.dat string literals (docs/script-reconstruction.md); sendRate getter 0x0049d2e0 = 1000/static(+0xc0), sendRateOnSerialize getter 0x0049d528 = 1000/static(+0xc4); PN .cctor 0x0049edcc stores 0x32/0x64 to +0xc0/+0xc4 (PUN 1.101 sendInterval=50 / sendIntervalOnSerialize=100)",
       "must_contain": [
         "// RVA 0x0049af18",
         "// RVA 0x0049bb98",
@@ -175,7 +175,11 @@
         "CreateRoom failed. In offline mode you still have to leave a room to enter another.",
         "CreateRoom failed. Client is not on Master Server or not yet ready to call operations. Wait for callback: OnJoinedLobby or OnConnectedToMaster.",
         "Can't start OFFLINE mode while connected!",
-        "OnStatusChanged(StatusCode.Connect);"
+        "OnStatusChanged(StatusCode.Connect);",
+        "// RVA 0x0049d2e0",
+        "// RVA 0x0049d528",
+        "private static int JJJJJIJJJJJIIJJIIIIJIJJIIIJJJJJJJIJJJIIIIIJJJJI = 50;",
+        "private static int JJJIJIIIJJIIJIJJIIIIJJIIIJIIJIIJIJJJIJJJJJIJIJI = 100;"
       ]
     },
     {
@@ -204,6 +208,34 @@
         "// RVA 0x00c44b8c",
         "// RVA 0x00c45f08",
         "\"ERROR You should never change PhotonPlayer IDs!\""
+      ]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/PhotonHandler.cs",
+      "methods": "PhotonHandler.Awake / OnCreatedRoom / OnJoinedRoom",
+      "evidence": "Awake 0x0063f2d0 (SP singleton static +0x00, DontDestroyOnLoad, updateInterval +0x0c / updateIntervalOnSerialize +0x10 from PN getters 0x0049d2e0/0x0049d528, tail-call StartFallbackSendAckThread 0x0063efac); OnCreatedRoom 0x0063ff4c (networkingPeer.SetLevelInPropsIfSynced 0x00912828 with ActiveSceneName 0x0166a90c, false, false); OnJoinedRoom 0x00640290 (tail-call LoadLevelIfSynced 0x008fddbc) - all verified against PUN 1.101 PhotonHandler",
+      "must_contain": [
+        "// RVA 0x0063f2d0",
+        "// RVA 0x0063ff4c",
+        "// RVA 0x00640290"
+      ]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/UIOthers.cs",
+      "methods": "UIOthers.OnLeftRoom",
+      "evidence": "RVA 0x009d1e58: clears SW guard flag (static +0x00) and PN static bool +0xe8, tail-calls scene wrapper load 0x013bd5e8 with literal \"Menu\"",
+      "must_contain": [
+        "// RVA 0x009d1e58",
+        "JIJJJIIJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.JIJJJIIJJIIJIIIJIJIIIJIJIIJIIIJJJJIIIJIJIJIIJII(\"Menu\");"
+      ]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/IJIJIIJIJJJIJIJJIIJJIJJIIJIJIIJIIJJJIJIIJIJIJII.cs",
+      "methods": "SceneManagerHelper ActiveSceneName body",
+      "evidence": "RVA 0x0166a90c: SceneManager.GetActiveScene (0x15dbcf8) + Scene.get_name (0x15db718), identical to PUN 1.101 SceneManagerHelper.ActiveSceneName",
+      "must_contain": [
+        "// RVA 0x0166a90c",
+        "return UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;"
       ]
     }
   ]

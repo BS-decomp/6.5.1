@@ -1152,6 +1152,126 @@ def patch_photon_network(text: str) -> str:
         JIJJJIIJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.JIJJJIIJJIIJIIIJIJIIIJIJIIJIIIJJJJIIIJIJIJIIJII(IIJIIIIIJJIIIIJIJJJJJJJJJIIJJJJIIJJJIJJJJIJJIJJ);
         """,
     )
+
+    # sendRate getter (RVA 0x0049d2e0): `return 1000 / sendInterval` where
+    # sendInterval is the PN static int at +0xc0 - identical to PUN 1.101
+    # PhotonNetwork.sendRate.
+    text = replace_method(
+        text,
+        "public static int JIIJJJJIJIIIJIIJJIJJJIJJIIJJJIJJIJIIIIIJIJIJIJJ()",
+        """
+        // RVA 0x0049d2e0: verified against PUN 1.101 PhotonNetwork.sendRate get.
+        return 1000 / JJJJJIJJJJJIIJJIIIIJIJJIIIJJJJJJJIJJJIIIIIJJJJI;
+        """,
+    )
+
+    # sendRateOnSerialize getter (RVA 0x0049d528): `return 1000 /
+    # sendIntervalOnSerialize` (PN static int at +0xc4) - identical to PUN
+    # 1.101 PhotonNetwork.sendRateOnSerialize.
+    text = replace_method(
+        text,
+        "public static int IJJIJIJIJJIJIIIJIIIIIIIIJIJJIIIIIIIIJIJIJIIIJII()",
+        """
+        // RVA 0x0049d528: verified against PUN 1.101 PhotonNetwork.sendRateOnSerialize get.
+        return 1000 / JJJIJIIIJJIIJIJJIIIIJJIIIJIIJIIJIJJJIJJJJJIJIJI;
+        """,
+    )
+
+    # PN .cctor (RVA 0x0049edcc) stores 0x32 (50) to +0xc0 and 0x64 (100) to
+    # +0xc4 - the PUN 1.101 initializers `sendInterval = 50` /
+    # `sendIntervalOnSerialize = 100`. Restore them as field initializers so
+    # the verified getters above cannot divide by zero.
+    text = text.replace(
+        "private static int JJJJJIJJJJJIIJJIIIIJIJJIIIJJJJJJJIJJJIIIIIJJJJI;",
+        "private static int JJJJJIJJJJJIIJJIIIIJIJJIIIJJJJJJJIJJJIIIIIJJJJI = 50;",
+    )
+    text = text.replace(
+        "private static int JJJIJIIIJJIIJIJJIIIIJJIIIJIIJIIJIJJJIJJJJJIJIJI;",
+        "private static int JJJIJIIIJJIIJIJJIIIIJJIIIJIIJIIJIJJJIJJJJJIJIJI = 100;",
+    )
+    return text
+
+
+def patch_photon_handler(text: str) -> str:
+    # PhotonHandler.Awake (RVA 0x0063f2d0), equal to PUN 1.101: singleton
+    # guard on the static SP field (static +0x00), DontDestroyOnLoad, then
+    # updateInterval (+0x0c) = 1000/sendRate and updateIntervalOnSerialize
+    # (+0x10) = 1000/sendRateOnSerialize via the verified PN getters
+    # (0x0049d2e0 / 0x0049d528), and a tail-call into
+    # StartFallbackSendAckThread (0x0063efac).
+    text = replace_method(
+        text,
+        "protected void Awake()",
+        """
+        // RVA 0x0063f2d0: verified against PUN 1.101 PhotonHandler.Awake.
+        if (IJJJJIIJIIIIIIJJJIJIJIJJJIJJJJIIJJJJIIJIJJIJIJJ != null && IJJJJIIJIIIIIIJJJIJIJIJJJIJJJJIIJJJJIIJIJJIJIJJ != this && IJJJJIIJIIIIIIJJJIJIJIJJJIJJJJIIJJJJIIJIJJIJIJJ.gameObject != null)
+        {
+            UnityEngine.Object.DestroyImmediate(IJJJJIIJIIIIIIJJJIJIJIJJJIJJJJIIJJJJIIJIJJIJIJJ.gameObject);
+        }
+        IJJJJIIJIIIIIIJJJIJIJIJJJIJJJJIIJJJJIIJIJJIJIJJ = this;
+        UnityEngine.Object.DontDestroyOnLoad(base.gameObject);
+        JIIIIIIIJIJJIJIIJJJIIIJIIJJIJJJIIJIJIJIIIIJJJII = 1000 / JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.JIIJJJJIJIIIJIIJJIJJJIJJIIJJJIJJIJIIIIIJIJIJIJJ();
+        JJIJJIIJIIJJJJJIIJIIIIJJJJJJIJIIJIIIJIJJIJIJJII = 1000 / JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IJJIJIJIJJIJIIIJIIIIIIIIJIJJIIIIIIIIJIJIJIIIJII();
+        IJJIIJIIIIIJIIJIIIIIJJIIJIJJIJIIIJIJJJJJIIIJIJJ();
+        """,
+    )
+
+    # OnCreatedRoom (RVA 0x0063ff4c), equal to PUN 1.101
+    # PhotonHandler.OnCreatedRoom: forwards the active scene name to the
+    # networkingPeer level-props sync (0x00912828) with both bool arguments
+    # false (binary passes r2=0, r3=0).
+    text = replace_method(
+        text,
+        "protected void OnCreatedRoom()",
+        """
+        // RVA 0x0063ff4c: verified against PUN 1.101 PhotonHandler.OnCreatedRoom.
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI.IJJIJIJJIJJJJJIJIJIJJJIIIIIJIJIIIJIJJJIJIIIJIJJ(IJIJIIJIJJJIJIJJIIJJIJJIIJIJIIJIIJJJIJIIJIJIJII.JIJJIIJJJIJJJIIIJIJIJJJIJJJJIIJIJJIIJIIIJJIIJII(), false, false);
+        """,
+    )
+
+    # OnJoinedRoom (RVA 0x00640290), equal to PUN 1.101
+    # PhotonHandler.OnJoinedRoom: tail-calls the networkingPeer
+    # LoadLevelIfSynced body (0x008fddbc).
+    text = replace_method(
+        text,
+        "protected void OnJoinedRoom()",
+        """
+        // RVA 0x00640290: verified against PUN 1.101 PhotonHandler.OnJoinedRoom.
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI.JJJIJIIIIIJJIIJIIIJJJIJJIJJJIJIJIIJJIIIJJIIJIJI();
+        """,
+    )
+    return text
+
+
+def patch_ui_others(text: str) -> str:
+    # UIOthers.OnLeftRoom (RVA 0x009d1e58): clears the scene-wrapper guard
+    # flag (SW static +0x00), clears the PN static bool at +0xe8 and
+    # tail-calls the verified scene wrapper load (0x013bd5e8) with "Menu".
+    text = replace_method(
+        text,
+        "private void OnLeftRoom()",
+        """
+        // RVA 0x009d1e58: SW guard = false, PN flag (+0xe8) = false, load "Menu".
+        JIJJJIIJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.IJJIIIIIIJIIIIIJJIIJJIJIJJJIJIJJJJIJJJJJIJJIJIJ = false;
+        JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.JIJIIJJIIJIJJJIJIIIJJJJIIJJIJJIJIIIIJIJIJJJIJJI = false;
+        JIJJJIIJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.JIJJJIIJJIIJIIIJIJIIIJIJIIJIIIJJJJIIIJIJIJIIJII("Menu");
+        """,
+    )
+    return text
+
+
+def patch_scene_manager_helper(text: str) -> str:
+    # ActiveSceneName body (RVA 0x0166a90c): SceneManager.GetActiveScene()
+    # stored to a stack slot, then Scene.get_name - identical to PUN 1.101
+    # SceneManagerHelper.ActiveSceneName.
+    text = replace_method(
+        text,
+        "public static string JIJJIIJJJIJJJIIIJIJIJJJIJJJJIIJIJJIIJIIIJJIIJII()",
+        """
+        // RVA 0x0166a90c: verified - SceneManager.GetActiveScene().name.
+        return UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+        """,
+    )
     return text
 
 
@@ -1182,6 +1302,9 @@ def main() -> None:
     patch_file("JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.cs", patch_photon_network)
     patch_file("JJJJJIJJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.cs", patch_networking_peer)
     patch_file("JJJJIIJIIIJIIIJIIJIJJJJIJJJJIIIJIJIIJIIJJIIJIII.cs", patch_photon_player)
+    patch_file("PhotonHandler.cs", patch_photon_handler)
+    patch_file("UIOthers.cs", patch_ui_others)
+    patch_file("IJIJIIJIJJJIJIJJIIJJIJJIIJIJIIJIIJJJIJIIJIJIJII.cs", patch_scene_manager_helper)
     patch_file("mCreateServer.cs", patch_create_server)
     patch_file("mPlayerCamera.cs", patch_mplayer_camera)
     patch_file("mOthers.cs", patch_mothers)

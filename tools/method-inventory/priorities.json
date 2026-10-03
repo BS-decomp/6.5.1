@@ -1,7 +1,7 @@
 {
  "summary": {
   "description": "Reachable methods whose exported C# body is a stub but whose ARMv7 body in libil2cpp.so is substantive (lost implementations), ranked by reachability tier, scene usage and binary size.",
-  "count": 6121
+  "count": 6118
  },
  "methods": [
   {
@@ -21437,18 +21437,6 @@
    "scene_used": true
   },
   {
-   "type": "UIOthers",
-   "method": "OnLeftRoom",
-   "token": "0x060032D6",
-   "rva": "0x009D1E58",
-   "size": 236,
-   "params": 0,
-   "bin": "substantive",
-   "src": "empty",
-   "reach": "direct",
-   "scene_used": true
-  },
-  {
    "type": "UIPlayerStatistics",
    "method": "OnDisable",
    "token": "0x0600333E",
@@ -41273,18 +41261,6 @@
    "scene_used": false
   },
   {
-   "type": "JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ",
-   "method": "IJJIJIJIJJIJIIIJIIIIIIIIJIJJIIIIIIIIJIJIJIIIJII",
-   "token": "0x0600134E",
-   "rva": "0x0049D528",
-   "size": 148,
-   "params": 0,
-   "bin": "substantive",
-   "src": "ret_zero",
-   "reach": "direct",
-   "scene_used": false
-  },
-  {
    "type": "AndroidNativeFunctions",
    "method": "JJIIIIIIJIIJIJIIIJJJJIIJIIJJJJJJIIIIIJJIJIJJIIJ",
    "token": "0x06004215",
@@ -42889,18 +42865,6 @@
    "params": 1,
    "bin": "substantive",
    "src": "empty",
-   "reach": "direct",
-   "scene_used": false
-  },
-  {
-   "type": "IJIJIIJIJJJIJIJJIIJJIJJIIJIJIIJIIJJJIJIIJIJIJII",
-   "method": "JIJJIIJJJIJJJIIIJIJIJJJIJJJJIIJIJJIIJIIIJJIIJII",
-   "token": "0x060012A7",
-   "rva": "0x0166A90C",
-   "size": 44,
-   "params": 0,
-   "bin": "substantive",
-   "src": "ret_null",
    "reach": "direct",
    "scene_used": false
   },
