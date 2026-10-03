@@ -1,7 +1,7 @@
 {
  "summary": {
   "description": "Reachable methods whose exported C# body is a stub but whose ARMv7 body in libil2cpp.so is substantive (lost implementations), ranked by reachability tier, scene usage and binary size.",
-  "count": 6133
+  "count": 6128
  },
  "methods": [
   {
@@ -31769,18 +31769,6 @@
    "scene_used": false
   },
   {
-   "type": "JJJJJIJJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII",
-   "method": "IJIJJJIIJIJIIIJIIJJJIIJIJJJJJIIIIIIIIIJIIIIIIJJ",
-   "token": "0x0600121D",
-   "rva": "0x008F8364",
-   "size": 5480,
-   "params": 2,
-   "bin": "substantive",
-   "src": "empty",
-   "reach": "direct",
-   "scene_used": false
-  },
-  {
    "type": "JJIJIIJIJIJJJJIIIIJIIJJJIIJIIIIJJJJJJJJIJIIIIJI",
    "method": "JJIJIIJIJJIJJIIIJIIJIJIIIJIIJJIJJJIJJJIJJIIJIJI",
    "token": "0x060039F9",
@@ -35525,18 +35513,6 @@
    "scene_used": false
   },
   {
-   "type": "JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ",
-   "method": "IJIJJJJIJIJIIJJIIJJIIJIJJIIJIJIJIJIJJJJJIJJIIJJ",
-   "token": "0x0600137A",
-   "rva": "0x004A1D08",
-   "size": 568,
-   "params": 0,
-   "bin": "substantive",
-   "src": "empty",
-   "reach": "direct",
-   "scene_used": false
-  },
-  {
    "type": "BestHTTP.HTTPManager",
    "method": "SendRequest",
    "token": "0x06005873",
@@ -35569,18 +35545,6 @@
    "params": 1,
    "bin": "substantive",
    "src": "ret_zero",
-   "reach": "direct",
-   "scene_used": false
-  },
-  {
-   "type": "JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ",
-   "method": "JIJIIJIJIIIIJIJJIIJIJIJJIIIJIIJIIIJJJIIJJJIJIJJ",
-   "token": "0x060013B4",
-   "rva": "0x004A96AC",
-   "size": 560,
-   "params": 1,
-   "bin": "substantive",
-   "src": "empty",
    "reach": "direct",
    "scene_used": false
   },
@@ -38585,18 +38549,6 @@
    "scene_used": false
   },
   {
-   "type": "JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ",
-   "method": "IJJIIJIJJJIJJJIIIJJIJIIIJIJIIJIJIJJJIJJJJJJIIJJ",
-   "token": "0x06001331",
-   "rva": "0x0049BB98",
-   "size": 284,
-   "params": 0,
-   "bin": "substantive",
-   "src": "ret_null",
-   "reach": "direct",
-   "scene_used": false
-  },
-  {
    "type": "JJJJIJJJIIIJIIIIJJIJIJIIIJJJIIJJJJJJIIIJJIJIJJJ",
    "method": "JJJIIIIJIJJJIJJJIIJIIJJIJIIIJIIIIIJJIJJJJJJJJIJ",
    "token": "0x06002700",
@@ -39181,18 +39133,6 @@
    "params": 0,
    "bin": "substantive",
    "src": "ret_null",
-   "reach": "direct",
-   "scene_used": false
-  },
-  {
-   "type": "JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ",
-   "method": "IJJJIJIJJJIIJIIJIIJIIIJIIIIIJIIJIIJJJIJIJIJIJII",
-   "token": "0x06001351",
-   "rva": "0x0049D840",
-   "size": 252,
-   "params": 1,
-   "bin": "substantive",
-   "src": "empty",
    "reach": "direct",
    "scene_used": false
   },

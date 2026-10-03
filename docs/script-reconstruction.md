@@ -91,6 +91,32 @@ unresolved methods visible rather than inventing behavior.
     `OnStatusChanged(StatusCode.Connect=1024)` (`0x00906544`);
     `masterClientId(+0x28) = 1`; `SendMonoMessage(OnCreatedRoom=5)` when
     `createdRoom`; `SendMonoMessage(OnJoinedRoom=12)`.
+  - `room` getter method (`0x0049bb98`): offline -> `offlineModeRoom(+0xb4)`,
+    else the obfuscated `NetworkingPeer` current-room body (`0x008fcbb0`).
+  - `isMessageQueueRunning` get/set methods (`0x0049d7b4` / `0x0049d840`):
+    getter returns the static bool at `+0xc8`; setter starts the
+    `PhotonHandler` fallback-send-ack thread (`0x0063efac`) when enabling,
+    then `networkingPeer.IsSendingOnlyAcks(+0x68)` (canonical `PhotonPeer`
+    property) `= !value` and the `+0xc8` static `= value`.
+  - `Disconnect` (`0x004a1d08`): offline -> `offlineMode = false` (setter
+    `0x0049c5d0`), `offlineModeRoom = null`, `State = Disconnecting(14)`,
+    `OnStatusChanged(StatusCode.Disconnect=1025)`; online -> virtual
+    `networkingPeer.Disconnect()` (vtable `+0xfc`) when the peer is non-null.
+  - `LoadLevel(string)` (`0x004a96ac`): clears the `networkingPeer` flag
+    `+0x18d`; when `automaticallySyncScene(+0xbc)` is set forwards to the
+    protected-internal level-props sync (`0x00912828`, args
+    `levelName/true/false`); pauses the message queue (`0x0049d840` with
+    `false`); sets `loadingLevelAndPausedNetwork(+0x13a) = true` and
+    tail-calls the verified scene wrapper (`0x013bd5e8`).
+- Obfuscated `NetworkingPeer.SendMonoMessage` (`0x008f8364`): this build
+  replaced the PUN `GameObject.SendMessage` dispatch with a 30-entry jump
+  table (at `0x008f83bc`) over `PhotonNetworkingMessage`; each case invokes a
+  public static delegate field of the obfuscated `PhotonNetwork`
+  (`+0x18..+0x84`, one per message, decoded case-by-case with its delegate
+  type and parameter unboxing: `()` / `(PhotonPlayer)` / `(short, string)` /
+  `(DisconnectCause)` / `(Hashtable)` / `(string)` / `(object[])`). Enum
+  values 17 (`OnPhotonSerializeView`) and 28 (`OnPhotonPlayerActivityChanged`)
+  jump straight to the common return — no delegate field exists for them.
 - Obfuscated `NetworkingPeer`
   (`JJJJJIJJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII`): the instance fields at
   `+0xb0`/`+0xb4`/`+0xbc` are recorded in `global-metadata.dat` as

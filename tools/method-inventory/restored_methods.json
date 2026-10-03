@@ -121,10 +121,17 @@
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.cs",
-      "methods": "obf PhotonNetwork: connected 0x0049af18 / connectionStateDetailed 0x0049b61c / connectedAndReady 0x0049b47c / offlineMode get 0x0049c544, set 0x0049c5d0 / CreateRoom 0x004a2078, 0x004a258c, 0x004a210c / EnterOfflineRoom 0x004a2628",
+      "methods": "obf PhotonNetwork: connected 0x0049af18 / connectionStateDetailed 0x0049b61c / connectedAndReady 0x0049b47c / offlineMode get 0x0049c544, set 0x0049c5d0 / room 0x0049bb98 / isMessageQueueRunning get 0x0049d7b4, set 0x0049d840 / Disconnect 0x004a1d08 / CreateRoom 0x004a2078, 0x004a258c, 0x004a210c / EnterOfflineRoom 0x004a2628 / LoadLevel 0x004a96ac",
       "evidence": "libil2cpp.so disassembly + global-metadata.dat string literals (docs/script-reconstruction.md)",
       "must_contain": [
         "// RVA 0x0049af18",
+        "// RVA 0x0049bb98",
+        "// RVA 0x0049d7b4",
+        "// RVA 0x0049d840",
+        "// RVA 0x004a1d08",
+        "// RVA 0x004a96ac",
+        "IsSendingOnlyAcks = !",
+        "OnStatusChanged(StatusCode.Disconnect);",
         "// RVA 0x0049b61c",
         "// RVA 0x0049b47c",
         "// RVA 0x0049c544",
@@ -141,9 +148,12 @@
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/JJJJJIJJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.cs",
-      "methods": "obf NetworkingPeer: Server(+0xb0)/State(+0xb4)/lobby(+0xbc) restored to original public accessibility (metadata <name>k__BackingField auto-properties)",
-      "evidence": "global-metadata.dat field records for TypeInfo(JJJJJIJJJ...) at +0xb0/+0xb4/+0xbc",
+      "methods": "obf NetworkingPeer: SendMonoMessage 0x008f8364 (jump table 0x008f83bc -> 28 static delegate fields of obf PhotonNetwork); Server(+0xb0)/State(+0xb4)/lobby(+0xbc) restored to original public accessibility (metadata <name>k__BackingField auto-properties)",
+      "evidence": "libil2cpp.so disassembly + global-metadata.dat field records for TypeInfo(JJJJJIJJJ...)",
       "must_contain": [
+        "// RVA 0x008f8364",
+        "case IJJIIIJJJIIJIJIJJIJJIJJJIIIJIJJIJIJJJJJIIJJIIIJ.OnJoinedRoom:",
+        "case IJJIIIJJJIIJIJIJJIJJIJJJIIIJIJJIJIJJJJJIIJJIIIJ.OnCreatedRoom:",
         "public IIIJIIJJJIJIJIIJIIJJJJJIIIIJJIIJIIJIJIIIJJIJJJJ JJIJIJJJIJIIJIJJIIIIIJJIJIIIJJIIJIIIJIJIJJJJJII;",
         "public JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ IJJJIIIIJIIJIJIIIIIIJJJJIJIJJJIIIIIIJIJJIIIIIII;",
         "public IJIJIIJIJJJJIJJIIJIJJIJJIJIJJIJJJJIIJJJJIJJJJJJ IIIIJIIIJIIJJIIJJJIJJJIJIJIIIIIIJJJIIIJIIJJIJJJ;"

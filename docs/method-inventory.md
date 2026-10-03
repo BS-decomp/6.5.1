@@ -14,7 +14,7 @@ and the exported C# sources in `client/Assets`. Outputs:
 - Static call-graph edges decoded from ARMv7 code: **139381**
 - Reachability roots (engine/NGUI/Photon messages, UnityEvent `m_MethodName`, AnimationEvent `functionName`, serialized ctors): **1228**
 - Exported stubs verified as genuine no-ops in the binary: **2167**
-- **Reachable lost implementations (stub in C#, substantive in binary): 6133**
+- **Reachable lost implementations (stub in C#, substantive in binary): 6128**
 
 ## Binary body classification (game assemblies)
 
@@ -34,12 +34,12 @@ and the exported C# sources in `client/Assets`. Outputs:
 | kind | count |
 | --- | --- |
 | `None` | 4067 |
-| `body` | 323 |
-| `empty` | 14191 |
+| `body` | 329 |
+| `empty` | 14187 |
 | `mixed` | 102 |
 | `ret_default` | 698 |
-| `ret_false` | 1369 |
-| `ret_null` | 2464 |
+| `ret_false` | 1368 |
+| `ret_null` | 2463 |
 | `ret_zero` | 1159 |
 
 ## Reachability (from APK-confirmed entry points)
