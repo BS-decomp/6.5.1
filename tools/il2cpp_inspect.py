@@ -228,18 +228,27 @@ class Il2CppInspector:
         for insn in md.disasm(code, rva):
             note = ""
             op = insn.op_str
-            if insn.mnemonic == "ldr" and "[pc" in op:
+            if insn.mnemonic == "ldr" and "[pc" in op and "#" in op:
                 parts = op.split(",")
                 dst_reg = parts[0].strip()
-                imm = 0
-                if "#" in op:
-                    imm_s = op.split("#")[1].rstrip("]! ")
-                    imm = int(imm_s, 0)
+                imm_s = op.split("#")[1].rstrip("]! ")
+                imm = int(imm_s, 0)
                 pool_addr = ((insn.address + 8) & ~3) + imm
                 if 0 <= pool_addr <= len(self.so) - 4:
                     val = struct.unpack_from("<I", self.so, pool_addr)[0]
                     reg_vals[dst_reg] = val
                     note = f" ; [0x{pool_addr:x}] = 0x{val:x}"
+            elif insn.mnemonic == "ldr" and "[pc," in op.replace(" ", "").lower()[2:] and "#" not in op:
+                # ldr rd, [pc, rY] : GOT-style indirect metadata access
+                parts = [p.strip(" []") for p in op.split(",")]
+                if len(parts) == 3 and parts[1] == "pc" and parts[2] in reg_vals:
+                    cell = (insn.address + 8 + reg_vals[parts[2]]) & 0xFFFFFFFF
+                    off = self.v2o(cell)
+                    if 0 <= off <= len(self.so) - 4:
+                        ptr = struct.unpack_from("<I", self.so, off)[0]
+                        reg_vals[parts[0]] = ptr
+                        u_str = self.format_usage(ptr)
+                        note = f" ; *[0x{cell:x}] = 0x{ptr:x}" + (f" -> {u_str}" if u_str else "")
             elif insn.mnemonic == "add" and "pc" in op:
                 parts = [p.strip() for p in op.split(",")]
                 if len(parts) >= 3 and parts[1] == "pc" and parts[2] in reg_vals:

@@ -17,14 +17,36 @@ unresolved methods visible rather than inventing behavior.
   and writes `PlayerPrefs.SetInt("GDPR", 1)`.
 - `GDPR.OnClickTraining` (`0x006c36c8`) hides the training panel and loads either
   `MainTutorial` or `Menu`.
+- `GDPR.OnJoinedRoom` (`0x006c3330`) loads `MainTutorial` through the verified
+  scene wrapper once the tutorial offline room is joined.
 - The three obfuscated scene wrapper methods at `0x013bce08`, `0x013bd5e8`, and
   `0x013be83c` all call `SceneManager.LoadScene(string)`.
 - `UIEventClick` subscribes/unsubscribes to the ground-truth `UICamera` click
   delegate and invokes its serialized `UnityEvent` only for its own GameObject.
 
-- `mPhotonSettings.CreateServerOffline(string)` (`0x0059df28`) follows the verified
-offline launch branch: disconnect an existing Photon connection, enable Photon
-offline mode, and create the room from the supplied map string.
+- `mPhotonSettings.CreateServerOffline(string)` (`0x0059df28`) — the full verified
+  flow (corrected from the earlier simplified reconstruction that referenced a
+  non-existent canonical `PhotonNetwork` facade): the map string is stored in the
+  nested deferred-create helper (field `+0x08`), the flow requires a logged-in
+  account (`AccountManager` static bool `@+0x04`), disconnects an active Photon
+  connection (connected-check `0x0049af18` / `Disconnect` `0x004a1d08` on the
+  obfuscated PUN static class `JJIJJJIIII...IJIIJ`), resets the game-mode manager
+  (`0x00d8d5d8`), shows the localized `"Loading" + "..."` popup (`mPopUp`,
+  localization `0x016f9c68`) and schedules the helper via
+  `TimerManager.In(0.2f, ...)`. Without an account it shows the localized
+  `"Connection account"` toast (`UIToast`).
+- The deferred helper (`0x0071d948`) shows the `"Loading..."` popup, stores the
+  map into the private static map-name field of `mPhotonSettings` (static `@+0x00`),
+  enables Photon offline mode (property setter `0x0049c5d0`, backing static bool
+  `@+0xb1` verified through getter `0x0049c544`), clears the scene-wrapper guard
+  flag (`JIJJJIIJJI...IIJII` static bool `@+0x00`) and calls the PUN
+  `CreateRoom(map)` (`0x004a2078`).
+- `mPhotonSettings.OnJoinedRoom` (`0x0059d310`) resets the game-mode manager
+  (`0x00d8d5d8`), applies the joined room's game mode
+  (`room` getter `0x0049bb98` -> `GetGameMode` extension `0x01475d6c` ->
+  mode setter `0x00d8e644`), then: offline mode -> loads the stored map scene via
+  the verified scene wrapper (`0x013bd5e8`); online -> pauses the Photon message
+  queue (setter `0x0049d840`) and sync-loads the map (`0x004a96ac`).
 - `mCreateServer.Start` (`0x007dd1e0`), `Open` (`0x007de300`), and
   `SetMaxPlayer` (`0x007dc64c`) restore the serialized singleton, panel-open state,
   numeric player-limit parse, and selected-limit marker movement.

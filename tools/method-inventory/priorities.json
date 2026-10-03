@@ -1,7 +1,7 @@
 {
  "summary": {
   "description": "Reachable methods whose exported C# body is a stub but whose ARMv7 body in libil2cpp.so is substantive (lost implementations), ranked by reachability tier, scene usage and binary size.",
-  "count": 6143
+  "count": 6140
  },
  "methods": [
   {
@@ -11049,18 +11049,6 @@
    "method": "IIJJIIJIIJIIJJJIIJIJJJJJIIJJJIIIIJJJJIJJIIIIIJJ",
    "token": "0x06003795",
    "rva": "0x007CD9C4",
-   "size": 532,
-   "params": 0,
-   "bin": "substantive",
-   "src": "empty",
-   "reach": "direct",
-   "scene_used": true
-  },
-  {
-   "type": "mPhotonSettings",
-   "method": "OnJoinedRoom",
-   "token": "0x06003DBC",
-   "rva": "0x0059D310",
    "size": 532,
    "params": 0,
    "bin": "substantive",
@@ -27281,18 +27269,6 @@
    "scene_used": true
   },
   {
-   "type": "GDPR",
-   "method": "OnJoinedRoom",
-   "token": "0x06004857",
-   "rva": "0x006C3330",
-   "size": 140,
-   "params": 0,
-   "bin": "substantive",
-   "src": "empty",
-   "reach": "direct",
-   "scene_used": true
-  },
-  {
    "type": "TPWeaponShooter",
    "method": "JJJIJIJIIIJJJJJJIIIJJIIJIIIIJIJIIJIJJIJJIIIIIII",
    "token": "0x0600366A",
@@ -37021,18 +36997,6 @@
    "params": 1,
    "bin": "substantive",
    "src": "ret_null",
-   "reach": "direct",
-   "scene_used": false
-  },
-  {
-   "type": "JJJJIIIJIIJJIJJIIIJJIJIJIIIJIIIJIJIJIJIJJJIIJIJ",
-   "method": "IJIIJIIIIIIJIIIIJJJIJIIJJIJJJJIIJIJJJIJJJIJIIJI",
-   "token": "0x06003DFD",
-   "rva": "0x0071D948",
-   "size": 400,
-   "params": 0,
-   "bin": "substantive",
-   "src": "empty",
    "reach": "direct",
    "scene_used": false
   },

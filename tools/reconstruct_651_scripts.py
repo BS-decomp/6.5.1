@@ -155,6 +155,13 @@ def patch_gdpr(text: str) -> str:
         }
         """,
     )
+    # OnJoinedRoom (RVA 0x006c3330): the tutorial offline room entered from the
+    # GDPR training prompt loads MainTutorial via the verified scene wrapper.
+    text = replace_method(
+        text,
+        "private void OnJoinedRoom()",
+        'JIJJJIIJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.JIJJJIIJJIIJIIIJIJIIIJIJIIJIIIJJJJIIIJIJIJIIJII("MainTutorial");',
+    )
     return text
 
 
@@ -393,20 +400,85 @@ def patch_create_server(text: str) -> str:
 
 
 def patch_photon_settings(text: str) -> str:
-    # 0x0059df28 constructs the offline room from the supplied map string; the
-    # connected/disconnect and offline-mode branches match Photon 1.x behavior.
-    return replace_method(
+    # All names below are the ground-truth obfuscated 6.5.1 symbols:
+    #   JJIJJJIIII...IJIIJ = the real PUN static class ("PhotonNetwork"):
+    #     IIIJIIJJII...IJIII() -> bool   connected-check (property JJJIJIIIII... wraps it)
+    #     IJIJJJJIJI...JIIJJ()           Disconnect()
+    #     JJIJIJIJII...JJIIJI            offline-mode property (getter 0x0049c544
+    #                                    reads static+0xb1, setter calls 0x0049c5d0)
+    #     IIJJIIIIIJ...JIIJJI            message-queue property (setter 0x0049d840)
+    #     IIJJJJJJII...IIIIJ(string)     CreateRoom(name) (0x004a2078)
+    #     JIJIIJIJII...JIJJJ(string)     sync scene load (0x004a96ac)
+    #     IJJIIJIJJJ...JIIJJ() -> room   current-room getter (0x0049bb98)
+    #   JIIIIIJIII...JJIJJ  = game-mode manager (reset 0x00d8d5d8 / set 0x00d8e644)
+    #   IIIIIIIJIJ...JJIIJ  = extensions (room.GetGameMode() 0x01475d6c)
+    #   IJJJIJJIII...JJJII  = localization (Get(key) 0x016f9c68)
+    #   JIJJJIIJJI...IIJII  = scene wrapper (LoadScene 0x013bd5e8, guard flag @+0)
+
+    # CreateServerOffline (RVA 0x0059df28): store the map in the deferred
+    # helper, require a logged-in account (AccountManager static bool @+0x04),
+    # disconnect an active Photon connection, reset the game-mode manager,
+    # show the localized "Loading..." popup and schedule the helper through
+    # TimerManager.In(0.2f, ...). Without an account: localized toast
+    # "Connection account".
+    text = replace_method(
         text,
         "public void CreateServerOffline(string map)",
         """
-        if (PhotonNetwork.connected)
+        JJJJIIIJIIJJIJJIIIJJIJIJIIIJIIIJIJIJIJIJJJIIJIJ deferredCreate = new JJJJIIIJIIJJIJJIIIJJIJIJIIIJIIIJIJIJIJIJJJIIJIJ();
+        deferredCreate.JJJIJIJJIIJJIIIJIJJIIJJIIJIIJJIJJIJJJIIIIIIJIJI = map;
+        if (AccountManager.JIIJJIJJJJJJJJJJIIIIJJJIJIJJJJIJJIIIIJJIIIJIJJI)
         {
-            PhotonNetwork.Disconnect();
+            if (JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IIIJIIJJIIJIIIIJIIJIIJJJIJJJIIJIIJIIJJIJIIIJIII())
+            {
+                JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IJIJJJJIJIJIIJJIIJJIIJIJJIIJIJIJIJIJJJJJIJJIIJJ();
+            }
+            JIIIIIJIIIJIJIJIIJJJJIIIJIIJIIJJIJJJJIIJJJJJIJJ.IJIIIJIIJJIJIJJJIIJJJJIIIIJIJIIJJIJIJJJJIJJIJJJ();
+            mPopUp.JIIJJJJJJIIIIIJIJIIJJJIIJIJJJIJJIIIIJIJIJIJIIIJ(IJJJIJJIIIJJIJJJIIIJIIJIJIJJIIJJIJJIIJJIJJJJJII.IJIIIIIIIIJJIIJIJJIIIIIJIIJIIIIIJIIJJIIIIJIIIJI("Loading") + "...");
+            TimerManager.In(0.2f, new Callback(deferredCreate.IJIIJIIIIIIJIIIIJJJIJIIJJIJJJJIIJIJJJIJJJIJIIJI));
         }
-        PhotonNetwork.offlineMode = true;
-        PhotonNetwork.CreateRoom(map);
+        else
+        {
+            UIToast.IIIJIIJJIJJJIIJIIIJIJIJJJIIIJIIIIIJIIIJJJJIJIIJ(IJJJIJJIIIJJIJJJIIIJIIJIJIJJIIJJIJJIIJJIJJJJJII.IJIIIIIIIIJJIIJIJJIIIIIJIIJIIIIIJIIJJIIIIJIIIJI("Connection account"));
+        }
         """,
     )
+    # Deferred offline-create helper (RVA 0x0071d948, scheduled by
+    # CreateServerOffline): show the "Loading..." popup, store the map into
+    # the private static map-name field, enable Photon offline mode, clear
+    # the scene-wrapper guard flag and create the offline room.
+    text = replace_method(
+        text,
+        "internal void IJIIJIIIIIIJIIIIJJJIJIIJJIJJJJIIJIJJJIJJJIJIIJI()",
+        """
+            mPopUp.JIIJJJJJJIIIIIJIJIIJJJIIJIJJJIJJIIIIJIJIJIJIIIJ(IJJJIJJIIIJJIJJJIIIJIIJIJIJJIIJJIJJIIJJIJJJJJII.IJIIIIIIIIJJIIJIJJIIIIIJIIJIIIIIJIIJJIIIIJIIIJI("Loading") + "...");
+            JJIJIJIJIJJJJJIIJIIJJIJIJJJJJJIJIJIJJIIJIJIJIJJ = JJJIJIJJIIJJIIIJIJJIIJJIIJIIJJIJJIJJJIIIIIIJIJI;
+            JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.JJIJIJIJIIJIIIJJJJIJIJJJIIJJJJIJIIJJJJJJIJJIIJI = true;
+            JIJJJIIJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.IJJIIIIIIJIIIIIJJIIJJIJIJJJIJIJJJJIJJJJJIJJIJIJ = false;
+            JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IIJJJJJJIIJJIIJJJIJIIIJJJJIJJJIIIJIJJJIJIIIIIIJ(JJJIJIJJIIJJIIIJIJJIIJJIIJIIJJIJJIJJJIIIIIIJIJI);
+        """,
+    )
+    # OnJoinedRoom (RVA 0x0059d310): reset the game-mode manager, apply the
+    # joined room's game mode, then load the stored map scene directly in
+    # offline mode or pause the Photon message queue and sync-load it online.
+    text = replace_method(
+        text,
+        "private void OnJoinedRoom()",
+        """
+        JIIIIIJIIIJIJIJIIJJJJIIIJIIJIIJJIJJJJIIJJJJJIJJ.IJIIIJIIJJIJIJJJIIJJJJIIIIJIJIIJJIJIJJJJIJJIJJJ();
+        JIIIIIJIIIJIJIJIIJJJJIIIJIIJIIJJIJJJJIIJJJJJIJJ.JJJIJIIJJJIIIJIIJJJIIJIJIIIIJIJIIIJJIJIIJIIIIIJ(JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IJJIIJIJJJIJJJIIIJJIJIIIJIJIIJIJIJJJIJJJJJJIIJJ().JIJJJJIIIIIJIIJIJJJIJJJIJIIJIIJIIJJIIIIJJJIIIII());
+        if (JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.JJIJIJIJIIJIIIJJJJIJIJJJIIJJJJIJIIJJJJJJIJJIIJI)
+        {
+            JIJJJIIJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.JIJJJIIJJIIJIIIJIJIIIJIJIIJIIIJJJJIIIJIJIJIIJII(JJIJIJIJIJJJJJIIJIIJJIJIJJJJJJIJIJIJJIIJIJIJIJJ);
+        }
+        else
+        {
+            JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IIJJIIIIIJJIJIIJIIIIIJIJJJIIJIIJIJIIJIJJIJIIJJI = false;
+            JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.JIJIIJIJIIIIJIJJIIJIJIJJIIIJIIJIIIJJJIIJJJIJIJJ(JJIJIJIJIJJJJJIIJIIJJIJIJJJJJJIJIJIJJIIJIJIJIJJ);
+        }
+        """,
+    )
+    return text
 
 
 def patch_panel_manager(text: str) -> str:

@@ -18,12 +18,13 @@
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/GDPR.cs",
-      "methods": "GDPR.Start / OnAccept / OnClickTraining",
-      "evidence": "RVAs 0x006c3a6c, 0x006c3248, 0x006c36c8",
+      "methods": "GDPR.Start / OnAccept / OnClickTraining / OnJoinedRoom",
+      "evidence": "RVAs 0x006c3a6c, 0x006c3248, 0x006c36c8, 0x006c3330",
       "must_contain": [
         "PlayerPrefs.GetInt(\"GDPR\", 0)",
         "PlayerPrefs.SetInt(\"GDPR\", 1);",
-        "SceneManager.LoadScene(isTraining ? \"MainTutorial\" : \"Menu\");"
+        "SceneManager.LoadScene(isTraining ? \"MainTutorial\" : \"Menu\");",
+        "JIJJJIIJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.JIJJJIIJJIIJIIIJIJIIIJIJIIJIIIJJJJIIIJIJIJIIJII(\"MainTutorial\");"
       ]
     },
     {
@@ -85,9 +86,14 @@
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/mPhotonSettings.cs",
-      "methods": "mPhotonSettings.CreateServerOffline",
-      "evidence": "RVA 0x0059df28",
-      "must_contain": ["PhotonNetwork.offlineMode = true;", "PhotonNetwork.CreateRoom(map);"]
+      "methods": "mPhotonSettings.CreateServerOffline / deferred offline-create helper / OnJoinedRoom",
+      "evidence": "RVAs 0x0059df28, 0x0071d948, 0x0059d310 (PUN statics: connected-check 0x0049af18, Disconnect 0x004a1d08, offline-mode getter/setter 0x0049c544/0x0049c5d0, CreateRoom 0x004a2078, sync scene load 0x004a96ac, room getter 0x0049bb98; game-mode manager 0x00d8d5d8/0x00d8e644; room.GetGameMode 0x01475d6c)",
+      "must_contain": [
+        "TimerManager.In(0.2f, new Callback(deferredCreate.IJIIJIIIIIIJIIIIJJJIJIIJJIJJJJIIJIJJJIJJJIJIIJI));",
+        "JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.JJIJIJIJIIJIIIJJJJIJIJJJIIJJJJIJIIJJJJJJIJJIIJI = true;",
+        "JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.IIJJJJJJIIJJIIJJJIJIIIJJJJIJJJIIIJIJJJIJIIIIIIJ(JJJIJIJJIIJJIIIJIJJIIJJIIJIIJJIJJIJJJIIIIIIJIJI);",
+        "JIJJJIIJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.JIJJJIIJJIIJIIIJIJIIIJIJIIJIIIJJJJIIIJIJIJIIJII(JJIJIJIJIJJJJJIIJIIJJIJIJJJJJJIJIJIJJIIJIJIJIJJ);"
+      ]
     },
     {
       "file": "Assets/Scripts/Assembly-CSharp/mCreateServer.cs",
