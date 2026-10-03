@@ -118,6 +118,36 @@
       "methods": "mPanelManager.Awake / Show / ShowAnim / HideAnim",
       "evidence": "panel singleton and visibility flow (docs/script-reconstruction.md)",
       "must_contain": ["item.gameObject.SetActive(item.gameObject == panel);"]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.cs",
+      "methods": "obf PhotonNetwork: connected 0x0049af18 / connectionStateDetailed 0x0049b61c / connectedAndReady 0x0049b47c / offlineMode get 0x0049c544, set 0x0049c5d0 / CreateRoom 0x004a2078, 0x004a258c, 0x004a210c / EnterOfflineRoom 0x004a2628",
+      "evidence": "libil2cpp.so disassembly + global-metadata.dat string literals (docs/script-reconstruction.md)",
+      "must_contain": [
+        "// RVA 0x0049af18",
+        "// RVA 0x0049b61c",
+        "// RVA 0x0049b47c",
+        "// RVA 0x0049c544",
+        "// RVA 0x0049c5d0",
+        "// RVA 0x004a2078",
+        "// RVA 0x004a258c",
+        "// RVA 0x004a210c",
+        "// RVA 0x004a2628",
+        "CreateRoom failed. In offline mode you still have to leave a room to enter another.",
+        "CreateRoom failed. Client is not on Master Server or not yet ready to call operations. Wait for callback: OnJoinedLobby or OnConnectedToMaster.",
+        "Can't start OFFLINE mode while connected!",
+        "OnStatusChanged(StatusCode.Connect);"
+      ]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/JJJJJIJJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.cs",
+      "methods": "obf NetworkingPeer: Server(+0xb0)/State(+0xb4)/lobby(+0xbc) restored to original public accessibility (metadata <name>k__BackingField auto-properties)",
+      "evidence": "global-metadata.dat field records for TypeInfo(JJJJJIJJJ...) at +0xb0/+0xb4/+0xbc",
+      "must_contain": [
+        "public IIIJIIJJJIJIJIIJIIJJJJJIIIIJJIIJIIJIJIIIJJIJJJJ JJIJIJJJIJIIJIJJIIIIIJJIJIIIJJIIJIIIJIJIJJJJJII;",
+        "public JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ IJJJIIIIJIIJIJIIIIIIJJJJIJIJJJIIIIIIJIJJIIIIIII;",
+        "public IJIJIIJIJJJJIJJIIJIJJIJJIJIJJIJJJJIIJJJJIJJJJJJ IIIIJIIIJIIJJIIJJJIJJJIJIJIIIIIIJJJIIIJIIJJIJJJ;"
+      ]
     }
   ]
 }

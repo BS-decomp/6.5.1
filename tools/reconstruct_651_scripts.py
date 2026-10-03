@@ -481,6 +481,238 @@ def patch_photon_settings(text: str) -> str:
     return text
 
 
+def patch_networking_peer(text: str) -> str:
+    """Obfuscated NetworkingPeer (JJJJJIJJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII).
+
+    global-metadata.dat lists the instance fields at +0xb0/+0xb4/+0xbc as
+    `<name>k__BackingField`, i.e. they were public auto-properties in the
+    original assembly (PUN 1.x NetworkingPeer.Server/State/lobby).  The script
+    export flattened them to private fields, which makes the verified
+    PhotonNetwork bodies (CreateRoom 0x004a210c, EnterOfflineRoom 0x004a2628,
+    connected 0x0049af18, connectionStateDetailed 0x0049b61c) uncompilable.
+    Restore the original (public) accessibility; no names are invented.
+    """
+    for decl in (
+        # +0xb0 ServerConnection Server
+        "IIIJIIJJJIJIJIIJIIJJJJJIIIIJJIIJIIJIJIIIJJIJJJJ JJIJIJJJIJIIJIJJIIIIIJJIJIIIJJIIJIIIJIJIJJJJJII;",
+        # +0xb4 ClientState State
+        "JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ IJJJIIIIJIIJIJIIIIIIJJJJIJIJJJIIIIIIJIJJIIIIIII;",
+        # +0xbc TypedLobby lobby
+        "IJIJIIJIJJJJIJJIIJIJJIJJIJIJJIJJJJIIJJJJIJJJJJJ IIIIJIIIJIIJJIIJJJIJJJIJIJIIIIIIJJJIIIJIIJJIJJJ;",
+    ):
+        text = text.replace("private " + decl, "public " + decl)
+    return text
+
+
+def patch_photon_network(text: str) -> str:
+    """Obfuscated PhotonNetwork (JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ).
+
+    Every body below was reconstructed from the ARMv7 disassembly of
+    libil2cpp.so (RVAs in the per-method comments); string literals, enum
+    constants and field offsets were resolved through global-metadata.dat.
+    """
+    # connected getter method (RVA 0x0049af18): offlineMode -> true,
+    # null peer -> false, else !IsInitialConnect(+0xb8) and
+    # State(+0xb4) not in {PeerCreated=1, Disconnecting=14, Disconnected=15}.
+    text = replace_method(
+        text,
+        "public static bool IIIJIIJJIIJIIIIJIIJIIJJJIJJJIIJIIJIIJJIJIIIJIII()",
+        """
+        // RVA 0x0049af18 (verified against libil2cpp.so disassembly)
+        if (JJJJJJJIIIJIJIIIJIJIJJJJIJJJIJJIJIJIIIIIIJJJJII)
+        {
+            return true;
+        }
+        if (JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI == null)
+        {
+            return false;
+        }
+        if (JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI.IJJJJJIIIIIIIIIIIIIIIJIJIIJIJIJJIIIJJJJJJJJIJII)
+        {
+            return false;
+        }
+        JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ state = JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI.IJJJIIIIJIIJIJIIIIIIJJJJIJIJJJIIIIIIJIJJIIIIIII;
+        return state != JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ.PeerCreated && state != JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ.Disconnected && state != JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ.Disconnecting;
+        """,
+    )
+    # connectionStateDetailed getter method (RVA 0x0049b61c):
+    # offline -> Joined(9)/ConnectedToMaster(16), null peer -> Disconnected(15),
+    # else networkingPeer.State (+0xb4).
+    text = replace_method(
+        text,
+        "public static JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ JIIJIIJIIJJIIJIIJJJIJJIIJIIJJJJJJJJJJIIJJIIIJII()",
+        """
+        // RVA 0x0049b61c (verified against libil2cpp.so disassembly)
+        if (JJJJJJJIIIJIJIIIJIJIJJJJIJJJIJJIJIJIIIIIIJJJJII)
+        {
+            return (IJJJJIIJIJIIJJJJJJJIJJJJIIJJIIJIJJJJIIJJJJIIJJI != null) ? JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ.Joined : JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ.ConnectedToMaster;
+        }
+        if (JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI == null)
+        {
+            return JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ.Disconnected;
+        }
+        return JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI.IJJJIIIIJIIJIJIIIIIIJJJJIJIJJJIIIIIIJIJJIIIIIII;
+        """,
+    )
+    # connectedAndReady getter method (RVA 0x0049b47c): the compiler lowered
+    # the state switch to `(0xd2e >> (state-8)) & 1` plus explicit checks for
+    # PeerCreated(1)/ConnectingToGameserver(6); decoded false-set:
+    # {1, 6, 8, 12, 14, 15, 17, 20}.
+    text = replace_method(
+        text,
+        "public static bool JIJJJJIJJIJJIIJIJIIIIIIIJIIIJIJJJJIIJJIJIIIIIII()",
+        """
+        // RVA 0x0049b47c (verified against libil2cpp.so disassembly)
+        if (!IIIJIIJJIIJIIIIJIIJIIJJJIJJJIIJIIJIIJJIJIIIJIII())
+        {
+            return false;
+        }
+        if (JJJJJJJIIIJIJIIIJIJIJJJJIJJJIJJIJIJIIIIIIJJJJII)
+        {
+            return true;
+        }
+        switch (JIIJIIJIIJJIIJIIJJJIJJIIJIIJJJJJJJJJJIIJJIIIJII())
+        {
+        case JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ.PeerCreated:
+        case JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ.ConnectingToGameserver:
+        case JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ.Joining:
+        case JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ.ConnectingToMasterserver:
+        case JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ.Disconnecting:
+        case JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ.Disconnected:
+        case JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ.ConnectingToNameServer:
+        case JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ.Authenticating:
+            return false;
+        default:
+            return true;
+        }
+        """,
+    )
+    # offlineMode getter method (RVA 0x0049c544): returns the static bool at
+    # PhotonNetwork static fields +0xb1.
+    text = replace_method(
+        text,
+        "public static bool JJJJJJIJIJJIJIIJJJJJIIJJJIJIIJJJJJJJIJJIJJIIJIJ()",
+        """
+        // RVA 0x0049c544 (verified against libil2cpp.so disassembly)
+        return JJJJJJJIIIJIJIIIJIJIJJJJIJJJIJJIJIJIIIIIIJJJJII;
+        """,
+    )
+    # offlineMode setter method (RVA 0x0049c5d0).
+    text = replace_method(
+        text,
+        "public static void IIJIIIJIIIJIJIJJIJJIJIIIIJIJJIIJJIIIJIIJIJIIIJJ(bool",
+        """
+        // RVA 0x0049c5d0 (verified against libil2cpp.so disassembly)
+        if (JIIJJIIJIIJIJJJJIJIIIJIIIIJJJIIIIJIJIIJJIIJIIJI == JJJJJJJIIIJIJIIIJIJIJJJJIJJJIJJIJIJIIIIIIJJJJII)
+        {
+            return;
+        }
+        if (JIIJJIIJIIJIJJJJIJIIIJIIIIJJJIIIIJIJIIJJIIJIIJI && IIIJIIJJIIJIIIIJIIJIIJJJIJJJIIJIIJIIJJIJIIIJIII())
+        {
+            UnityEngine.Debug.LogError("Can't start OFFLINE mode while connected!");
+            return;
+        }
+        if (JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI.PeerState != PeerStateValue.Disconnected)
+        {
+            JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI.Disconnect();
+        }
+        JJJJJJJIIIJIJIIIJIJIJJJJIJJJIJJIJIJIIIIIIJJJJII = JIIJJIIJIIJIJJJJIJIIIJIIIIJJJIIIIJIJIIJJIIJIIJI;
+        if (JIIJJIIJIIJIJJJJIJIIIJIIIIJJJIIIIJIJIIJJIIJIIJI)
+        {
+            JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI.JIJIJJJJJIIIIIIIIIIIIJJJJIIIJJJIIJJJJJJJJIJIJIJ(-1);
+            JJJJJIJJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.IJIJJJIIJIJIIIJIIJJJIIJIJJJJJIIIIIIIIIJIIIIIIJJ(IJJIIIJJJIIJIJIJJIJJIJJJIIIJIJJIJIJJJJJIIJJIIIJ.OnConnectedToMaster, Array.Empty<object>());
+        }
+        else
+        {
+            IJJJJIIJIJIIJJJJJJJIJJJJIIJJIIJIJJJJIIJJJJIIJJI = null;
+            JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI.JIJIJJJJJIIIIIIIIIIIIJJJJIIIJJJIIJJJJJJJJIJIJIJ(-1);
+        }
+        """,
+    )
+    # CreateRoom(string) (RVA 0x004a2078): tail-calls the 4-arg overload with
+    # null options/lobby/expectedUsers.
+    text = replace_method(
+        text,
+        "public static bool IIJJJJJJIIJJIIJJJIJIIIJJJJIJJJIIIJIJJJIJIIIIIIJ(string IIIJJJJJIJIIJJIIIJJIIJJIJIJIJJJIJJJIIJJIIJJIJIJ)",
+        """
+        // RVA 0x004a2078 (verified against libil2cpp.so disassembly)
+        return IIJJJJJJIIJJIIJJJIJIIIJJJJIJJJIIIJIJJJIJIIIIIIJ(IIIJJJJJIJIIJJIIIJJIIJJIJIJIJJJIJJJIIJJIIJJIJIJ, null, null, null);
+        """,
+    )
+    # CreateRoom(string, RoomOptions, TypedLobby) (RVA 0x004a258c): delegates
+    # to the 4-arg overload with null expectedUsers.
+    text = replace_method(
+        text,
+        "public static bool IIJJJJJJIIJJIIJJJIJIIIJJJJIJJJIIIJIJJJIJIIIIIIJ(string IIIJJJJJIJIIJJIIIJJIIJJIJIJIJJJIJJJIIJJIIJJIJIJ, JIIJIIJIIJIJJJJJIIJJJIIJIJJJIIJIIJJJJIIJJJJJJIJ IJJIIIJIJJJJIJIIJIIIJJJIJIJJJJJJIJJJIIJJJIJJIII, IJIJIIJIJJJJIJJIIJIJJIJJIJIJJIJJJJIIJJJJIJJJJJJ JIIIJIIIJJJJIIJJJIJIJJIJJJIJJIJIJIJJIIIIIIJIJJI)",
+        """
+        // RVA 0x004a258c (verified against libil2cpp.so disassembly)
+        return IIJJJJJJIIJJIIJJJIJIIIJJJJIJJJIIIJIJJJIJIIIIIIJ(IIIJJJJJIJIIJJIIIJJIIJJIJIJIJJJIJJJIIJJIIJJIJIJ, IJJIIIJIJJJJIJIIJIIIJJJIJIJJJJJJIJJJIIJJJIJJIII, JIIIJIIIJJJJIIJJJIJIJJIJJJIJJIJIJIJJIIIIIIJIJJI, null);
+        """,
+    )
+    # CreateRoom(string, RoomOptions, TypedLobby, string[]) (RVA 0x004a210c).
+    # Offline branch: guard on offlineModeRoom(+0xb4), else EnterOfflineRoom.
+    # Online branch: Server(+0xb0) must be MasterServer(0) and
+    # connectedAndReady; lobby fallback via insideLobby(+0xb9)/lobby(+0xbc);
+    # fills obfuscated EnterRoomParams {+8 name, +0xc options, +0x10 lobby,
+    # +0x1c expectedUsers} and tail-calls NetworkingPeer.OpCreateGame
+    # (0x008faac0).  String literals verified in global-metadata.dat.
+    text = replace_method(
+        text,
+        "public static bool IIJJJJJJIIJJIIJJJIJIIIJJJJIJJJIIIJIJJJIJIIIIIIJ(string IIIJJJJJIJIIJJIIIJJIIJJIJIJIJJJIJJJIIJJIIJJIJIJ, JIIJIIJIIJIJJJJJIIJJJIIJIJJJIIJIIJJJJIIJJJJJJIJ IJJIIIJIJJJJIJIIJIIIJJJIJIJJJJJJIJJJIIJJJIJJIII, IJIJIIJIJJJJIJJIIJIJJIJJIJIJJIJJJJIIJJJJIJJJJJJ JIIIJIIIJJJJIIJJJIJIJJIJJJIJJIJIJIJJIIIIIIJIJJI, string[] IIJIIIJJIJIJIIIIIIIJIIIJJJJJJIIIIIIJJIIJJIIIIII)",
+        """
+        // RVA 0x004a210c (verified against libil2cpp.so disassembly)
+        if (JJJJJJJIIIJIJIIIJIJIJJJJIJJJIJJIJIJIIIIIIJJJJII)
+        {
+            if (IJJJJIIJIJIIJJJJJJJIJJJJIIJJIIJIJJJJIIJJJJIIJJI != null)
+            {
+                UnityEngine.Debug.LogError("CreateRoom failed. In offline mode you still have to leave a room to enter another.");
+                return false;
+            }
+            JIIIIJIIJJJJJJIJIJIIJIJIIIJJIIJJIIJIIIJIJIIIIJI(IIIJJJJJIJIIJJIIIJJIIJJIJIJIJJJIJJJIIJJIIJJIJIJ, IJJIIIJIJJJJIJIIJIIIJJJIJIJJJJJJIJJJIIJJJIJJIII, true);
+            return true;
+        }
+        if (JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI.JJIJIJJJIJIIJIJJIIIIIJJIJIIIJJIIJIIIJIJIJJJJJII != IIIJIIJJJIJIJIIJIIJJJJJIIIIJJIIJIIJIJIIIJJIJJJJ.MasterServer || !JIJJJJIJJIJJIIJIJIIIIIIIJIIIJIJJJJIIJJIJIIIIIII())
+        {
+            UnityEngine.Debug.LogError("CreateRoom failed. Client is not on Master Server or not yet ready to call operations. Wait for callback: OnJoinedLobby or OnConnectedToMaster.");
+            return false;
+        }
+        if (JIIIJIIIJJJJIIJJJIJIJJIJJJIJJIJIJIJJIIIIIIJIJJI == null)
+        {
+            JIIIJIIIJJJJIIJJJIJIJJIJJJIJJIJIJIJJIIIIIIJIJJI = JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI.IIIIJJJIIJIIIJIIIIJIJIJIJIIIJJIJJJIIJJIJIJIIIJJ ? JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI.IIIIJIIIJIIJJIIJJJIJJJIJIJIIIIIIJJJIIIJIIJJIJJJ : null;
+        }
+        IJIJJIJIIJIIIJJJIJIIIIJJJJJIIIJIJIIIJIIJJJIIIJI opParams = new IJIJJIJIIJIIIJJJIJIIIIJJJJJIIIJIJIIIJIIJJJIIIJI();
+        opParams.JIIIJIIIJJJIJIIJJJIIIIJJIJJIIIIIJIJJJJIJJJJJIJJ = IIIJJJJJIJIIJJIIIJJIIJJIJIJIJJJIJJJIIJJIIJJIJIJ;
+        opParams.JIIJIIJIIJIJJJJJIIJJJIIJIJJJIIJIIJJJJIIJJJJJJIJ = IJJIIIJIJJJJIJIIJIIIJJJIJIJJJJJJIJJJIIJJJIJJIII;
+        opParams.IJIIJIIIJIIIJIIJIIIIIIIJIIJJIIIIIIIJIJJJIIIJIII = JIIIJIIIJJJJIIJJJIJIJJIJJJIJJIJIJIJJIIIIIIJIJJI;
+        opParams.JIIJIJIJIJIIIJJJJJIIJJIIJJJJJJIJJJJIIJJIIIJIJIJ = IIJIIIJJIJIJIIIIIIIJIIIJJJJJJIIIIIIJJIIJJIIIIII;
+        return JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI.JJJJIJJJJIIJJIJIJJJJIIJIJJIJJJJIIIIIJIIJIJJIJII(opParams);
+        """,
+    )
+    # EnterOfflineRoom (RVA 0x004a2628): offlineModeRoom = new Room(name,
+    # options); ChangeLocalID(1); State = ConnectingToGameserver(6);
+    # OnStatusChanged(StatusCode.Connect=1024); masterClientId(+0x28) = 1;
+    # SendMonoMessage(OnCreatedRoom=5) when createdRoom, then
+    # SendMonoMessage(OnJoinedRoom=12).
+    text = replace_method(
+        text,
+        "private static void JIIIIJIIJJJJJJIJIJIIJIJIIIJJIIJJIIJIIIJIJIIIIJI(string",
+        """
+        // RVA 0x004a2628 (verified against libil2cpp.so disassembly)
+        IJJJJIIJIJIIJJJJJJJIJJJJIIJJIIJIJJJJIIJJJJIIJJI = new IIJIIJIIJIJJIIJIJJJJJJJIIIJJJIIIIIIJJIIIJJJIJII(IIIJJJJJIJIIJJIIIJJIIJJIJIJIJJJIJJJIIJJIIJJIJIJ, IJJIIIJIJJJJIJIIJIIIJJJIJIJJJJJJIJJJIIJJJIJJIII);
+        JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI.JIJIJJJJJIIIIIIIIIIIIJJJJIIIJJJIIJJJJJJJJIJIJIJ(1);
+        JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI.IJJJIIIIJIIJIJIIIIIIJJJJIJIJJJIIIIIIJIJJIIIIIII = JJJIJIIJIJIIIJJIIJIJIIIIJIIIJIJJIIJJJIIJIIJJJJJ.ConnectingToGameserver;
+        JIJJIIIIJIJIIIIIIJIIJIJIJIJJJJIIJIIJJJJIIJJIIJI.OnStatusChanged(StatusCode.Connect);
+        IJJJJIIJIJIIJJJJJJJIJJJJIIJJIIJIJJJJIIJJJJIIJJI.IJIIJIJIIJIJJJJIIIJJIIJJJIIJJIJJIIJJIIJIIJIIIII = 1;
+        if (IJJIIJJIJIIIJJIIIIJIIIIIJIJIIIIIJIJJJJIJJJJJJII)
+        {
+            JJJJJIJJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.IJIJJJIIJIJIIIJIIJJJIIJIJJJJJIIIIIIIIIJIIIIIIJJ(IJJIIIJJJIIJIJIJJIJJIJJJIIIJIJJIJIJJJJJIIJJIIIJ.OnCreatedRoom, Array.Empty<object>());
+        }
+        JJJJJIJJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.IJIJJJIIJIJIIIJIIJJJIIJIJJJJJIIIIIIIIIJIIIIIIJJ(IJJIIIJJJIIJIJIJJIJJIJJJIIIJIJJIJIJJJJJIIJJIIIJ.OnJoinedRoom, Array.Empty<object>());
+        """,
+    )
+    return text
+
+
 def patch_panel_manager(text: str) -> str:
     text = replace_method(text, "private void Awake()", """JIIIIJJJJIIJJJIIJIJIIJIIJJIIIIIIIIJJIJIJJJJJJJJ = this;\n        if (JIJIJIIJIIIIJIJIIIJIJIIIJIJJIJIIIJJIJIIJJIIIIIJ == null) JIJIJIIJIIIIJIJIIIJIJIIIJIJJIJIIIJJIJIIJJIIIIIJ = new List<UIPanel>();""")
     text = replace_method(text, "public void Show(GameObject panel)", """if (panel == null) return;\n        foreach (UIPanel item in JIJIJIIJIIIIJIJIIIJIJIIIJIJJIJIIIJJIJIIJJIIIIIJ) if (item != null) item.gameObject.SetActive(item.gameObject == panel);\n        panel.SetActive(true);""")
@@ -504,6 +736,9 @@ def main() -> None:
     patch_file("UITexture.cs", patch_uitexture)
     patch_file("UIWidget.cs", patch_uiwidget)
     patch_file("mPhotonSettings.cs", patch_photon_settings)
+    # Obfuscated PhotonNetwork / NetworkingPeer (PUN 1.x offline-mode core).
+    patch_file("JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ.cs", patch_photon_network)
+    patch_file("JJJJJIJJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.cs", patch_networking_peer)
     patch_file("mCreateServer.cs", patch_create_server)
     patch_file("mPlayerCamera.cs", patch_mplayer_camera)
     patch_file("mOthers.cs", patch_mothers)

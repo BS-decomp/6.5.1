@@ -53,6 +53,51 @@ unresolved methods visible rather than inventing behavior.
 - `mPlayerCamera.Awake` (`0x0071f138`) restores its singleton and Camera component
   reference; `mOthers.ExitGame`, `ShowOthersGames`, and `ShowToast` restore their
   verified application/URL/toast calls.
+- Obfuscated `PhotonNetwork` (`JJIJJJIIIIJJJIJIJIJIIJIJJJIIIIIJJIIJJIIIIJIJIIJ`,
+  statics: `+0x0c` networkingPeer, `+0xb1` isOfflineMode, `+0xb4` offlineModeRoom) —
+  offline-mode core, every body decoded instruction-by-instruction:
+  - `connected` getter method (`0x0049af18`): offline -> true; null peer -> false;
+    else `!IsInitialConnect(+0xb8)` and `State(+0xb4)` not in
+    {PeerCreated, Disconnecting, Disconnected}.
+  - `connectionStateDetailed` getter method (`0x0049b61c`): offline ->
+    `offlineModeRoom != null ? Joined : ConnectedToMaster`; null peer ->
+    `Disconnected`; else `networkingPeer.State`.
+  - `connectedAndReady` getter method (`0x0049b47c`): `connected()` guard,
+    offline -> true, then a state switch the compiler lowered to
+    `(0xd2e >> (state-8)) & 1` plus explicit `PeerCreated`/`ConnectingToGameserver`
+    checks; decoded false-set {1,6,8,12,14,15,17,20} matches the restored switch
+    case-for-case.
+  - `offlineMode` get/set methods (`0x0049c544` / `0x0049c5d0`): setter verifies
+    no-change, rejects enabling while connected
+    (`"Can't start OFFLINE mode while connected!"`), disconnects a non-idle peer
+    via canonical `PhotonPeer.PeerState`/`Disconnect()`, then
+    `ChangeLocalID(-1)` (`0x008fee9c`) and, when enabling,
+    `SendMonoMessage(OnConnectedToMaster=16)` (`0x008f8364`); when disabling also
+    clears `offlineModeRoom`.
+  - `CreateRoom` overloads (`0x004a2078` string; `0x004a258c` +options+lobby;
+    `0x004a210c` +expectedUsers): 1/3-arg delegate to the 4-arg body. Offline:
+    guard `offlineModeRoom != null`
+    (`"CreateRoom failed. In offline mode you still have to leave a room to enter
+    another."`) else `EnterOfflineRoom(name, options, true)`. Online: requires
+    `networkingPeer.Server(+0xb0) == MasterServer` and `connectedAndReady`
+    (`"CreateRoom failed. Client is not on Master Server or ..."`), lobby fallback
+    through `insideLobby(+0xb9)`/`lobby(+0xbc)`, fills the obfuscated
+    `EnterRoomParams` (`IJIJJIJIIJIIIJJJIJIIIIJJJJJIIIJIJIIIJIIJJJIIIJI`:
+    `+8` RoomName, `+0xc` RoomOptions, `+0x10` Lobby, `+0x1c` ExpectedUsers) and
+    tail-calls obfuscated `NetworkingPeer.OpCreateGame` (`0x008faac0`).
+  - `EnterOfflineRoom` (`0x004a2628`): `offlineModeRoom = new Room(name, options)`
+    (ctor `0x00e38d68`); `ChangeLocalID(1)`;
+    `networkingPeer.State = ConnectingToGameserver(6)`;
+    `OnStatusChanged(StatusCode.Connect=1024)` (`0x00906544`);
+    `masterClientId(+0x28) = 1`; `SendMonoMessage(OnCreatedRoom=5)` when
+    `createdRoom`; `SendMonoMessage(OnJoinedRoom=12)`.
+- Obfuscated `NetworkingPeer`
+  (`JJJJJIJJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII`): the instance fields at
+  `+0xb0`/`+0xb4`/`+0xbc` are recorded in `global-metadata.dat` as
+  `<name>k__BackingField`, i.e. originally public auto-properties
+  (PUN 1.x `Server`/`State`/`lobby`). The export flattened them to `private`
+  fields; `tools/reconstruct_651_scripts.py` restores the public accessibility so
+  the verified PhotonNetwork bodies compile. No identifiers were invented.
 
 The atlas, sprite, texture, label, and localization changes restore serialized NGUI
 state access (material, texture, atlas, sprite name, text, and CSV localization).
