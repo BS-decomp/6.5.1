@@ -233,13 +233,36 @@ def verify_project(root: str) -> None:
     assert len(missing_iface) == 0, f"missing_iface={missing_iface}"
     assert len(unimpl_abs) == 0, f"unimpl_abs={unimpl_abs}"
 
+    # 8. Restored method bodies must not regress to empty/default stubs.
+    restored_manifest = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), "method-inventory", "restored_methods.json"
+    )
+    restored_checked = 0
+    if os.path.exists(restored_manifest):
+        with open(restored_manifest, "r", encoding="utf-8") as f:
+            manifest = json.load(f)
+        regressions = []
+        for entry in manifest.get("entries", []):
+            path = os.path.join(root, entry["file"])
+            if not os.path.exists(path):
+                regressions.append(f"{entry['file']}: file missing")
+                continue
+            with open(path, "r", encoding="utf-8") as f:
+                text = f.read()
+            for marker in entry["must_contain"]:
+                if marker not in text:
+                    regressions.append(f"{entry['file']}: missing restored body marker {marker!r}")
+            restored_checked += 1
+        assert not regressions, "Restored method bodies regressed to stubs:\n  " + "\n  ".join(regressions)
+
     print(
         f"[OK] Verified Unity 2021.3.45f2 project at {root}:\n"
         f"  - Shaders: {len(shaders)} (0 dummy stubs)\n"
         f"  - Scenes: {len(scenes)} (0 remaining static batches)\n"
         f"  - Recovered local-space meshes: {len(rec_meshes)} (all with .meta)\n"
         f"  - LightingData assets: {len(ld_files)} (0 NaN/Inf SH probes)\n"
-        f"  - C# scripts: {len(cs_files)} (0 Roslyn attribute/extern/interface/abstract/duplicate blockers)"
+        f"  - C# scripts: {len(cs_files)} (0 Roslyn attribute/extern/interface/abstract/duplicate blockers)\n"
+        f"  - Restored method bodies: {restored_checked} files guarded against stub regression"
     )
 
 

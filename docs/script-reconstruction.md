@@ -38,10 +38,21 @@ They are not a claim that every NGUI rendering or input method has already been
 recovered; remaining methods must continue to be matched against the binary before
 being changed.
 
+## Prioritized worklist
+
+`tools/build_method_inventory.py` produces the deterministic IL2CPP method/body
+inventory used to drive further reconstruction: it classifies every exported C#
+body against the actual ARMv7 machine code, computes static reachability from
+scene/prefab roots, and ranks the reachable lost implementations in
+`tools/method-inventory/priorities.json` (report: `docs/method-inventory.md`).
+Restored bodies listed in `tools/method-inventory/restored_methods.json` are
+guarded against stub regression by `tools/verify_client_project.py`.
+
 ## Reproducible checks
 
 ```text
 python3 tools/reconstruct_651_scripts.py
+python3 tools/build_method_inventory.py
 python3 tools/verify_client_project.py --client-dir client
 ```
 

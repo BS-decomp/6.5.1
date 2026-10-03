@@ -1,0 +1,117 @@
+{
+  "description": "Regression guard for verified restored 6.5.1 method bodies. Every entry lists exported client source files and marker snippets that MUST be present. tools/verify_client_project.py fails if any marker is missing, preventing restored bodies from regressing to empty/default stubs. Evidence RVAs refer to lib/armeabi-v7a/libil2cpp.so of the ground-truth APK (see docs/script-reconstruction.md).",
+  "entries": [
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/AndroidPermissions.cs",
+      "methods": "AndroidPermissions.Start",
+      "evidence": "RVA 0x0100b594",
+      "must_contain": ["SceneManager.LoadScene(\"Logo\");"]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/Logo.cs",
+      "methods": "Logo.Start + boot coroutine",
+      "evidence": "RVA 0x00773560",
+      "must_contain": [
+        "private IEnumerator ReconstructedBoot()",
+        "SceneManager.LoadScene(\"GDPR\");"
+      ]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/GDPR.cs",
+      "methods": "GDPR.Start / OnAccept / OnClickTraining",
+      "evidence": "RVAs 0x006c3a6c, 0x006c3248, 0x006c36c8",
+      "must_contain": [
+        "PlayerPrefs.GetInt(\"GDPR\", 0)",
+        "PlayerPrefs.SetInt(\"GDPR\", 1);",
+        "SceneManager.LoadScene(isTraining ? \"MainTutorial\" : \"Menu\");"
+      ]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/JIJJJIIJJIIJIIIJIJIIIJIIIIJIIIJJJJJIIJIJIJIIJII.cs",
+      "methods": "obfuscated scene wrappers",
+      "evidence": "RVAs 0x013bce08, 0x013bd5e8, 0x013be83c",
+      "must_contain": ["SceneManager.LoadScene(JIIJIJIJJJIIJJJJJIIJJJIIIIJIIIJIJIIIJIJIIJJJJIJ);"]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/UIEventClick.cs",
+      "methods": "UIEventClick.OnEnable / OnDisable / OnClick",
+      "evidence": "UICamera click delegate subscription (see docs/script-reconstruction.md)",
+      "must_contain": [
+        "UICamera.IJIIIJIJJJIIJJJIIIIJJJJJIIIIJJIIIIJJIJIIIJIIIJI += OnClick;",
+        "UICamera.IJIIIJIJJJIIJJJIIIIJJJJJIIIIJJIIIIJJIJIIIJIIIJI -= OnClick;"
+      ]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/UILabel.cs",
+      "methods": "UILabel serialized text/material accessors",
+      "evidence": "NGUI serialized-state access (docs/script-reconstruction.md)",
+      "must_contain": ["return mText ?? string.Empty;"]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/UILocalize.cs",
+      "methods": "UILocalize.OnEnable / Start / localization lookup",
+      "evidence": "CSV localization via Resources/Localization",
+      "must_contain": ["private void ApplyLocalization()", "Resources.Load<TextAsset>(\"Localization\")"]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/UIAtlas.cs",
+      "methods": "UIAtlas replacement/sprite accessors",
+      "evidence": "NGUI atlas data model (docs/script-reconstruction.md)",
+      "must_contain": ["mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII"]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/NGUIAtlas.cs",
+      "methods": "NGUIAtlas replacement/sprite accessors",
+      "evidence": "NGUI atlas data model (docs/script-reconstruction.md)",
+      "must_contain": ["mReplacement as IIIIIJIIIIJIIIIJIJIJIIIIIJIJIJJIIIIJJIJIJIJJJII"]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/UISprite.cs",
+      "methods": "UISprite atlas/sprite-name accessors",
+      "evidence": "NGUI serialized-state access",
+      "must_contain": ["return mSpriteName ?? string.Empty;"]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/UITexture.cs",
+      "methods": "UITexture texture/shader/material accessors",
+      "evidence": "NGUI serialized-state access",
+      "must_contain": ["return mShader != null ? new Material(mShader) : null;"]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/UIWidget.cs",
+      "methods": "UIWidget material/color/size accessors",
+      "evidence": "NGUI serialized-state access",
+      "must_contain": ["return mMat;"]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/mPhotonSettings.cs",
+      "methods": "mPhotonSettings.CreateServerOffline",
+      "evidence": "RVA 0x0059df28",
+      "must_contain": ["PhotonNetwork.offlineMode = true;", "PhotonNetwork.CreateRoom(map);"]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/mCreateServer.cs",
+      "methods": "mCreateServer.Start / Open / SetMaxPlayer",
+      "evidence": "RVAs 0x007dd1e0, 0x007de300, 0x007dc64c",
+      "must_contain": ["= int.Parse(go.name);"]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/mPlayerCamera.cs",
+      "methods": "mPlayerCamera.Awake",
+      "evidence": "RVA 0x0071f138",
+      "must_contain": ["GetComponent<Camera>();"]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/mOthers.cs",
+      "methods": "mOthers.ExitGame / ShowOthersGames / ShowToast",
+      "evidence": "application/URL/toast calls (docs/script-reconstruction.md)",
+      "must_contain": ["Application.Quit();"]
+    },
+    {
+      "file": "Assets/Scripts/Assembly-CSharp/mPanelManager.cs",
+      "methods": "mPanelManager.Awake / Show / ShowAnim / HideAnim",
+      "evidence": "panel singleton and visibility flow (docs/script-reconstruction.md)",
+      "must_contain": ["item.gameObject.SetActive(item.gameObject == panel);"]
+    }
+  ]
+}

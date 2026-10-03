@@ -56,7 +56,7 @@ class Il2CppInspector:
     def get_method_full_name(self, mi: int) -> str:
         mf = struct.unpack_from("<6i4H", self.meta, self.methodsOffset + mi * 32)
         m_name = self.get_str(mf[0])
-        t_idx = mf[2]
+        t_idx = mf[1]  # Il2CppMethodDefinition.declaringType (metadata v24.2)
         t_name = self.type_names[t_idx] if 0 <= t_idx < len(self.type_names) else f"Type{t_idx}"
         return f"{t_name}::{m_name}"
 
@@ -138,6 +138,45 @@ class Il2CppInspector:
                 dest, enc = struct.unpack_from("<II", self.meta, self.metadataUsagePairsOffset + i * 8)
                 slot_va = struct.unpack_from("<I", self.so, u_base + dest * 4)[0]
                 self.bss_usage[slot_va] = ((enc >> 29) & 7, enc & 0x1FFFFFFF)
+            self._parse_types_table()
+
+    def _parse_types_table(self) -> None:
+        """Resolve Il2CppMetadataRegistration.types so that TypeInfo/Il2CppType
+        metadata-usage indices can be mapped back to typedef indices.
+        The registration struct is located by its known fieldOffsets (0x023A613C)
+        and metadataUsages (0x02272F10) member values."""
+        self.type_ref_typedef: list[int] = []
+        needle = struct.pack("<I", 0x023A613C)
+        pos = -1
+        while True:
+            pos = self.so.find(needle, pos + 1)
+            if pos < 0:
+                return
+            base = pos - 44  # fieldOffsets is member 11 of Il2CppMetadataRegistration
+            if base < 0:
+                continue
+            if struct.unpack_from("<I", self.so, base + 60)[0] != 0x02272F10:
+                continue
+            types_count, types_ptr = struct.unpack_from("<II", self.so, base + 24)
+            ptrs = struct.unpack_from(f"<{types_count}I", self.so, self.v2o(types_ptr))
+            out = []
+            for p in ptrs:
+                data, bits = struct.unpack_from("<II", self.so, self.v2o(p))
+                ty = (bits >> 16) & 0xFF
+                if ty in (0x11, 0x12):  # VALUETYPE / CLASS -> typedef index
+                    out.append(data)
+                elif ty == 0x15:  # GENERICINST -> Il2CppGenericClass.typeDefinitionIndex
+                    out.append(struct.unpack_from("<i", self.so, self.v2o(data))[0])
+                else:
+                    out.append(-1)
+            self.type_ref_typedef = out
+            return
+
+    def type_ref_to_typedef(self, type_ref_idx: int) -> int:
+        """Map a metadata-usage TypeInfo/Il2CppType index to a typedef index (-1 if N/A)."""
+        if 0 <= type_ref_idx < len(self.type_ref_typedef):
+            return self.type_ref_typedef[type_ref_idx]
+        return -1
 
     def format_usage(self, va: int) -> str:
         if va not in self.bss_usage:
@@ -146,8 +185,10 @@ class Il2CppInspector:
         if kind == 5:
             return f'StringLiteral("{self.get_lit(idx)}")'
         if kind in (1, 2):
-            t_idx = idx & 0xFFFF
-            return f"TypeInfo({self.type_names[t_idx] if t_idx < len(self.type_names) else idx})"
+            td = self.type_ref_to_typedef(idx)
+            if 0 <= td < len(self.type_names):
+                return f"TypeInfo({self.type_names[td]})"
+            return f"TypeInfo(typeRef {idx})"
         if kind == 3:
             return f"MethodRef({self.get_method_full_name(idx) if idx < (self.methodsSize // 32) else idx})"
         if kind == 4:
